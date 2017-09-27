@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>SBT_Extensions_dll</ProjectName>
+    <ProjectGuid>{2BD9F07E-CD43-4FDF-B928-B2DA4A141515}</ProjectGuid>
+    <RootNamespace>SBT_Workflow_dll</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Apps\TC83\TC_ROOT\include;C:\Apps\TC83\TC_ROOT\include_cpp;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IPLIB=none;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile />
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0407</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>C:\Apps\TC83\TC_ROOT\lib\*.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/libBT7_Extensions.dll</OutputFile>
+      <AdditionalLibraryDirectories>C:\Apps\TC83\TC_ROOT\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>del C:\Apps\TC83\TC_ROOT\bin\libBT7_Extensions.pdb
+del C:\Apps\TC83\TC_ROOT\bin\libBT7_Extensions.dll
+del C:\Apps\TC83\TC_ROOT\lib\libBT7_Extensions.lib
+
+copy .\Debug\libBT7_Extensions.pdb C:\Apps\TC83\TC_ROOT\bin\libBT7_Extensions.pdb
+copy .\Debug\libBT7_Extensions.dll C:\Apps\TC83\TC_ROOT\bin\libBT7_Extensions.dll
+copy .\Debug\libBT7_Extensions.lib C:\Apps\TC83\TC_ROOT\lib\libBT7_Extensions.lib
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>N:\ugs\tc11\11\include;N:\ugs\tc11\11\include_cpp;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>CONSOLE;IPLIB=none;_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;_USRDLL;LIBBT7_EXTENSIONS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <OmitFramePointers>No</OmitFramePointers>
+      <StringPooling>No</StringPooling>
+      <FunctionLevelLinking>No</FunctionLevelLinking>
+      <RuntimeTypeInfo>Yes</RuntimeTypeInfo>
+      <OpenMPSupport>No</OpenMPSupport>
+      <PrecompiledHeaderFile />
+      <ProgramDataBaseFileName>$(TargetDir)/libBT7_Extensions.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0407</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>N:\ugs\tc11\11\lib\*.lib;N:\ugs\tc11\11\lib\libnorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(TargetDir)libBT7_Extensions.dll</OutputFile>
+      <AdditionalLibraryDirectories>N:\ugs\tc11\11\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AssemblyDebug>false</AssemblyDebug>
+      <HeapReserveSize>0</HeapReserveSize>
+      <HeapCommitSize>0</HeapCommitSize>
+      <StackReserveSize>0</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <ManifestFile>$(IntDir)libBT7_Extensions.intermediate.manifest</ManifestFile>
+      <ProgramDatabaseFile>$(OutDir)libBT7_Extensions.pdb</ProgramDatabaseFile>
+      <ProfileGuidedDatabase>$(OutDir)libBT7_Extensions.pgd</ProfileGuidedDatabase>
+      <ImportLibrary>$(OutDir)libBT7_Extensions.lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <Bscmake>
+      <OutputFile>$(TargetDir)/libBT7_Extensions.bsc</OutputFile>
+    </Bscmake>
+    <Manifest>
+      <OutputManifestFile>$(IntDir)libBT7_Extensions.embed.manifest</OutputManifestFile>
+    </Manifest>
+    <ManifestResourceCompile>
+      <ResourceOutputFileName>$(IntDir)libBT7_Extensions.embed.manifest.res</ResourceOutputFileName>
+    </ManifestResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/SBT_Workflow.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>$(TCPB_INCLUDE);$(TC_INCLUDE);.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;IPLIB=libuser_exits;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile />
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat />
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0407</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;wsock32.lib;msvcrt.lib;oldnames.lib;odbc32.lib;odbccp32.lib;libics.lib;libpie.lib;libuser_exits.lib;libict.lib;libsyss.lib;libpom.lib;libae.lib;libappr.lib;libarchive.lib;libbackup.lib;libbom.lib;libcfm.lib;libcxpom.lib;libdmi.lib;libecm.lib;libeint.lib;libepm.lib;libfclasses.lib;libform.lib;libgrm.lib;libtc.lib;libtccore.lib;libtcinit.lib;libtctrushape.lib;libinternal_exits.lib;libitk.lib;liblov.lib;libme.lib;libmgc.lib;libobjio.lib;libproperty.lib;libps.lib;libpublication.lib;libqry.lib;libres.lib;libsa.lib;libss.lib;libsub_mgr.lib;libtextsrv.lib;libbase_utils.lib;tcpb_ah.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/SBT_Workflow.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>$(TC_LIBRARY);$(TCPB_LIBRARY);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <ProgramDatabaseFile>.\Release/SBT_Workflow.pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>.\Release/SBT_Workflow.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy .\Release\SBT_Workflow.dll $(TC_BIN)\*.*</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Release/SBT_Workflow.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>N:\ugs\tc11\11\include;N:\ugs\tc11\11\include_cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IPLIB=none;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>
+      </StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <TreatWarningAsError />
+      <SDLCheck>false</SDLCheck>
+      <EnableFiberSafeOptimizations />
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0407</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>N:\ugs\tc11\11\lib\*.lib;winmm.lib;wsock32.lib;msvcrt.lib;oldnames.lib;odbc32.lib;odbccp32.lib;libics.lib;libpie.lib;libuser_exits.lib;libict.lib;libsyss.lib;libpom.lib;libae.lib;libappr.lib;libarchive.lib;libbackup.lib;libbom.lib;libcfm.lib;libcxpom.lib;libdmi.lib;libecm.lib;libeint.lib;libepm.lib;libfclasses.lib;libform.lib;libgrm.lib;libtc.lib;libtccore.lib;libtcinit.lib;libtctrushape.lib;libinternal_exits.lib;libitk.lib;liblov.lib;libme.lib;libmgc.lib;libobjio.lib;libproperty.lib;libps.lib;libpublication.lib;libqry.lib;libres.lib;libsa.lib;libss.lib;libsub_mgr.lib;libtextsrv.lib;libbase_utils.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/libBT7_Extensions.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>N:\ugs\tc11\11\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <ProgramDatabaseFile>.\Release/libBT7_Extensions.pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <ImportLibrary>.\Release/libBT7_Extensions.lib</ImportLibrary>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\BT7_BomWindowSavePreAction.cpp" />
+    <ClCompile Include="..\..\src\BT7_CMHasImpactedItemPreCondition.cpp" />
+    <ClCompile Include="..\..\src\BT7_CMHasProblemItemPreCondition.cpp" />
+    <ClCompile Include="..\..\src\BT7_CMHasSolutionItemDeletePreAction.cpp" />
+    <ClCompile Include="..\..\src\BT7_CMHasSolutionItemPostAction.cpp" />
+    <ClCompile Include="..\..\src\BT7_CMHasSolutionItemPreCondition.cpp" />
+    <ClCompile Include="..\..\src\BT7_CommonComponentRequestsSavePostAction.cpp" />
+    <ClCompile Include="..\..\src\BT7_ItemCreateFromRevPreCondition.cpp" />
+    <ClCompile Include="..\..\src\BT7_ItemCreatePreCondition.cpp" />
+    <ClCompile Include="..\..\src\BT7_ItemRevisionDeepCopyPostAction.cpp" />
+    <ClCompile Include="..\..\src\BT7_ItemRevisionSavePostAction.cpp" />
+    <ClCompile Include="..\..\src\BT7_ItemSavePreCondition.cpp" />
+    <ClCompile Include="..\..\src\BT7_ProductSavePreCondition.cpp" />
+    <ClCompile Include="..\..\src\BT7_RelConcernedCreatePostAction.cpp" />
+    <ClCompile Include="..\..\src\BT7_RelConcernedCreatePreCondition.cpp" />
+    <ClCompile Include="..\..\src\BT7_RelConcernedDeletePreCondition.cpp" />
+    <ClCompile Include="..\..\src\BT7_RelSpecifiedCreatePostAction.cpp" />
+    <ClCompile Include="..\..\src\BT7_RelSpecifiedCreatePreCondition.cpp" />
+    <ClCompile Include="..\..\src\BT7_RelSpecifiedDeletePreCondition.cpp" />
+    <ClCompile Include="..\..\src\BT7_RestrictAttibuteSize.cpp" />
+    <ClCompile Include="..\..\src\BT7_SetReleaseStatusListPostAction.cpp" />
+    <ClCompile Include="..\..\src\CommonFunctions.cpp" />
+    <ClCompile Include="..\..\src\ReviseDocument.cpp" />
+    <ClCompile Include="..\..\src\RevisePart.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\BT7_ServerExtensions.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

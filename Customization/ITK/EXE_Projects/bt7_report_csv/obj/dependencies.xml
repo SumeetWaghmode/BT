@@ -1,0 +1,673 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\dump\112\include /I..\..\..\dump\112\include_cpp /I..\..\..\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\bt7_report_csv\src /I..\..\..\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\bt7_report_csv\lib /I..\..\..\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\bt7_report_csv\lib /I${env.MSDEV_INCLUDE} /I${VS8_include_amd} /I${VS8_include}">
+      <source file="..\..\..\..\..\..\..\..\112\include\bom\bom_tokens.h" lastModified="15c64cc4a68">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ps\ps_tokens.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\libbom_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\libbom_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ss\ss_const.h" lastModified="15c64ccdaf0">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ss\libss_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ss\libss_undef.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\signal.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sa\person.h" lastModified="15c64ccbbb0">
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\sa.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sa\sa.h" lastModified="15c64cccf38">
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\sa_errors.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\person.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\discipline.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\role.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\group.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\groupmember.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\user.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\workcontext.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\site.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ss\ss_const.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tc\tc_arguments.h" lastModified="14ec15b8f40">
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\bom\bom.h" lastModified="15c64cc4a68">
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\bom_attr.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\bom_errors.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\bom_tokens.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\bomwriter.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\bomove_errors.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_basic.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\rdv\rdv.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\workspaceobject.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\libbom_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\bom_tokens.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\bom_tokens.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\bom_tokens.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\libbom_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ics\ics2.h" lastModified="15c64cc69a8">
+         <include file="..\..\..\..\..\..\..\..\112\include\ics\libics_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ics\libics_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\property\prop_msg.h" lastModified="15c64ccc380">
+         <include file="..\..\..\..\..\..\..\..\112\include\property\libproperty_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\property\libproperty_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ics\libics_exports.h" lastModified="14ec15b73e8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_string.h" lastModified="15c64ccded8">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\libfclasses_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\libfclasses_undef.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tc\libiman_undef.h" lastModified="15c64cc90b8">
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libtc_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_tokens.h" lastModified="15c64ccbf98">
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\libimancore_undef.h" lastModified="15c64cc90b8">
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sa\site.h" lastModified="15c64ccd320">
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\sa.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\rdv\librdv_undef.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\rdv\rdv.h" lastModified="15c64ccc768">
+         <include file="..\..\..\..\..\..\..\..\112\include\property\prop.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ps\ps.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\item.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\rdv\librdv_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\rdv\librdv_undef.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\rdv\iman_rdv.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ae\tool.h" lastModified="15c64cce2c0">
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\ae_types.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_util.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\workspaceobject.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sub_mgr\subscription.h" lastModified="15c64ccdaf0">
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_tokens.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sub_mgr\libsub_mgr_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sub_mgr\libsub_mgr_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_stdio.h" lastModified="14ec15b8f40">
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\qry\qry.h" lastModified="15c64ccc768">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\property\propdesc.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_tokens.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\qry\libqry_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\qry\iman_qry.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\qry\libqry_undef.h"/>
+      </source>
+      <source file="..\src\bt7_report_csv.cpp" lastModified="15cd48b4950">
+         <include file="..\..\..\..\..\..\..\..\112\include\itk\mem.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tcinit\tcinit.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\item.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ps\ps.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\workspaceobject.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\ae.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\tcfile.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\user.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_string.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_date.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\emh.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\folder.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\envelope.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\aom.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\project.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\aom_prop.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\property\nr.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\qry\qry.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\grm.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\bom.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\cfm\cfm.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\uom.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ics\ics.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ics\ics2.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\user_exits\user_exits.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ctype.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\atlbase.h"/>
+         <sysinclude file="C:\Program Files (x86)\Windows Kits\8.0\Include\um\MsXml2.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\cstdio"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\cfloat"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\cmath"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\sys\types.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\sys\stat.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\iostream"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\iomanip"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\fstream"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\vector"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\time.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\sstream"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_typedefs.h" lastModified="14ec15b8388">
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ae\ae.h" lastModified="14ec15b5c78">
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\ae_errors.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\ae_types.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\dataset.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\datasettype.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\namedrevisionanchor.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\revisionanchor.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\tool.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\bom\bomove_errors.h" lastModified="15c64cc4a68">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\libbom_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\libbom_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tc\tc_util.h" lastModified="15c64ccded8">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_stdio.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libtc_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libtc_undef.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdarg.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ae\ae_errors.h" lastModified="15c64cc3eb0">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\qry\libqry_exports.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tc\emh.h" lastModified="15c64cc5df0">
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_startup.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libtc_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libtc_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\grm.h" lastModified="15c64cc65c0">
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\grm_errors.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_basic.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_undef.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdarg.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\cfm\libcfm_exports.h" lastModified="14ec15b7000">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\base_utils\Mem.h" lastModified="14ec15b7fa0">
+         <include file="..\..\..\..\..\..\..\..\112\include\base_utils\libbase_utils_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\base_utils\libbase_utils_undef.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdarg.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tc\tc_macros.h" lastModified="15c64ccdaf0">
+         <include file="..\..\..\..\..\..\..\..\112\include\base_utils\Mem.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_startup.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\emh.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_util.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\itk\mem.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_stdarg.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_string.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h" lastModified="15c64cc9c70">
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\user_exits\user_exits.h" lastModified="15c64cce6a8">
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_startup.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\method.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\qry\qry.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sub_mgr\tcactionhandler.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sub_mgr\subscription.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\workspaceobject.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\tcfile.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ai\aiws_extensions.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\user_exits\libuser_exits_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\user_exits\libuser_exits_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\rdv\librdv_exports.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\aom.h" lastModified="15c64cc4298">
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_startup.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\workspaceobject.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sa\libsa_undef.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\user_exits\libuser_exits_undef.h" lastModified="14ec15b7fa0">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_stdlib.h" lastModified="14ec15b8f40">
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tcinit\tcinit.h" lastModified="14ec15b8f40">
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_startup.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tcinit\libtcinit_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tcinit\libtcinit_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ae\datasettype.h" lastModified="15c64cc5620">
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\ae_types.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_startup.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_util.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\property\libproperty_exports.h" lastModified="14ec15b77d0">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sub_mgr\libsub_mgr_undef.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\unidefs.h" lastModified="145f7e89ca0">
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stddef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tc\folder_errors.h" lastModified="15c64cc61d8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\workspaceobject.h" lastModified="15c64ccea90">
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_startup.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sa\sa_errors.h" lastModified="15c64cccf38">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\pom\pom\libpom_exports.h" lastModified="14ec15b77d0">
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom.h" lastModified="15c64ccbf98">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_typedefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\enq\old_on_new.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\libpom_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_mapping.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_errors.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_tokens.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_macros.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\libpom_undef.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\limits.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\configurator\cfg_tokens.h" lastModified="15c64cc4e50">
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ai\libai_exports.h" lastModified="14ec15b7000">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ics\ics_enquiry.h" lastModified="15c64cc69a8">
+         <include file="..\..\..\..\..\..\..\..\112\include\ics\libics_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ics\libics_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\property\prop.h" lastModified="15c64ccc380">
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_tokens.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\property\propdesc.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\property\prop_msg.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\property\libproperty_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\property\libproperty_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sa\tcfile.h" lastModified="15c64ccded8">
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ss\ss_const.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ss\ss_types.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_stdarg.h" lastModified="14ec15b8f40">
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdarg.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\property\propdesc.h" lastModified="15c64ccc380">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\property\libproperty_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\property\libproperty_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\pom\pom\libpom_undef.h" lastModified="14ec15b77d0">
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ae\libae_exports.h" lastModified="14ec15b7000">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tc\folder.h" lastModified="15c64cc61d8">
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\folder_errors.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_startup.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\workspaceobject.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libtc_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libtc_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\aom_prop.h" lastModified="15c64cc4298">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\property\propdesc.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\property\prop_msg.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\pom\enq\old_on_new.h" lastModified="14ec15b8388">
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_typedefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\libpom_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\libpom_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ics\iman_ics_errors.h" lastModified="14ec15b6c18">
+         <include file="..\..\..\..\..\..\..\..\112\include\ics\ics_errors.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\uom.h" lastModified="15c64cce6a8">
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\uom_errors.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\bom\bomwriter.h" lastModified="15c64cc4e50">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\libbom_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\bom.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\bomwriter.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\libbom_undef.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tc\libtc_exports.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libiman_exports.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tc\libtc_undef.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libiman_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\libimancore_exports.h" lastModified="15c64cc90b8">
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_exports.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ae\revisionanchor.h" lastModified="15c64cccb50">
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\ae_types.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\fclasses\libfclasses_exports.h" lastModified="14ec15b73e8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ics\ics_errors.h" lastModified="15c64cc69a8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ics\iman_ics_errors.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_undef.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libimancore_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\itk\mem.h" lastModified="15c64ccb3e0">
+         <include file="..\..\..\..\..\..\..\..\112\include\base_utils\Mem.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ai\libai_undef.h" lastModified="14ec15b7000">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\method.h" lastModified="14ec15b7fa0">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\emh.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_startup.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_arguments.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_stdarg.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sa\role.h" lastModified="15c64cccb50">
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\sa.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\property\nr.h" lastModified="15c64ccb7c8">
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_startup.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_stdio.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_stdlib.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\workspaceobject.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\property\libproperty_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\property\libproperty_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\bom\libbom_exports.h" lastModified="14ec15b7000">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ai\aiws_extensions.h" lastModified="14ec15b6060">
+         <include file="..\..\..\..\..\..\..\..\112\include\ai\libai_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ai\libai_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\item.h" lastModified="15c64cc7560">
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_basic.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\workspaceobject.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ae\libae_undef.h" lastModified="14ec15b7000">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\qry\libqry_undef.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\common\basic_definitions.h" lastModified="14ec15b6060">
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\rdv\iman_rdv.h" lastModified="14ec15b6c18">
+         <include file="..\..\..\..\..\..\..\..\112\include\rdv\rdv.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tcinit\libtcinit_undef.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\bom\libbom_undef.h" lastModified="14ec15b7000">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sa\libsa_exports.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sub_mgr\libsub_mgr_exports.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_date.h" lastModified="14ec15b8f40">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\libfclasses_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\libfclasses_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tcinit\libtcinit_exports.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\base_utils\libbase_utils_undef.h" lastModified="14ec15b7000">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ps\ps.h" lastModified="15c64ccc380">
+         <include file="..\..\..\..\..\..\..\..\112\include\ps\ps_errors.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ps\ps_tokens.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ps\libps_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ps\libps_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_macros.h" lastModified="14ec15b8388">
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\cfm\cfm_errors.h" lastModified="15c64cc4e50">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sa\user.h" lastModified="15c64cce6a8">
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\sa.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ps\libps_exports.h" lastModified="14ec15b77d0">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\qry\iman_qry.h" lastModified="14ec15b6c18">
+         <include file="..\..\..\..\..\..\..\..\112\include\qry\qry.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_basic.h" lastModified="14ec15b8f40">
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_stdio.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\libfclasses_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\libfclasses_undef.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\setjmp.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tc\libiman_exports.h" lastModified="15c64cc90b8">
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libtc_exports.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ps\ps_errors.h" lastModified="15c64ccc380">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\user_exits\libuser_exits_exports.h" lastModified="14ec15b7fa0">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tc\tc_startup.h" lastModified="15c64ccded8">
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_basic.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\itk\mem.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libtc_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\common\basic_definitions.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libtc_undef.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdarg.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\bom\bom_attr.h" lastModified="15c64cc4a68">
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\libbom_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\libbom_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_mapping.h" lastModified="15c64ccbf98">
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\bom\bom_errors.h" lastModified="15c64cc4a68">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\libbom_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\bom\libbom_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ps\libps_undef.h" lastModified="14ec15b77d0">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sa\discipline.h" lastModified="14ec15b6448">
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\sa.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\base_utils\libbase_utils_exports.h" lastModified="14ec15b7000">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sa\workcontext.h" lastModified="14ec15b9328">
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\sa.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ics\ics.h" lastModified="15c64cc69a8">
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\sa.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ics\ics_enquiry.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ics\ics_errors.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\sa.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ics\libics_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ics\libics_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ae\namedrevisionanchor.h" lastModified="15c64ccb7c8">
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\ae_types.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h" lastModified="15c64cc5df0">
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ss\ss_types.h" lastModified="15c64ccd708">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ss\ss_const.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ss\libss_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ss\libss_undef.h"/>
+         <sysinclude file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdarg.h"/>
+         <sysinclude file="C:\Program Files (x86)\Windows Kits\8.0\Include\um\Windows.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ics\libics_undef.h" lastModified="14ec15b73e8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\cfm\libcfm_undef.h" lastModified="14ec15b7000">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\fclasses\libfclasses_undef.h" lastModified="14ec15b73e8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sub_mgr\tcactionhandler.h" lastModified="14ec15b8f40">
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_startup.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sub_mgr\tcactionhandler_errors.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\tc_macros.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sub_mgr\subscription.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sub_mgr\libsub_mgr_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sub_mgr\libsub_mgr_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\cfm\cfm.h" lastModified="15c64cc4e50">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\cfm\cfm_errors.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\cfm\cfm_tokens.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\cfm\libcfm_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\cfm\libcfm_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\grm_errors.h" lastModified="15c64cc65c0">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_exports.h" lastModified="14ec15b7bb8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libimancore_exports.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ss\libss_exports.h" lastModified="14ec15b7bb8">
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom_errors.h" lastModified="15c64ccbf98">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sa\groupmember.h" lastModified="15c64cc65c0">
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ss\libss_undef.h" lastModified="14ec15b7bb8">
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\property\libproperty_undef.h" lastModified="14ec15b77d0">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\cfm\cfm_tokens.h" lastModified="15c64cc5238">
+         <include file="..\..\..\..\..\..\..\..\112\include\pom\pom\pom.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\cfm\libcfm_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\cfm\libcfm_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sa\group.h" lastModified="15c64cc65c0">
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\sa.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\sa\libsa_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ae\dataset.h" lastModified="15c64cc5620">
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\ae_types.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\workspaceobject.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tc\envelope.h" lastModified="15c64cc5df0">
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\workspaceobject.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libtc_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tc\libtc_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\project.h" lastModified="15c64ccc380">
+         <include file="..\..\..\..\..\..\..\..\112\include\unidefs.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\tccore\libtccore_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\tccore\uom_errors.h" lastModified="15c64cce6a8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ae\ae_types.h" lastModified="15c64cc3eb0">
+         <include file="..\..\..\..\..\..\..\..\112\include\fclasses\tc_stdlib.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ae\libae_undef.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\sub_mgr\tcactionhandler_errors.h" lastModified="15c64ccded8">
+         <include file="..\..\..\..\..\..\..\..\112\include\common\emh_const.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\112\include\ps\ps_tokens.h" lastModified="15c64ccc380">
+         <include file="..\..\..\..\..\..\..\..\112\include\configurator\cfg_tokens.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ps\libps_exports.h"/>
+         <include file="..\..\..\..\..\..\..\..\112\include\ps\libps_undef.h"/>
+      </source>
+   </includePath>
+</dependencies>

@@ -1,0 +1,13 @@
+{
+    "name": "CCR",
+    "desc": "CCR Java module",
+    "type": [
+        "java"
+    ],
+  "gwtModules": [
+    "com.sbt.awc.ccr.CCR"
+  ],
+  "dependencies": [
+	"workflow"
+  ]
+}

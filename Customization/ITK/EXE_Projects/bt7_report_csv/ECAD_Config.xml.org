@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ClassConfiguration[
+    <!ELEMENT ClassConfiguration (ClassAttribConfig | CommonConfig)*>
+    <!ELEMENT CommonConfig (Attribute)*>
+    <!ELEMENT ClassAttribConfig (Attribute)*>
+    <!ELEMENT Attribute EMPTY>
+    <!ATTLIST ClassAttribConfig classname CDATA #REQUIRED>
+    <!ATTLIST Attribute TCName CDATA #REQUIRED
+                                       CadimName CDATA #REQUIRED
+                                       Format (text | number | percent) #REQUIRED
+                                       Factor  CDATA  "1"
+                                       Append CDATA ""
+                                       TranslateNumberFormat (yes | no) "no">
+ ]>
+<ClassConfiguration>
+    <CommonConfig>
+        <Attribute TCName="l0CmpnValidation" CadimName="Status" Format="text"/>
+        <Attribute TCName="l0PartTypeGen" CadimName="Part Name" Format="text"/> 
+    </CommonConfig>
+    <ClassAttribConfig classname="e010CVa">
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+        <Attribute TCName="l3CMin" CadimName="C_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3CMax" CadimName="C_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Umax" CadimName="U_Max" Format="number" TranslateNumberFormat="yes"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e01Resi">
+        <Attribute TCName="l3TechTypeVS" CadimName="Technology" Format="text"/>
+        <Attribute TCName="l3ResNom" CadimName="Value" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3RTolerance" CadimName="Tolerance" Format="percent" Factor="0.01"/>
+        <Attribute TCName="l3Power" CadimName="Power Dissipation" Format="number"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e02Capa">
+        <Attribute TCName="l3TechTypeVS" CadimName="Technology" Format="text"/>
+        <Attribute TCName="l3Capacitance" CadimName="Value" Format="number" Factor="0.000001"/>
+        <Attribute TCName="l3CTol" CadimName="Tolerance" Format="percent" Factor="0.01"/>
+        <Attribute TCName="l3Unom" CadimName="Voltage" Format="number"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e04RNAy">
+        <Attribute TCName="l3TechTypeVS" CadimName="Technology" Format="text"/>
+        <Attribute TCName="l3ResNom" CadimName="Value" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3RTolerance" CadimName="Tolerance" Format="percent" Factor="0.01" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3PoleNo" CadimName="No of Res" Format="text"/>
+        <Attribute TCName="l3Power" CadimName="Power Dissipation" Format="number"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e05Pote">
+        <Attribute TCName="l3TechTypeVS" CadimName="Technology" Format="text"/>
+        <Attribute TCName="l3ResNom" CadimName="Value" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3RTolerance" CadimName="Tolerance" Format="percent" Factor="0.01"/>
+        <Attribute TCName="l3MotionVS" CadimName="Motion" Format="text"/>
+        <Attribute TCName="l3Power" CadimName="Power Dissipation" Format="number"/>
+        <Attribute TCName="l3CharacteristicsVS" CadimName="Characteristic" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e06NTC">
+        <Attribute TCName="l3R25" CadimName="Value" Format="number"/>
+        <Attribute TCName="l3RTolerance" CadimName="Tolerance" Format="percent" Factor="0.01"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e08VDR">
+        <Attribute TCName="l3Uoperating" CadimName="Voltage" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3IS8at20us" CadimName="I_Surge" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e012Rec">
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3Umax" CadimName="U_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3IDS" CadimName="I_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e013BiT">
+        <Attribute TCName="l3TechTypeVS" CadimName="PartType" Format="text"/>
+        <Attribute TCName="l3Umax" CadimName="U_CE" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3IDS" CadimName="I_CE" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e014FET">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Umax" CadimName="U_DS" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3IDS" CadimName="I_DS" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3ResNom" CadimName="R_DS" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e015aSR">
+        <Attribute TCName="l3FunctionVS" CadimName="Function" Format="text"/>
+        <Attribute TCName="l3Uisol" CadimName="U_ISOL" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Urated" CadimName="U_rated" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Irated" CadimName="I_rated" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e017PTD">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Irated" CadimName="I_Rated" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Umax" CadimName="U_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e03Diod">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3IFmax" CadimName="I_forward" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3UBR" CadimName="U_br" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Power" CadimName="Power Dissipation" Format="number"/>
+        <Attribute TCName="l3PoleNo" CadimName="No of Diodes" Format="number"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e03aTVS">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Power" CadimName="Power Dissipation (Peak)" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3UBR" CadimName="U_Br" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3IDS" CadimName="I_PP" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3UBRTol" CadimName="U_br Tolerance" Format="percent" Factor="0.01"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e015Opt">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Uisol" CadimName="U_ISOL" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e024LED">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3LuminousIntLow" CadimName="Min luminous intensity" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3LuminousIntHigh" CadimName="Max luminous intensity" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3IF" CadimName="I_F" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e029Lig">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3ColourVS" CadimName="Colour" Format="text"/>
+        <Attribute TCName="l3Urated" CadimName="Voltage" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e030LRe">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3MountingType" CadimName="Mount type" Format="text"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e033Dis">
+        <Attribute TCName="l3Technology" CadimName="Technology" Format="text"/>
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Characteristics" CadimName="Characteristics" Format="text"/>
+        <Attribute TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e016Swi">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3PosNo" CadimName="No of positions" Format="number"/>
+        <Attribute TCName="l3PoleNo" CadimName="No of poles" Format="number"/>
+        <Attribute TCName="l3ContConfigVS" CadimName="Contact config" Format="text"/>
+        <Attribute TCName="l3Umax" CadimName="U_max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3IDS" CadimName="I_max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e028Rel">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3FunctionVS" CadimName="Function" Format="text"/>
+        <Attribute TCName="l3PoleNo" CadimName="No of poles" Format="number"/>
+        <Attribute TCName="l3ContConfigVS" CadimName="Contact Config" Format="text"/>
+        <Attribute TCName="l3Urated" CadimName="U_Coil" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3ISW" CadimName="I_switch" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l8ACDC" CadimName="AC/DC" Format="text"/>
+        <Attribute TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e034Mot">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Usupply" CadimName="U(supply)" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Power" CadimName="Power Dissipation" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3TurnPMin" CadimName="Turns per min" Format="number"/>
+        <Attribute TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e044Con">
+        <Attribute TCName="l3TechTypeVS" CadimName="Function" Format="text"/>
+        <Attribute TCName="l3PitchVS" CadimName="Pitch" Format="text"/>
+        <Attribute TCName="l3PosNo" CadimName="No of rows" Format="number"/>
+        <Attribute TCName="l3Gender" CadimName="Gender" Format="text"/>
+        <Attribute TCName="l3PoleNo" CadimName="No of poles" Format="number"/>
+        <Attribute TCName="l3GeometryVS" CadimName="Geometry" Format="text"/>
+        <Attribute TCName="l3PlugAngleVS" CadimName="Plug Angle" Format="text"/>
+        <Attribute TCName="l3MountingType" CadimName="Mounting Type" Format="text"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e045TeB">
+        <Attribute TCName="l3TechTypeVS" CadimName="Mount on" Format="text"/>
+        <Attribute TCName="l3WireFixVS" CadimName="Wire fixing" Format="text"/>
+        <Attribute TCName="l3System" CadimName="System" Format="text"/>
+        <Attribute TCName="l3PitchVS" CadimName="Pitch" Format="text"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e046ICS">
+        <Attribute TCName="l3TechType" CadimName="for IC Case" Format="text"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e021Tra">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Approvals" CadimName="Safety approval" Format="text"/>
+        <Attribute TCName="l3Power" CadimName="Power Dissipation" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3FormVS" CadimName="Form" Format="text"/>
+        <Attribute TCName="l3MountingType" CadimName="Mounting Type" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e022CFe">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Inductance" CadimName="Inductance" Format="number" Factor="0.000001" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3CTol" CadimName="Tolerance" Format="percent" Factor="0.01"/>
+        <Attribute TCName="l3IDC" CadimName="I_DC" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3FormVS" CadimName="Form" Format="text"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e019Fus">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3CharacteristicsVS" CadimName="Characteristic" Format="text"/>
+        <Attribute TCName="l3Irated" CadimName="I_rated" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Urated" CadimName="U_rated" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3BreakCap" CadimName="Breaking Capacity" Format="text"/>
+        <Attribute TCName="l3MountingType" CadimName="Mounting Type" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e020PFu">
+        <Attribute TCName="l3Umax" CadimName="U_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Imax" CadimName="I_Hold" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Itrip" CadimName="I_Trip" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e031Fil">
+        <Attribute TCName="l3FunctionVS" CadimName="Function" Format="text"/>
+        <Attribute TCName="l3IDS" CadimName="I_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Umax" CadimName="U_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e040ICA">
+        <Attribute TCName="l3FunctionVS" CadimName="Function" Format="text"/>
+        <Attribute TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e041ICR">
+        <Attribute TCName="l3FunctionVS" CadimName="Function" Format="text"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e036ICL">
+        <Attribute TCName="l3FunctionVS" CadimName="Function" Format="text"/>
+        <Attribute TCName="l3Technology" CadimName="Technology" Format="text"/>
+        <Attribute TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Notes" CadimName="Info / Org" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e037ICC">
+        <Attribute TCName="l3TechTypeVS" CadimName="Architecture" Format="text"/>
+        <Attribute TCName="l3RomType" CadimName="ROM Type" Format="text"/>
+        <Attribute TCName="l3ROMSize" CadimName="ROM Size" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3RAMSize" CadimName="RAM Size" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Notes" CadimName="Additonal Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e038ICI">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3MbusType" CadimName="BUS Type" Format="text"/>
+        <Attribute TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e039ICM">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3BitByteDisp" CadimName="Size" Format="text"/>
+        <Attribute TCName="l3Organisation" CadimName="Organisation" Format="text"/>
+        <Attribute TCName="l3tAccess" CadimName="T_Access" Format="number" Factor="0.000000001" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e032aDC">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Umax" CadimName="U_In" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Uout" CadimName="U_Out" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Iout" CadimName="I_Out" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e035AFC">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Function" CadimName="Function" Format="text"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e042ICG">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e043ICT">
+        <Attribute TCName="l3TechType" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e018QRO">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Frequency" CadimName="Frequency" Format="number" Factor="1000000"/>
+        <Attribute TCName="l3FreqTol" CadimName="Freq Tolerance" Format="number"/>
+        <Attribute TCName="l3Cload" CadimName="C_load" Format="number" Factor="0.000000001" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e023Bat">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Technology" CadimName="Technology" Format="text"/>
+        <Attribute TCName="l3Unom" CadimName="U_Nom" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Capacity" CadimName="Capacity" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e025Sen">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3SensivityRange" CadimName="Sensitivity Range" Format="text"/>
+        <Attribute TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e026AcS">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Umax" CadimName="Voltage" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3Loudness" CadimName="Loudness" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e027Acc">
+        <Attribute TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3Notes" CadimName="Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e032EMo">
+        <Attribute TCName="l3TechType" CadimName="Part Type" Format="text"/>
+        <Attribute TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+</ClassConfiguration>

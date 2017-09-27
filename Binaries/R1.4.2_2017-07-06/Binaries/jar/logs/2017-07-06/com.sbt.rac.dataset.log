@@ -1,0 +1,6 @@
+     [echo]  Compiling the source java files 
+     [echo] bundle.. = com.sbt.rac.dataset
+     [echo]  Creating Jar - com.sbt.rac.dataset_1.0.0.20170706-085924.jar 
+      [jar] Building jar: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\binaries\com.sbt.rac.dataset_1.0.0.20170706-085924.jar
+   [delete] Deleting: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\com.sbt.rac.dataset\rerun
+     [echo]  Project processed successfully 

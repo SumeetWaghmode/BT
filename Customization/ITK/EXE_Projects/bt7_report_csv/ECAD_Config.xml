@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ClassConfiguration[
+    <!ELEMENT ClassConfiguration (ClassAttribConfig | CommonConfig)*>
+    <!ELEMENT CommonConfig (Attribute)*>
+    <!ELEMENT ClassAttribConfig (Attribute)*>
+    <!ELEMENT Attribute EMPTY>
+    <!ATTLIST ClassAttribConfig classname CDATA #REQUIRED>
+    <!ATTLIST Attribute TcUAID CDATA #REQUIRED TCName CDATA #REQUIRED
+                                       CadimName CDATA #REQUIRED
+                                       Format (text | number | percent) #REQUIRED
+                                       Factor  CDATA  "1"
+                                       Append CDATA ""
+                                       TranslateNumberFormat (yes | no) "no">
+ ]>
+<ClassConfiguration>
+    <CommonConfig>
+        <Attribute TcUAID="" TCName="l0CmpnValidation" CadimName="Status" Format="text"/>
+        <Attribute TcUAID="" TCName="l0PartTypeGen" CadimName="Part Name" Format="text"/> 
+    </CommonConfig>
+    <ClassAttribConfig classname="e010CVa">
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+        <Attribute TcUAID="700876000" TCName="l3CMin" CadimName="C_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700881000" TCName="l3CMax" CadimName="C_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700880000" TCName="l3Umax" CadimName="U_Max" Format="number" TranslateNumberFormat="yes"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e01Resi">
+        <Attribute TcUAID="700888000" TCName="l3TechTypeVS" CadimName="Technology" Format="text"/>
+        <Attribute TcUAID="700886000" TCName="l3ResNom" CadimName="Value" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700884000" TCName="l3RTolerance" CadimName="Tolerance" Format="percent" Factor="0.01"/>
+        <Attribute TcUAID="700887000" TCName="l3Power" CadimName="Power Dissipation" Format="number"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e02Capa">
+        <Attribute TcUAID="700891000" TCName="l3TechTypeVS" CadimName="Technology" Format="text"/>
+        <Attribute TcUAID="700894000" TCName="l3Capacitance" CadimName="Value" Format="number" Factor="0.000001"/>
+        <Attribute TcUAID="700889000" TCName="l3CTol" CadimName="Tolerance" Format="percent" Factor="0.01"/>
+        <Attribute TcUAID="700893000" TCName="l3Unom" CadimName="Voltage" Format="number"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e04RNAy">
+        <Attribute TcUAID="700903000" TCName="l3TechTypeVS" CadimName="Technology" Format="text"/>
+        <Attribute TcUAID="700901000" TCName="l3ResNom" CadimName="Value" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700899000" TCName="l3RTolerance" CadimName="Tolerance" Format="percent" Factor="0.01" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700904000" TCName="l3PoleNo" CadimName="No of Res" Format="text"/>
+        <Attribute TcUAID="700902000" TCName="l3Power" CadimName="Power Dissipation" Format="number"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e05Pote">
+        <Attribute TcUAID="700913000" TCName="l3TechTypeVS" CadimName="Technology" Format="text"/>
+        <Attribute TcUAID="700911000" TCName="l3ResNom" CadimName="Value" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700909000" TCName="l3RTolerance" CadimName="Tolerance" Format="percent" Factor="0.01"/>
+        <Attribute TcUAID="700905000" TCName="l3MotionVS" CadimName="Motion" Format="text"/>
+        <Attribute TcUAID="700912000" TCName="l3Power" CadimName="Power Dissipation" Format="number"/>
+        <Attribute TcUAID="700907000" TCName="l3CharacteristicsVS" CadimName="Characteristic" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e06NTC">
+        <Attribute TcUAID="700916000" TCName="l3R25" CadimName="Value" Format="number"/>
+        <Attribute TcUAID="700915000" TCName="l3RTolerance" CadimName="Tolerance" Format="percent" Factor="0.01"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e08VDR">
+        <Attribute TcUAID="700921000" TCName="l3Uoperating" CadimName="Voltage" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700920000" TCName="l3IS8at20us" CadimName="I_Surge" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e012Rec">
+        <Attribute TcUAID="700943000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700947000" TCName="l3Umax" CadimName="U_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="**TODO**" TCName="l3IDS" CadimName="I_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e013BiT">
+        <Attribute TcUAID="700952000" TCName="l3TechTypeVS" CadimName="PartType" Format="text"/>
+        <Attribute TcUAID="700953000" TCName="l3Umax" CadimName="U_CE" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700949000" TCName="l3IDS" CadimName="I_CE" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700948000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e014FET">
+        <Attribute TcUAID="700960000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700961000" TCName="l3Umax" CadimName="U_DS" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700955000" TCName="l3IDS" CadimName="I_DS" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700957000" TCName="l3ResNom" CadimName="R_DS" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700954000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e015aSR">
+        <Attribute TcUAID="700969000" TCName="l3FunctionVS" CadimName="Function" Format="text"/>
+        <Attribute TcUAID="700966000" TCName="l3Uisol" CadimName="U_ISOL" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700968000" TCName="l3Urated" CadimName="U_rated" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700964000" TCName="l3Irated" CadimName="I_rated" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700962000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e017PTD">
+        <Attribute TcUAID="700974000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700972000" TCName="l3Irated" CadimName="I_Rated" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700975000" TCName="l3Umax" CadimName="U_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700970000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e03Diod">
+        <Attribute TcUAID="700981000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700979000" TCName="l3IFmax" CadimName="I_forward" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700977000" TCName="l3UBR" CadimName="U_br" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700978000" TCName="l3Power" CadimName="Power Dissipation" Format="number"/>
+        <Attribute TcUAID="700985000" TCName="l3PoleNo" CadimName="No of Diodes" Format="number"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+        <Attribute TcUAID="**TODO**>" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e03aTVS">
+        <Attribute TcUAID="700989000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700987000" TCName="l3Power" CadimName="Power Dissipation (Peak)" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700990000" TCName="l3UBR" CadimName="U_Br" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700992000" TCName="l3IDS" CadimName="I_PP" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700986000" TCName="l3UBRTol" CadimName="U_br Tolerance" Format="percent" Factor="0.01"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e015Opt">
+        <Attribute TcUAID="700856000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700854000" TCName="l3Uisol" CadimName="U_ISOL" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700853000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e024LED">
+        <Attribute TcUAID="**TODO**" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700862000" TCName="l3LuminousIntLow" CadimName="Min luminous intensity" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700859000" TCName="l3LuminousIntHigh" CadimName="Max luminous intensity" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700860000" TCName="l3IF" CadimName="I_F" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700857000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e029Lig">
+        <Attribute TcUAID="700868000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700865000" TCName="l3ColourVS" CadimName="Colour" Format="text"/>
+        <Attribute TcUAID="700867000" TCName="l3Urated" CadimName="Voltage" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700864000" TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e030LRe">
+        <Attribute TcUAID="700871000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700870000" TCName="l3MountingType" CadimName="Mount type" Format="text"/>
+        <Attribute TcUAID="700869000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e033Dis">
+        <Attribute TcUAID="700875000" TCName="l3Technology" CadimName="Technology" Format="text"/>
+        <Attribute TcUAID="700874000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700873000" TCName="l3Characteristics" CadimName="Characteristics" Format="text"/>
+        <Attribute TcUAID="700872000" TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e016Swi">
+        <Attribute TcUAID="700754000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700755000" TCName="l3PosNo" CadimName="No of positions" Format="number"/>
+        <Attribute TcUAID="700762000" TCName="l3PoleNo" CadimName="No of poles" Format="number"/>
+        <Attribute TcUAID="700761000" TCName="l3ContConfigVS" CadimName="Contact config" Format="text"/>
+        <Attribute TcUAID="700756000" TCName="l3Umax" CadimName="U_max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700759000" TCName="l3IDS" CadimName="I_max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700757000" TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TcUAID="700751000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e028Rel">
+        <Attribute TcUAID="700768000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700771000" TCName="l3FunctionVS" CadimName="Function" Format="text"/>
+        <Attribute TcUAID="700773000" TCName="l3PoleNo" CadimName="No of poles" Format="number"/>
+        <Attribute TcUAID="700772000" TCName="l3ContConfigVS" CadimName="Contact Config" Format="text"/>
+        <Attribute TcUAID="700767000" TCName="l3Urated" CadimName="U_Coil" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700766000" TCName="l3ISW" CadimName="I_switch" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700763000" TCName="l8ACDC" CadimName="AC/DC" Format="text"/>
+        <Attribute TcUAID="700769000" TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e034Mot">
+        <Attribute TcUAID="700780000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700775000" TCName="l3Usupply" CadimName="U(supply)" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700778000" TCName="l3Power" CadimName="Power Dissipation" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700781000" TCName="l3TurnPMin" CadimName="Turns per min" Format="number"/>
+        <Attribute TcUAID="700774000" TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e044Con">
+        <Attribute TcUAID="700787000" TCName="l3TechTypeVS" CadimName="Function" Format="text"/>
+        <Attribute TcUAID="700790000" TCName="l3PitchVS" CadimName="Pitch" Format="text"/>
+        <Attribute TcUAID="700788000" TCName="l3PosNo" CadimName="No of rows" Format="number"/>
+        <Attribute TcUAID="700784000" TCName="l3Gender" CadimName="Gender" Format="text"/>
+        <Attribute TcUAID="700792000" TCName="l3PoleNo" CadimName="No of poles" Format="number"/>
+        <Attribute TcUAID="700785000" TCName="l3GeometryVS" CadimName="Geometry" Format="text"/>
+        <Attribute TcUAID="700783000" TCName="l3PlugAngleVS" CadimName="Plug Angle" Format="text"/>
+        <Attribute TcUAID="700789000" TCName="l3MountingType" CadimName="Mounting Type" Format="text"/>
+        <Attribute TcUAID="700782000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e045TeB">
+        <Attribute TcUAID="700796000" TCName="l3TechTypeVS" CadimName="Mount on" Format="text"/>
+        <Attribute TcUAID="700795000" TCName="l3WireFixVS" CadimName="Wire fixing" Format="text"/>
+        <Attribute TcUAID="**TODO**" TCName="l3System" CadimName="System" Format="text"/>
+        <Attribute TcUAID="700794000" TCName="l3PitchVS" CadimName="Pitch" Format="text"/>
+        <Attribute TcUAID="**TODO" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e046ICS">
+        <Attribute TcUAID="700798000" TCName="l3TechType" CadimName="for IC Case" Format="text"/>
+        <Attribute TcUAID="700799000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e021Tra">
+        <Attribute TcUAID="700740000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700739000" TCName="l3Approvals" CadimName="Safety approval" Format="text"/>
+        <Attribute TcUAID="700741000" TCName="l3Power" CadimName="Power Dissipation" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700736000" TCName="l3FormVS" CadimName="Form" Format="text"/>
+        <Attribute TcUAID="700737000" TCName="l3MountingType" CadimName="Mounting Type" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e022CFe">
+        <Attribute TcUAID="700748000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700750000" TCName="l3Inductance" CadimName="Inductance" Format="number" Factor="0.000001" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700747000" TCName="l3CTol" CadimName="Tolerance" Format="percent" Factor="0.01"/>
+        <Attribute TcUAID="700749000" TCName="l3IDC" CadimName="I_DC" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700744000" TCName="l3FormVS" CadimName="Form" Format="text"/>
+        <Attribute TcUAID="700742000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e019Fus">
+        <Attribute TcUAID="700928000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700922000" TCName="l3CharacteristicsVS" CadimName="Characteristic" Format="text"/>
+        <Attribute TcUAID="700924000" TCName="l3Irated" CadimName="I_rated" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700927000" TCName="l3Urated" CadimName="U_rated" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700930000" TCName="l3BreakCap" CadimName="Breaking Capacity" Format="text"/>
+        <Attribute TcUAID="700929000" TCName="l3MountingType" CadimName="Mounting Type" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e020PFu">
+        <Attribute TcUAID="700935000" TCName="l3Umax" CadimName="U_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700936000" TCName="l3Imax" CadimName="I_Hold" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700932000" TCName="l3Itrip" CadimName="I_Trip" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e031Fil">
+        <Attribute TcUAID="700938000" TCName="l3FunctionVS" CadimName="Function" Format="text"/>
+        <Attribute TcUAID="700939000" TCName="l3IDS" CadimName="I_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700942000" TCName="l3Umax" CadimName="U_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700937000" TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e040ICA">
+        <Attribute TcUAID="700803000" TCName="l3FunctionVS" CadimName="Function" Format="text"/>
+        <Attribute TcUAID="700801000" TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700805000" TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700800000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e041ICR">
+        <Attribute TcUAID="700807000" TCName="l3FunctionVS" CadimName="Function" Format="text"/>
+        <Attribute TcUAID="700806000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e036ICL">
+        <Attribute TcUAID="700813000" TCName="l3FunctionVS" CadimName="Function" Format="text"/>
+        <Attribute TcUAID="700814000" TCName="l3Technology" CadimName="Technology" Format="text"/>
+        <Attribute TcUAID="700809000" TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700811000" TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="**TODO**" TCName="l3Notes" CadimName="Info / Org" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e037ICC">
+        <Attribute TcUAID="700818000" TCName="l3TechTypeVS" CadimName="Architecture" Format="text"/>
+        <Attribute TcUAID="700816000" TCName="l3RomType" CadimName="ROM Type" Format="text"/>
+        <Attribute TcUAID="700820000" TCName="l3ROMSize" CadimName="ROM Size" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700817000" TCName="l3RAMSize" CadimName="RAM Size" Format="number" Factor="1000" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700809000" TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700811000" TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700815000" TCName="l3Notes" CadimName="Additonal Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e038ICI">
+        <Attribute TcUAID="700824000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700823000" TCName="l3MbusType" CadimName="BUS Type" Format="text"/>
+        <Attribute TcUAID="700809000" TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700811000" TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700822000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e039ICM">
+        <Attribute TcUAID="700827000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700825000" TCName="l3BitByteDisp" CadimName="Size" Format="text"/>
+        <Attribute TcUAID="**TODO**" TCName="l3Organisation" CadimName="Organisation" Format="text"/>
+        <Attribute TcUAID="700830000" TCName="l3tAccess" CadimName="T_Access" Format="number" Factor="0.000000001" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700809000" TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700811000" TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e032aDC">
+        <Attribute TcUAID="**TODO**" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700834000" TCName="l3Umax" CadimName="U_In" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700837000" TCName="l3Uout" CadimName="U_Out" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700836000" TCName="l3Iout" CadimName="I_Out" Format="number" Factor="0.001" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700831000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e035AFC">
+        <Attribute TcUAID="700840000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700839000" TCName="l3Function" CadimName="Function" Format="text"/>
+        <Attribute TcUAID="700838000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e042ICG">
+        <Attribute TcUAID="700845000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700842000" TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700846000" TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700841000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e043ICT">
+        <Attribute TcUAID="700847000" TCName="l3TechType" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700848000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700849000" TCName="l3USupplMin" CadimName="U_Supply_Min" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700852000" TCName="l3USupplMax" CadimName="U_Supply_Max" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e018QRO">
+        <Attribute TcUAID="700712000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700713000" TCName="l3Frequency" CadimName="Frequency" Format="number" Factor="1000000"/>
+        <Attribute TcUAID="700708000" TCName="l3FreqTol" CadimName="Freq Tolerance" Format="number"/>
+        <Attribute TcUAID="700710000" TCName="l3Cload" CadimName="C_load" Format="number" Factor="0.000000001" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700706000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e023Bat">
+        <Attribute TcUAID="700717000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700718000" TCName="l3Technology" CadimName="Technology" Format="text"/>
+        <Attribute TcUAID="700714000" TCName="l3Unom" CadimName="U_Nom" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700715000" TCName="l3Capacity" CadimName="Capacity" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e025Sen">
+        <Attribute TcUAID="700723000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="**TODO**" TCName="l3SensivityRange" CadimName="Sensitivity Range" Format="text"/>
+        <Attribute TcUAID="700721000" TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TcUAID="700720000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e026AcS">
+        <Attribute TcUAID="700727000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700729000" TCName="l3Umax" CadimName="Voltage" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700725000" TCName="l3Loudness" CadimName="Loudness" Format="number" TranslateNumberFormat="yes"/>
+        <Attribute TcUAID="700724000" TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e027Acc">
+        <Attribute TcUAID="700731000" TCName="l3TechTypeVS" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700730000" TCName="l3Notes" CadimName="Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+    <ClassAttribConfig classname="e032EMo">
+        <Attribute TcUAID="700734000" TCName="l3TechType" CadimName="Part Type" Format="text"/>
+        <Attribute TcUAID="700733000" TCName="l3MountingType" CadimName="Mount Type" Format="text"/>
+        <Attribute TcUAID="700732000" TCName="l3Notes" CadimName="Additional Info" Format="text"/>
+        <Attribute TcUAID="700705000" TCName="l3CaseSize" CadimName="PKG_TYPE" Format="text"/>
+    </ClassAttribConfig>
+</ClassConfiguration>

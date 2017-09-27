@@ -1,0 +1,23 @@
+﻿Build started 4/7/2017 3:16:39 PM.
+     1>Project "O:\0SBT-PR-TC11UPGR\trunk\MRT\Deployment_Package\Prod_Patch_R1.4.2\DOC_LOV\Customization\ITK\Processed_DocitemRev_Report\Processed_DocitemRev_Report\Processed_DocitemRev_Report.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IN:\ugs\tc11\11\include /IN:\ugs\tc11\11\include_cpp /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _CONSOLE /D IPLIB=none /D _CRT_SECURE_NO_WARNINGS /D _ITERATOR_EDBUG_LEVEL=0 /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt Loading_LOV_Data.cpp Report_generation.cpp
+         Loading_LOV_Data.cpp
+         Report_generation.cpp
+     1>Report_generation.cpp(69): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
+     1>Report_generation.cpp(72): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
+     1>Report_generation.cpp(134): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>Report_generation.cpp(162): warning C4002: too many actual parameters for macro 'ITK_CALL'
+     1>Report_generation.cpp(170): warning C4002: too many actual parameters for macro 'ITK_CALL'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"O:\0SBT-PR-TC11UPGR\trunk\MRT\Deployment_Package\Prod_Patch_R1.4.2\DOC_LOV\Customization\ITK\Processed_DocitemRev_Report\x64\Release\Processed_DocitemRev_Report.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:N:\ugs\tc11\11\lib "N:\ugs\tc11\11\lib\*.lib" N:\ugs\tc11\11\lib\itk_main.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"O:\0SBT-PR-TC11UPGR\trunk\MRT\Deployment_Package\Prod_Patch_R1.4.2\DOC_LOV\Customization\ITK\Processed_DocitemRev_Report\x64\Release\Processed_DocitemRev_Report.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"O:\0SBT-PR-TC11UPGR\trunk\MRT\Deployment_Package\Prod_Patch_R1.4.2\DOC_LOV\Customization\ITK\Processed_DocitemRev_Report\x64\Release\Processed_DocitemRev_Report.lib" /MACHINE:X64 x64\Release\Loading_LOV_Data.obj
+         x64\Release\Report_generation.obj
+         Generating code
+         Finished generating code
+     1>itk_main.obj : warning LNK4099: PDB 'vc110.pdb' was not found with 'itk_main.obj' or at 'O:\0SBT-PR-TC11UPGR\trunk\MRT\Deployment_Package\Prod_Patch_R1.4.2\DOC_LOV\Customization\ITK\Processed_DocitemRev_Report\x64\Release\vc110.pdb'; linking object as if no debug info
+         Processed_DocitemRev_Report.vcxproj -> O:\0SBT-PR-TC11UPGR\trunk\MRT\Deployment_Package\Prod_Patch_R1.4.2\DOC_LOV\Customization\ITK\Processed_DocitemRev_Report\x64\Release\Processed_DocitemRev_Report.exe
+     1>Done Building Project "O:\0SBT-PR-TC11UPGR\trunk\MRT\Deployment_Package\Prod_Patch_R1.4.2\DOC_LOV\Customization\ITK\Processed_DocitemRev_Report\Processed_DocitemRev_Report\Processed_DocitemRev_Report.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.55

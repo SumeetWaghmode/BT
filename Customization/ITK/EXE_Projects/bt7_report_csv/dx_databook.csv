@@ -1,0 +1,488 @@
+{
+A5Q20000043
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000017
+e025Sen
+Sensor
+PKG_TYPE.text;Additional Info.text;Mount Type.text;Part Type.text;Status.text;Part Name.text;
+PKG_TYPE=2,0000001
+Additional Info=4
+Mount Type=Snap on
+Part Type=Temperature
+Status=
+Part Name=
+}
+{
+A5Q20000014
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=
+Mount Type=
+Part Type=
+Voltage=0
+Loudness=0
+Status=
+Part Name=
+}
+{
+A5Q20000016
+e038ICI
+IC micro interface/peripherie
+PKG_TYPE.text;U_Supply_Max.number;Additional Info.text;BUS Type.text;Part Type.text;Status.text;Part Name.text;
+PKG_TYPE=
+U_Supply_Max=0
+Additional Info=
+BUS Type=
+Part Type=
+Status=
+Part Name=
+}
+{
+020611
+
+
+Status.text;Part Name.text;
+Status=Not for New Design
+Part Name=
+}
+{
+A5Q20000010
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000018
+SAM0101
+Resistor
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000004
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000005
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000013
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000015
+e016Swi
+Switch
+PKG_TYPE.text;Contact config.text;Part Type.text;No of positions.number;Additional Info.text;I_max.number;No of poles.number;Mount Type.text;U_max.number;Status.text;Part Name.text;
+PKG_TYPE=
+Contact config=
+Part Type=
+No of positions=6
+Additional Info=
+I_max=0
+No of poles=0
+Mount Type=
+U_max=0
+Status=Not for New Design
+Part Name=
+}
+{
+A5Q20000019
+e027Acc
+Accessory
+PKG_TYPE.text;Info.text;Part Type.text;Status.text;Part Name.text;
+PKG_TYPE=2
+Info=6
+Part Type=Battery accessory
+Status=
+Part Name=
+}
+{
+A5Q20000020
+e027Acc
+Accessory
+PKG_TYPE.text;Info.text;Part Type.text;Status.text;Part Name.text;
+PKG_TYPE=2
+Info=6
+Part Type=Objective
+Status=
+Part Name=
+}
+{
+A5Q20000021
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=
+Mount Type=
+Part Type=
+Voltage=0
+Loudness=0
+Status=
+Part Name=
+}
+{
+A5Q20000006
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000009
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000011
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000012
+SAM0101
+Resistor
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000022
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=
+Mount Type=
+Part Type=
+Voltage=0
+Loudness=0
+Status=
+Part Name=
+}
+{
+A5Q20000023
+e02Capa
+Capacitor
+PKG_TYPE.text;Value.number;Voltage.number;Tolerance.percent;Technology.text;Status.text;Part Name.text;
+PKG_TYPE=
+Value=0.0000001
+Voltage=50
+Tolerance=0.1
+Technology=MLCC (Ceramic multi layer)
+Status=
+Part Name=
+}
+{
+A5Q20000029
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=2
+Mount Type=20 Screw fixing
+Part Type=30 Siren
+Voltage=7
+Loudness=9
+Status=
+Part Name=
+}
+{
+A5Q20000040
+e016Swi
+Switch
+PKG_TYPE.text;Contact config.text;Part Type.text;No of positions.number;Additional Info.text;I_max.number;No of poles.number;Mount Type.text;U_max.number;Status.text;Part Name.text;
+PKG_TYPE=2,00000001
+Contact config=NC (Normally closed)
+Part Type=Slide
+No of positions=2
+Additional Info=2,00000001
+I_max=1000000
+No of poles=2
+Mount Type=Screw fixing
+U_max=2.01
+Status=
+Part Name=
+}
+{
+A5Q20000030
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=2
+Mount Type=20 Screw fixing
+Part Type=40 Bell
+Voltage=7
+Loudness=9
+Status=
+Part Name=
+}
+{
+A5Q20000024
+e025Sen
+Sensor
+PKG_TYPE.text;Additional Info.text;Mount Type.text;Part Type.text;Status.text;Part Name.text;
+PKG_TYPE=2
+Additional Info=4
+Mount Type=30 Press fit
+Part Type=20 Pressure
+Status=
+Part Name=
+}
+{
+A5Q20000025
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=2
+Mount Type=30 Press fit
+Part Type=30 Siren
+Voltage=32
+Loudness=23
+Status=
+Part Name=
+}
+{
+A5Q20000031
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=
+Mount Type=
+Part Type=
+Voltage=0
+Loudness=0
+Status=
+Part Name=
+}
+{
+A5Q20000032
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=
+Mount Type=
+Part Type=
+Voltage=0
+Loudness=0
+Status=
+Part Name=
+}
+{
+A5Q20000033
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=2
+Mount Type=20 Screw fixing
+Part Type=40 Bell
+Voltage=66
+Loudness=8
+Status=
+Part Name=
+}
+{
+A5Q20000034
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=e
+Mount Type=30 Press fit
+Part Type=30 Siren
+Voltage=3
+Loudness=3
+Status=
+Part Name=
+}
+{
+A5Q20000042
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000026
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=1
+Mount Type=10 Snap on
+Part Type=10 Buzzer
+Voltage=1
+Loudness=1
+Status=
+Part Name=
+}
+{
+A5Q20000027
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=3
+Mount Type=10 Snap on
+Part Type=20 Loudspeaker
+Voltage=3
+Loudness=3
+Status=
+Part Name=
+}
+{
+A5Q20000028
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=1
+Mount Type=40 Plug in
+Part Type=10 Buzzer
+Voltage=2
+Loudness=2
+Status=
+Part Name=
+}
+{
+A5Q20000035
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=22
+Mount Type=PCB
+Part Type=50 Horn
+Voltage=77
+Loudness=99
+Status=
+Part Name=
+}
+{
+A5Q20000037
+e016Swi
+Switch
+PKG_TYPE.text;Contact config.text;Part Type.text;No of positions.number;Additional Info.text;I_max.number;No of poles.number;Mount Type.text;U_max.number;Status.text;Part Name.text;
+PKG_TYPE=22
+Contact config=NO (Normally open)
+Part Type=Keypad
+No of positions=44
+Additional Info=89
+I_max=9
+No of poles=3
+Mount Type=Press fit
+U_max=4
+Status=
+Part Name=
+}
+{
+A5Q20000036
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=77
+Mount Type=Press fit
+Part Type=Horn
+Voltage=77
+Loudness=77
+Status=
+Part Name=
+}
+{
+A5Q20000038
+e038ICI
+IC micro interface/peripherie
+PKG_TYPE.text;U_Supply_Max.number;Additional Info.text;BUS Type.text;Part Type.text;Status.text;Part Name.text;
+PKG_TYPE=111.1110
+U_Supply_Max=111.222222
+Additional Info=111.1110
+BUS Type=SPI
+Part Type=Interface
+Status=
+Part Name=
+}
+{
+A5Q20000039
+e026AcS
+Acoustical signaler
+PKG_TYPE.text;Mount Type.text;Part Type.text;Voltage.number;Loudness.number;Status.text;Part Name.text;
+PKG_TYPE=22
+Mount Type=Screw fixing
+Part Type=Siren
+Voltage=77
+Loudness=99
+Status=
+Part Name=
+}
+{
+A5Q20000044
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000045
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000048
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5W20000049
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000046
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}
+{
+A5Q20000047
+
+
+Status.text;Part Name.text;
+Status=
+Part Name=
+}

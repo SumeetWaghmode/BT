@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document DocumentName="7169210459" LGLicencee="_" LGISTDLang="de" LGISTDSheet="0" Revision="K" VersionNumber="_" Sequence="1">
+	<attribute name="AclOrgMsgGrps">
+		<List/>
+	</attribute>
+	<attribute name="AclOrgNames">
+		<List/>
+	</attribute>
+	<attribute name="AclUserMsgGrps">
+		<List/>
+	</attribute>
+	<attribute name="AclUserNames">
+		<List/>
+	</attribute>
+	<attribute name="ActualEffDate"/>
+	<attribute name="ActualRelDate"/>
+	<attribute name="ApplicationOwner"/>
+	<attribute name="AssocProxyOBID"/>
+	<attribute name="Autodelete"/>
+	<attribute name="BaseRevision"/>
+	<attribute name="CapOwnerDirName"/>
+	<attribute name="CategoryName"/>
+	<attribute name="CheckOutOwner"/>
+	<attribute name="CheckedOut">-</attribute>
+	<attribute name="Class">LGSouMan</attribute>
+	<attribute name="CreateAsVisFile"/>
+	<attribute name="CreationDate">2005/11/30-09:15:54:631</attribute>
+	<attribute name="Creator">Wiest Irena</attribute>
+	<attribute name="CurDbName">BuildZug</attribute>
+	<attribute name="DeleteAction"/>
+	<attribute name="DestinationFolderName"/>
+	<attribute name="DisplayableDomain"/>
+	<attribute name="DisplayedDesc"/>
+	<attribute name="DisplayedName">7169210459,K,1,de,_</attribute>
+	<attribute name="DisplayedType">Zeichnung / Stücklisten / Schemata</attribute>
+	<attribute name="Document2Title">RVS13..., RVS43..., RVS46...</attribute>
+	<attribute name="DocumentDescription"/>
+	<attribute name="DocumentDescription_WEB"/>
+	<attribute name="DocumentTitle">Stückliste</attribute>
+	<attribute name="DocumentType">Zug</attribute>
+	<attribute name="EffectiveOBID"/>
+	<attribute name="EmgSeriesID"/>
+	<attribute name="EmgSrcObjID"/>
+	<attribute name="ExcludedOrganizations">
+		<List/>
+	</attribute>
+	<attribute name="ExcludedUsers">
+		<List/>
+	</attribute>
+	<attribute name="ExpTreeIdx"/>
+	<attribute name="ExpTreeParIdx"/>
+	<attribute name="ExternallyManaged">-</attribute>
+	<attribute name="FTRIndexed">No</attribute>
+	<attribute name="FamToItmClassList">
+		<List/>
+	</attribute>
+	<attribute name="FindStatus"/>
+	<attribute name="FldrObjHndl"/>
+	<attribute name="FldrOwnerName"/>
+	<attribute name="FrameCreatedIn"/>
+	<attribute name="FrozenIndicator">+</attribute>
+	<attribute name="GlobalDomain"/>
+	<attribute name="IDisplayedName">7169210459,Stückliste,K/1 S/F/definitiv</attribute>
+	<attribute name="Immutable">-</attribute>
+	<attribute name="InContSupersededByCkiCkoInd"/>
+	<attribute name="InFrozenContainerInd"/>
+	<attribute name="InLifeCycleInstanceName"/>
+	<attribute name="InLifeCycleName"/>
+	<attribute name="InLifeCycleRev"/>
+	<attribute name="InLifeCycleStep"/>
+	<attribute name="InSupersededContainerInd"/>
+	<attribute name="IndexOnCondition"/>
+	<attribute name="InsertDbNames">
+		<List/>
+	</attribute>
+	<attribute name="IsEffective"/>
+	<attribute name="IsLatestItem">-</attribute>
+	<attribute name="ItmFldrName"/>
+	<attribute name="L0DialogInInteractive"/>
+	<attribute name="L0DocCode">7169210459</attribute>
+	<attribute name="L0DocIdent">l9LGNum2</attribute>
+	<attribute name="L0PrjTitle">none</attribute>
+	<attribute name="LDisplayedName">7169210459,K,1,de,_</attribute>
+	<attribute name="LGDocExpire"/>
+	<attribute name="LGDocExpireNr"/>
+	<attribute name="LGDocTyp">LGDraw</attribute>
+	<attribute name="LGDocTyp2">--</attribute>
+	<attribute name="LGDossier">LGDosssierDesPrd</attribute>
+	<attribute name="LGFormat">A4</attribute>
+	<attribute name="LGLangDA">-</attribute>
+	<attribute name="LGLangDE">+</attribute>
+	<attribute name="LGLangEL">-</attribute>
+	<attribute name="LGLangEN">-</attribute>
+	<attribute name="LGLangES">-</attribute>
+	<attribute name="LGLangFI">-</attribute>
+	<attribute name="LGLangFR">-</attribute>
+	<attribute name="LGLangIT">-</attribute>
+	<attribute name="LGLangNL">-</attribute>
+	<attribute name="LGLangNO">-</attribute>
+	<attribute name="LGLangOther">-</attribute>
+	<attribute name="LGLangSV">-</attribute>
+	<attribute name="LGProduct"/>
+	<attribute name="LGRepBy"/>
+	<attribute name="LGRespPhone">2868</attribute>
+	<attribute name="LGRespUnit">SBT/CH-ZUG/HVP-CPT-PD-MD</attribute>
+	<attribute name="LGRevIdxType"/>
+	<attribute name="LGTotalSheet">2</attribute>
+	<attribute name="LGUpdateDescription">Revise: 2005/11/30-10:15:46 by/durch Wiest Irena
+Neu RVS13.143/183 (Hansa) eingetragen.</attribute>
+	<attribute name="LGUpdateDescription_WEB">Revise: 2005/11/30-10:15:46 by/durch Wiest Irena<br/>Neu RVS13.143/183 (Hansa) eingetragen.</attribute>
+	<attribute name="LGWebGenDocLabel">7169210459,K,de,_</attribute>
+	<attribute name="LGZmNumber">keine</attribute>
+	<attribute name="LastUpdate">2005/12/19-12:35:28:201</attribute>
+	<attribute name="LatestObtained"/>
+	<attribute name="LifeCycleState">LcsReleased</attribute>
+	<attribute name="LocalCachedClassName"/>
+	<attribute name="LocateDbName"/>
+	<attribute name="MigDestFldrName"/>
+	<attribute name="NextActor"/>
+	<attribute name="NodeId"/>
+	<attribute name="NodeType"/>
+	<attribute name="OBID">plEi5xjPRDZugBuildZuger4</attribute>
+	<attribute name="OSOAssocMode"/>
+	<attribute name="OccBlobUncompSize"/>
+	<attribute name="Official">+</attribute>
+	<attribute name="OrgParticipantName">[110] SBT</attribute>
+	<attribute name="OrganizationID">110</attribute>
+	<attribute name="OrganizationName"/>
+	<attribute name="OrganizationType">O_SI</attribute>
+	<attribute name="OrigProject">--- none ---</attribute>
+	<attribute name="OriginalCreationDate"/>
+	<attribute name="OriginalCreator"/>
+	<attribute name="OtherSideObjSetList">
+		<List/>
+	</attribute>
+	<attribute name="OwnerClass">Vault</attribute>
+	<attribute name="OwnerName">Building Systems Zug</attribute>
+	<attribute name="PkgIndex"/>
+	<attribute name="PlannedEffDate"/>
+	<attribute name="PlannedRelDate"/>
+	<attribute name="PreciseRelsList">
+		<List/>
+	</attribute>
+	<attribute name="PrevStartingViewBitPos"/>
+	<attribute name="PrevStartingViewName"/>
+	<attribute name="PrevViewNetwork"/>
+	<attribute name="PrevViewNetworkBitPos"/>
+	<attribute name="ProjectName">--- none ---</attribute>
+	<attribute name="QueryAction"/>
+	<attribute name="Questionable"/>
+	<attribute name="ROAssocMode"/>
+	<attribute name="ReadOnlyAction"/>
+	<attribute name="ReadOrganizations">
+		<List/>
+	</attribute>
+	<attribute name="ReadUsers">
+		<List/>
+	</attribute>
+	<attribute name="Recycled"/>
+	<attribute name="RefCopied">-</attribute>
+	<attribute name="RefreshAttrExch"/>
+	<attribute name="RelObjSetList">
+		<List/>
+	</attribute>
+	<attribute name="RelShipList">
+		<List/>
+	</attribute>
+	<attribute name="RelateRelationship"/>
+	<attribute name="ReleaseLevel"/>
+	<attribute name="ReserveFolderName"/>
+	<attribute name="ReserveFolderOwner"/>
+	<attribute name="ReserveOwner"/>
+	<attribute name="Reserved"/>
+	<attribute name="RespParty"/>
+	<attribute name="ResponsablePerson">Abt Richard</attribute>
+	<attribute name="RevSeqDisplay">K,1</attribute>
+	<attribute name="ReviewList">
+		<List/>
+	</attribute>
+	<attribute name="ReviewListAssignment">
+		<List/>
+	</attribute>
+	<attribute name="SEIndexLanguageList">
+		<List/>
+	</attribute>
+	<attribute name="SEResultClass"/>
+	<attribute name="SecurityLevel">0</attribute>
+	<attribute name="SequenceDelete"/>
+	<attribute name="SeriesId"/>
+	<attribute name="SharingOrganizationID"/>
+	<attribute name="SharingOrganizationType"/>
+	<attribute name="SignOffCommentsCounter"/>
+	<attribute name="SortValue"/>
+	<attribute name="SpecialAction"/>
+	<attribute name="SpecificObtained"/>
+	<attribute name="SrcClassName"/>
+	<attribute name="Started"/>
+	<attribute name="StartingViewBitPos"/>
+	<attribute name="StartingViewName"/>
+	<attribute name="Submitter"/>
+	<attribute name="SuccOBID"/>
+	<attribute name="Superseded">+</attribute>
+	<attribute name="SupersededByCkiCko">-</attribute>
+	<attribute name="SupersededByRevVersn"/>
+	<attribute name="SupersededDisplay">X</attribute>
+	<attribute name="TDisplayedName">7169210459,Stückliste,K/1 S/F/definitiv</attribute>
+	<attribute name="TemplateName"/>
+	<attribute name="TemplateRevision"/>
+	<attribute name="UsePLMXML"/>
+	<attribute name="ViewNetwork"/>
+	<attribute name="ViewNetworkBitPos"/>
+	<attribute name="WidgetId"/>
+	<attribute name="WorkingProject"/>
+	<attribute name="WriteOrganizations">
+		<List/>
+	</attribute>
+	<attribute name="WriteUsers">
+		<List/>
+	</attribute>
+	<attribute name="XCoord"/>
+	<attribute name="XrfItemHandle"/>
+	<attribute name="YCoord"/>
+	<attribute name="ZBlob">+</attribute>
+	<attribute name="ZCount"/>
+	<attribute name="Zeile1">7169210459</attribute>
+	<attribute name="Zeile2">Stückliste</attribute>
+	<attribute name="Zeile3">K/1 S/F/definitiv</attribute>
+	<attribute name="a0tOpmList">
+		<List/>
+	</attribute>
+	<attribute name="a0wRelClass"/>
+	<attribute name="a0wRelHandle"/>
+	<attribute name="a0wRelName"/>
+	<attribute name="c9CADFlsCls"/>
+	<attribute name="cm2DocType"/>
+	<attribute name="epdmMigrationContext"/>
+	<attribute name="g5ThumbImageURL"/>
+	<attribute name="l0BIDCTemplateIdentifier"/>
+	<attribute name="l0BIDCTemplateRevision"/>
+	<attribute name="l0BIDCTemplateVersion"/>
+	<attribute name="l0ContryAbbr2">CH</attribute>
+	<attribute name="l0CountryIcon">ch</attribute>
+	<attribute name="l0DDocument2Title">RVS13..., RVS43..., RVS46...</attribute>
+	<attribute name="l0DDocumentTitle">Stückliste</attribute>
+	<attribute name="l0Document2TitleEng"/>
+	<attribute name="l0DocumentTitleEng"/>
+	<attribute name="l0GenDocNrLabel">7169210459</attribute>
+	<attribute name="l0InstanceName">PROD</attribute>
+	<attribute name="l0IsTemporaryDocument">-</attribute>
+	<attribute name="l0LastUpdateString">29.10.2005</attribute>
+	<attribute name="l0NextRevision"/>
+	<attribute name="l0ProductRef"/>
+	<attribute name="l0PublishToPIP">-</attribute>
+	<attribute name="l0ReleaseDate">2005/11/30</attribute>
+	<attribute name="l0ReleaseDateString"/>
+	<attribute name="l0Releaser">Wiest Irena</attribute>
+	<attribute name="l0SBTVerification"/>
+	<attribute name="l0SBTVersion"/>
+	<attribute name="l0StatusPreSet"/>
+	<attribute name="l0WebIcon">l0soumd1.lbm.gif</attribute>
+	<attribute name="l0WebIconS">l0soumd1.sbm.gif</attribute>
+	<attribute name="l4XferForLCMandRule">-</attribute>
+	<attribute name="l9H_HasPfmRel">-</attribute>
+	<attribute name="l9HasPredOrSuc">+</attribute>
+	<attribute name="l9HasPredec">+</attribute>
+	<attribute name="l9LastActor"/>
+	<attribute name="l9OrigDisplay"/>
+	<attribute name="l9ReadOrganizationID"/>
+	<attribute name="l9ShareOrganizationID"/>
+	<attribute name="l9SortOrdinal"/>
+	<attribute name="l9WriteOrganizationID"/>
+	<attribute name="m0Source"/>
+	<attribute name="t0NrDI">2</attribute>
+	<attribute name="tx0Addressee"/>
+	<attribute name="tx0Author">Abt Richard</attribute>
+	<attribute name="tx0CCAddressee"/>
+	<attribute name="tx0DateReceived"/>
+	<attribute name="tx0DateTimeReceived"/>
+	<attribute name="tx0DocCreateDate"/>
+</document>

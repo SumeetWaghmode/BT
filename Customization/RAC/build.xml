@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  (c) 2013 - Autoneum AG
+ -->
+
+<project xmlns:antcontrib="antlib:net.sf.antcontrib" 
+	xmlns:plugin="antlib:org.jag.common.plugin" 
+	xmlns:log="antlib:org.jag.common.log"
+	xmlns:property="antlib:org.jag.common.property"
+	name="richClient" basedir=".">
+
+	<log:init/>
+	
+	<!-- MACRO DEFINITIONS -->
+	<macrodef name="build.clean">
+		<attribute name="package.name"/>
+		<sequential>
+			<property:check property="build.dir"/>
+			<delete dir="${build.dir}/${ant.project.name}/@{package.name}"/>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="build.prepare">
+		<attribute name="package.name"/>
+		<sequential>
+			<property:check property="build.dir"/>
+			<mkdir dir="${build.dir}/${ant.project.name}/@{package.name}"/>
+		</sequential>
+	</macrodef>	
+
+	<macrodef name="build.compile">
+		<attribute name="path.to.project"/>
+		<attribute name="package.name"/>
+		<sequential>
+			<property:check property="build.dir"/>
+			<property:check property="TC_ROOT"/>
+
+			<antcontrib:var name="Bundle-SymbolicName" unset="true"/>
+			<antcontrib:var name="Bundle-Version" unset="true"/>
+
+			<log:debug>path.to.project = [@{path.to.project}]</log:debug>
+			<fail message="@{path.to.project}/META-INF/MANIFEST.MF doesn't exist">
+				<condition>
+					<not>
+						<resourceexists>
+							<file file="@{path.to.project}/META-INF/MANIFEST.MF"/>
+						</resourceexists>
+					</not>
+				</condition>
+			</fail>
+			
+			<plugin:read.BundleSymbolicName plugin.dir="@{path.to.project}"/>
+			<plugin:read.BundleVersion plugin.dir="@{path.to.project}"/>
+			<plugin:read.build.properties plugin.dir="@{path.to.project}"/>
+
+			<mkdir dir="${build.dir}/${ant.project.name}/${Bundle-SymbolicName}"/>
+			
+			<echo message="bundle.. = ${Bundle-SymbolicName}"/>
+			<log:debug>source.. = [${source..}]</log:debug>
+			<log:debug>srcdir = [@{path.to.project}/${source..}]</log:debug>
+			<javac 
+				destdir="${build.dir}/${ant.project.name}/${Bundle-SymbolicName}"
+				srcdir="@{path.to.project}/${source..}"
+				classpath="@{path.to.project}/${classpathref..}"
+				debug="on"
+				includeantruntime="no"
+				target="1.7"
+				source="1.7">
+
+				<classpath>
+					<fileset dir="${TC_ROOT}/portal/plugins">
+						<include name="**/*.jar"/>
+					</fileset>
+					<fileset dir="${package.dir}">
+						<include name="**/*.jar"/>
+					</fileset>
+				</classpath>
+			</javac>
+				
+			<copy todir="${build.dir}/${ant.project.name}/${Bundle-SymbolicName}" preservelastmodified="true">
+				<fileset dir="@{path.to.project}/${source..}">
+					<exclude name="**/*.java"/>
+				</fileset>
+			</copy>
+			<antcontrib:for list="${bin.includes}" param="include">
+				<sequential>
+					<log:debug>include = [@{include}]</log:debug>
+					<copy todir="${build.dir}/${ant.project.name}/${Bundle-SymbolicName}" preservelastmodified="true">
+						<fileset dir="@{path.to.project}">
+							<include name="@{include}"/>
+						</fileset>
+					</copy>
+				</sequential>
+			</antcontrib:for>
+		</sequential>
+	</macrodef>
+	
+	<macrodef name="jar.clean">
+		<attribute name="package.name"/>
+		<sequential>
+			<property:check property="package.dir"/>
+			<delete file="${package.dir}/@{package.name}"/>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="jar.create">
+		<attribute name="path.to.project"/>
+		<attribute name="package.name"/>
+		<sequential>
+			<property:check property="build.dir"/>
+			<property:check property="package.dir"/>
+
+			<jar 
+				destfile="${package.dir}/${Bundle-SymbolicName}_${Bundle-Version}.jar" 
+				basedir="${build.dir}/${ant.project.name}/${Bundle-SymbolicName}"
+				manifest="${build.dir}/${ant.project.name}/${Bundle-SymbolicName}/META-INF/MANIFEST.MF"/>
+		</sequential>
+	</macrodef>
+
+	<!-- TARGETS -->
+	<target name="create:all" description="Compile the plugins">
+		<property:check property="build.dir"/>
+		<property:check property="package.dir"/>
+
+		<antcontrib:for param="package" keepgoing="true">
+			<path>
+				<dirset dir="${basedir}">
+					<include name="*"/>
+				</dirset>
+			</path>
+			<sequential>
+				<antcontrib:propertyregex property="package.name" override="true" input="@{package}" regexp=".*\\(.*)" select="\1"/>
+				<build.clean package.name="${package.name}"/>
+				<build.prepare package.name="${package.name}"/>
+				<build.compile path.to.project="@{package}" package.name="${package.name}"/>
+				<jar.clean package.name="${package.name}"/>
+				<jar.create path.to.project="@{package}" package.name="${package.name}"/>
+			</sequential>
+		</antcontrib:for>
+
+		<delete dir="${build.dir}/${ant.project.name}"/>
+	</target>
+</project>

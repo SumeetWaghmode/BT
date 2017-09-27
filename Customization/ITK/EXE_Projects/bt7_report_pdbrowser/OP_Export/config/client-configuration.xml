@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-configuration>
+	<!-- Teamcenter Connection Configuration -->
+	<key name="MuxHost">ch021035</key>
+	<key name="MuxPort">20123</key>
+	<key name="TCUser">AdminUser</key>
+	<key name="TCPassword">Pere15_tok</key>
+	
+	<!-- WorkLocation for Reading DocumentList and transfering Documents to this -->
+	<key name="TransferWorkLocation">OP_Export</key>
+    <key name="RemoteLogHost">ch021035</key> <!-- Absolute FileSystem Path -->
+    <key name="RemoteLogDirectory">\\ch021090\PDZ\pdBrowser\PLM_Dokumente\logs</key> <!-- Absolute FileSystem Path -->
+	<key name="DocumentListRegisteredClass">XMLFile</key>
+	<key name="DocumentListFileName">documentlist.xml</key> <!-- Relative to the Worklocation -->
+	
+	<!-- Document-Specific Configuration -->
+	<key name="DocumentClass">Document</key>
+	<key name="KeyField">DocumentName</key>
+    <key name="ExpandRelationClass">Attach</key>
+    <key name="ExpandRelationship">DataItemsAttachedToBusItem</key>
+<key name="TransferFileClasses">PdfFile</key>
+	
+	<!-- LogLevel to Display -->
+	<key name="DisplayedLogLevel">INFO</key>
+	
+	<!-- ErrorHandling Options (Defaults: false) -->
+	<key name="Exit_On_ValidationError">true</key>
+	<key name="Exit_On_TransferError">false</key>
+</client-configuration>
