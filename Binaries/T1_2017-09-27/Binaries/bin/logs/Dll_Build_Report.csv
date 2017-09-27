@@ -1,0 +1,3 @@
+Project Name,Status,Message,Log File,
+SBT_Workflow,Failed,Output filename conflict: ItemRevStatusCsvReport.obj would be produced from D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\ItemRevStatusCsvReport.cpp and New folder\ItemRevStatusCsvReport.cpp,D:\GitDir\BT\Binaries\T1_2017-09-27\Binaries\bin\logs\SBT_Workflow.log,
+libBT7_Extensions,Success,DLL-Location:D:\GitDir\BT\Binaries\T1_2017-09-27\Binaries\bin\libBT7_Extensions.dll,D:\GitDir\BT\Binaries\T1_2017-09-27\Binaries\bin\logs\libBT7_Extensions.log,

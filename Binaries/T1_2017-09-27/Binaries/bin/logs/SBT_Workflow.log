@@ -1,0 +1,8 @@
+     [echo]  Executing MakeSharedLib Target 
+     [echo] TC_ROOT: D:\dump\112
+     [echo] TC_INCLUDE_CPP: D:\dump\112\include_cpp
+     [echo] TC_LIB: D:\dump\112\lib
+
+MakeSharedLib:
+     [echo]  Compiling and linking SBT_Workflow . . . .
+     [echo]  Failed to create SBT_Workflow.dll 
