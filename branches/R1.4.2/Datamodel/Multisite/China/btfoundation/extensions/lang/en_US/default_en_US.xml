@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Sat Sep 10 11:47:42 AM 2016">
+    <Add>
+   <key id="BusinessObject{::}BT6_Product" locale="en_US" status="Approved">BT6_Product</key>
+   <key id="BusinessObject{::}BT6_TCENT_Material" locale="en_US" status="Approved">TcEnt Material</key>
+   <key id="Property{::}DocumentRevision Master{::}BT6_ApprDate_1" locale="en_US" status="Approved">BT6_ApprDate_1</key>
+   <key id="Property{::}DocumentRevision Master{::}BT6_ApprDate_2" locale="en_US" status="Approved">BT6_ApprDate_2</key>
+   <key id="Property{::}DocumentRevision Master{::}BT6_ApprDate_3" locale="en_US" status="Approved">BT6_ApprDate_3</key>
+   <key id="Property{::}DocumentRevision Master{::}BT6_ApprDate_4" locale="en_US" status="Approved">BT6_ApprDate_4</key>
+   <key id="Property{::}DocumentRevision Master{::}BT6_ApprDate_DocMapp" locale="en_US" status="Approved">BT6_ApprDate_DocMapp</key>
+   <key id="Property{::}DocumentRevision Master{::}BT6_ApprUser_1" locale="en_US" status="Approved">BT6_ApprUser_1</key>
+   <key id="Property{::}DocumentRevision Master{::}BT6_ApprUser_2" locale="en_US" status="Approved">BT6_ApprUser_2</key>
+   <key id="Property{::}DocumentRevision Master{::}BT6_ApprUser_3" locale="en_US" status="Approved">BT6_ApprUser_3</key>
+   <key id="Property{::}DocumentRevision Master{::}BT6_ApprUser_4" locale="en_US" status="Approved">BT6_ApprUser_4</key>
+   <key id="Property{::}DocumentRevision Master{::}BT6_ItemRevName_2" locale="en_US" status="Approved">BT6_ItemRevName_2</key>
+   <key id="Property{::}DocumentRevision Master{::}BT6_RevLastStatus" locale="en_US" status="Approved">BT6_RevLastStatus</key>
+   <key id="Property{::}IMSProfile{::}BT6_ApprDate_1" locale="en_US" status="Approved">BT6_ApprDate_1</key>
+   <key id="Property{::}IMSProfile{::}BT6_ApprDate_2" locale="en_US" status="Approved">BT6_ApprDate_2</key>
+   <key id="Property{::}IMSProfile{::}BT6_ApprDate_3" locale="en_US" status="Approved">BT6_ApprDate_3</key>
+   <key id="Property{::}IMSProfile{::}BT6_ApprDate_4" locale="en_US" status="Approved">BT6_ApprDate_4</key>
+   <key id="Property{::}IMSProfile{::}BT6_ApprDate_DocMapp" locale="en_US" status="Approved">BT6_ApprDate_DocMapp</key>
+   <key id="Property{::}IMSProfile{::}BT6_ApprUser_1" locale="en_US" status="Approved">BT6_ApprUser_1</key>
+   <key id="Property{::}IMSProfile{::}BT6_ApprUser_2" locale="en_US" status="Approved">BT6_ApprUser_2</key>
+   <key id="Property{::}IMSProfile{::}BT6_ApprUser_3" locale="en_US" status="Approved">BT6_ApprUser_3</key>
+   <key id="Property{::}IMSProfile{::}BT6_ApprUser_4" locale="en_US" status="Approved">BT6_ApprUser_4</key>
+   <key id="Property{::}IMSProfile{::}BT6_ItemRevName_2" locale="en_US" status="Approved">BT6_ItemRevName_2</key>
+   <key id="Property{::}IMSProfile{::}BT6_RevLastStatus" locale="en_US" status="Approved">BT6_RevLastStatus</key>
+   <key id="Property{::}Item{::}BT6_ArticleType" locale="en_US" status="Approved">Article Type</key>
+   <key id="Property{::}Part Revision Master{::}BT6_ApprDate_1" locale="en_US" status="Approved">BT6_ApprDate_1</key>
+   <key id="Property{::}Part Revision Master{::}BT6_ApprDate_2" locale="en_US" status="Approved">BT6_ApprDate_2</key>
+   <key id="Property{::}Part Revision Master{::}BT6_ApprDate_3" locale="en_US" status="Approved">BT6_ApprDate_3</key>
+   <key id="Property{::}Part Revision Master{::}BT6_ApprDate_4" locale="en_US" status="Approved">BT6_ApprDate_4</key>
+   <key id="Property{::}Part Revision Master{::}BT6_ApprDate_DocMapp" locale="en_US" status="Approved">BT6_ApprDate_DocMapp</key>
+   <key id="Property{::}Part Revision Master{::}BT6_ApprUser_1" locale="en_US" status="Approved">BT6_ApprUser_1</key>
+   <key id="Property{::}Part Revision Master{::}BT6_ApprUser_2" locale="en_US" status="Approved">BT6_ApprUser_2</key>
+   <key id="Property{::}Part Revision Master{::}BT6_ApprUser_3" locale="en_US" status="Approved">BT6_ApprUser_3</key>
+   <key id="Property{::}Part Revision Master{::}BT6_ApprUser_4" locale="en_US" status="Approved">BT6_ApprUser_4</key>
+   <key id="Property{::}Part Revision Master{::}BT6_ItemRevName_2" locale="en_US" status="Approved">BT6_ItemRevName_2</key>
+   <key id="Property{::}Part Revision Master{::}BT6_RevLastStatus" locale="en_US" status="Approved">BT6_RevLastStatus</key>
+   <key id="Property{::}PartVerMaster{::}BT6_ApprDate_1" locale="en_US" status="Approved">BT6_ApprDate_1</key>
+   <key id="Property{::}PartVerMaster{::}BT6_ApprDate_2" locale="en_US" status="Approved">BT6_ApprDate_2</key>
+   <key id="Property{::}PartVerMaster{::}BT6_ApprDate_3" locale="en_US" status="Approved">BT6_ApprDate_3</key>
+   <key id="Property{::}PartVerMaster{::}BT6_ApprDate_4" locale="en_US" status="Approved">BT6_ApprDate_4</key>
+   <key id="Property{::}PartVerMaster{::}BT6_ApprDate_DocMapp" locale="en_US" status="Approved">BT6_ApprDate_DocMapp</key>
+   <key id="Property{::}PartVerMaster{::}BT6_ApprUser_1" locale="en_US" status="Approved">BT6_ApprUser_1</key>
+   <key id="Property{::}PartVerMaster{::}BT6_ApprUser_2" locale="en_US" status="Approved">BT6_ApprUser_2</key>
+   <key id="Property{::}PartVerMaster{::}BT6_ApprUser_3" locale="en_US" status="Approved">BT6_ApprUser_3</key>
+   <key id="Property{::}PartVerMaster{::}BT6_ApprUser_4" locale="en_US" status="Approved">BT6_ApprUser_4</key>
+   <key id="Property{::}PartVerMaster{::}BT6_ItemRevName_2" locale="en_US" status="Approved">BT6_ItemRevName_2</key>
+   <key id="Property{::}PartVerMaster{::}BT6_RevLastStatus" locale="en_US" status="Approved">BT6_RevLastStatus</key>
+</Add>
+</TcBusinessDataLocalization>

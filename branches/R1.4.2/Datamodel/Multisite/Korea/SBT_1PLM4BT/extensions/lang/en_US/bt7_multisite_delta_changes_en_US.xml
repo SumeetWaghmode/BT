@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}CMHasProblemItem" status="Approved">Problem Items</key>
+   <key locale="en_US" id="BusinessObject{::}CMHasSolutionItem" status="Approved">Solution Items</key>
+   <key locale="en_US" id="BusinessObject{::}CMReferences" status="Approved">Reference Items</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_StatusList{::}10" status="Approved">Pre Release</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_StatusList{::}5" status="Approved">Locked</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_StatusList{::}60" status="Approved">Serial Release</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_StatusList{::}90" status="Approved">Obsolete</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_StatusList{::}98" status="Approved">Annulled</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}pt_vassm" status="Approved">Variant Assembly</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Con{::}dtype_07" status="Approved">Directives and standards</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Con{::}dtype_09" status="Approved">Education and training</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Con{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Con{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Con{::}dtype_24" status="Approved">Procedure instructions</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Con{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Con{::}dtype_27" status="Approved">Technical specification</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Con{::}dtype_28" status="Approved">Template</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_PaP{::}dtype_08" status="Approved">Document regarding changes</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_PaP{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_PaP{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_PaP{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Spec{::}dtype_04" status="Approved">Data sheet</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Spec{::}dtype_06" status="Approved">Design Drawing</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Spec{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Spec{::}dtype_15" status="Approved">Inspection and test document</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Spec{::}dtype_20" status="Approved">Material declaration</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Spec{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Spec{::}dtype_24" status="Approved">Procedure instructions</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Spec{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Spec{::}dtype_27" status="Approved">Technical specification</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Ver{::}dtype_02" status="Approved">Calculation and dimensioning</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Ver{::}dtype_06" status="Approved">Design Drawing</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Ver{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Ver{::}dtype_16" status="Approved">Inspection and test report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Ver{::}dtype_20" status="Approved">Material declaration</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Ver{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Dev_Ver{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Con{::}dtype_07" status="Approved">Directives and standards</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Con{::}dtype_09" status="Approved">Education and training</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Con{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Con{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Con{::}dtype_24" status="Approved">Procedure instructions</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Con{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Con{::}dtype_28" status="Approved">Template</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_PaP{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_PaP{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_PaP{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Spec{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Spec{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Spec{::}dtype_24" status="Approved">Procedure instructions</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Spec{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Ver{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Ver{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_MaP_Ver{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Con{::}dtype_07" status="Approved">Directives and standards</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Con{::}dtype_09" status="Approved">Education and training</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Con{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Con{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Con{::}dtype_24" status="Approved">Procedure instructions</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Con{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Con{::}dtype_27" status="Approved">Technical specification</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Con{::}dtype_28" status="Approved">Template</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_PaP{::}dtype_08" status="Approved">Document regarding changes</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_PaP{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_PaP{::}dtype_14" status="Approved">Inquiry, calculation and offer document</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_PaP{::}dtype_21" status="Approved">Order and delivery document</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_PaP{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_PaP{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_01" status="Approved">Assembly drawing</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_03" status="Approved">Circuit diagram</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_06" status="Approved">Design Drawing</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_11" status="Approved">Firmware</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_15" status="Approved">Inspection and test document</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_19" status="Approved">Marking</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_20" status="Approved">Material declaration</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_23" status="Approved">Parts list</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_24" status="Approved">Procedure instructions</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_26" status="Approved">Technical delivery conditions</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Spec{::}dtype_27" status="Approved">Technical specification</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Ver{::}dtype_06" status="Approved">Design Drawing</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Ver{::}dtype_12" status="Approved">First article inspection report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Ver{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Ver{::}dtype_16" status="Approved">Inspection and test report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Ver{::}dtype_20" status="Approved">Material declaration</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Ver{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_Manu_Ver{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Con{::}dtype_07" status="Approved">Directives and standards</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Con{::}dtype_09" status="Approved">Education and training</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Con{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Con{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Con{::}dtype_24" status="Approved">Procedure instructions</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Con{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Con{::}dtype_27" status="Approved">Technical specification</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Con{::}dtype_28" status="Approved">Template</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_PaP{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_PaP{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_PaP{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Spec{::}dtype_05" status="Approved">Declaration of conformity</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Spec{::}dtype_06" status="Approved">Design Drawing</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Spec{::}dtype_10" status="Approved">Environment-related information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Spec{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Spec{::}dtype_15" status="Approved">Inspection and test document</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Spec{::}dtype_17" status="Approved">Inspection document</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Spec{::}dtype_18" status="Approved">Instructions for use</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Spec{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Spec{::}dtype_24" status="Approved">Procedure instructions</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Spec{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Spec{::}dtype_27" status="Approved">Technical specification</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Ver{::}dtype_05" status="Approved">Declaration of conformity</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Ver{::}dtype_06" status="Approved">Design Drawing</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Ver{::}dtype_13" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Ver{::}dtype_16" status="Approved">Inspection and test report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Ver{::}dtype_17" status="Approved">Inspection document</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Ver{::}dtype_22" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_Class_UaD_Ver{::}dtype_25" status="Approved">Report</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentClass{::}dclass_MaP" status="Approved">Management and Process</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentClass{::}dclass_UaD" status="Approved">Usage and Disposal</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentClass{::}dclass_dev" status="Approved">Development</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentClass{::}dclass_manu" status="Approved">Manufacturing</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_MaP{::}dsclass_Con_MaP"
+       status="Approved">Condition</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_MaP{::}dsclass_PaP_MaP"
+       status="Approved">Project and Process</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_MaP{::}dsclass_Spec_MaP"
+       status="Approved">Specification</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_MaP{::}dsclass_Ver_MaP"
+       status="Approved">Verification</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_UaD{::}dsclass_Con_UaD"
+       status="Approved">Condition</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_UaD{::}dsclass_PaP_UaD"
+       status="Approved">Project and Process</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_UaD{::}dsclass_Spec_UaD"
+       status="Approved">Specification</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_UaD{::}dsclass_Ver_UaD"
+       status="Approved">Verification</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_dev{::}dsclass_Con_dev"
+       status="Approved">Condition</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_dev{::}dsclass_PaP_dev"
+       status="Approved">Project and Process</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_dev{::}dsclass_Spec_dev"
+       status="Approved">Specification</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_dev{::}dsclass_Ver_dev"
+       status="Approved">Verification</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_manu{::}dsclass_Con_manu"
+       status="Approved">Condition</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_manu{::}dsclass_PaP_manu"
+       status="Approved">Project and Process</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_manu{::}dsclass_Spec_manu"
+       status="Approved">Specification</key>
+   <key locale="en_US" id="LOVValue{::}Bt7_LOV_DocumentSubclass_manu{::}dsclass_Ver_manu"
+       status="Approved">Verification</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_doctype" status="Approved">Doc Type</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_documentClass"
+       status="Approved">.Document .Phase</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_documentSNType"
+       status="Approved">.Document Type</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_documentSubClass"
+       status="Approved">.Document Activity</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_SupplierCode_1" status="Approved">Supplier 1 Code</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_SupplierCode_2" status="Approved">Supplier 2 Code</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_rtp_ApprDate_DocMapp" status="Approved">BT7 Appr. Date Doc. Mapping</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_rtp_latest_rel_status"
+       status="Approved">BT7 Latest Status</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_rtp_map_status" status="Approved">Status Description</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_rtp_resuom" status="Approved">BT7 resulting UOM</key>
+   <key locale="en_US" id="Property{::}UGALTREP{::}bt7_cp_CheckClass" status="Approved">Check Class</key>
+   <key locale="en_US" id="Property{::}UGMASTER{::}bt7_cp_CheckClass" status="Approved">Check Class</key>
+   <key locale="en_US" id="Property{::}UGPART{::}bt7_cp_CheckClass" status="Approved">Check Class</key>
+   <key locale="en_US" id="Property{::}UGPartAttr{::}bt7_CheckClass" status="Approved">Check Class</key>
+</Add>
+</TcBusinessDataLocalization>

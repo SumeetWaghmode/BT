@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!--=================================================================================================
+
+                        Copyright (c) 2001 Electronic Data Systems Corporation
+                                 Unpublished - All rights reserved
+
+====================================================================================================
+File description:
+
+            Filename:
+            Module:
+
+            XML File defining ___ module text/error messages.
+            This was previously done in UIH/UIL/VIL format.
+====================================================================================================
+   Date      Name                    Description of Change
+
+18-Jun-2002  Anupam Tiwari           Updated for phase P8.1.0.1
+1.1.1     16.01.2009  J. Baylis       added errors 124-126 for VPDG-checkForm
+$HISTORY$
+==================================================================================================-->
+<textsrv filename="ue_errors.xml">
+<errors module="ue" error_base="919000">
+<error id="1">USER_EXIT:    User Exit %1$ failed</error>
+<error id="104">TCPB-RH-checkForm: not all mandatory values filled in Form(s). More information in text-dataset(s) added to %1$</error>
+<error id="105">TCPB-RH-checkForm: not all mandatory values filled in Form(s). See further entries below:</error>
+<error id="106">TCPB-RH-checkForm: %1$</error>
+<error id="110">At least one invalid signoff user. Users must not match.</error>
+<error id="111">TCPB-RH-checkBomPrecision: attached Assemblies did not all match the configured precision</error>
+<error id="112">TCPB-RH-checkBomPrecision:      %1$</error>
+<error id="113">One of the arguments previous_status, current_status or next_status must be given! Contact your system administrator!</error>
+<error id="114">Target %1$ has invalid status or is missing a wanted status.</error>
+<error id="115">Previous revision %1$ with not allowed status or without a wanted status.</error>
+<error id="116">Newer revision %1$ with not allowed status or without a wanted status.</error>
+<error id="117">Target %1$ has no previous revisions.</error>
+<error id="118">Target %1$ has no newer revisions.</error>
+<error id="303">The Folder %1$ is not empty. Please cut all Objects before delete.</error>
+<error id="304">The dataset %1$ belongs to an Item used in an assembly, so may not be removed</error>
+<error id="308">Named Reference Form not found</error>
+<error id="309">Invalid Item Id</error>
+<error id="310">Invalid Revision Id</error>
+<error id="311">Invalid Item Name</error>
+<error id="312">Block definition not found</error>
+<error id="313">Invalid Revision Id</error>
+<error id="314">Number Generator Counter Overflow</error>
+<error id="315">Object is checked out</error>
+<error id="316">No Write Privilege for Object</error>
+<error id="317">Object is not modifiable</error>
+<error id="318">Revision has a Latest ReleaseStatus, that is not allowed for Item rename</error>
+<error id="319">Invalid attribute specified in ReName preference SaveOldId</error>
+<error id="320">This Item is registered and must be unregistered by a dba user before renaming it</error>
+<error id="499">Unspecified Error occured</error>
+<!-- <error id="124">VPDG-RH-checkForm: not all mandatory values filled in Form(s). More information in text-dataset(s) added to %1$</error>
+<error id="125">VPDG-RH-checkForm: not all mandatory values filled in Form(s). See further entries below:</error>
+<error id="126">VPDG-RH-checkForm: %1$</error> -->
+<error id="307">Tool not available</error>
+<!-- <error id="308">Function not available for Object</error>
+<error id="309">Revision not found</error>
+<error id="310">No Folder Object selected</error>
+<error id="311">Form not found</error>
+<error id="312">NamedReference Form not found</error>
+<error id="313">Form not modifiable</error>
+<error id="314">Part not modifiable</error>
+<error id="315">Datasettype not defined</error>
+<error id="320">Invalid Item Id</error> -->
+<error id="321">Invalid Revision Id</error>
+<error id="322">Invalid Item Name</error>
+<error id="323">No Item-ID Generator available for this type</error>
+<error id="324">Blockdefinition not found</error>
+<error id="325">Invalid Revision Id</error>
+<error id="326">Number Generator Counter Overflow</error>
+<error id="340">Object is checked out</error>
+<error id="341">No Write Privilege for Object</error>
+<error id="342">Object is not modifiable</error>
+<error id="343">Revision has a Latest ReleaseStatus, that is not allowed for Item rename</error>
+<error id="344">Invalid attribute specified in ReName preference SaveOldId</error>
+<error id="345">This Item is registered and must be unregistered by a dba user before renaming it</error>
+<error id="350">Unable to open File</error>
+<error id="351">Revision not found</error>
+<error id="352">Item not found</error>
+<error id="353">Unsupported Object Type</error>
+<error id="401">Status Change not possible, no Change Privelege granted</error>
+<error id="402">Status Change on selected Object not configured</error>
+<error id="403">Status Change on selected Object not allowed</error>
+<error id="404">Status Change failed because a Mandatory Attribute not filled</error>
+<error id="405">Status Change failed because an Object is checked out</error>
+<error id="408">Status Change failed because of invalid State of previous Revision</error>
+<error id="500">The Folder %1$ is not empty. Please cut all Objects before delete.</error>
+<error id="501">The dataset %1$ belongs to an Item used in an assembly, so may not be removed</error>
+<error id="502">The dataset %1$ belongs to an Item used in an assembly, so may not be removed</error>
+<error id="701">ERROR: The ItemID is rejected by the Siemens Normmodul</error>
+<error id="702">ERROR: MfgPrtName and MfgPrtNumber should not be empty.</error>
+<error id="703">ERROR: The ItemID already exists. Please check the Mfg. Name and Number</error>
+<error id="704">ERROR: Temporary Common Comp could not be found</error>
+<error id="705">ERROR: Workflow targets must contain a CCR and a Common Component</error>
+<error id="706">ERROR: Only revisions are allowed to be pasted into the impacted items folder</error>
+<error id="707">ERROR: For the revision you tried to copy into the impacted items folder a successor (higher revision) already exists.</error>
+<error id="708">ERROR: Config Item not found! Please check the parameter 'ItemID' of the handler 'SBT-AH-generateCadimName'</error>
+<error id="709">ERROR: Not exactly one IMAN_specification found for the configuration Item!</error>
+<error id="710">ERROR: The ActionHandler 'SBT_AH_set_status_for_object_type' requires the arguments 'object_type' and 'status_name' !</error>
+<error id="711">ERROR: The ActionHandler 'SBT_AH_generateCadimName' requires the arguments 'CadimStatus' and 'ItemId' !</error>
+<error id="712">ERROR: The ActionHandler 'SBT_AH_assign_to_project' requires the argument 'project_id' !</error>
+<error id="713">ERROR: The ActionHandler 'SBT_AH_send_notification' requires the arguments 'subject' and 'message' !</error>
+<error id="714">ERROR: The ActionHandler 'SBT_RH_check_target_released' requires the arguments 'status' !</error>
+<error id="715">ERROR: The ActionHandler 'SBT_RH_part_has_released_bom_attached' requires the arguments 'status' !</error>
+<error id="716">ERROR: Common Component Item is not classified or the naming-rule can not be found !</error>
+<error id="717">ERROR: Minor Revisions are not allowed as targets of this Workflow (exception: PCB raw) !</error>
+<error id="718">WARNING: Please switch to the group 'Common Component Engineering' and the role 'Designer' to ensure a correct ownership of the object !</error>
+<error id="719">ERROR: The RuleHandler 'SBT_RH_isPrivilegedMemberOfProject' requires the argument 'projectid' !</error>
+<error id="720">ERROR: The project '%1$' could not be found !</error>
+<error id="721">ERROR: The latest status must be Pre Release or Serial Release !</error>
+<error id="722">ERROR: Not allowed to create this relation due to SBT-Zug Relation-Rules !</error>
+<error id="723">ERROR: The latest status must be Pre Release or Serial Release (or WIP for Products) !</error>
+<error id="724">ERROR: Only Change Control Managers are allowed to start an ECO-Workflow !</error>
+<error id="725">The selected revision is already attached to an ECO. Please check with the creator of the ECO.</error>
+<error id="726">ERROR: The revision is not the latest revision with status Pre Release !</error>
+<error id="727">ERROR: The revision is not the latest revision with status Serial Release !</error>
+<error id="728">ERROR: The revision is not the latest revision with status WIP !</error>
+<error id="729">ERROR: Not allowed to delete this relation due to SBT-Zug Relation-Rules !</error>
+<error id="730">ERROR: Users from Zug shouldn't paste ITEMS (instead of Revisions) into the Concerned-Relation !</error>
+<error id="731">WARNING: The BT7_Product is used in a completed workflow and could not be removed</error>
+<error id="732">ERROR: Item Revision has to be a Solution Item in started ECO. ECO must not be opened or finished.</error>
+<error id="733">ERROR: Value of Subtitle 1 and Subtitle 2 should be less than 50 characters</error>
+<error id="734">ERROR: The revision is not the latest revision with status Obsolete</error>
+<error id="735">ERROR: No equal status on workflow targets</error>
+<error id="998">%1$</error>
+<error id="999">Unspecified Error occured</error>
+</errors>
+</textsrv>

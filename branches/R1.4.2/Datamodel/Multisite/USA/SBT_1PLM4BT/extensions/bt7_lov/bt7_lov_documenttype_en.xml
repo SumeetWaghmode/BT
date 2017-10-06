@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_DocumentType_EN" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_DocumentType_EN">
+     <TcLOVValue value="---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Quotation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Test Instruction" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Work instruction" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Package leaflet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Equipment design-order" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CE-document" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Checklist" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Data sheet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Docs. project management" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Documentation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Artwork" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Recording modifications" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FAIR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Strenght verification" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Customer agreement" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PCB Layout order" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Supplier agreement" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Supplier specification" description="" conditionName="isTrue"/>
+     <TcLOVValue value="List" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mounting instruction" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Document for approval" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pneum. control docs." description="" conditionName="isTrue"/>
+     <TcLOVValue value="Environ. Product Declaration" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Minutes" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Testfile" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BOM - Equipment design" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BOM - Spare parts" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BOM - Unit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BOM - PCB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BOM - Accessories" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SW-version control" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Technical Delivery Conditions" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Type-label sheet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Type code" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Type declaration" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rework instruction" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Process instruction" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Template" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>
+

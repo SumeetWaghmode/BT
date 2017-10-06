@@ -1,0 +1,10 @@
+     [echo]  Executing MakeExecutable Target 
+     [echo] MSDEV_INCLUDE: ${env.MSDEV_INCLUDE}
+     [echo] MSDEV_HOME: C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC
+
+MakeExecutable:
+     [echo]  Compiling and linking bt7_report_bom . . . 
+       [cc] 1 total files to be compiled.
+       [cc] bt7_report_bom.cpp
+       [cc] C:\Program Files (x86)\Windows Kits\8.0\include\um\winnt.h(18621) : fatal error C1090: PDB API call failed, error code '23' : '(
+     [echo]  Failed to create bt7_report_bom.exe 

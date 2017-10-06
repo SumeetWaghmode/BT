@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_VolumeUnit" lovType="ListOfValuesString" usage="Exhaustive"
+       description="BT7_LOV_VolumeUnit">
+     <TcLOVValue value="mm" description="" conditionName="isTrue"/>
+     <TcLOVValue value="cm" description="" conditionName="isTrue"/>
+     <TcLOVValue value="dm" description="" conditionName="isTrue"/>
+     <TcLOVValue value="m" description="" conditionName="isTrue"/>
+     <TcLOVValue value="mm3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="cm3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="l(dm3)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="m3" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

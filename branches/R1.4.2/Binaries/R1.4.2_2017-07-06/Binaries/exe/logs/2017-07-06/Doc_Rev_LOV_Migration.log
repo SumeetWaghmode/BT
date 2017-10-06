@@ -1,0 +1,13 @@
+     [echo]  Executing MakeExecutable Target 
+     [echo] MSDEV_INCLUDE: ${env.MSDEV_INCLUDE}
+     [echo] MSDEV_HOME: C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC
+
+MakeExecutable:
+     [echo]  Compiling and linking Doc_Rev_LOV_Migration . . . 
+       [cc] Starting dependency analysis for 2 files.
+       [cc] 2 files are up to date.
+       [cc] 0 files to be recompiled from dependency analysis.
+       [cc] 0 total files to be compiled.
+       [cc] Starting link
+   [delete] Deleting: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\Doc_Rev_LOV_Migration\rerun
+     [echo]  Created Doc_Rev_LOV_Migration.exe successfully 

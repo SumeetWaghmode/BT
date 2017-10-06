@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_ProductType_DE" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_ProductType_DE">
+     <TcLOVValue value="---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Adapter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Antrieb" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Armatur mit integr. Antrieb" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bedieneinheit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Biogasventil" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Blinddeckel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Brennstoff-/Luftverbundsteuerung" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CAN-Bus-Modul" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Datenmodul" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Demogeraet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Drosselklappe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Druckwaechter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Elektromotorischer Antrieb" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Elektronische Zuendeinrichtung" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Feuerungsautomat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flammenfuehler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flammenwaechter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fuehler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gasfeuerungsautomat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gasfeuerungsautomat LF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gasmagnetventil" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gasventil" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Infrarot Flammenfühler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Interface" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Klappenantrieb" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kleingasheizer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kommunikationsmodul" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Luftventil" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mensch-Maschine Schnittstelle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Messumformer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mischer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="O2-Regelung" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oelfeuerungsautomat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oelvorwaermerregelung" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pruefgeraet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sauerstofffuehler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Selen-/Photozellenfuehler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Servicegeraet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Software-Produkt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Steckergehaeuse" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stecksockel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stecksockel vorverdrahtet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stellantrieb" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Steuer/Regelgeraet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Steuer/Regelgeraet ohne Gehaeuse" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Steuergeraet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Temperaturfuehler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="UV-Flammenfühler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ventil" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Zubehoer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Zubehoer fuer Antrieb" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Zuend-/Pilotbrenner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Zuendfunkendetektor" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

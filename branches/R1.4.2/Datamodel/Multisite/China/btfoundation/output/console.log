@@ -1,0 +1,276 @@
+--------------------------------------------------------------------------------
+Date: 18-Nov-2016_12-36-51
+--------------------------------------------------------------------------------
+Loading project: "btfoundation"
+Parsing Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:12 Column:40 cvc-elt.1: Cannot find the declaration of element 'TcBusinessDataLocalization'.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:71 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:73 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:75 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:77 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:79 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:81 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:83 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:85 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:87 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:89 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:91 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:93 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:95 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:97 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:99 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:101 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:103 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:105 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:107 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:109 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:111 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:113 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:115 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:117 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:119 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:121 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:123 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:125 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:27 Column:105 Undefined Business Object "BT6_EngChangeOrder" (hiddenTypeName) in TcTypeDisplayRule element. ( Template Name : "btfoundation" )
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\lang\en_US\delta_status_rename_en_US.xml Line:14 Column:116 The operation "Change" to element "key" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\lang\en_US\delta_status_rename_en_US.xml Line:15 Column:112 The operation "Change" to element "key" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\lang\en_US\delta_status_rename_en_US.xml Line:16 Column:108 The operation "Change" to element "key" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\lang\en_US\delta_status_rename_en_US.xml Line:17 Column:117 The operation "Change" to element "key" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\lang\en_US\delta_status_rename_en_US.xml Line:18 Column:111 The operation "Change" to element "key" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\lang\en_US\delta_status_rename_en_US.xml Line:19 Column:111 The operation "Change" to element "key" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\lang\en_US\delta_status_rename_en_US.xml Line:21 Column:65 The operation "Change" to element "key" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\lang\en_US\delta_status_rename_en_US.xml Line:23 Column:65 The operation "Change" to element "key" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\lang\en_US\delta_status_rename_en_US.xml Line:25 Column:54 The operation "Change" to element "key" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\lang\en_US\delta_status_rename_en_US.xml Line:27 Column:59 The operation "Change" to element "key" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\lang\en_US\delta_status_rename_en_US.xml Line:29 Column:54 The operation "Change" to element "key" is not supported.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Date: 18-Nov-2016_12-40-17
+--------------------------------------------------------------------------------
+Loading project: "btfoundation"
+Parsing Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:12 Column:40 cvc-elt.1: Cannot find the declaration of element 'TcBusinessDataLocalization'.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:71 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:73 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:75 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:77 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:79 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:81 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:83 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:85 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:87 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:89 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:91 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:93 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:95 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:97 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:99 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:101 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:103 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:105 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:107 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:109 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:111 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:113 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:115 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:117 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:119 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:121 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:123 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:125 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:27 Column:105 Undefined Business Object "BT6_EngChangeOrder" (hiddenTypeName) in TcTypeDisplayRule element. ( Template Name : "btfoundation" )
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\lang\en_US\delta_status_rename_en_US.xml Line:14 Column:116 Undefined Status BT7_ECO (TcStatus) in ReleaseStatus{::}BT7_ECO. ( Template Name : "sbt1plm4bt" )
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Date: 18-Nov-2016_12-42-02
+--------------------------------------------------------------------------------
+Loading project: "btfoundation"
+Parsing Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:12 Column:40 cvc-elt.1: Cannot find the declaration of element 'TcBusinessDataLocalization'.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:71 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:73 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:75 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:77 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:79 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:81 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:83 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:85 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:87 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:89 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:91 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:93 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:95 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:97 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:99 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:101 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:103 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:105 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:107 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:109 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:111 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:113 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:115 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:117 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:119 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:121 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:123 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:125 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:27 Column:105 Undefined Business Object "BT6_EngChangeOrder" (hiddenTypeName) in TcTypeDisplayRule element. ( Template Name : "btfoundation" )
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\lang\en_US\delta_status_rename_en_US.xml Line:14 Column:116 Undefined Status BT7_ECO (TcStatus) in ReleaseStatus{::}BT7_ECO. ( Template Name : "sbt1plm4bt" )
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Date: 18-Nov-2016_12-44-48
+--------------------------------------------------------------------------------
+Loading project: "btfoundation"
+Parsing Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:12 Column:40 cvc-elt.1: Cannot find the declaration of element 'TcBusinessDataLocalization'.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:71 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:73 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:75 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:77 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:79 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:81 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:83 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:85 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:87 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:89 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:91 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:93 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:95 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:97 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:99 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:101 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:103 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:105 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:107 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:109 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:111 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:113 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:115 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:117 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:119 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:121 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:123 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:125 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:27 Column:105 Undefined Business Object "BT6_EngChangeOrder" (hiddenTypeName) in TcTypeDisplayRule element. ( Template Name : "btfoundation" )
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Date: 18-Nov-2016_12-46-08
+--------------------------------------------------------------------------------
+Loading project: "btfoundation"
+Parsing Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:4 Column:6 cvc-complex-type.2.4.a: Invalid content was found starting with element 'Add'. One of '{"http://teamcenter.com/BusinessModel/TcBusinessData":TcBusinessDataElement}' is expected.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:62 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:64 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:66 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:68 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:70 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:72 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:74 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:76 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:78 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:80 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:82 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:84 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:86 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:88 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:90 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:92 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:94 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:96 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:98 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:100 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:102 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:104 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:106 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:108 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:110 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:112 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:114 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:116 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Parsing Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:118 Column:3 The element type "Add" must be terminated by the matching end-tag "</Add>".
+The element type "Add" must be terminated by the matching end-tag "</Add>".
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Date: 18-Nov-2016_12-46-46
+--------------------------------------------------------------------------------
+Loading project: "btfoundation"
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:61 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:63 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:65 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:67 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:69 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:71 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:73 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:75 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:77 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:79 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:81 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:83 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:85 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:87 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:89 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:91 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:93 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:95 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:97 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:99 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:101 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:103 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:105 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:107 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:109 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:111 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:113 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:115 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Parsing Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:117 Column:17 The end-tag for element type "TcBusinessData" must end with a '>' delimiter.
+The end-tag for element type "TcBusinessData" must end with a '>' delimiter.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Date: 18-Nov-2016_12-47-40
+--------------------------------------------------------------------------------
+Loading project: "btfoundation"
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:61 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:63 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:65 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:67 Column:74 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:69 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:71 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:73 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:75 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:77 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:79 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:81 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:83 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:85 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:87 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:89 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:91 Column:75 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:93 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:95 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:97 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:99 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:101 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:103 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:105 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:107 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:109 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:111 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:113 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:115 Column:48 The operation "Delete" to element "TcTypeDisplayRule" is not supported.
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:17 Column:105 Undefined Business Object "BT6_EngChangeOrder" (hiddenTypeName) in TcTypeDisplayRule element. ( Template Name : "btfoundation" )
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Date: 18-Nov-2016_12-50-06
+--------------------------------------------------------------------------------
+Loading project: "btfoundation"
+Model Error: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:17 Column:105 Undefined Business Object "BT6_EngChangeOrder" (hiddenTypeName) in TcTypeDisplayRule element. ( Template Name : "btfoundation" )
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Date: 18-Nov-2016_12-51-49
+--------------------------------------------------------------------------------
+Loading project: "btfoundation"
+Model Information: X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml Line:17 Column:105 The element(Business Object Display Rule = BT6_EngChange, Organization, Organization, isTrue)( defined in X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml ) is identical to the element defined in X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml. Hence the element( defined in X:\SVN\Datamodel\Multisite\China\btfoundation\extensions\delta_status_rename.xml ) was ignored and not loaded.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Date: 09-Mar-2017_08-27-20
+--------------------------------------------------------------------------------
+Loading project: "btfoundation"
+Model Error: O:\0SBT-PR-TC11UPGR\trunk\MRT\Datamodel\Multisite\China\btfoundation\extensions\default.xml Line:1461 Column:31 null
+--------------------------------------------------------------------------------

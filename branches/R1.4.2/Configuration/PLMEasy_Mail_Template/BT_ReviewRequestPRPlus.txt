@@ -1,0 +1,8 @@
+You are requested to review the release to Status PR+ for the following objects
+
+$TARGET(ItemRevision)
+
+
+
+Best Regards
+$SENDER

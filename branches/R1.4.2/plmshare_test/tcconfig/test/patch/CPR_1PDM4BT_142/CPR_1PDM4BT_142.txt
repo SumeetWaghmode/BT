@@ -1,0 +1,23 @@
+CPR_1PDM4BT_141
+
+This file is written to indicate that the latest patch is installed.
+Please do not remove.
+
+Release Notes:
+- 06-02-2017-Patch fing BTQs (30) - please find related informtion in BTQ Systeme for RElese 1.4.0_01
+- 18-02-2017 - Patch containing latest changes according to test
+- 25-03-2017:
+BTQ00278726, BTQ00271191 - Vendor Part ID won't contain Manufacturer IDVendor Part Creation is done through selecting Manufacturer Revision
+BTQ00278726 - Code Adaption: Vendor Part Item ID won't contain Manufacturer ID (CCR)
+BTQ00278726 - Code Adaption: Vendor Part Item ID won't contain Manufacturer ID (CADIM)
+BTQ00278726 - Code Adaption: Vendor Part Item ID won't contain Manufacturer ID (EKK_QPL, ZQPLT)
+BTQ00241379 - Change Description is now 11 lines instead of 3 lines in Edit Mode
+BTQ00280051 - Bejing DB: Error when trying to open PDF dataset in ActiveWorkspaceClient, Existing PDF Named References in China are migrated to "PDF_Reference"
+BTQ00264596 - Bejing DB: Default PDF Named References is "PDF_Reference" and not "pdf"
+BTQ00276112 - Multisite Entry "AWS_FullTextSearch_Solr_Site" has to be available because AWC Database. (cannot be removed)
+BTQ00277712 - Reuse of migrated BT6_EngChange Revisions. User can cut solution items with missing ECO Number and copy it again in same ECO to get ECO Number.
+BTQ00270307 - PLMEasy functions in StructureManager 4-tier
+BTQ00284532 - Data Model Extension for NX Checker
+Created seperate Naming Rule for CommonComponents because of @ due to Classification
+
+

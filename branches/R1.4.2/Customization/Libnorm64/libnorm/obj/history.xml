@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="cl /GS /TC /W3 /Gy /Zc:wchar_t- /Gm- /Od /sdl- /fp:precise /errorReport:prompt /Zc:forScope /RTC1 /Gd /MD /EHs /nologo /c /nologo /DNDEBUG /MD /DWIN32 /DNDEBUG /D_WINDOWS /D_USRDLL /DIPLIB=none /D_WINDLL /D_MBCS /I..\..\..\dump\112\include /I..\..\..\dump\112\include_cpp /I..\..\..\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\Libnorm64\libnorm\src /I..\..\..\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\Libnorm64\WEMH_Common /IC:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include">
+      <target file="Norm06.obj" lastModified="15d1d09935e">
+         <source file="..\src\Norm06.c" lastModified="15cd48b8e36"/>
+      </target>
+      <target file="Norm05.obj" lastModified="15d1d0993d2">
+         <source file="..\src\Norm05.c" lastModified="15cd48b8e2f"/>
+      </target>
+      <target file="Norm04.obj" lastModified="15d1d099357">
+         <source file="..\src\Norm04.c" lastModified="15cd48b8e2b"/>
+      </target>
+      <target file="Norm051.obj" lastModified="15d1d09940e">
+         <source file="..\src\Norm051.c" lastModified="15cd48b8e33"/>
+      </target>
+      <target file="Norm03.obj" lastModified="15d1d0993c4">
+         <source file="..\src\Norm03.c" lastModified="15cd48b8e27"/>
+      </target>
+      <target file="Norm02.obj" lastModified="15d1d099348">
+         <source file="..\src\Norm02.c" lastModified="15cd48b8e21"/>
+      </target>
+      <target file="Norm15.obj" lastModified="15d1d099401">
+         <source file="..\src\Norm15.c" lastModified="15cd48b8e5f"/>
+      </target>
+      <target file="Norm01.obj" lastModified="15d1d0993b0">
+         <source file="..\src\Norm01.c" lastModified="15cd48b8e16"/>
+      </target>
+      <target file="Norm14.obj" lastModified="15d1d09939d">
+         <source file="..\src\Norm14.c" lastModified="15cd48b8e5b"/>
+      </target>
+      <target file="Norm00.obj" lastModified="15d1d099330">
+         <source file="..\src\Norm00.c" lastModified="15cd48b8e09"/>
+      </target>
+      <target file="Norm13.obj" lastModified="15d1d0993fa">
+         <source file="..\src\Norm13.c" lastModified="15cd48b8e56"/>
+      </target>
+      <target file="Norm12.obj" lastModified="15d1d099393">
+         <source file="..\src\Norm12.c" lastModified="15cd48b8e4d"/>
+      </target>
+      <target file="Norm09.obj" lastModified="15d1d0993ef">
+         <source file="..\src\Norm09.c" lastModified="15cd48b8e41"/>
+      </target>
+      <target file="Norm11.obj" lastModified="15d1d0993e2">
+         <source file="..\src\Norm11.c" lastModified="15cd48b8e48"/>
+      </target>
+      <target file="Norm10.obj" lastModified="15d1d099368">
+         <source file="..\src\Norm10.c" lastModified="15cd48b8e45"/>
+      </target>
+      <target file="Norm08.obj" lastModified="15d1d099380">
+         <source file="..\src\Norm08.c" lastModified="15cd48b8e3e"/>
+      </target>
+      <target file="Norm07.obj" lastModified="15d1d0993d9">
+         <source file="..\src\Norm07.c" lastModified="15cd48b8e39"/>
+      </target>
+   </processor>
+</history>

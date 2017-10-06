@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_Treatment_EN" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_Treatment_EN">
+     <TcLOVValue value="---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="case-hardened" description="" conditionName="isTrue"/>
+     <TcLOVValue value="hardened" description="" conditionName="isTrue"/>
+     <TcLOVValue value="hardened and tempered 57+3 HRC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="hardened and tempered 59+2 HRC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="hardened and tempered 61+2 HRC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="tempered" description="" conditionName="isTrue"/>
+     <TcLOVValue value="hard coated" description="" conditionName="isTrue"/>
+     <TcLOVValue value="induction hardened 60+5 HRC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Solder mask CTI &gt;= 175" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Solder mask CTI &gt;= 200" description="" conditionName="isTrue"/>
+     <TcLOVValue value="oil-soaked" description="" conditionName="isTrue"/>
+     <TcLOVValue value="phosphated" description="" conditionName="isTrue"/>
+     <TcLOVValue value="plasma-nitrided" description="" conditionName="isTrue"/>
+     <TcLOVValue value="plasma-nitrided Nht 0,3+0,2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="plasma-nitrided Nht 0,4+0,2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="plasma-nitrided Nht 0,5+0,2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="cleaning acc. VV H3 3329 1003" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

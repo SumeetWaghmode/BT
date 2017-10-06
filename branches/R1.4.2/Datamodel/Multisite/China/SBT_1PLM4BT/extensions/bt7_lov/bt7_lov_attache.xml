@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOVAttach lovName="BT7_LOV_AlternateUOM" typeName="Item">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_AlternateUnitOfMeasure" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_ApprUser_2" typeName="BT7_TcEntValuesStorage">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_ApprUser_2" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_ApprUser_2" typeName="ItemRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_ApprUser_2" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_DocOrigin" typeName="BT7_DocumentRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_DocOrigin" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_DocumentType_DE" typeName="BT7_Document">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_DocType_2" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_DocumentType_EN" typeName="BT7_Document">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_DocumentType" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_GeneralTolerance" typeName="BT7_TcEntValuesStorage">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_GeneralTolerance" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_GeneralTolerance" typeName="ItemRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_GeneralTolerance" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_MassUnit" typeName="BT7_TcEntValuesStorage">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_MassUnit" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_PartType_DE" typeName="ItemRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_PartType_2" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_StatusList" typeName="ItemRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_RevLastStatus" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_Supplier" typeName="ItemRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_Supplier_2" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_VolumeUnit" typeName="ItemRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_VolumeUnit" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_Supplier" typeName="Part Revision">
+     <TcLOVAttachPropertyInfo valuePropertyName="bt7_Supplier_1" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>
+

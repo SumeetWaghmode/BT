@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    Document   : feature_sbt1plm4bt.xml
+    Description: This XML is used by TEM to install or upgrade the "sbt1plm4bt" solution.
+--><feature>
+    <name value="1PLM4BT"/>
+    <property name="feature_name" value="sbt1plm4bt"/>
+    <group value="package"/>
+    <guid value="B66D336EBADBE2DFE0899A806F73176B"/>
+    <bundle value="${feature_name}Bundle.xml"/>
+    <description value="${feature_name}.description"/>
+    <include file="dataModelDependency.xml"/>
+    <relation>
+        <depends name="cm" value="E9B8A3F6B7B53AE540DCC54C13B3C201"/>
+        <depends name="vendormanagement" value="7EB052BF7B4039A2BB8C9F98009DD22D"/>
+        <depends name="btfoundation" value="C410920C636D410D4434538FC566A35D"/>
+        <depends name="materialmgmt" value="D8B1E07653BB28A09F52C2FAAF18553A"/>
+        <depends name="aws2" value="EF6284519D32B8DADCF0F05213AF807B"/>
+    </relation>
+    <feature>
+        <!--  Feature: Data Model -->
+        <name value="Data Model"/>
+        <property name="feature_id" value="datamodel"/>
+        <property name="bmide_optional" value="false"/>
+        <property name="template_name" value="${feature_name}"/>
+        <property name="template_file" value="${template_name}_template.xml"/>
+        
+        <root value="true"/>
+        <bundle value="${template_name}Bundle.xml"/>
+        <description value="${template_name}.description"/>
+        <guid value="7065FBEE2EB7023C9BB5E3CD7105705A"/>
+        <include file="coreDataModel.xml"/>
+        <include file="generatePlmxmlSchema.xml"/>
+    </feature>
+<dependencyReferences>
+        <reference name="foundation" value="8C061DD51E13E0CB9DC4687B1A3348BE"/>
+    </dependencyReferences>
+</feature>

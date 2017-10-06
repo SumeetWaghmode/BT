@@ -1,0 +1,2149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="BT6_ItemMaster" parentClassName="POM_object" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="BT6_AlternateUnitOfMeasure" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_StockItem" description="" attributeType="POM_string"
+         maxStringLength="5" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ShortText" description="" attributeType="POM_string"
+         maxStringLength="40" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_AlternateNumber" description="" attributeType="POM_string"
+         maxStringLength="20" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_TCEnt_Doc_Class" description="" attributeType="POM_string"
+         maxStringLength="35" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_DocumentType_1" description="" attributeType="POM_string"
+         maxStringLength="40" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_DocumentType_2" description="" attributeType="POM_string"
+         maxStringLength="40" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ProductType_1" description="" attributeType="POM_string"
+         maxStringLength="30" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ProductType_2" description="" attributeType="POM_string"
+         maxStringLength="30" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ToolType_1" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ToolType_2" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ItemDesc_2" description="" attributeType="POM_string"
+         maxStringLength="240" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ItemName_2" description="" attributeType="POM_string"
+         maxStringLength="40" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+   </TcClass>
+   <TcClass className="BT6_ItemRevMaster" parentClassName="POM_object" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="BT6_DocChange" description="Change Description" attributeType="POM_string"
+         maxStringLength="562" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_TechInfo" description="Technical Info" attributeType="POM_string"
+         maxStringLength="86" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_Subtitle_1" description="" attributeType="POM_string"
+         maxStringLength="50" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_Subtitle_2" description="" attributeType="POM_string"
+         maxStringLength="50" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_VolumeValue" description="" attributeType="POM_string"
+         maxStringLength="20" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_VolumeUnit" description="" attributeType="POM_string"
+         maxStringLength="10" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ECO" description="" attributeType="POM_string"
+         maxStringLength="20" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_Responsible" description="" attributeType="POM_string"
+         maxStringLength="16" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_DocMgnt" description="" attributeType="POM_string"
+         maxStringLength="11" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_MaterialRequirement_1" description="" attributeType="POM_string"
+         maxStringLength="50" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_MaterialRequirement_2" description="" attributeType="POM_string"
+         maxStringLength="50" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_Treatment_1" description="" attributeType="POM_string"
+         maxStringLength="50" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_Treatment_2" description="" attributeType="POM_string"
+         maxStringLength="50" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_Surface_1" description="" attributeType="POM_string"
+         maxStringLength="50" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_Surface_2" description="" attributeType="POM_string"
+         maxStringLength="50" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_2ndLanguageCode" description="" attributeType="POM_string"
+         maxStringLength="2" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ItemRevName_2" description="" attributeType="POM_string"
+         maxStringLength="40" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_Supplier_1" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_Supplier_1_PartNo" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_Supplier_2" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_Supplier_2_PartNo" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_SFP_Dimension" description="" attributeType="POM_string"
+         maxStringLength="35" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ApprUser_2" description="" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_MaterialAbbrev" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_MaterialNumber" description="" attributeType="POM_string"
+         maxStringLength="30" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_MaterialColour" description="" attributeType="POM_string"
+         maxStringLength="58" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_MaterialDensity" description="" attributeType="POM_float"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_MaterialStandard" description="" attributeType="POM_string"
+         maxStringLength="15" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_FirstUse" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_MassValue" description="" attributeType="POM_string"
+         maxStringLength="16" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_MassUnit" description="" attributeType="POM_string"
+         maxStringLength="8" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ApprDate_1" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ApprDate_2" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ApprDate_3" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ApprDate_4" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ApprDate_DocMapp" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ApprUser_1" description="" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ApprUser_3" description="" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ApprUser_4" description="" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_DocOrigin" description="" attributeType="POM_string"
+         maxStringLength="20" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ECO_40" description="" attributeType="POM_string"
+         maxStringLength="20" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ECO_60" description="" attributeType="POM_string"
+         maxStringLength="20" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_ECO_98" description="" attributeType="POM_string"
+         maxStringLength="20" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_RevLastStatus" description="" attributeType="POM_string"
+         maxStringLength="20" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_Material_Mapping_1" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_Material_Mapping_2" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_MethodOfManufact_1" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_MethodOfManufact_2" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_PartType_1" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_PartType_2" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_SupplierCode_1" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_SupplierCode_2" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_GeneralTolerance" description="" attributeType="POM_string"
+         maxStringLength="20" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+   </TcClass>
+   <TcClass className="BT6_MultiSEff" parentClassName="POM_object" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="BT6_RevEffective_StartDate" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_RevEffective_EndDate" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+   </TcClass>
+   <TcClass className="BT6_TCENT_Material" parentClassName="ImanRelation" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT6_UGPartAttr" parentClassName="POM_object" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="BT6_Scale" description="" attributeType="POM_string"
+         maxStringLength="20" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="BT6_DrawingSize" description="" attributeType="POM_string"
+         maxStringLength="5" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+   </TcClass>
+   <TcAttributeAttach className="Item">
+     <TcAttribute attributeName="BT6_ArticleType" description="Article Type" attributeType="POM_string"
+         maxStringLength="18" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+   </TcAttributeAttach>
+   <TcAttributeAttach className="IMSProfile">
+     <TcAttribute attributeName="BT6_ApprDate_1" description="BT6_ApprDate_1" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprDate_2" description="BT6_ApprDate_2" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprDate_3" description="BT6_ApprDate_3" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprDate_4" description="BT6_ApprDate_4" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprDate_DocMapp" description="BT6_ApprDate_DocMapp"
+         attributeType="POM_date" maxStringLength="0" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprUser_1" description="BT6_ApprUser_1" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprUser_2" description="BT6_ApprUser_2" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprUser_3" description="BT6_ApprUser_3" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprUser_4" description="BT6_ApprUser_4" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ItemRevName_2" description="BT6_ItemRevName_2"
+         attributeType="POM_string" maxStringLength="40" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_RevLastStatus" description="BT6_RevLastStatus"
+         attributeType="POM_string" maxStringLength="20" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+   </TcAttributeAttach>
+   <TcAttributeAttach className="PartVerMaster">
+     <TcAttribute attributeName="BT6_ApprDate_1" description="BT6_ApprDate_1" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprDate_2" description="BT6_ApprDate_2" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprDate_3" description="BT6_ApprDate_3" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprDate_4" description="BT6_ApprDate_4" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprDate_DocMapp" description="BT6_ApprDate_DocMapp"
+         attributeType="POM_date" maxStringLength="0" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprUser_1" description="BT6_ApprUser_1" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprUser_2" description="BT6_ApprUser_2" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprUser_3" description="BT6_ApprUser_3" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ApprUser_4" description="BT6_ApprUser_4" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_ItemRevName_2" description="BT6_ItemRevName_2"
+         attributeType="POM_string" maxStringLength="40" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="BT6_RevLastStatus" description="BT6_RevLastStatus"
+         attributeType="POM_string" maxStringLength="20" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+   </TcAttributeAttach>
+   <OperationInputType typeName="BT6_AutoSketchCreI" parentTypeName="DatasetCreI"
+       typeClassName="BT6_AutoSketchCreI" description="CreateInput object for &quot;BT6_AutoSketch&quot; business object"
+       isAbstract="false" artifactName="BT6_AutoSketch"/>
+   <OperationInputType typeName="BT6_AutoSketchSvAI" parentTypeName="DatasetSvAI"
+       typeClassName="BT6_AutoSketchSvAI" description="SaveAsInput object for &quot;BT6_AutoSketch&quot; business object"
+       isAbstract="false" artifactName="BT6_AutoSketch"/>
+   <OperationInputType typeName="BT6_CorelDesignerCreI" parentTypeName="DatasetCreI"
+       typeClassName="BT6_CorelDesignerCreI" description="CreateInput object for &quot;BT6_CorelDesigner&quot; business object"
+       isAbstract="false" artifactName="BT6_CorelDesigner"/>
+   <OperationInputType typeName="BT6_CorelDesignerSvAI" parentTypeName="DatasetSvAI"
+       typeClassName="BT6_CorelDesignerSvAI" description="SaveAsInput object for &quot;BT6_CorelDesigner&quot; business object"
+       isAbstract="false" artifactName="BT6_CorelDesigner"/>
+   <OperationInputType typeName="BT6_DXFCreI" parentTypeName="DatasetCreI" typeClassName="BT6_DXFCreI"
+       description="CreateInput object for &quot;BT6_DXF&quot; business object" isAbstract="false"
+       artifactName="BT6_DXF"/>
+   <OperationInputType typeName="BT6_DXFSvAI" parentTypeName="DatasetSvAI" typeClassName="BT6_DXFSvAI"
+       description="SaveAsInput object for &quot;BT6_DXF&quot; business object" isAbstract="false"
+       artifactName="BT6_DXF"/>
+   <OperationInputType typeName="BT6_Document MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_Document MasterSvAI" description="SaveAsInput object for &quot;BT6_Document Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Document_0_Master_alt"/>
+   <OperationInputType typeName="BT6_Document Revision MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_Document Revision MasterSvAI" description="SaveAsInput object for &quot;BT6_Document Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Document_0_Revisio_alt1"/>
+   <OperationInputType typeName="BT6_Document RevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="BT6_Document RevisionSvAI" description="SaveAsInput object for &quot;BT6_Document Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Document_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_DocumentCreI" parentTypeName="ItemCreI" typeClassName="BT6_DocumentCreI"
+       description="CreateInput object for &quot;BT6_Document&quot; business object"
+       isAbstract="false" artifactName="BT6_Document"/>
+   <OperationInputType typeName="BT6_DocumentSvAI" parentTypeName="ItemSvAI" typeClassName="BT6_DocumentSvAI"
+       description="SaveAsInput object for &quot;BT6_Document&quot; business object"
+       isAbstract="false" artifactName="BT6_Document"/>
+   <OperationInputType typeName="BT6_Document_0_Master_alt" parentTypeName="FormCreI"
+       typeClassName="BT6_Document_0_Master_alt" description="CreateInput object for &quot;BT6_Document Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Document_0_Master_alt"/>
+   <OperationInputType typeName="BT6_Document_0_Revisio_alt0CreI" parentTypeName="FormCreI"
+       typeClassName="BT6_Document_0_Revisio_alt0CreI" description="CreateInput object for &quot;BT6_Document Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Document_0_Revisio_alt0"/>
+   <OperationInputType typeName="BT6_Document_0_Revision_alt" parentTypeName="ItemRevisionCreI"
+       typeClassName="BT6_Document_0_Revision_alt" description="CreateInput object for &quot;BT6_Document Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Document_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_Document_0_Revision_altRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="BT6_Document_0_Revision_altRevI" description="ReviseInput object for &quot;BT6_Document Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Document_0_Revision_altRevI"/>
+   <OperationInputType typeName="BT6_EngChange MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_EngChange MasterSvAI" description="SaveAsInput object for &quot;BT6_EngChange Master&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChange_0_Master_alt"/>
+   <OperationInputType typeName="BT6_EngChange RevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="BT6_EngChange RevisionSvAI" description="SaveAsInput object for &quot;BT6_EngChange Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChange_0_Revisi_alt2"/>
+   <OperationInputType typeName="BT6_EngChangeCreI" parentTypeName="ItemCreI" typeClassName="BT6_EngChangeCreI"
+       description="CreateInput object for &quot;BT6_EngChange&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChange"/>
+   <OperationInputType typeName="BT6_EngChangeDocCreI" parentTypeName="DatasetCreI"
+       typeClassName="BT6_EngChangeDocCreI" description="CreateInput object for &quot;BT6_EngChangeDoc&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChangeDoc"/>
+   <OperationInputType typeName="BT6_EngChangeDocSvAI" parentTypeName="DatasetSvAI"
+       typeClassName="BT6_EngChangeDocSvAI" description="SaveAsInput object for &quot;BT6_EngChangeDoc&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChangeDoc"/>
+   <OperationInputType typeName="BT6_EngChangeSvAI" parentTypeName="ItemSvAI" typeClassName="BT6_EngChangeSvAI"
+       description="SaveAsInput object for &quot;BT6_EngChange&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChange"/>
+   <OperationInputType typeName="BT6_EngChange_0_Master_alt" parentTypeName="FormCreI"
+       typeClassName="BT6_EngChange_0_Master_alt" description="CreateInput object for &quot;BT6_EngChange Master&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChange_0_Master_alt"/>
+   <OperationInputType typeName="BT6_EngChange_0_Revisi_alt0CreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="BT6_EngChange_0_Revisi_alt0CreI" description="CreateInput object for &quot;BT6_EngChange Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChange_0_Revisi_alt0"/>
+   <OperationInputType typeName="BT6_EngChange_0_Revisi_alt0RevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="BT6_EngChange_0_Revisi_alt0RevI" description="ReviseInput object for &quot;BT6_EngChange Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChange_0_Revisi_alt0RevI"/>
+   <OperationInputType typeName="BT6_EngChange_0_Revisi_alt0SvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_EngChange_0_Revisi_alt0SvAI" description="SaveAsInput object for &quot;BT6_EngChange Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChange_0_Revisi_alt2"/>
+   <OperationInputType typeName="BT6_EngChange_0_Revisi_alt1CreI" parentTypeName="FormCreI"
+       typeClassName="BT6_EngChange_0_Revisi_alt1CreI" description="CreateInput object for &quot;BT6_EngChange Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChange_0_Revisi_alt0"/>
+   <OperationInputType typeName="BT6_FluidDrawCreI" parentTypeName="DatasetCreI" typeClassName="BT6_FluidDrawCreI"
+       description="CreateInput object for &quot;BT6_FluidDraw&quot; business object"
+       isAbstract="false" artifactName="BT6_FluidDraw"/>
+   <OperationInputType typeName="BT6_FluidDrawSvAI" parentTypeName="DatasetSvAI" typeClassName="BT6_FluidDrawSvAI"
+       description="SaveAsInput object for &quot;BT6_FluidDraw&quot; business object"
+       isAbstract="false" artifactName="BT6_FluidDraw"/>
+   <OperationInputType typeName="BT6_GroupFolderCreI" parentTypeName="FolderCreI"
+       typeClassName="BT6_GroupFolderCreI" description="CreateInput object for &quot;BT6_GroupFolder&quot; business object"
+       isAbstract="false" artifactName="BT6_GroupFolder"/>
+   <OperationInputType typeName="BT6_GroupFolderSvAI" parentTypeName="FolderSvAI"
+       typeClassName="BT6_GroupFolderSvAI" description="SaveAsInput object for &quot;BT6_GroupFolder&quot; business object"
+       isAbstract="false" artifactName="BT6_GroupFolder"/>
+   <OperationInputType typeName="BT6_IntegraCreI" parentTypeName="DatasetCreI" typeClassName="BT6_IntegraCreI"
+       description="CreateInput object for &quot;BT6_Integra&quot; business object"
+       isAbstract="false" artifactName="BT6_Integra"/>
+   <OperationInputType typeName="BT6_IntegraSvAI" parentTypeName="DatasetSvAI" typeClassName="BT6_IntegraSvAI"
+       description="SaveAsInput object for &quot;BT6_Integra&quot; business object"
+       isAbstract="false" artifactName="BT6_Integra"/>
+   <OperationInputType typeName="BT6_Integra_Mask_DrillCreI" parentTypeName="DatasetCreI"
+       typeClassName="BT6_Integra_Mask_DrillCreI" description="CreateInput object for &quot;BT6_Integra_Mask_Drill&quot; business object"
+       isAbstract="false" artifactName="BT6_Integra_Mask_Drill"/>
+   <OperationInputType typeName="BT6_Integra_Mask_DrillSvAI" parentTypeName="DatasetSvAI"
+       typeClassName="BT6_Integra_Mask_DrillSvAI" description="SaveAsInput object for &quot;BT6_Integra_Mask_Drill&quot; business object"
+       isAbstract="false" artifactName="BT6_Integra_Mask_Drill"/>
+   <OperationInputType typeName="BT6_Integra_SQLCreI" parentTypeName="DatasetCreI"
+       typeClassName="BT6_Integra_SQLCreI" description="CreateInput object for &quot;BT6_Integra_SQL&quot; business object"
+       isAbstract="false" artifactName="BT6_Integra_SQL"/>
+   <OperationInputType typeName="BT6_Integra_SQLSvAI" parentTypeName="DatasetSvAI"
+       typeClassName="BT6_Integra_SQLSvAI" description="SaveAsInput object for &quot;BT6_Integra_SQL&quot; business object"
+       isAbstract="false" artifactName="BT6_Integra_SQL"/>
+   <OperationInputType typeName="BT6_ItemMasterCreI" parentTypeName="POM_objectCreI"
+       typeClassName="BT6_ItemMasterCreI" description="CreateInput object for &quot;BT6_ItemMaster&quot; business object"
+       isAbstract="false" artifactName="BT6_ItemMaster"/>
+   <OperationInputType typeName="BT6_ItemMasterSvAI" parentTypeName="POM_objectSvAI"
+       typeClassName="BT6_ItemMasterSvAI" description="SaveAsInput object for &quot;BT6_ItemMaster&quot; business object"
+       isAbstract="false" artifactName="BT6_ItemMaster"/>
+   <OperationInputType typeName="BT6_ItemNoticeCreI" parentTypeName="DatasetCreI"
+       typeClassName="BT6_ItemNoticeCreI" description="CreateInput object for &quot;BT6_ItemNotice&quot; business object"
+       isAbstract="false" artifactName="BT6_ItemNotice"/>
+   <OperationInputType typeName="BT6_ItemNoticeSvAI" parentTypeName="DatasetSvAI"
+       typeClassName="BT6_ItemNoticeSvAI" description="SaveAsInput object for &quot;BT6_ItemNotice&quot; business object"
+       isAbstract="false" artifactName="BT6_ItemNotice"/>
+   <OperationInputType typeName="BT6_ItemRevMasterCreI" parentTypeName="POM_objectCreI"
+       typeClassName="BT6_ItemRevMasterCreI" description="CreateInput object for &quot;BT6_ItemRevMaster&quot; business object"
+       isAbstract="false" artifactName="BT6_ItemRevMaster"/>
+   <OperationInputType typeName="BT6_ItemRevMasterSvAI" parentTypeName="POM_objectSvAI"
+       typeClassName="BT6_ItemRevMasterSvAI" description="SaveAsInput object for &quot;BT6_ItemRevMaster&quot; business object"
+       isAbstract="false" artifactName="BT6_ItemRevMaster"/>
+   <OperationInputType typeName="BT6_LibraryFolderCreI" parentTypeName="FolderCreI"
+       typeClassName="BT6_LibraryFolderCreI" description="CreateInput object for &quot;BT6_LibraryFolder&quot; business object"
+       isAbstract="false" artifactName="BT6_LibraryFolder"/>
+   <OperationInputType typeName="BT6_LibraryFolderSvAI" parentTypeName="FolderSvAI"
+       typeClassName="BT6_LibraryFolderSvAI" description="SaveAsInput object for &quot;BT6_LibraryFolder&quot; business object"
+       isAbstract="false" artifactName="BT6_LibraryFolder"/>
+   <OperationInputType typeName="BT6_Material MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_Material MasterSvAI" description="SaveAsInput object for &quot;BT6_Material Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Material_0_Master_alt"/>
+   <OperationInputType typeName="BT6_Material Revision MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_Material Revision MasterSvAI" description="SaveAsInput object for &quot;BT6_Material Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Material_0_Revisio_alt1"/>
+   <OperationInputType typeName="BT6_Material RevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="BT6_Material RevisionSvAI" description="SaveAsInput object for &quot;BT6_Material Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Material_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_MaterialCreI" parentTypeName="ItemCreI" typeClassName="BT6_MaterialCreI"
+       description="CreateInput object for &quot;BT6_Material&quot; business object"
+       isAbstract="false" artifactName="BT6_Material"/>
+   <OperationInputType typeName="BT6_MaterialSvAI" parentTypeName="ItemSvAI" typeClassName="BT6_MaterialSvAI"
+       description="SaveAsInput object for &quot;BT6_Material&quot; business object"
+       isAbstract="false" artifactName="BT6_Material"/>
+   <OperationInputType typeName="BT6_Material_0_Master_alt" parentTypeName="FormCreI"
+       typeClassName="BT6_Material_0_Master_alt" description="CreateInput object for &quot;BT6_Material Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Material_0_Master_alt"/>
+   <OperationInputType typeName="BT6_Material_0_Revisio_alt0CreI" parentTypeName="FormCreI"
+       typeClassName="BT6_Material_0_Revisio_alt0CreI" description="CreateInput object for &quot;BT6_Material Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Material_0_Revisio_alt0"/>
+   <OperationInputType typeName="BT6_Material_0_Revision_alt" parentTypeName="ItemRevisionCreI"
+       typeClassName="BT6_Material_0_Revision_alt" description="CreateInput object for &quot;BT6_Material Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Material_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_Material_0_Revision_altRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="BT6_Material_0_Revision_altRevI" description="ReviseInput object for &quot;BT6_Material Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Material_0_Revision_altRevI"/>
+   <OperationInputType typeName="BT6_MultiSEffCreI" parentTypeName="POM_objectCreI"
+       typeClassName="BT6_MultiSEffCreI" description="CreateInput object for &quot;BT6_MultiSEff&quot; business object"
+       isAbstract="false" artifactName="BT6_MultiSEff"/>
+   <OperationInputType typeName="BT6_MultiSEffFormCreI" parentTypeName="FormCreI"
+       typeClassName="BT6_MultiSEffFormCreI" description="CreateInput object for &quot;BT6_MultiSEffForm&quot; business object"
+       isAbstract="false" artifactName="BT6_MultiSEffForm"/>
+   <OperationInputType typeName="BT6_MultiSEffFormSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_MultiSEffFormSvAI" description="SaveAsInput object for &quot;BT6_MultiSEffForm&quot; business object"
+       isAbstract="false" artifactName="BT6_MultiSEffForm"/>
+   <OperationInputType typeName="BT6_MultiSEffSvAI" parentTypeName="POM_objectSvAI"
+       typeClassName="BT6_MultiSEffSvAI" description="SaveAsInput object for &quot;BT6_MultiSEff&quot; business object"
+       isAbstract="false" artifactName="BT6_MultiSEff"/>
+   <OperationInputType typeName="BT6_NoticeCreI" parentTypeName="DatasetCreI" typeClassName="BT6_NoticeCreI"
+       description="CreateInput object for &quot;BT6_Notice&quot; business object"
+       isAbstract="false" artifactName="BT6_Notice"/>
+   <OperationInputType typeName="BT6_NoticeSvAI" parentTypeName="DatasetSvAI" typeClassName="BT6_NoticeSvAI"
+       description="SaveAsInput object for &quot;BT6_Notice&quot; business object"
+       isAbstract="false" artifactName="BT6_Notice"/>
+   <OperationInputType typeName="BT6_PCB MasterSvAI" parentTypeName="FormSvAI" typeClassName="BT6_PCB MasterSvAI"
+       description="SaveAsInput object for &quot;BT6_PCB Master&quot; business object"
+       isAbstract="false" artifactName="BT6_PCB_0_Master_alt"/>
+   <OperationInputType typeName="BT6_PCB Revision MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_PCB Revision MasterSvAI" description="SaveAsInput object for &quot;BT6_PCB Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_PCB_0_Revision_0_M_alt1"/>
+   <OperationInputType typeName="BT6_PCB RevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="BT6_PCB RevisionSvAI" description="SaveAsInput object for &quot;BT6_PCB Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_PCB_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_PCBCreI" parentTypeName="ItemCreI" typeClassName="BT6_PCBCreI"
+       description="CreateInput object for &quot;BT6_PCB&quot; business object" isAbstract="false"
+       artifactName="BT6_PCB"/>
+   <OperationInputType typeName="BT6_PCBLayoutOrderCreI" parentTypeName="DatasetCreI"
+       typeClassName="BT6_PCBLayoutOrderCreI" description="CreateInput object for &quot;BT6_PCBLayoutOrder&quot; business object"
+       isAbstract="false" artifactName="BT6_PCBLayoutOrder"/>
+   <OperationInputType typeName="BT6_PCBLayoutOrderSvAI" parentTypeName="DatasetSvAI"
+       typeClassName="BT6_PCBLayoutOrderSvAI" description="SaveAsInput object for &quot;BT6_PCBLayoutOrder&quot; business object"
+       isAbstract="false" artifactName="BT6_PCBLayoutOrder"/>
+   <OperationInputType typeName="BT6_PCBSvAI" parentTypeName="ItemSvAI" typeClassName="BT6_PCBSvAI"
+       description="SaveAsInput object for &quot;BT6_PCB&quot; business object" isAbstract="false"
+       artifactName="BT6_PCB"/>
+   <OperationInputType typeName="BT6_PCB_0_Master_alt" parentTypeName="FormCreI" typeClassName="BT6_PCB_0_Master_alt"
+       description="CreateInput object for &quot;BT6_PCB Master&quot; business object"
+       isAbstract="false" artifactName="BT6_PCB_0_Master_alt"/>
+   <OperationInputType typeName="BT6_PCB_0_Revision_0_M_alt0CreI" parentTypeName="FormCreI"
+       typeClassName="BT6_PCB_0_Revision_0_M_alt0CreI" description="CreateInput object for &quot;BT6_PCB Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_PCB_0_Revision_0_M_alt0"/>
+   <OperationInputType typeName="BT6_PCB_0_Revision_alt" parentTypeName="ItemRevisionCreI"
+       typeClassName="BT6_PCB_0_Revision_alt" description="CreateInput object for &quot;BT6_PCB Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_PCB_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_PCB_0_Revision_altRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="BT6_PCB_0_Revision_altRevI" description="ReviseInput object for &quot;BT6_PCB Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_PCB_0_Revision_altRevI"/>
+   <OperationInputType typeName="BT6_Product MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_Product MasterSvAI" description="SaveAsInput object for &quot;BT6_Product Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Product_0_Master_alt"/>
+   <OperationInputType typeName="BT6_Product Revision MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_Product Revision MasterSvAI" description="SaveAsInput object for &quot;BT6_Product Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Product_0_Revision_alt1"/>
+   <OperationInputType typeName="BT6_Product RevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="BT6_Product RevisionSvAI" description="SaveAsInput object for &quot;BT6_Product Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Product_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_ProductCreI" parentTypeName="ItemCreI" typeClassName="BT6_ProductCreI"
+       description="CreateInput object for &quot;BT6_Product&quot; business object"
+       isAbstract="false" artifactName="BT6_Product"/>
+   <OperationInputType typeName="BT6_ProductFolderCreI" parentTypeName="FolderCreI"
+       typeClassName="BT6_ProductFolderCreI" description="CreateInput object for &quot;BT6_ProductFolder&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductFolder"/>
+   <OperationInputType typeName="BT6_ProductFolderSvAI" parentTypeName="FolderSvAI"
+       typeClassName="BT6_ProductFolderSvAI" description="SaveAsInput object for &quot;BT6_ProductFolder&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductFolder"/>
+   <OperationInputType typeName="BT6_ProductPart MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_ProductPart MasterSvAI" description="SaveAsInput object for &quot;BT6_ProductPart Master&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductPart_0_Mast_alt1"/>
+   <OperationInputType typeName="BT6_ProductPart RevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="BT6_ProductPart RevisionSvAI" description="SaveAsInput object for &quot;BT6_ProductPart Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductPart_0_Revi_alt2"/>
+   <OperationInputType typeName="BT6_ProductPartCreI" parentTypeName="ItemCreI" typeClassName="BT6_ProductPartCreI"
+       description="CreateInput object for &quot;BT6_ProductPart&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductPart"/>
+   <OperationInputType typeName="BT6_ProductPartSvAI" parentTypeName="ItemSvAI" typeClassName="BT6_ProductPartSvAI"
+       description="SaveAsInput object for &quot;BT6_ProductPart&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductPart"/>
+   <OperationInputType typeName="BT6_ProductPart_0_Mast_alt0CreI" parentTypeName="FormCreI"
+       typeClassName="BT6_ProductPart_0_Mast_alt0CreI" description="CreateInput object for &quot;BT6_ProductPart Master&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductPart_0_Mast_alt0"/>
+   <OperationInputType typeName="BT6_ProductPart_0_Revi_alt0CreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="BT6_ProductPart_0_Revi_alt0CreI" description="CreateInput object for &quot;BT6_ProductPart Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductPart_0_Revi_alt0"/>
+   <OperationInputType typeName="BT6_ProductPart_0_Revi_alt0RevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="BT6_ProductPart_0_Revi_alt0RevI" description="ReviseInput object for &quot;BT6_ProductPart Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductPart_0_Revi_alt0RevI"/>
+   <OperationInputType typeName="BT6_ProductPart_0_Revi_alt0SvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_ProductPart_0_Revi_alt0SvAI" description="SaveAsInput object for &quot;BT6_ProductPart Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductPart_0_Revi_alt2"/>
+   <OperationInputType typeName="BT6_ProductPart_0_Revi_alt1CreI" parentTypeName="FormCreI"
+       typeClassName="BT6_ProductPart_0_Revi_alt1CreI" description="CreateInput object for &quot;BT6_ProductPart Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductPart_0_Revi_alt0"/>
+   <OperationInputType typeName="BT6_ProductSvAI" parentTypeName="ItemSvAI" typeClassName="BT6_ProductSvAI"
+       description="SaveAsInput object for &quot;BT6_Product&quot; business object"
+       isAbstract="false" artifactName="BT6_Product"/>
+   <OperationInputType typeName="BT6_Product_0_Master_alt" parentTypeName="FormCreI"
+       typeClassName="BT6_Product_0_Master_alt" description="CreateInput object for &quot;BT6_Product Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Product_0_Master_alt"/>
+   <OperationInputType typeName="BT6_Product_0_Revision_alt" parentTypeName="ItemRevisionCreI"
+       typeClassName="BT6_Product_0_Revision_alt" description="CreateInput object for &quot;BT6_Product Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Product_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_Product_0_Revision_alt0CreI" parentTypeName="FormCreI"
+       typeClassName="BT6_Product_0_Revision_alt0CreI" description="CreateInput object for &quot;BT6_Product Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Product_0_Revision_alt0"/>
+   <OperationInputType typeName="BT6_Product_0_Revision_altRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="BT6_Product_0_Revision_altRevI" description="ReviseInput object for &quot;BT6_Product Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Product_0_Revision_altRevI"/>
+   <OperationInputType typeName="BT6_Product_InitialHis_alt0CreI" parentTypeName="DatasetCreI"
+       typeClassName="BT6_Product_InitialHis_alt0CreI" description="CreateInput object for &quot;BT6_Product_InitialHistoryDoc&quot; business object"
+       isAbstract="false" artifactName="BT6_Product_InitialHistoryDoc"/>
+   <OperationInputType typeName="BT6_Product_InitialHis_alt0SvAI" parentTypeName="DatasetSvAI"
+       typeClassName="BT6_Product_InitialHis_alt0SvAI" description="SaveAsInput object for &quot;BT6_Product_InitialHistoryDoc&quot; business object"
+       isAbstract="false" artifactName="BT6_Product_InitialHistoryDoc"/>
+   <OperationInputType typeName="BT6_ProjectFolderCreI" parentTypeName="FolderCreI"
+       typeClassName="BT6_ProjectFolderCreI" description="CreateInput object for &quot;BT6_ProjectFolder&quot; business object"
+       isAbstract="false" artifactName="BT6_ProjectFolder"/>
+   <OperationInputType typeName="BT6_ProjectFolderSvAI" parentTypeName="FolderSvAI"
+       typeClassName="BT6_ProjectFolderSvAI" description="SaveAsInput object for &quot;BT6_ProjectFolder&quot; business object"
+       isAbstract="false" artifactName="BT6_ProjectFolder"/>
+   <OperationInputType typeName="BT6_Rel_AuxMat_PrimaryCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT6_Rel_AuxMat_PrimaryCreI" description="CreateInput object for &quot;BT6_Rel_AuxMat_Primary&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_AuxMat_Primary"/>
+   <OperationInputType typeName="BT6_Rel_AuxMat_PrimarySvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT6_Rel_AuxMat_PrimarySvAI" description="SaveAsInput object for &quot;BT6_Rel_AuxMat_Primary&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_AuxMat_Primary"/>
+   <OperationInputType typeName="BT6_Rel_AuxMat_SecondaryCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT6_Rel_AuxMat_SecondaryCreI" description="CreateInput object for &quot;BT6_Rel_AuxMat_Secondary&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_AuxMat_Secondary"/>
+   <OperationInputType typeName="BT6_Rel_AuxMat_SecondarySvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT6_Rel_AuxMat_SecondarySvAI" description="SaveAsInput object for &quot;BT6_Rel_AuxMat_Secondary&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_AuxMat_Secondary"/>
+   <OperationInputType typeName="BT6_Rel_ConcernedCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT6_Rel_ConcernedCreI" description="CreateInput object for &quot;BT6_Rel_Concerned&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_Concerned"/>
+   <OperationInputType typeName="BT6_Rel_ConcernedSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT6_Rel_ConcernedSvAI" description="SaveAsInput object for &quot;BT6_Rel_Concerned&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_Concerned"/>
+   <OperationInputType typeName="BT6_Rel_NoticeCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT6_Rel_NoticeCreI" description="CreateInput object for &quot;BT6_Rel_Notice&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_Notice"/>
+   <OperationInputType typeName="BT6_Rel_NoticeSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT6_Rel_NoticeSvAI" description="SaveAsInput object for &quot;BT6_Rel_Notice&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_Notice"/>
+   <OperationInputType typeName="BT6_Rel_Product_Initia_alt0CreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT6_Rel_Product_Initia_alt0CreI" description="CreateInput object for &quot;BT6_Rel_Product_InitialHistory&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_Product_InitialHistory"/>
+   <OperationInputType typeName="BT6_Rel_Product_Initia_alt0SvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT6_Rel_Product_Initia_alt0SvAI" description="SaveAsInput object for &quot;BT6_Rel_Product_InitialHistory&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_Product_InitialHistory"/>
+   <OperationInputType typeName="BT6_Rel_SpecifiedCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT6_Rel_SpecifiedCreI" description="CreateInput object for &quot;BT6_Rel_Specified&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_Specified"/>
+   <OperationInputType typeName="BT6_Rel_SpecifiedSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT6_Rel_SpecifiedSvAI" description="SaveAsInput object for &quot;BT6_Rel_Specified&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_Specified"/>
+   <OperationInputType typeName="BT6_Rel_WorkflowRefere_alt0CreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT6_Rel_WorkflowRefere_alt0CreI" description="CreateInput object for &quot;BT6_Rel_WorkflowReferenceObjects&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_WorkflowReferenceObjects"/>
+   <OperationInputType typeName="BT6_Rel_WorkflowRefere_alt0SvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT6_Rel_WorkflowRefere_alt0SvAI" description="SaveAsInput object for &quot;BT6_Rel_WorkflowReferenceObjects&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_WorkflowReferenceObjects"/>
+   <OperationInputType typeName="BT6_Rel_WorkflowTarget_alt0CreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT6_Rel_WorkflowTarget_alt0CreI" description="CreateInput object for &quot;BT6_Rel_WorkflowTargetObjects&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_WorkflowTargetObjects"/>
+   <OperationInputType typeName="BT6_Rel_WorkflowTarget_alt0SvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT6_Rel_WorkflowTarget_alt0SvAI" description="SaveAsInput object for &quot;BT6_Rel_WorkflowTargetObjects&quot; business object"
+       isAbstract="false" artifactName="BT6_Rel_WorkflowTargetObjects"/>
+   <OperationInputType typeName="BT6_RevNoticeCreI" parentTypeName="DatasetCreI" typeClassName="BT6_RevNoticeCreI"
+       description="CreateInput object for &quot;BT6_RevNotice&quot; business object"
+       isAbstract="false" artifactName="BT6_RevNotice"/>
+   <OperationInputType typeName="BT6_RevNoticeSvAI" parentTypeName="DatasetSvAI" typeClassName="BT6_RevNoticeSvAI"
+       description="SaveAsInput object for &quot;BT6_RevNotice&quot; business object"
+       isAbstract="false" artifactName="BT6_RevNotice"/>
+   <OperationInputType typeName="BT6_Software MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_Software MasterSvAI" description="SaveAsInput object for &quot;BT6_Software Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Software_0_Master_alt"/>
+   <OperationInputType typeName="BT6_Software Revision MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_Software Revision MasterSvAI" description="SaveAsInput object for &quot;BT6_Software Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Software_0_Revisio_alt1"/>
+   <OperationInputType typeName="BT6_Software RevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="BT6_Software RevisionSvAI" description="SaveAsInput object for &quot;BT6_Software Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Software_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_SoftwareCreI" parentTypeName="ItemCreI" typeClassName="BT6_SoftwareCreI"
+       description="CreateInput object for &quot;BT6_Software&quot; business object"
+       isAbstract="false" artifactName="BT6_Software"/>
+   <OperationInputType typeName="BT6_SoftwareDataCreI" parentTypeName="DatasetCreI"
+       typeClassName="BT6_SoftwareDataCreI" description="CreateInput object for &quot;BT6_SoftwareData&quot; business object"
+       isAbstract="false" artifactName="BT6_SoftwareData"/>
+   <OperationInputType typeName="BT6_SoftwareDataSvAI" parentTypeName="DatasetSvAI"
+       typeClassName="BT6_SoftwareDataSvAI" description="SaveAsInput object for &quot;BT6_SoftwareData&quot; business object"
+       isAbstract="false" artifactName="BT6_SoftwareData"/>
+   <OperationInputType typeName="BT6_SoftwareSvAI" parentTypeName="ItemSvAI" typeClassName="BT6_SoftwareSvAI"
+       description="SaveAsInput object for &quot;BT6_Software&quot; business object"
+       isAbstract="false" artifactName="BT6_Software"/>
+   <OperationInputType typeName="BT6_Software_0_Master_alt" parentTypeName="FormCreI"
+       typeClassName="BT6_Software_0_Master_alt" description="CreateInput object for &quot;BT6_Software Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Software_0_Master_alt"/>
+   <OperationInputType typeName="BT6_Software_0_Revisio_alt0CreI" parentTypeName="FormCreI"
+       typeClassName="BT6_Software_0_Revisio_alt0CreI" description="CreateInput object for &quot;BT6_Software Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Software_0_Revisio_alt0"/>
+   <OperationInputType typeName="BT6_Software_0_Revision_alt" parentTypeName="ItemRevisionCreI"
+       typeClassName="BT6_Software_0_Revision_alt" description="CreateInput object for &quot;BT6_Software Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Software_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_Software_0_Revision_altRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="BT6_Software_0_Revision_altRevI" description="ReviseInput object for &quot;BT6_Software Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Software_0_Revision_altRevI"/>
+   <OperationInputType typeName="BT6_StandardPart MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_StandardPart MasterSvAI" description="SaveAsInput object for &quot;BT6_StandardPart Master&quot; business object"
+       isAbstract="false" artifactName="BT6_StandardPart_0_Mas_alt1"/>
+   <OperationInputType typeName="BT6_StandardPart RevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="BT6_StandardPart RevisionSvAI" description="SaveAsInput object for &quot;BT6_StandardPart Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_StandardPart_0_Rev_alt2"/>
+   <OperationInputType typeName="BT6_StandardPartCreI" parentTypeName="ItemCreI" typeClassName="BT6_StandardPartCreI"
+       description="CreateInput object for &quot;BT6_StandardPart&quot; business object"
+       isAbstract="false" artifactName="BT6_StandardPart"/>
+   <OperationInputType typeName="BT6_StandardPartSvAI" parentTypeName="ItemSvAI" typeClassName="BT6_StandardPartSvAI"
+       description="SaveAsInput object for &quot;BT6_StandardPart&quot; business object"
+       isAbstract="false" artifactName="BT6_StandardPart"/>
+   <OperationInputType typeName="BT6_StandardPart_0_Mas_alt0CreI" parentTypeName="FormCreI"
+       typeClassName="BT6_StandardPart_0_Mas_alt0CreI" description="CreateInput object for &quot;BT6_StandardPart Master&quot; business object"
+       isAbstract="false" artifactName="BT6_StandardPart_0_Mas_alt0"/>
+   <OperationInputType typeName="BT6_StandardPart_0_Rev_alt0CreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="BT6_StandardPart_0_Rev_alt0CreI" description="CreateInput object for &quot;BT6_StandardPart Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_StandardPart_0_Rev_alt0"/>
+   <OperationInputType typeName="BT6_StandardPart_0_Rev_alt0RevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="BT6_StandardPart_0_Rev_alt0RevI" description="ReviseInput object for &quot;BT6_StandardPart Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_StandardPart_0_Rev_alt0RevI"/>
+   <OperationInputType typeName="BT6_StandardPart_0_Rev_alt0SvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_StandardPart_0_Rev_alt0SvAI" description="SaveAsInput object for &quot;BT6_StandardPart Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_StandardPart_0_Rev_alt2"/>
+   <OperationInputType typeName="BT6_StandardPart_0_Rev_alt1CreI" parentTypeName="FormCreI"
+       typeClassName="BT6_StandardPart_0_Rev_alt1CreI" description="CreateInput object for &quot;BT6_StandardPart Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_StandardPart_0_Rev_alt0"/>
+   <OperationInputType typeName="BT6_TCENT_MaterialCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT6_TCENT_MaterialCreI" description="CreateInput object for &quot;BT6_TCENT_Material&quot; business object"
+       isAbstract="false" artifactName="BT6_TCENT_MaterialCreI"/>
+   <OperationInputType typeName="BT6_TCENT_MaterialSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT6_TCENT_MaterialSvAI" description="SaveAsInput object for &quot;BT6_TCENT_Material&quot; business object"
+       isAbstract="false" artifactName="BT6_TCENT_Material"/>
+   <OperationInputType typeName="BT6_TIFFCreI" parentTypeName="DatasetCreI" typeClassName="BT6_TIFFCreI"
+       description="CreateInput object for &quot;BT6_TIFF&quot; business object" isAbstract="false"
+       artifactName="BT6_TIFF"/>
+   <OperationInputType typeName="BT6_TIFFSvAI" parentTypeName="DatasetSvAI" typeClassName="BT6_TIFFSvAI"
+       description="SaveAsInput object for &quot;BT6_TIFF&quot; business object" isAbstract="false"
+       artifactName="BT6_TIFF"/>
+   <OperationInputType typeName="BT6_TIFF_ScanCreI" parentTypeName="DatasetCreI" typeClassName="BT6_TIFF_ScanCreI"
+       description="CreateInput object for &quot;BT6_TIFF_Scan&quot; business object"
+       isAbstract="false" artifactName="BT6_TIFF_Scan"/>
+   <OperationInputType typeName="BT6_TIFF_ScanSvAI" parentTypeName="DatasetSvAI" typeClassName="BT6_TIFF_ScanSvAI"
+       description="SaveAsInput object for &quot;BT6_TIFF_Scan&quot; business object"
+       isAbstract="false" artifactName="BT6_TIFF_Scan"/>
+   <OperationInputType typeName="BT6_Tool MasterSvAI" parentTypeName="FormSvAI" typeClassName="BT6_Tool MasterSvAI"
+       description="SaveAsInput object for &quot;BT6_Tool Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Tool_0_Master_alt"/>
+   <OperationInputType typeName="BT6_Tool Revision MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_Tool Revision MasterSvAI" description="SaveAsInput object for &quot;BT6_Tool Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Tool_0_Revision_0__alt1"/>
+   <OperationInputType typeName="BT6_Tool RevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="BT6_Tool RevisionSvAI" description="SaveAsInput object for &quot;BT6_Tool Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Tool_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_ToolCreI" parentTypeName="ItemCreI" typeClassName="BT6_ToolCreI"
+       description="CreateInput object for &quot;BT6_Tool&quot; business object" isAbstract="false"
+       artifactName="BT6_Tool"/>
+   <OperationInputType typeName="BT6_ToolFolderCreI" parentTypeName="FolderCreI" typeClassName="BT6_ToolFolderCreI"
+       description="CreateInput object for &quot;BT6_ToolFolder&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolFolder"/>
+   <OperationInputType typeName="BT6_ToolFolderSvAI" parentTypeName="FolderSvAI" typeClassName="BT6_ToolFolderSvAI"
+       description="SaveAsInput object for &quot;BT6_ToolFolder&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolFolder"/>
+   <OperationInputType typeName="BT6_ToolPart MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_ToolPart MasterSvAI" description="SaveAsInput object for &quot;BT6_ToolPart Master&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolPart_0_Master_alt"/>
+   <OperationInputType typeName="BT6_ToolPart Revision MasterSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT6_ToolPart Revision MasterSvAI" description="SaveAsInput object for &quot;BT6_ToolPart Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolPart_0_Revisio_alt1"/>
+   <OperationInputType typeName="BT6_ToolPart RevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="BT6_ToolPart RevisionSvAI" description="SaveAsInput object for &quot;BT6_ToolPart Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolPart_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_ToolPartCreI" parentTypeName="ItemCreI" typeClassName="BT6_ToolPartCreI"
+       description="CreateInput object for &quot;BT6_ToolPart&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolPart"/>
+   <OperationInputType typeName="BT6_ToolPartSvAI" parentTypeName="ItemSvAI" typeClassName="BT6_ToolPartSvAI"
+       description="SaveAsInput object for &quot;BT6_ToolPart&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolPart"/>
+   <OperationInputType typeName="BT6_ToolPart_0_Master_alt" parentTypeName="FormCreI"
+       typeClassName="BT6_ToolPart_0_Master_alt" description="CreateInput object for &quot;BT6_ToolPart Master&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolPart_0_Master_alt"/>
+   <OperationInputType typeName="BT6_ToolPart_0_Revisio_alt0CreI" parentTypeName="FormCreI"
+       typeClassName="BT6_ToolPart_0_Revisio_alt0CreI" description="CreateInput object for &quot;BT6_ToolPart Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolPart_0_Revisio_alt0"/>
+   <OperationInputType typeName="BT6_ToolPart_0_Revision_alt" parentTypeName="ItemRevisionCreI"
+       typeClassName="BT6_ToolPart_0_Revision_alt" description="CreateInput object for &quot;BT6_ToolPart Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolPart_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_ToolPart_0_Revision_altRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="BT6_ToolPart_0_Revision_altRevI" description="ReviseInput object for &quot;BT6_ToolPart Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolPart_0_Revision_altRevI"/>
+   <OperationInputType typeName="BT6_ToolSvAI" parentTypeName="ItemSvAI" typeClassName="BT6_ToolSvAI"
+       description="SaveAsInput object for &quot;BT6_Tool&quot; business object" isAbstract="false"
+       artifactName="BT6_Tool"/>
+   <OperationInputType typeName="BT6_Tool_0_Master_alt" parentTypeName="FormCreI"
+       typeClassName="BT6_Tool_0_Master_alt" description="CreateInput object for &quot;BT6_Tool Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Tool_0_Master_alt"/>
+   <OperationInputType typeName="BT6_Tool_0_Revision_0__alt0CreI" parentTypeName="FormCreI"
+       typeClassName="BT6_Tool_0_Revision_0__alt0CreI" description="CreateInput object for &quot;BT6_Tool Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_Tool_0_Revision_0__alt0"/>
+   <OperationInputType typeName="BT6_Tool_0_Revision_alt" parentTypeName="ItemRevisionCreI"
+       typeClassName="BT6_Tool_0_Revision_alt" description="CreateInput object for &quot;BT6_Tool Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Tool_0_Revision_alt"/>
+   <OperationInputType typeName="BT6_Tool_0_Revision_altRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="BT6_Tool_0_Revision_altRevI" description="ReviseInput object for &quot;BT6_Tool Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Tool_0_Revision_altRevI"/>
+   <OperationInputType typeName="BT6_UDFFolderCreI" parentTypeName="FolderCreI" typeClassName="BT6_UDFFolderCreI"
+       description="CreateInput object for &quot;BT6_UDFFolder&quot; business object"
+       isAbstract="false" artifactName="BT6_UDFFolder"/>
+   <OperationInputType typeName="BT6_UDFFolderSvAI" parentTypeName="FolderSvAI" typeClassName="BT6_UDFFolderSvAI"
+       description="SaveAsInput object for &quot;BT6_UDFFolder&quot; business object"
+       isAbstract="false" artifactName="BT6_UDFFolder"/>
+   <OperationInputType typeName="BT6_UGPartAttrCreI" parentTypeName="POM_objectCreI"
+       typeClassName="BT6_UGPartAttrCreI" description="CreateInput object for &quot;BT6_UGPartAttr&quot; business object"
+       isAbstract="false" artifactName="BT6_UGPartAttr"/>
+   <OperationInputType typeName="BT6_UGPartAttrSvAI" parentTypeName="POM_objectSvAI"
+       typeClassName="BT6_UGPartAttrSvAI" description="SaveAsInput object for &quot;BT6_UGPartAttr&quot; business object"
+       isAbstract="false" artifactName="BT6_UGPartAttr"/>
+   <OperationInputType typeName="ToolsfolderCreI" parentTypeName="FolderCreI" typeClassName="ToolsfolderCreI"
+       description="CreateInput object for &quot;Toolsfolder&quot; business object"
+       isAbstract="false" artifactName="Toolsfolder"/>
+   <OperationInputType typeName="ToolsfolderSvAI" parentTypeName="FolderSvAI" typeClassName="ToolsfolderSvAI"
+       description="SaveAsInput object for &quot;Toolsfolder&quot; business object"
+       isAbstract="false" artifactName="Toolsfolder"/>
+   <TcDataset typeName="BT6_AutoSketch" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_AutoSketch">
+     <TcDSViewTool name="BT6_Autosketch"/>
+     <TcDSEditTool name="BT6_Autosketch"/>
+     <TcDatasetReference name="autosketch">
+       <TcDatasetReferenceInfo template="*.skf" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="BT6_Autosketch" action="Open">
+       <TcToolActionReference export="true" referenceName="autosketch"/>
+       <TcToolParameter name="$autosketch"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="BT6_Autosketch" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="autosketch"/>
+       <TcToolParameter name="$autosketch"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_CorelDesigner" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_CorelDesigner">
+     <TcDSViewTool name="BT6_Designer"/>
+     <TcDSEditTool name="BT6_Designer"/>
+     <TcDatasetReference name="designer">
+       <TcDatasetReferenceInfo template="*.dsf" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.des" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.DES" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="BT6_Designer" action="Open">
+       <TcToolActionReference export="true" referenceName="designer"/>
+       <TcToolParameter name="$designer"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="BT6_Designer" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="designer"/>
+       <TcToolParameter name="$designer"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_DXF" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_DXF">
+     <TcDSViewTool name="PV"/>
+     <TcDSEditTool name="PV"/>
+     <TcDatasetReference name="DXF">
+       <TcDatasetReferenceInfo template="*.dxf" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="PV" action="Open">
+       <TcToolActionReference export="true" referenceName="DXF"/>
+       <TcToolParameter name="$DXF"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="PV" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="DXF"/>
+       <TcToolParameter name="$DXF"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_EngChangeDoc" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_EngChangeDoc">
+     <TcDSViewTool name="BT6_TMDoc"/>
+     <TcDSViewTool name="MSWord"/>
+     <TcDSEditTool name="BT6_TMDoc"/>
+     <TcDSEditTool name="MSWord"/>
+     <TcDatasetReference name="word">
+       <TcDatasetReferenceInfo template="*.tm.doc" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.doc" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="BT6_TMDoc" action="Open">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="MSWord" action="Open">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_FluidDraw" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_FluidDraw">
+     <TcDSViewTool name="BT6_FluidDraw"/>
+     <TcDSEditTool name="BT6_FluidDraw"/>
+     <TcDatasetReference name="fluiddraw">
+       <TcDatasetReferenceInfo template="*.fluiddraw.circ" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.ct" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="BT6_FluidDraw" action="Open">
+       <TcToolActionReference export="true" referenceName="fluiddraw"/>
+       <TcToolParameter name="$fluiddraw"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_Integra" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_Integra">
+     <TcDSViewTool name="TextEditor"/>
+     <TcDSEditTool name="TextEditor"/>
+     <TcDatasetReference name="HW_Daten_TC">
+       <TcDatasetReferenceInfo template="*.tc" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="TextEditor" action="Open">
+       <TcToolActionReference export="true" referenceName="HW_Daten_TC"/>
+       <TcToolParameter name="$HW_Daten_TC"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="TextEditor" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="HW_Daten_TC"/>
+       <TcToolParameter name="$HW_Daten_TC"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_Integra_Mask_Drill" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_Integra_Mask_Drill">
+     <TcDSViewTool name="TextEditor"/>
+     <TcDSEditTool name="TextEditor"/>
+     <TcDatasetReference name="HW_Daten_Foto_Bohr">
+       <TcDatasetReferenceInfo template="*.fpr" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.txt" format="TEXT"/>
+       <TcDatasetReferenceInfo template="*.nc" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.g01" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.g02" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.g03" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.g04" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.g05" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.g06" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.g07" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.g08" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.g09" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.g10" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.g11" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.g12" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="TextEditor" action="Open">
+       <TcToolActionReference export="true" referenceName="HW_Daten_Foto_Bohr"/>
+       <TcToolParameter name="$HW_Daten_Foto_Bohr"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="TextEditor" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="HW_Daten_Foto_Bohr"/>
+       <TcToolParameter name="$HW_Daten_Foto_Bohr"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_Integra_SQL" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_Integra_SQL">
+     <TcDSViewTool name="TextEditor"/>
+     <TcDSEditTool name="TextEditor"/>
+     <TcDatasetReference name="HW_Daten_SQL">
+       <TcDatasetReferenceInfo template="*.txt" format="TEXT"/>
+       <TcDatasetReferenceInfo template="*.leg" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.smd" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="TextEditor" action="Open">
+       <TcToolActionReference export="true" referenceName="HW_Daten_SQL"/>
+       <TcToolParameter name="$HW_Daten_SQL"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="TextEditor" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="HW_Daten_SQL"/>
+       <TcToolParameter name="$HW_Daten_SQL"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_ItemNotice" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_ItemNotice">
+     <TcDSViewTool name="MSWord"/>
+     <TcDSEditTool name="MSWord"/>
+     <TcDatasetReference name="word">
+       <TcDatasetReferenceInfo template="*.doc" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="MSWord" action="Open">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="MSWord" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_Notice" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_Notice">
+     <TcDSViewTool name="MSWord"/>
+     <TcDSEditTool name="MSWord"/>
+     <TcDatasetReference name="word">
+       <TcDatasetReferenceInfo template="*.doc" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="MSWord" action="Open">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="MSWord" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_PCBLayoutOrder" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_PCBLayoutOrder">
+     <TcDSViewTool name="BT6_Layoutauftrag"/>
+     <TcDSViewTool name="MSWord"/>
+     <TcDSEditTool name="BT6_Layoutauftrag"/>
+     <TcDSEditTool name="MSWord"/>
+     <TcDatasetReference name="word">
+       <TcDatasetReferenceInfo template="*.Layoutauftrag.doc" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.doc" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="BT6_Layoutauftrag" action="Open">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="MSWord" action="Open">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_Product_InitialHistoryDoc" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_Product_InitialHistoryDoc">
+     <TcDSViewTool name="BT6_PHistory"/>
+     <TcDSViewTool name="MSWord"/>
+     <TcDSViewTool name="MSExcel"/>
+     <TcDSViewTool name="PDF_Tool"/>
+     <TcDSEditTool name="BT6_PHistory"/>
+     <TcDSEditTool name="MSWord"/>
+     <TcDSEditTool name="MSExcel"/>
+     <TcDSEditTool name="PDF_Tool"/>
+     <TcDatasetReference name="word">
+       <TcDatasetReferenceInfo template="*.PHistorie.doc" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.doc" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.docx" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="excel">
+       <TcDatasetReferenceInfo template="*.xls" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.xlsx" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="PDF_Reference">
+       <TcDatasetReferenceInfo template="*.pdf" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="propsync">
+       <TcDatasetReferenceInfo template="Object" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="BT6_PHistory" action="Open">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="BT6_PHistory" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="MSWord" action="Open">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="MSWord" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="MSExcel" action="Open">
+       <TcToolActionReference export="true" referenceName="excel"/>
+       <TcToolParameter name="$excel"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="MSExcel" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="excel"/>
+       <TcToolParameter name="$excel"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="PDF_Tool" action="Open">
+       <TcToolActionReference export="true" referenceName="PDF_Reference"/>
+       <TcToolParameter name="$PDF_Reference"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="PDF_Tool" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="PDF_Reference"/>
+       <TcToolParameter name="$PDF_Reference"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_RevNotice" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_RevNotice">
+     <TcDSViewTool name="MSWord"/>
+     <TcDSEditTool name="MSWord"/>
+     <TcDatasetReference name="word">
+       <TcDatasetReferenceInfo template="*.doc" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="MSWord" action="Open">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="MSWord" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="word"/>
+       <TcToolParameter name="$word"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_SoftwareData" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_SoftwareData">
+     <TcDSViewTool name="MSExcel"/>
+     <TcDSViewTool name="TextEditor"/>
+     <TcDSEditTool name="MSExcel"/>
+     <TcDSEditTool name="TextEditor"/>
+     <TcDatasetReference name="SW_Daten_TEXT">
+       <TcDatasetReferenceInfo template="*.hex" format="TEXT"/>
+       <TcDatasetReferenceInfo template="*.com" format="TEXT"/>
+       <TcDatasetReferenceInfo template="*.par" format="TEXT"/>
+       <TcDatasetReferenceInfo template="*.txt" format="TEXT"/>
+       <TcDatasetReferenceInfo template="*.crc" format="TEXT"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="SW_Daten_BIN">
+       <TcDatasetReferenceInfo template="*.bin" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.exe" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="excel">
+       <TcDatasetReferenceInfo template="*.xls" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="SW_Daten">
+       <TcDatasetReferenceInfo template="*.hex" format="TEXT"/>
+       <TcDatasetReferenceInfo template="*.txt" format="TEXT"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="MSExcel" action="Open">
+       <TcToolActionReference export="true" referenceName="excel"/>
+       <TcToolParameter name="$excel"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="MSExcel" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="excel"/>
+       <TcToolParameter name="$excel"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="TextEditor" action="Open">
+       <TcToolActionReference export="true" referenceName="SW_Daten"/>
+       <TcToolActionReference export="true" referenceName="SW_Daten_BIN"/>
+       <TcToolActionReference export="true" referenceName="SW_Daten_TEXT"/>
+       <TcToolParameter name="$SW_Daten"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="TextEditor" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="SW_Daten"/>
+       <TcToolActionReference export="true" referenceName="SW_Daten_BIN"/>
+       <TcToolActionReference export="true" referenceName="SW_Daten_TEXT"/>
+       <TcToolParameter name="$SW_Daten"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_TIFF" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_TIFF">
+     <TcDSViewTool name="Image Viewer"/>
+     <TcDSEditTool name="Image Viewer"/>
+     <TcDatasetReference name="TIFF">
+       <TcDatasetReferenceInfo template="*.tif" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="Image Viewer" action="Open">
+       <TcToolActionReference export="true" referenceName="TIFF"/>
+       <TcToolParameter name="$TIFF"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="Image Viewer" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="TIFF"/>
+       <TcToolParameter name="$TIFF"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="BT6_TIFF_Scan" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BT6_TIFF_Scan">
+     <TcDSViewTool name="Image Viewer"/>
+     <TcDSEditTool name="Image Viewer"/>
+     <TcDatasetReference name="TIFF">
+       <TcDatasetReferenceInfo template="*.tif" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="Image Viewer" action="Open">
+       <TcToolActionReference export="true" referenceName="TIFF"/>
+       <TcToolParameter name="$TIFF"/>
+     </TcDatasetToolAction>
+     <TcDatasetToolAction tool="Image Viewer" action="OpenUsing">
+       <TcToolActionReference export="true" referenceName="TIFF"/>
+       <TcToolParameter name="$TIFF"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcForm typeName="BT6_Document Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_Document&quot; business object"
+       isAbstract="false" artifactName="BT6_Document_0_Master_alt" formStorageClassName="BT6_ItemMaster"/>
+   <TcForm typeName="BT6_Document Revision Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_Document Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Document_0_Revisio_alt0" formStorageClassName="BT6_ItemRevMaster"/>
+   <TcForm typeName="BT6_EngChange Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_EngChange&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChange_0_Master_alt" formStorageClassName="BT6_ItemMaster"/>
+   <TcForm typeName="BT6_EngChange Revision Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_EngChange Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChange_0_Revisi_alt1" formStorageClassName="BT6_ItemRevMaster"/>
+   <TcForm typeName="BT6_Material Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_Material&quot; business object"
+       isAbstract="false" artifactName="BT6_Material_0_Master_alt" formStorageClassName="BT6_ItemMaster"/>
+   <TcForm typeName="BT6_Material Revision Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_Material Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Material_0_Revisio_alt0" formStorageClassName="BT6_ItemRevMaster"/>
+   <TcForm typeName="BT6_MultiSEffForm" parentTypeName="Form" typeClassName="Form"
+       description="" isAbstract="false" artifactName="BT6_MultiSEffForm" formStorageClassName="BT6_MultiSEff"/>
+   <TcForm typeName="BT6_PCB Master" parentTypeName="Form" typeClassName="Form" description="MasterForm object for &quot;BT6_PCB&quot; business object"
+       isAbstract="false" artifactName="BT6_PCB_0_Master_alt" formStorageClassName="BT6_ItemMaster"/>
+   <TcForm typeName="BT6_PCB Revision Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_PCB Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_PCB_0_Revision_0_M_alt0" formStorageClassName="BT6_ItemRevMaster"/>
+   <TcForm typeName="BT6_Product Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_Product&quot; business object"
+       isAbstract="false" artifactName="BT6_Product_0_Master_alt" formStorageClassName="BT6_ItemMaster"/>
+   <TcForm typeName="BT6_Product Revision Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_Product Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Product_0_Revision_alt0" formStorageClassName="BT6_ItemRevMaster"/>
+   <TcForm typeName="BT6_ProductPart Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_ProductPart&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductPart_0_Mast_alt0" formStorageClassName="BT6_ItemMaster"/>
+   <TcForm typeName="BT6_ProductPart Revision Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_ProductPart Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductPart_0_Revi_alt1" formStorageClassName="BT6_ItemRevMaster"/>
+   <TcForm typeName="BT6_Software Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_Software&quot; business object"
+       isAbstract="false" artifactName="BT6_Software_0_Master_alt" formStorageClassName="BT6_ItemMaster"/>
+   <TcForm typeName="BT6_Software Revision Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_Software Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Software_0_Revisio_alt0" formStorageClassName="BT6_ItemRevMaster"/>
+   <TcForm typeName="BT6_StandardPart Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_StandardPart&quot; business object"
+       isAbstract="false" artifactName="BT6_StandardPart_0_Mas_alt0" formStorageClassName="BT6_ItemMaster"/>
+   <TcForm typeName="BT6_StandardPart Revision Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_StandardPart Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_StandardPart_0_Rev_alt1" formStorageClassName="BT6_ItemRevMaster"/>
+   <TcForm typeName="BT6_Tool Master" parentTypeName="Form" typeClassName="Form" description="MasterForm object for &quot;BT6_Tool&quot; business object"
+       isAbstract="false" artifactName="BT6_Tool_0_Master_alt" formStorageClassName="BT6_ItemMaster"/>
+   <TcForm typeName="BT6_Tool Revision Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_Tool Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_Tool_0_Revision_0__alt0" formStorageClassName="BT6_ItemRevMaster"/>
+   <TcForm typeName="BT6_ToolPart Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_ToolPart&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolPart_0_Master_alt" formStorageClassName="BT6_ItemMaster"/>
+   <TcForm typeName="BT6_ToolPart Revision Master" parentTypeName="Form" typeClassName="Form"
+       description="MasterForm object for &quot;BT6_ToolPart Revision&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolPart_0_Revisio_alt0" formStorageClassName="BT6_ItemRevMaster"/>
+   <TcStandardType typeName="BT6_Document" parentTypeName="Item" typeClassName="Item"
+       description="" isAbstract="false" artifactName="BT6_Document"/>
+   <TcStandardType typeName="BT6_Document Revision" parentTypeName="ItemRevision"
+       typeClassName="ItemRevision" description="ItemRevision object for &quot;BT6_Document&quot; business object"
+       isAbstract="false" artifactName="BT6_Document_0_Revision_alt"/>
+   <TcStandardType typeName="BT6_EngChange" parentTypeName="Item" typeClassName="Item"
+       description="" isAbstract="false" artifactName="BT6_EngChange"/>
+   <TcStandardType typeName="BT6_EngChange Revision" parentTypeName="ItemRevision"
+       typeClassName="ItemRevision" description="ItemRevision object for &quot;BT6_EngChange&quot; business object"
+       isAbstract="false" artifactName="BT6_EngChange_0_Revisi_alt0"/>
+   <TcStandardType typeName="BT6_GroupFolder" parentTypeName="Folder" typeClassName="Folder"
+       description="" isAbstract="false" artifactName="BT6_GroupFolder"/>
+   <TcStandardType typeName="BT6_ItemMaster" parentTypeName="POM_object" typeClassName="BT6_ItemMaster"
+       description="Form Storage object for &quot;BT6_ToolPart Master&quot; business object"
+       isAbstract="false" artifactName="BT6_ItemMaster"/>
+   <TcStandardType typeName="BT6_ItemRevMaster" parentTypeName="POM_object" typeClassName="BT6_ItemRevMaster"
+       description="Form Storage object for &quot;BT6_ToolPart Revision Master&quot; business object"
+       isAbstract="false" artifactName="BT6_ItemRevMaster"/>
+   <TcStandardType typeName="BT6_LibraryFolder" parentTypeName="Folder" typeClassName="Folder"
+       description="" isAbstract="false" artifactName="BT6_LibraryFolder"/>
+   <TcStandardType typeName="BT6_Material" parentTypeName="Item" typeClassName="Item"
+       description="" isAbstract="false" artifactName="BT6_Material"/>
+   <TcStandardType typeName="BT6_Material Revision" parentTypeName="ItemRevision"
+       typeClassName="ItemRevision" description="ItemRevision object for &quot;BT6_Material&quot; business object"
+       isAbstract="false" artifactName="BT6_Material_0_Revision_alt"/>
+   <TcStandardType typeName="BT6_MultiSEff" parentTypeName="POM_object" typeClassName="BT6_MultiSEff"
+       description="Form Storage object for &quot;BT6_MultiSEffForm&quot; business object"
+       isAbstract="false" artifactName="BT6_MultiSEff"/>
+   <TcStandardType typeName="BT6_PCB" parentTypeName="Item" typeClassName="Item" description=""
+       isAbstract="false" artifactName="BT6_PCB"/>
+   <TcStandardType typeName="BT6_PCB Revision" parentTypeName="ItemRevision" typeClassName="ItemRevision"
+       description="ItemRevision object for &quot;BT6_PCB&quot; business object" isAbstract="false"
+       artifactName="BT6_PCB_0_Revision_alt"/>
+   <TcStandardType typeName="BT6_Product" parentTypeName="Item" typeClassName="Item"
+       description="" isAbstract="false" artifactName="BT6_Product"/>
+   <TcStandardType typeName="BT6_Product Revision" parentTypeName="ItemRevision" typeClassName="ItemRevision"
+       description="ItemRevision object for &quot;BT6_Product&quot; business object"
+       isAbstract="false" artifactName="BT6_Product_0_Revision_alt"/>
+   <TcStandardType typeName="BT6_ProductFolder" parentTypeName="Folder" typeClassName="Folder"
+       description="" isAbstract="false" artifactName="BT6_ProductFolder"/>
+   <TcStandardType typeName="BT6_ProductPart" parentTypeName="Item" typeClassName="Item"
+       description="" isAbstract="false" artifactName="BT6_ProductPart"/>
+   <TcStandardType typeName="BT6_ProductPart Revision" parentTypeName="ItemRevision"
+       typeClassName="ItemRevision" description="ItemRevision object for &quot;BT6_ProductPart&quot; business object"
+       isAbstract="false" artifactName="BT6_ProductPart_0_Revi_alt0"/>
+   <TcStandardType typeName="BT6_ProjectFolder" parentTypeName="Folder" typeClassName="Folder"
+       description="" isAbstract="false" artifactName="BT6_ProjectFolder"/>
+   <TcStandardType typeName="BT6_Rel_AuxMat_Primary" parentTypeName="ImanRelation"
+       typeClassName="ImanRelation" description="" isAbstract="false" artifactName="BT6_Rel_AuxMat_Primary"/>
+   <TcStandardType typeName="BT6_Rel_AuxMat_Secondary" parentTypeName="ImanRelation"
+       typeClassName="ImanRelation" description="" isAbstract="false" artifactName="BT6_Rel_AuxMat_Secondary"/>
+   <TcStandardType typeName="BT6_Rel_Concerned" parentTypeName="ImanRelation" typeClassName="ImanRelation"
+       description="" isAbstract="false" artifactName="BT6_Rel_Concerned"/>
+   <TcStandardType typeName="BT6_Rel_Notice" parentTypeName="ImanRelation" typeClassName="ImanRelation"
+       description="" isAbstract="false" artifactName="BT6_Rel_Notice"/>
+   <TcStandardType typeName="BT6_Rel_Product_InitialHistory" parentTypeName="ImanRelation"
+       typeClassName="ImanRelation" description="" isAbstract="false" artifactName="BT6_Rel_Product_InitialHistory"/>
+   <TcStandardType typeName="BT6_Rel_Specified" parentTypeName="ImanRelation" typeClassName="ImanRelation"
+       description="" isAbstract="false" artifactName="BT6_Rel_Specified"/>
+   <TcStandardType typeName="BT6_Rel_WorkflowReferenceObjects" parentTypeName="ImanRelation"
+       typeClassName="ImanRelation" description="" isAbstract="false" artifactName="BT6_Rel_WorkflowReferenceObjects"/>
+   <TcStandardType typeName="BT6_Rel_WorkflowTargetObjects" parentTypeName="ImanRelation"
+       typeClassName="ImanRelation" description="" isAbstract="false" artifactName="BT6_Rel_WorkflowTargetObjects"/>
+   <TcStandardType typeName="BT6_Software" parentTypeName="Item" typeClassName="Item"
+       description="" isAbstract="false" artifactName="BT6_Software"/>
+   <TcStandardType typeName="BT6_Software Revision" parentTypeName="ItemRevision"
+       typeClassName="ItemRevision" description="ItemRevision object for &quot;BT6_Software&quot; business object"
+       isAbstract="false" artifactName="BT6_Software_0_Revision_alt"/>
+   <TcStandardType typeName="BT6_StandardPart" parentTypeName="Item" typeClassName="Item"
+       description="" isAbstract="false" artifactName="BT6_StandardPart"/>
+   <TcStandardType typeName="BT6_StandardPart Revision" parentTypeName="ItemRevision"
+       typeClassName="ItemRevision" description="ItemRevision object for &quot;BT6_StandardPart&quot; business object"
+       isAbstract="false" artifactName="BT6_StandardPart_0_Rev_alt0"/>
+   <TcStandardType typeName="BT6_TCENT_Material" parentTypeName="ImanRelation" typeClassName="BT6_TCENT_Material"
+       description="" isAbstract="false" artifactName="BT6_TCENT_Material"/>
+   <TcStandardType typeName="BT6_Tool" parentTypeName="Item" typeClassName="Item"
+       description="" isAbstract="false" artifactName="BT6_Tool"/>
+   <TcStandardType typeName="BT6_Tool Revision" parentTypeName="ItemRevision" typeClassName="ItemRevision"
+       description="ItemRevision object for &quot;BT6_Tool&quot; business object"
+       isAbstract="false" artifactName="BT6_Tool_0_Revision_alt"/>
+   <TcStandardType typeName="BT6_ToolFolder" parentTypeName="Folder" typeClassName="Folder"
+       description="" isAbstract="false" artifactName="BT6_ToolFolder"/>
+   <TcStandardType typeName="BT6_ToolPart" parentTypeName="Item" typeClassName="Item"
+       description="" isAbstract="false" artifactName="BT6_ToolPart"/>
+   <TcStandardType typeName="BT6_ToolPart Revision" parentTypeName="ItemRevision"
+       typeClassName="ItemRevision" description="ItemRevision object for &quot;BT6_ToolPart&quot; business object"
+       isAbstract="false" artifactName="BT6_ToolPart_0_Revision_alt"/>
+   <TcStandardType typeName="BT6_UDFFolder" parentTypeName="Folder" typeClassName="Folder"
+       description="" isAbstract="false" artifactName="BT6_UDFFolder"/>
+   <TcStandardType typeName="BT6_UGPartAttr" parentTypeName="POM_object" typeClassName="BT6_UGPartAttr"
+       description="Form Storage object for &quot;UGPartAttr&quot; business object"
+       isAbstract="false" artifactName="BT6_UGPartAttr"/>
+   <TcStandardType typeName="Toolsfolder" parentTypeName="Folder" typeClassName="Folder"
+       description="" isAbstract="false" artifactName="Toolsfolder"/>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT6_Rel_AuxMat_Primary" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT6_Rel_AuxMat_Secondary" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT6_Rel_Concerned" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT6_Rel_Notice" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT6_Rel_Product_InitialHistory" propTypeName="Relation"
+         propValueType="PROP_untyped_relation" propMaxStringLength="0" isArray="true"
+         arrayLength="-1" description="" referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT6_Rel_Specified" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT6_Rel_WorkflowReferenceObjects" propTypeName="Relation"
+         propValueType="PROP_untyped_relation" propMaxStringLength="0" isArray="true"
+         arrayLength="-1" description="" referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT6_Rel_WorkflowTargetObjects" propTypeName="Relation"
+         propValueType="PROP_untyped_relation" propMaxStringLength="0" isArray="true"
+         arrayLength="-1" description="" referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT6_TCENT_Material" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="BT6_TCENT_Material"
+         referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="en_US"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_AutoSketch" value="BT6_AutoSketchCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_CorelDesigner" value="BT6_CorelDesignerCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Document" value="BT6_DocumentCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Document Master"
+       value="BT6_Document_0_Master_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Document Revision"
+       value="BT6_Document_0_Revision_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Document Revision Master"
+       value="BT6_Document_0_Revisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_DXF" value="BT6_DXFCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_EngChange" value="BT6_EngChangeCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_EngChange Master"
+       value="BT6_EngChange_0_Master_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_EngChange Revision"
+       value="BT6_EngChange_0_Revisi_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_EngChange Revision Master"
+       value="BT6_EngChange_0_Revisi_alt1CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_EngChangeDoc" value="BT6_EngChangeDocCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_FluidDraw" value="BT6_FluidDrawCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_GroupFolder" value="BT6_GroupFolderCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Integra" value="BT6_IntegraCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Integra_Mask_Drill"
+       value="BT6_Integra_Mask_DrillCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Integra_SQL" value="BT6_Integra_SQLCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ItemMaster" value="BT6_ItemMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ItemNotice" value="BT6_ItemNoticeCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ItemRevMaster" value="BT6_ItemRevMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_LibraryFolder" value="BT6_LibraryFolderCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Material" value="BT6_MaterialCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Material Master"
+       value="BT6_Material_0_Master_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Material Revision"
+       value="BT6_Material_0_Revision_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Material Revision Master"
+       value="BT6_Material_0_Revisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_MultiSEff" value="BT6_MultiSEffCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_MultiSEffForm" value="BT6_MultiSEffFormCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Notice" value="BT6_NoticeCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_PCB" value="BT6_PCBCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_PCB Master" value="BT6_PCB_0_Master_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_PCB Revision" value="BT6_PCB_0_Revision_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_PCB Revision Master"
+       value="BT6_PCB_0_Revision_0_M_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_PCBLayoutOrder"
+       value="BT6_PCBLayoutOrderCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Product" value="BT6_ProductCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Product Master"
+       value="BT6_Product_0_Master_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Product Revision"
+       value="BT6_Product_0_Revision_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Product Revision Master"
+       value="BT6_Product_0_Revision_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Product_InitialHistoryDoc"
+       value="BT6_Product_InitialHis_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ProductFolder" value="BT6_ProductFolderCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ProductPart" value="BT6_ProductPartCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ProductPart Master"
+       value="BT6_ProductPart_0_Mast_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ProductPart Revision"
+       value="BT6_ProductPart_0_Revi_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ProductPart Revision Master"
+       value="BT6_ProductPart_0_Revi_alt1CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ProjectFolder" value="BT6_ProjectFolderCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Rel_AuxMat_Primary"
+       value="BT6_Rel_AuxMat_PrimaryCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Rel_AuxMat_Secondary"
+       value="BT6_Rel_AuxMat_SecondaryCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Rel_Concerned" value="BT6_Rel_ConcernedCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Rel_Notice" value="BT6_Rel_NoticeCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Rel_Product_InitialHistory"
+       value="BT6_Rel_Product_Initia_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Rel_Specified" value="BT6_Rel_SpecifiedCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Rel_WorkflowReferenceObjects"
+       value="BT6_Rel_WorkflowRefere_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Rel_WorkflowTargetObjects"
+       value="BT6_Rel_WorkflowTarget_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_RevNotice" value="BT6_RevNoticeCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Software" value="BT6_SoftwareCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Software Master"
+       value="BT6_Software_0_Master_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Software Revision"
+       value="BT6_Software_0_Revision_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Software Revision Master"
+       value="BT6_Software_0_Revisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_SoftwareData" value="BT6_SoftwareDataCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_StandardPart" value="BT6_StandardPartCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_StandardPart Master"
+       value="BT6_StandardPart_0_Mas_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_StandardPart Revision"
+       value="BT6_StandardPart_0_Rev_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_StandardPart Revision Master"
+       value="BT6_StandardPart_0_Rev_alt1CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_TCENT_Material"
+       value="BT6_TCENT_MaterialCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_TIFF" value="BT6_TIFFCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_TIFF_Scan" value="BT6_TIFF_ScanCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Tool" value="BT6_ToolCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Tool Master" value="BT6_Tool_0_Master_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Tool Revision" value="BT6_Tool_0_Revision_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_Tool Revision Master"
+       value="BT6_Tool_0_Revision_0__alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ToolFolder" value="BT6_ToolFolderCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ToolPart" value="BT6_ToolPartCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ToolPart Master"
+       value="BT6_ToolPart_0_Master_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ToolPart Revision"
+       value="BT6_ToolPart_0_Revision_alt"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_ToolPart Revision Master"
+       value="BT6_ToolPart_0_Revisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_UDFFolder" value="BT6_UDFFolderCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT6_UGPartAttr" value="BT6_UGPartAttrCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Toolsfolder" value="ToolsfolderCreI"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="BT6_Document" value="BT6_Document Revision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="BT6_EngChange" value="BT6_EngChange Revision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="BT6_Material" value="BT6_Material Revision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="BT6_PCB" value="BT6_PCB Revision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="BT6_Product" value="BT6_Product Revision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="BT6_ProductPart" value="BT6_ProductPart Revision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="BT6_Software" value="BT6_Software Revision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="BT6_StandardPart" value="BT6_StandardPart Revision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="BT6_Tool" value="BT6_Tool Revision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="BT6_ToolPart" value="BT6_ToolPart Revision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_Document" value="BT6_Document Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_Document Revision"
+       value="BT6_Document Revision Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_EngChange" value="BT6_EngChange Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_EngChange Revision"
+       value="BT6_EngChange Revision Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_Material" value="BT6_Material Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_Material Revision"
+       value="BT6_Material Revision Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_PCB" value="BT6_PCB Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_PCB Revision" value="BT6_PCB Revision Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_Product" value="BT6_Product Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_Product Revision"
+       value="BT6_Product Revision Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_ProductPart" value="BT6_ProductPart Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_ProductPart Revision"
+       value="BT6_ProductPart Revision Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_Software" value="BT6_Software Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_Software Revision"
+       value="BT6_Software Revision Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_StandardPart" value="BT6_StandardPart Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_StandardPart Revision"
+       value="BT6_StandardPart Revision Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_Tool" value="BT6_Tool Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_Tool Revision" value="BT6_Tool Revision Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_ToolPart" value="BT6_ToolPart Master"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT6_ToolPart Revision"
+       value="BT6_ToolPart Revision Master"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="BT6_Document Revision"
+       value="BT6_Document_0_Revision_altRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="BT6_EngChange Revision"
+       value="BT6_EngChange_0_Revisi_alt0RevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="BT6_Material Revision"
+       value="BT6_Material_0_Revision_altRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="BT6_PCB Revision" value="BT6_PCB_0_Revision_altRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="BT6_Product Revision"
+       value="BT6_Product_0_Revision_altRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="BT6_ProductPart Revision"
+       value="BT6_ProductPart_0_Revi_alt0RevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="BT6_Software Revision"
+       value="BT6_Software_0_Revision_altRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="BT6_StandardPart Revision"
+       value="BT6_StandardPart_0_Rev_alt0RevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="BT6_Tool Revision" value="BT6_Tool_0_Revision_altRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="BT6_ToolPart Revision"
+       value="BT6_ToolPart_0_Revision_altRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_AutoSketch" value="BT6_AutoSketchSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_CorelDesigner" value="BT6_CorelDesignerSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Document" value="BT6_DocumentSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Document Master"
+       value="BT6_Document MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Document Revision"
+       value="BT6_Document RevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Document Revision Master"
+       value="BT6_Document Revision MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_DXF" value="BT6_DXFSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_EngChange" value="BT6_EngChangeSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_EngChange Master"
+       value="BT6_EngChange MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_EngChange Revision"
+       value="BT6_EngChange RevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_EngChange Revision Master"
+       value="BT6_EngChange_0_Revisi_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_EngChangeDoc" value="BT6_EngChangeDocSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_FluidDraw" value="BT6_FluidDrawSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_GroupFolder" value="BT6_GroupFolderSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Integra" value="BT6_IntegraSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Integra_Mask_Drill"
+       value="BT6_Integra_Mask_DrillSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Integra_SQL" value="BT6_Integra_SQLSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ItemMaster" value="BT6_ItemMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ItemNotice" value="BT6_ItemNoticeSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ItemRevMaster" value="BT6_ItemRevMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_LibraryFolder" value="BT6_LibraryFolderSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Material" value="BT6_MaterialSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Material Master"
+       value="BT6_Material MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Material Revision"
+       value="BT6_Material RevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Material Revision Master"
+       value="BT6_Material Revision MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_MultiSEff" value="BT6_MultiSEffSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_MultiSEffForm" value="BT6_MultiSEffFormSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Notice" value="BT6_NoticeSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_PCB" value="BT6_PCBSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_PCB Master" value="BT6_PCB MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_PCB Revision" value="BT6_PCB RevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_PCB Revision Master"
+       value="BT6_PCB Revision MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_PCBLayoutOrder"
+       value="BT6_PCBLayoutOrderSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Product" value="BT6_ProductSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Product Master"
+       value="BT6_Product MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Product Revision"
+       value="BT6_Product RevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Product Revision Master"
+       value="BT6_Product Revision MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Product_InitialHistoryDoc"
+       value="BT6_Product_InitialHis_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ProductFolder" value="BT6_ProductFolderSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ProductPart" value="BT6_ProductPartSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ProductPart Master"
+       value="BT6_ProductPart MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ProductPart Revision"
+       value="BT6_ProductPart RevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ProductPart Revision Master"
+       value="BT6_ProductPart_0_Revi_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ProjectFolder" value="BT6_ProjectFolderSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Rel_AuxMat_Primary"
+       value="BT6_Rel_AuxMat_PrimarySvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Rel_AuxMat_Secondary"
+       value="BT6_Rel_AuxMat_SecondarySvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Rel_Concerned" value="BT6_Rel_ConcernedSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Rel_Notice" value="BT6_Rel_NoticeSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Rel_Product_InitialHistory"
+       value="BT6_Rel_Product_Initia_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Rel_Specified" value="BT6_Rel_SpecifiedSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Rel_WorkflowReferenceObjects"
+       value="BT6_Rel_WorkflowRefere_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Rel_WorkflowTargetObjects"
+       value="BT6_Rel_WorkflowTarget_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_RevNotice" value="BT6_RevNoticeSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Software" value="BT6_SoftwareSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Software Master"
+       value="BT6_Software MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Software Revision"
+       value="BT6_Software RevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Software Revision Master"
+       value="BT6_Software Revision MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_SoftwareData" value="BT6_SoftwareDataSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_StandardPart" value="BT6_StandardPartSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_StandardPart Master"
+       value="BT6_StandardPart MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_StandardPart Revision"
+       value="BT6_StandardPart RevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_StandardPart Revision Master"
+       value="BT6_StandardPart_0_Rev_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_TCENT_Material"
+       value="BT6_TCENT_MaterialSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_TIFF" value="BT6_TIFFSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_TIFF_Scan" value="BT6_TIFF_ScanSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Tool" value="BT6_ToolSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Tool Master" value="BT6_Tool MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Tool Revision" value="BT6_Tool RevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_Tool Revision Master"
+       value="BT6_Tool Revision MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ToolFolder" value="BT6_ToolFolderSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ToolPart" value="BT6_ToolPartSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ToolPart Master"
+       value="BT6_ToolPart MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ToolPart Revision"
+       value="BT6_ToolPart RevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_ToolPart Revision Master"
+       value="BT6_ToolPart Revision MasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_UDFFolder" value="BT6_UDFFolderSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT6_UGPartAttr" value="BT6_UGPartAttrSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Toolsfolder" value="ToolsfolderSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT6_Document Revision Master"
+       propertyName="BT6_DocMgnt" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT6_PCB Revision Master"
+       propertyName="BT6_DocMgnt" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT6_Product Revision Master"
+       propertyName="BT6_DocMgnt" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT6_ProductPart Revision Master"
+       propertyName="BT6_DocMgnt" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT6_Software Revision Master"
+       propertyName="BT6_DocMgnt" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT6_StandardPart Revision Master"
+       propertyName="BT6_DocMgnt" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT6_Tool Revision Master"
+       propertyName="BT6_DocMgnt" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT6_ToolPart Revision Master"
+       propertyName="BT6_DocMgnt" value="true"/>
+   <TcPropertyConstantAttach constantName="InitialValue" typeName="BT6_Document Revision Master"
+       propertyName="BT6_DocMgnt" value="CH-Zug/4994"/>
+   <TcPropertyConstantAttach constantName="InitialValue" typeName="BT6_PCB Revision Master"
+       propertyName="BT6_DocMgnt" value="CH-Zug/4994"/>
+   <TcPropertyConstantAttach constantName="InitialValue" typeName="BT6_Product Revision Master"
+       propertyName="BT6_DocMgnt" value="CH-Zug/4994"/>
+   <TcPropertyConstantAttach constantName="InitialValue" typeName="BT6_ProductPart Revision Master"
+       propertyName="BT6_DocMgnt" value="CH-Zug/4994"/>
+   <TcPropertyConstantAttach constantName="InitialValue" typeName="BT6_Software Revision Master"
+       propertyName="BT6_DocMgnt" value="CH-Zug/4994"/>
+   <TcPropertyConstantAttach constantName="InitialValue" typeName="BT6_StandardPart Revision Master"
+       propertyName="BT6_DocMgnt" value="CH-Zug/4994"/>
+   <TcPropertyConstantAttach constantName="InitialValue" typeName="BT6_Tool Revision Master"
+       propertyName="BT6_DocMgnt" value="CH-Zug/4994"/>
+   <TcPropertyConstantAttach constantName="InitialValue" typeName="BT6_ToolPart Revision Master"
+       propertyName="BT6_DocMgnt" value="CH-Zug/4994"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT6_Document Revision Master"
+       propertyName="BT6_DocMgnt" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT6_ItemRevMaster"
+       propertyName="BT6_DocChange" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT6_ItemRevMaster"
+       propertyName="BT6_TechInfo" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT6_PCB Revision Master"
+       propertyName="BT6_DocMgnt" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT6_Product Revision Master"
+       propertyName="BT6_DocMgnt" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT6_ProductPart Revision Master"
+       propertyName="BT6_DocMgnt" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT6_Software Revision Master"
+       propertyName="BT6_DocMgnt" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT6_StandardPart Revision Master"
+       propertyName="BT6_DocMgnt" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT6_Tool Revision Master"
+       propertyName="BT6_DocMgnt" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT6_ToolPart Revision Master"
+       propertyName="BT6_DocMgnt" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="DocumentRevision Master"
+       propertyName="BT6_ApprDate_1" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="DocumentRevision Master"
+       propertyName="BT6_ApprDate_2" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="DocumentRevision Master"
+       propertyName="BT6_ApprDate_3" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="DocumentRevision Master"
+       propertyName="BT6_ApprDate_4" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="DocumentRevision Master"
+       propertyName="BT6_ApprDate_DocMapp" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="DocumentRevision Master"
+       propertyName="BT6_ApprUser_1" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="DocumentRevision Master"
+       propertyName="BT6_ApprUser_2" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="DocumentRevision Master"
+       propertyName="BT6_ApprUser_3" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="DocumentRevision Master"
+       propertyName="BT6_ApprUser_4" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="DocumentRevision Master"
+       propertyName="BT6_ItemRevName_2" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="DocumentRevision Master"
+       propertyName="BT6_RevLastStatus" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Item" propertyName="BT6_ArticleType"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="BT6_TCENT_Material"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Part Revision Master"
+       propertyName="BT6_ApprDate_1" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Part Revision Master"
+       propertyName="BT6_ApprDate_2" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Part Revision Master"
+       propertyName="BT6_ApprDate_3" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Part Revision Master"
+       propertyName="BT6_ApprDate_4" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Part Revision Master"
+       propertyName="BT6_ApprDate_DocMapp" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Part Revision Master"
+       propertyName="BT6_ApprUser_1" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Part Revision Master"
+       propertyName="BT6_ApprUser_2" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Part Revision Master"
+       propertyName="BT6_ApprUser_3" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Part Revision Master"
+       propertyName="BT6_ApprUser_4" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Part Revision Master"
+       propertyName="BT6_ItemRevName_2" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Part Revision Master"
+       propertyName="BT6_RevLastStatus" value="Write"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT6_Product" propertyName="BT6_ArticleType"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="Item" propertyName="BT6_ArticleType"
+       value="false"/>
+   <TcStatus statusName="10" description=""/>
+   <TcStatus statusName="100" description=""/>
+   <TcStatus statusName="101" description=""/>
+   <TcStatus statusName="20" description=""/>
+   <TcStatus statusName="30" description=""/>
+   <TcStatus statusName="40" description=""/>
+   <TcStatus statusName="5" description=""/>
+   <TcStatus statusName="50" description=""/>
+   <TcStatus statusName="60" description=""/>
+   <TcStatus statusName="70" description=""/>
+   <TcStatus statusName="80" description=""/>
+   <TcStatus statusName="90" description=""/>
+   <TcStatus statusName="98" description=""/>
+   <TcStatus statusName="99" description=""/>
+   <TcStatus statusName="Abgelehnt" description=""/>
+   <TcStatus statusName="Freigegeben" description=""/>
+   <TcTool toolName="BT6_Autosketch" toolMimeType="application/tbd" toolSymbol="&quot;BT6_Autosketch&quot;"
+       toolVersion="1.0" toolReleaseDate="01-Jul-2010 16:20" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" description="">
+     <TcToolInputFormat formatName="BINARY"/>
+     <TcToolOutputFormat formatName="BINARY"/>
+   </TcTool>
+   <TcTool toolName="BT6_Designer" toolMimeType="application/tbd" toolSymbol="&quot;BT6_Designer&quot;"
+       toolVersion="1.0" toolReleaseDate="01-Jul-2010 16:20" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" description="">
+     <TcToolInputFormat formatName="BINARY"/>
+     <TcToolOutputFormat formatName="BINARY"/>
+   </TcTool>
+   <TcTool toolName="BT6_FluidDraw" toolMimeType="application/tbd" toolSymbol="&quot;BT6_FluidDraw&quot;"
+       toolVersion="1.0" toolReleaseDate="01-Jul-2010 16:21" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" description="">
+     <TcToolInputFormat formatName="BINARY"/>
+     <TcToolOutputFormat formatName="BINARY"/>
+   </TcTool>
+   <TcTool toolName="BT6_Layoutauftrag" toolMimeType="application/tbd" toolSymbol="&quot;BT6_Layoutauftrag&quot;"
+       toolVersion="1.0" toolReleaseDate="01-Jul-2010 16:21" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" description="">
+     <TcToolInputFormat formatName="BINARY"/>
+     <TcToolOutputFormat formatName="BINARY"/>
+   </TcTool>
+   <TcTool toolName="BT6_PHistory" toolMimeType="application/tbd" toolSymbol="&quot;BT6_PHistory&quot;"
+       toolVersion="1.0" toolReleaseDate="01-Jul-2010 16:21" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" description="">
+     <TcToolInputFormat formatName="BINARY"/>
+     <TcToolOutputFormat formatName="BINARY"/>
+   </TcTool>
+   <TcTool toolName="BT6_TMDoc" toolMimeType="application/tbd" toolSymbol="&quot;BT6_TMDoc&quot;"
+       toolVersion="1.0" toolReleaseDate="01-Jul-2010 16:21" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" description="">
+     <TcToolInputFormat formatName="BINARY"/>
+     <TcToolOutputFormat formatName="BINARY"/>
+   </TcTool>
+</Add>
+<Change>
+   <TcForm typeName="UGPartAttr" parentTypeName="Form" typeClassName="Form" packageName="com.teamcenter.core.epm"
+       description="" isAbstract="false" artifactName="UGPartAttr" formStorageClassName="BT6_UGPartAttr"/>
+   <TcDatasetToolActionAttach datasetType="PDF" tool="PDF_Tool" action="Open">
+     <TcToolActionReference export="true" referenceName="PDF_Reference"/>
+     <TcToolParameter name="$PDF_Reference"/>
+   </TcDatasetToolActionAttach>
+   <TcDatasetToolActionAttach datasetType="PDF" tool="PDF_Tool" action="OpenUsing">
+     <TcToolActionReference export="true" referenceName="PDF_Reference"/>
+     <TcToolParameter name="$PDF_Reference"/>
+   </TcDatasetToolActionAttach>
+   <TcTool toolName="AIE-UGpart" toolMimeType="application/aie" toolSymbol="C:\aie"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="AuditLogReader" toolMimeType="text/html" toolSymbol="%IMAN_BIN%\start_AuditRead.bat"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:13" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" description="This tool will open the audit log xml in a html reader"/>
+   <TcTool toolName="CAE_Dummy" toolMimeType="" toolSymbol="CAE_Dummy" toolVersion="1.0"
+       toolReleaseDate="25-Mar-2009 18:14" toolLaunchCommandMac="" toolLaunchCommandWin=""
+       toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+       toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+       toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="IExplore" toolMimeType="text/html" toolSymbol="$TC_BIN/start_iexplore.bat"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:13" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="Image Editor" toolMimeType="" toolSymbol="$TC_BIN/image_edit"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:13" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="Image Viewer" toolMimeType="" toolSymbol="$TC_BIN/image_view"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:13" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="MarkUp Tool" toolMimeType="" toolSymbol="$TC_BIN/image_markup"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:13" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="NX_AI_TOOL" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:14" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="NoOp" toolMimeType="*" toolSymbol="StubPrg" toolVersion="1.0"
+       toolReleaseDate="25-Mar-2009 18:13" toolLaunchCommandMac="" toolLaunchCommandWin=""
+       toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+       toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+       toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="NoteEditor" toolMimeType="text/plain" toolSymbol="NoteEditor"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="Notepad" toolMimeType="text/plain" toolSymbol="%SystemRoot%\notepad.exe"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="PDF_Tool" toolMimeType="application/pdf" toolSymbol="&quot;PDF_Tool&quot;"
+       toolReleaseDate="01-Jul-2010 16:11" toolLaunchCommandMac="" toolLaunchCommandWin=""
+       toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+       toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+       toolDigitalSignatureCapable="false" description=""/>
+   <TcTool toolName="PV" toolMimeType="" toolSymbol="$TC_BIN/run_pv" toolVersion="1.0"
+       toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac="" toolLaunchCommandWin=""
+       toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+       toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+       toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="PV MarkUp Tool" toolMimeType="" toolSymbol="$TC_BIN/pv_image_markup"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="PV VisView" toolMimeType="application/pvportal" toolSymbol="$TC_BIN/non_existent"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="Photoshop" toolMimeType="image/psd" toolSymbol="Photoshop" toolVersion="1.0"
+       toolReleaseDate="25-Mar-2009 18:13" toolLaunchCommandMac="" toolLaunchCommandWin=""
+       toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+       toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+       toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="STL-VMU-NoBkm" toolMimeType="application/x-visnetwork" toolSymbol="$TC_BIN/non_existent"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="SmtpTool" toolMimeType="" toolSymbol="$TC_BIN/tc_mail_smtp" toolVersion="1.0"
+       toolReleaseDate="25-Mar-2009 18:13" toolLaunchCommandMac="" toolLaunchCommandWin=""
+       toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+       toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+       toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="SpatialDataDummy" toolMimeType="" toolSymbol="SpatialDataDummy"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:13" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="TextEditor" toolMimeType="text/plain" toolSymbol="$TC_BIN/tc_edit"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="TextEditorNT" toolMimeType="text/plain" toolSymbol="%TC_BIN%\tc_edit.bat"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="UGII V10-ALL" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="UGII V10-ANALYSIS" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="UGII V10-BASE" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="UGII V10-CAM" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="UGII V10-DESIGN" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="UGII V10-DRAFTING" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="UGII V10-GATEWAY" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="UGII V10-GFEM" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="UGII V10-MECHANISM" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="UGII V10-MOLDFLOW" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="UGII V10-TEAM" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="UnZip" toolMimeType="application/x-zip-compressed" toolSymbol="$TC_BIN/run_unzip"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:13" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="VMU" toolMimeType="application/x-visnetwork" toolSymbol="$TC_BIN/non_existent"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:12" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="ValidationRuleSetEditor" toolMimeType="text/validationruleset"
+       toolSymbol="$TC_BIN/validation_rule" toolVersion="1.0" toolReleaseDate="07-Jun-2011 15:04"
+       toolLaunchCommandMac="" toolLaunchCommandWin="" toolDownloadRequired="false"
+       toolCallbackEnabled="false" toolViewCapable="false" toolMarkupCapable="false"
+       toolEmbedApplication="false" toolVviRequired="false" toolDigitalSignatureCapable="false"
+       packageName="com.teamcenter.core.options.tool" description=""/>
+   <TcTool toolName="VisPublishTP" toolMimeType="application/x-vtp" toolSymbol="$TC_BIN/run_vispublishtp"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:13" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="Visio" toolMimeType="application/vnd.visio" toolSymbol="$TC_BIN/run_visio"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:13" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+   <TcTool toolName="xmlEditor" toolMimeType="text/xml" toolSymbol="$TC_BIN/texteditor"
+       toolVersion="1.0" toolReleaseDate="25-Mar-2009 18:13" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+       description=""/>
+</Change>
+<Delete/>
+</TcBusinessData>

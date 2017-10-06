@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyMasterS" status="Approved">BT7 Prod Type Key Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyMaster" status="Approved">BT7 Prod Type Key Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyRevMasterS" status="Approved">BT7 Prod Type Key Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyRevisionMaster" status="Approved">BT7 Prod Type Key Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyRevision" status="Approved">BT7  Prod Type Key Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKey_FormStorage" status="Approved">BT7_ProdTypeKey_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKey_Form" status="Approved">BT7 Prod Type Key Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKey" status="Approved">BT7 Product Type Key</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_ProdTypeKey" status="Approved">Product Type Key</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarConditions" status="Approved">Variants Conditions</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarItemIDMap" status="Approved">Variant Item ID Mapping</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarItemID" status="Approved">Variant Item ID</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarItems" status="Approved">Variant Items</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarModules" status="Approved">Variants Modules</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarRules" status="Approved">Variant Rules</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VI_ID_Map_FormStorage" status="Approved">BT7_VI_ID_Map_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VI_ID_Map_Form" status="Approved">BT7 VariantItem ID Mapping Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarCond_FormStorage" status="Approved">BT7_VarCond_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarCondition_Form" status="Approved">BT7Var Condition Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarItemID_FormStorage" status="Approved">BT7_VarItemID_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarItemID_Form" status="Approved">BT7 Var Item ID Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarMatrix_FormStorage" status="Approved">BT7_VarMatrix_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarMatrix_Form" status="Approved">BT7 Var Matrix Form</key>
+   <key locale="en_US" id="Property{::}BT7_ProdTypeKey_FormStorage{::}bt7_PTK_LOV_10"
+       status="Approved">BT PTK LOV 10</key>
+   <key locale="en_US" id="Property{::}BT7_ProdTypeKey_FormStorage{::}bt7_PTK_LOV_1"
+       status="Approved">BT PTK LOV 1</key>
+   <key locale="en_US" id="Property{::}BT7_VI_ID_Map_FormStorage{::}bt7_VarItemID_Mapping"
+       status="Approved">BT Variant Item ID Mapping</key>
+   <key locale="en_US" id="Property{::}BT7_VI_ID_Map_Form{::}bt7_VarItemID_Mapping"
+       status="Approved">BT Variant Item ID Mapping</key>
+   <key locale="en_US" id="Property{::}BT7_VarCond_FormStorage{::}bt7_VC_MTX_Line"
+       status="Approved">BT VC MTX Line</key>
+   <key locale="en_US" id="Property{::}BT7_VarCondition_Form{::}bt7_VC_MTX_Line" status="Approved">BT VC MTX Line</key>
+   <key locale="en_US" id="Property{::}BT7_VarItemID_FormStorage{::}bt7_VarItemID_Sequence"
+       status="Approved">BT Var Item ID Sequence</key>
+   <key locale="en_US" id="Property{::}BT7_VarItemID_Form{::}bt7_VarItemID_Sequence"
+       status="Approved">BT Var Item ID Sequence</key>
+   <key locale="en_US" id="Property{::}BT7_VarMatrix_FormStorage{::}bt7_VC_Matrix"
+       status="Approved">BT VC Matrix</key>
+   <key locale="en_US" id="Property{::}BT7_VarMatrix_Form{::}bt7_VC_Matrix" status="Approved">BT VC Matrix</key>
+</Add>
+</TcBusinessDataLocalization>

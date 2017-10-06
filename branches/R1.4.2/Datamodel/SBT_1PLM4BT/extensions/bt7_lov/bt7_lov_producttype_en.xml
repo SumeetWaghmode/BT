@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_ProductType_EN" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_ProductType_EN">
+     <TcLOVValue value="---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Adapter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Actuator" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Valve with Integr. Actuator" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Operating module" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Biogasvalve" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dummy cover" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fuel-/Air ratio control system" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CAN-Bus-Module" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Data module" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Demo unit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Butterfly valve" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pressure switches" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Electromotive actuator" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Electronic ignition equipment" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Burner control" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flame detector" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flame safeguards" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Detector" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gas burner control" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gas burner control LF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gas magnetic valves" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gas valves" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Infrared flame detector" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Interface" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Butterfly valve actuator" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Small gas burner control" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Communication module" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Air valve" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Human Machine Interface (HMI)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Measuring transducer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mixer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oxygen control" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oil burner control" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Controller for oil preheater" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Test control unit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oxygen sensor" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Selenium-/Photocell flame detector" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Service unit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Software product" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Connector casing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Plug-in base" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Plug-in base prewired" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hydraulic Drive" description="" conditionName="isTrue"/>
+     <TcLOVValue value="boiler management unit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="boiler management unit without housing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Control unit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Temperature detector" description="" conditionName="isTrue"/>
+     <TcLOVValue value="UV flame detector" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Valve" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Accessories" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Accessories for actuator" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ignition module-/Pilot burner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ignition spark detector" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

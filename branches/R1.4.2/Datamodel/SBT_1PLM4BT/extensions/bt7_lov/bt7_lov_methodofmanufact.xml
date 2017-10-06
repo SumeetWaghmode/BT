@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_MethodOfManufact" lovType="ListOfValuesString" usage="Exhaustive"
+       description="BT7_LOV_MethodOfManufact">
+     <TcLOVValue value="---|---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Biegen|bending" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bohren|drilling" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Drehen|turning" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Druckguss|die casting" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Feingestanzt|fine blanked" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fraesen|milling" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kokillenguss|gravity die casting" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Laserschneiden|laser cutting" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sandguss|sand casting" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schweissen|welding" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sintern|sintering" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Spritzgiessen|injection molding" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stanz-Biegeteil|punched-bent part" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stanzen|punching" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<preferences version="10.0">
+	<category name="General">
+		<category_description>Teamcenter Preferences</category_description>
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Designer\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+		  <preference_description></preference_description>
+		  <context name="Teamcenter">
+			<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler
+			</value>
+		  </context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Planner\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\xxx\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+	
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Project Author\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+		
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\dba\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\DBA\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+		
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\loeschen_Designer\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\GroupAdmin\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Approver\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Viewer\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Project Administrator\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Project Team Administrator\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Project Member\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\loeschen_Bibliothekar\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Resource Graph Viewers\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\CostDBA\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\IP Admin\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\ITAR Admin\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\ADA Site Admin\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Validation Administrator\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Override Approver\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Simulation Administrator\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Deleted User\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Admin\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Reviewer\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Change Control Manager\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\CC-Team\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Workflow Requestor\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\ITAR Classifier\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\IP Classifier\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Change\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+
+		<preference name="com.teamcenter.rac.imm.perspective.MDSApplication\\*\\Sponsorer\\HIDDEN_COMMANDS" type="String" array="false" disabled="false">
+			<preference_description>IMM create option visibility</preference_description>
+			<context name="Teamcenter">
+				<value>,com.teamcenter.rac.imm.mdsNewMaterialHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.mdsNewCatalogHandler,com.teamcenter.rac.imm.IMMNewMat1SubstanceHandler,com.teamcenter.rac.imm.mdsNewClassHandler,com.teamcenter.rac.imm.NewPropertyDescriptorHandler</value>
+			</context>
+		</preference>
+	</category>
+</preferences>	

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcGRMRule primaryTypeName="BT7_ComponentRevision" secondaryTypeName="BT7_EngChangeDoc"
+       relationTypeName="IMAN_specification" primaryCardinality="0" secondaryCardinality="0"
+       secured="false" attachability="Unrestricted" changeability="Changeable" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="BT7_ComponentRevision" secondaryTypeName="Markup" relationTypeName="IMAN_specification"
+       primaryCardinality="0" secondaryCardinality="0" secured="false" attachability="Unrestricted"
+       changeability="Changeable" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="Dataset" secondaryTypeName="Dataset" relationTypeName="IMAN_external_object_link"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="Dataset" secondaryTypeName="Folder" relationTypeName="IMAN_external_object_link"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="Dataset" secondaryTypeName="Item" relationTypeName="IMAN_external_object_link"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="Dataset" secondaryTypeName="ItemRevision" relationTypeName="IMAN_external_object_link"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="Item" secondaryTypeName="Dataset" relationTypeName="IMAN_reference"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="Item" secondaryTypeName="Item" relationTypeName="IMAN_reference"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="Item" secondaryTypeName="ItemRevision" relationTypeName="IMAN_reference"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_AutoSketch" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_CorelDesigner"
+       relationTypeName="BT7_Rel_Notice" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_DXF" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_EngChangeDoc"
+       relationTypeName="BT7_Rel_Notice" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_FluidDraw" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_Integra" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_Integra_Mask_Drill"
+       relationTypeName="BT7_Rel_Notice" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_Integra_SQL" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_MaterialRevision"
+       relationTypeName="BT7_Rel_AuxMat_Primary" primaryCardinality="-1" secondaryCardinality="1"
+       secured="false" attachability="WriteAccessReq" changeability="Changeable" detachability="WriteAccessReq"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_MaterialRevision"
+       relationTypeName="BT7_Rel_AuxMat_Secondary" primaryCardinality="-1" secondaryCardinality="1"
+       secured="false" attachability="WriteAccessReq" changeability="Changeable" detachability="WriteAccessReq"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_Notice" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="WriteAccessReq"
+       changeability="Changeable" detachability="WriteAccessReq" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_PCBLayoutOrder"
+       relationTypeName="BT7_Rel_Notice" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_Product_InitialHistoryDoc"
+       relationTypeName="BT7_Rel_Notice" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_RevNotice" relationTypeName="IMAN_specification"
+       primaryCardinality="0" secondaryCardinality="0" secured="false" attachability="Unrestricted"
+       changeability="Changeable" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_SoftwareData"
+       relationTypeName="BT7_Rel_Notice" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_TIFF" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_TIFF_Scan" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="Item" relationTypeName="BT7_Rel_Concerned"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Changeable" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="ItemRevision" relationTypeName="BT7_Rel_Concerned"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Changeable" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="ItemRevision" relationTypeName="BT7_Rel_Specified"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="WriteAccessReq"
+       changeability="Changeable" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="ItemRevision" relationTypeName="BT7_Rel_VarItems"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="WriteAccessReq"
+       changeability="Changeable" detachability="WriteAccessReq" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="ItemRevision" relationTypeName="IMAN_specification"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="MSExcel" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="MSPowerPoint" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="MSWord" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="PDF" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="STL" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="Zip" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="WorkspaceObject" secondaryTypeName="WorkspaceObject"
+       relationTypeName="BT7_Rel_AuxMat_Primary" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="WorkspaceObject" secondaryTypeName="WorkspaceObject"
+       relationTypeName="BT7_Rel_AuxMat_Secondary" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="WorkspaceObject" secondaryTypeName="WorkspaceObject"
+       relationTypeName="BT7_Rel_Concerned" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="WorkspaceObject" secondaryTypeName="WorkspaceObject"
+       relationTypeName="BT7_Rel_Specified" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="WorkspaceObject" secondaryTypeName="WorkspaceObject"
+       relationTypeName="BT7_Rel_VarItems" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+</Add>
+</TcBusinessData>

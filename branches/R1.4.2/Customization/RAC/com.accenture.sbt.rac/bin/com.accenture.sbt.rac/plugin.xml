@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension point="org.eclipse.ui.commands">
+      <category name="SBT" id="com.accenture.sbt.rac.commands.category">
+      </category>
+      <command
+            categoryId="com.accenture.sbt.rac.commands.category"
+            id="com.accenture.sbt.rac.commands.CopyUrlToClipBoard"
+            name="Copy DHTML Url to Clip Borad">
+      </command>
+      <command
+            categoryId="com.accenture.sbt.rac.commands.category"
+            id="com.accenture.sbt.rac.commands.PasteAsObject"
+            name="Paste Dataset as Object (New Dataset)">
+      </command>
+      <command name="Update BOM" 
+      		categoryId="com.accenture.sbt.rac.commands.category" 
+      		id="com.accenture.sbt.rac.commands.UpdateBOM">
+      </command>
+      <!--<command name="Create Document for Part (TNS-Schema)" categoryId="com.accenture.sbt.rac.commands.category"
+            id="com.accenture.sbt.rac.commands.CreateDocument">
+      </command>-->
+      <command
+            name="Start CCR"
+            categoryId="com.accenture.sbt.rac.commands.category"
+            id="com.accenture.sbt.rac.commands.StartCCR">
+      </command>
+      <command
+            name="Start Change Order"
+            categoryId="com.accenture.sbt.rac.commands.category"
+            id="com.accenture.sbt.rac.commands.StartCN">
+      </command>
+      <command
+            name="Add Task To ECO"
+            categoryId="com.accenture.sbt.rac.commands.category"
+            id="com.accenture.sbt.rac.commands.AddTaskToCN">
+      </command>
+      <command
+            name="Create BOM Report"
+            categoryId="com.accenture.sbt.rac.commands.category"
+            id="com.accenture.sbt.rac.commands.CreateBOMReport">
+      </command>
+      
+      <command
+            name="Copy BOM properties"
+            categoryId="com.accenture.sbt.rac.commands.category"
+            id="com.accenture.sbt.rac.commands.CopyBOMProperties">
+      </command>
+      
+      <command
+			name="Assign alternate material"
+			id="com.accenture.sbt.rac.commands.AssignAltmaterial">
+	 </command>
+	 <command
+			name="Create Vendor Part"
+			id="com.accenture.sbt.rac.commands.CreateVendor">
+	 </command>
+      <command
+            categoryId="com.accenture.sbt.rac.commands.category"
+            id="com.accenture.sbt.rac.commands.UpdateECORelation"
+            name="Update ECO Relation">
+      </command>
+ <command
+            categoryId="com.accenture.sbt.rac.commands.category"
+            id="com.accenture.sbt.rac.commands.CopyDistributionList"
+            name="Copy Distribution List to Clipboard">
+      </command>
+      <command
+            categoryId="com.accenture.sbt.rac.commands.category"
+            id="com.accenture.sbt.rac.commands.PasteDistributionList"
+            name="Paste Distribution List to Clipboard">
+      </command>
+      <!--<command
+            name="Add PDF to Item Revision and sync Status"
+            categoryId="com.accenture.sbt.rac.commands.category"
+            id="com.accenture.sbt.rac.commands.AddPdfToItemRevision">
+      </command>-->
+   </extension>
+   
+   <extension point="org.eclipse.ui.handlers">
+       <handler
+             class="com.accenture.sbt.rac.tools.CopyUrlToClipBoard"
+             commandId="com.accenture.sbt.rac.commands.CopyUrlToClipBoard">
+       </handler>
+       <handler
+       		class="com.accenture.sbt.rac.tools.AssignAltmaterial"
+			commandId="com.accenture.sbt.rac.commands.AssignAltmaterial">			
+		</handler>
+		<handler
+       		class="com.accenture.sbt.rac.tools.CreateVendor"
+			commandId="com.accenture.sbt.rac.commands.CreateVendor">			
+		</handler>
+      <!--<handler
+            commandId="com.accenture.sbt.rac.commands.CreateDocument"
+            class="com.accenture.sbt.rac.tools.CreateDocument">
+			<enabledWhen>
+				<iterate ifEmpty="false">
+					<adapt type="com.teamcenter.rac.kernel.TCComponent">
+						<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision"/>
+					</adapt>
+				</iterate>
+			</enabledWhen>
+      </handler>-->
+      <handler
+            commandId="com.accenture.sbt.rac.commands.StartCCR"
+            class="com.accenture.sbt.rac.tools.StartCCR">
+      </handler>
+      <handler
+            commandId="com.accenture.sbt.rac.commands.PasteAsObject"
+            class="com.accenture.sbt.rac.tools.BT7PasteAsObject">
+			<enabledWhen>
+				<iterate ifEmpty="false">
+					<adapt type="com.teamcenter.rac.kernel.TCComponent">
+						<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision"/>
+					</adapt>
+				</iterate>
+			</enabledWhen>
+      </handler>
+      <handler
+            commandId="com.accenture.sbt.rac.commands.StartCN"
+            class="com.accenture.sbt.rac.tools.StartCN">
+			<enabledWhen>
+				<iterate ifEmpty="false">
+					<adapt type="com.teamcenter.rac.kernel.TCComponent">
+						<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="BT7_ChangeNoticeRevision"/>
+					</adapt>
+				</iterate>
+			</enabledWhen>
+      </handler>
+      <handler
+            commandId="com.accenture.sbt.rac.commands.AddTaskToCN"
+            class="com.accenture.sbt.rac.tools.AddTaskToCN">
+			<enabledWhen>
+				<iterate ifEmpty="false">
+					<adapt type="com.teamcenter.rac.kernel.TCComponent">
+						<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="EPMTask"/>
+					</adapt>
+				</iterate>
+			</enabledWhen>
+      </handler>      
+      <handler
+            commandId="com.accenture.sbt.rac.commands.CreateBOMReport"
+            class="com.accenture.sbt.rac.tools.CreateBOMReport">
+			<enabledWhen>
+				<iterate ifEmpty="false">
+					<adapt type="com.teamcenter.rac.kernel.TCComponent">
+						<!--test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="BT7_ComponentRevision,BT7_ELCADRevision,BT7_ToolRevision,BT7_SoftwareRevision,BT7_CompProgRevision,BT7_ProductRevision,BT7_CommonCompRevision"/-->
+						<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision,BOMLine"/>
+					</adapt>
+				</iterate>
+			</enabledWhen>            
+      </handler>
+      <handler commandId="com.accenture.sbt.rac.commands.UpdateBOM" class="com.accenture.sbt.rac.tools.UpdateBOM">
+			<enabledWhen>
+				<iterate ifEmpty="false">
+					<adapt type="com.teamcenter.rac.kernel.TCComponent">
+						<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision"/>
+					</adapt>
+				</iterate>
+			</enabledWhen>
+		</handler>
+      	<handler
+            commandId="com.accenture.sbt.rac.commands.CopyBOMProperties" class="com.accenture.sbt.rac.tools.CopyBomProperties">
+            <enabledWhen>
+				<iterate ifEmpty="false">
+					<adapt type="com.teamcenter.rac.kernel.TCComponent">
+						<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision"/>
+					</adapt>
+				</iterate>
+			</enabledWhen>
+      	</handler>     	
+       <handler
+             class="com.accenture.sbt.rac.serialization.UpdateECORelationHandler"
+             commandId="com.accenture.sbt.rac.commands.UpdateECORelation">
+          <enabledWhen>
+             <iterate
+                   ifEmpty="false">
+                <adapt
+                      type="com.teamcenter.rac.kernel.TCComponent">
+                   <test
+                         property="com.teamcenter.rac.kernel.TCComponent.typeClass"
+                         value="ItemRevision">
+                   </test>
+                </adapt>
+             </iterate>
+          </enabledWhen>
+       </handler>     	
+      	<!--<handler
+            commandId="com.accenture.sbt.rac.commands.AddPdfToItemRevision" class="com.accenture.sbt.rac.tools.AddPdfToItemRevision">
+            <enabledWhen>
+				<iterate ifEmpty="false">
+					<adapt type="com.teamcenter.rac.kernel.TCComponent">
+						<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision"/>
+					</adapt>
+				</iterate>
+			</enabledWhen>
+      	</handler>	-->
+		<handler
+            commandId="com.accenture.sbt.rac.commands.CopyDistributionList" class="com.accenture.sbt.rac.tools.CopyDistributionList">
+            <enabledWhen>
+				<iterate ifEmpty="false">
+					<adapt type="com.teamcenter.rac.kernel.TCComponent">
+						<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision"/>
+					</adapt>
+				</iterate>
+			</enabledWhen>
+      	</handler>
+      	<handler
+            commandId="com.accenture.sbt.rac.commands.PasteDistributionList" class="com.accenture.sbt.rac.tools.PasteDistributionList">
+            <enabledWhen>
+				<iterate ifEmpty="false">
+					<adapt type="com.teamcenter.rac.kernel.TCComponent">
+						<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision"/>
+					</adapt>
+				</iterate>
+			</enabledWhen>
+      	</handler>
+   </extension>
+   
+   <extension point="org.eclipse.ui.bindings">
+      <key
+            commandId="com.accenture.sbt.rac.commands.CopyUrlToClipBoard"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M2+M3+c">
+      </key>
+      <!--<key
+            commandId="com.accenture.sbt.rac.commands.CreateDocument"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+8"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>-->
+      <key
+            commandId="com.accenture.sbt.rac.commands.StartCCR"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+9"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>
+      <key
+            commandId="com.accenture.sbt.rac.commands.StartCN"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+7"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>      
+      <key
+            commandId="com.accenture.sbt.rac.commands.AddTaskToCN"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+6"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>   
+      
+      <key
+            commandId="com.accenture.sbt.rac.commands.CreateBOMReport"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+1"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>
+      <key
+            commandId="com.accenture.sbt.rac.commands.PasteDistributionList"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+2"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>
+      <key
+            commandId="com.accenture.sbt.rac.commands.CopyDistributionList"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+3"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>
+
+   </extension>
+   
+   
+   <extension point="org.eclipse.ui.menus">
+   	  <!-- Menu -->
+      <menuContribution locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               label="SBT"
+               mnemonic="M"
+               id="com.drwe.sbt.rac.menus.sbt">
+            <command
+                  commandId="com.accenture.sbt.rac.commands.CopyUrlToClipBoard"
+                  icon="icons/ico_copy.gif"
+                  id="com.accenture.sbt.rac.menus.CopyUrlToClipBoard"
+                  style="push"
+                  tooltip="Copy DHTML Url to Clip Borad">
+            </command>
+            <command
+                  commandId="com.accenture.sbt.rac.commands.StartCCR"
+                  icon="icons/ico_ccr.png"
+                  id="com.drwe.sbt.rac.menus.sbt"
+                  mnemonic="E">
+            </command>
+            <command
+                  commandId="com.accenture.sbt.rac.commands.StartCN"
+                  icon="icons/ico_cn.png"
+                  id="com.drwe.sbt.rac.menus.sbt"
+                  mnemonic="E">
+            </command>
+            <command
+                  commandId="com.accenture.sbt.rac.commands.AddTaskToCN"
+                  icon="icons/ico_cn_task.png"
+                  id="com.drwe.sbt.rac.menus.sbt"
+                  mnemonic="E">
+            </command>
+            <command
+                  commandId="com.accenture.sbt.rac.commands.CreateBOMReport"
+                  icon="icons/ico_report.png"
+                  id="com.drwe.sbt.rac.menus.sbt"
+                  mnemonic="E">
+            </command>
+            <command
+                  commandId="com.accenture.sbt.rac.commands.CopyBOMProperties"
+                  icon="icons/ico_multi_fix.gif"
+                  id="com.drwe.sbt.rac.menus.sbt"
+                  mnemonic="E">
+            </command>
+            <command
+                  commandId="com.accenture.sbt.rac.commands.UpdateBOM"
+                  icon="icons/ico_new.gif"
+                  id="com.drwe.sbt.rac.menus.sbt"
+                  mnemonic="E">
+            </command>
+         </menu>
+      </menuContribution>
+      
+      <!-- Toolbar -->
+      <menuContribution locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar id="com.drwe.sbt.rac.toolbars.sbtToolbar">
+            <command
+                  commandId="com.accenture.sbt.rac.commands.CopyUrlToClipBoard"
+                  icon="icons/ico_copy.gif"
+                  id="com.accenture.sbt.rac.toolbars.CopyUrlToClipBoard"
+                  style="push"
+                  tooltip="Copy DHTML Url to Clip Board">
+            </command>
+            <command
+                  commandId="com.accenture.sbt.rac.commands.CopyBOMProperties"
+                  icon="icons/ico_multi_fix.gif"
+                  tooltip="Copy BOM Properties"
+                  id="com.drwe.sbt.rac.toolbars.sbtToolbar">
+            </command>
+            <command commandId="com.accenture.sbt.rac.commands.UpdateBOM"
+					icon="icons/ico_new.gif"
+					tooltip="Update BOM"
+					id="com.drwe.sbt.rac.toolbars.sbtToolbar">
+			</command>
+            <command
+                  commandId="com.accenture.sbt.rac.commands.StartCCR"
+                  icon="icons/ico_ccr.png"
+                  tooltip="Start CCR"
+                  id="com.drwe.sbt.rac.toolbars.sbtToolbar">
+            </command>
+            <command
+                  commandId="com.accenture.sbt.rac.commands.StartCN"
+                  icon="icons/ico_cn.png"
+                  tooltip="Start Change Order"
+                  id="com.drwe.sbt.rac.toolbars.sbtToolbar">
+            </command>
+            <command
+                  commandId="com.accenture.sbt.rac.commands.AddTaskToCN"
+                  icon="icons/ico_cn_task.png"
+                  tooltip="Add Task To ECO"
+                  id="com.drwe.sbt.rac.toolbars.sbtToolbar">
+            </command>
+            <command
+                  commandId="com.accenture.sbt.rac.commands.CreateBOMReport"
+                  icon="icons/ico_report.png"
+                  id="com.drwe.sbt.rac.menus.sbt"
+                  mnemonic="E">
+            </command>
+	     </toolbar>
+      </menuContribution>
+      
+      <!-- Right click menu -->
+      <menuContribution
+            locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+         <command
+               commandId="com.accenture.sbt.rac.commands.CopyUrlToClipBoard"
+               icon="icons/ico_copy.gif"
+               id="com.accenture.sbt.rac.popup.CopyUrlToClipBoard"
+               style="push">
+            <visibleWhen>
+               <and>
+                  <reference
+                        definitionId="com.teamcenter.rac.ui.inMainPerspective">
+                  </reference>
+                  <iterate
+                        ifEmpty="false">
+                     <adapt
+                           type="com.teamcenter.rac.kernel.TCComponent">
+                        <test
+                              property="com.teamcenter.rac.kernel.TCComponent.typeClass"
+                              value="WorkspaceObject">
+                        </test>
+                     </adapt>
+                  </iterate>
+               </and>
+            </visibleWhen>
+         </command>
+      </menuContribution>
+            <menuContribution
+            locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+         <command
+               commandId="com.accenture.sbt.rac.commands.PasteAsObject"
+               icon="icons/ico_paste_as_obj.png"
+               id="com.accenture.sbt.rac.popup.PasteAsObject"
+               style="push">
+            <visibleWhen>
+               <and>
+                  <reference
+                        definitionId="com.teamcenter.rac.ui.inMainPerspective">
+                  </reference>
+                  <iterate
+                        ifEmpty="false">
+                     <adapt
+                           type="com.teamcenter.rac.kernel.TCComponent">
+                        <test
+                              property="com.teamcenter.rac.kernel.TCComponent.typeClass"
+                              value="ItemRevision">
+                        </test>
+                     </adapt>
+                  </iterate>
+               </and>
+            </visibleWhen>
+         </command>
+      </menuContribution>
+      
+      <menuContribution
+				locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+		<command
+			commandId="com.accenture.sbt.rac.commands.AssignAltmaterial"
+			mnemonic="S"	
+			icon="icons/Mat1_material_rev_16.png"		
+			id="com.accenture.sbt.rac.popup.AssignAltmaterial">	
+			<visibleWhen>
+				<and>
+				<reference
+					definitionId="com.teamcenter.rac.ui.inMainPerspective">
+				</reference>
+	                <iterate ifEmpty="false">
+	                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+		                    <test property="com.teamcenter.rac.kernel.TCComponent.typeClass" 
+		                    value="ItemRevision">
+		                    </test>
+	                    </adapt>
+	                </iterate>
+				</and>
+			</visibleWhen>		
+		</command>
+	</menuContribution>
+	
+	<menuContribution
+				locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+		<command
+			commandId="com.accenture.sbt.rac.commands.CreateVendor"
+			mnemonic="S"	
+			icon="icons/BT7_Vendor.png"		
+			id="com.accenture.sbt.rac.popup.AssignAltmaterial">	
+			<visibleWhen>
+				<and>
+				<reference
+					definitionId="com.teamcenter.rac.ui.inMainPerspective">
+				</reference>
+	                <iterate ifEmpty="false">
+	                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+		                    <test property="com.teamcenter.rac.kernel.TCComponent.typeClass" 
+		                    value="BT7_ManufacturerRevision">
+		                    </test>
+	                    </adapt>
+	                </iterate>
+				</and>
+			</visibleWhen>		
+		</command>
+	</menuContribution>
+	
+	
+	  <!--<menuContribution locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+		<command
+			commandId="com.accenture.sbt.rac.commands.CreateDocument"
+			mnemonic="N"
+			icon="icons/ico_doc.png"
+			id="com.mycom.addshortcut.menus.CreateDocument">
+			<visibleWhen>
+				<and>
+				<reference
+					definitionId="com.teamcenter.rac.ui.inMainPerspective">
+				</reference>
+	                <iterate ifEmpty="false">
+	                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+		                    <test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision">
+		                    </test>
+	                    </adapt>
+	                </iterate>
+				</and>
+			</visibleWhen>
+		</command>
+	  </menuContribution>-->
+	  
+	  <menuContribution
+		locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+		<command
+			commandId="com.accenture.sbt.rac.commands.StartCCR"
+			mnemonic="E"
+			icon="icons/ico_ccr.png"
+			id="com.mycom.addshortcut.menus.ExportReference">
+			<visibleWhen>
+				<and>
+				<reference
+					definitionId="com.teamcenter.rac.ui.inMainPerspective">
+				</reference>
+	                <iterate ifEmpty="false">
+	                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+		                    <test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="Dataset">
+		                    </test>
+	                    </adapt>
+	                </iterate>
+				</and>
+			</visibleWhen>
+		</command>
+	  </menuContribution>
+	  
+	  <menuContribution
+		locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+		<command
+			commandId="com.accenture.sbt.rac.commands.StartCN"
+			mnemonic="E"
+			icon="icons/ico_cn.png"
+			id="com.mycom.addshortcut.menus.ExportReference">
+			<visibleWhen>
+				<and>
+				<reference
+					definitionId="com.teamcenter.rac.ui.inMainPerspective">
+				</reference>
+	                <iterate ifEmpty="false">
+	                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+		                    <test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision">
+		                    </test>
+	                    </adapt>
+	                </iterate>
+				</and>
+			</visibleWhen>
+		</command>
+	  </menuContribution>
+
+	  <menuContribution
+		locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+		<command
+			commandId="com.accenture.sbt.rac.commands.AddTaskToCN"
+			mnemonic="E"
+			icon="icons/ico_cn_task.png"
+			id="com.mycom.addshortcut.menus.ExportReference">
+			<visibleWhen>
+				<and>
+				<reference
+					definitionId="com.teamcenter.rac.ui.inMainPerspective">
+				</reference>
+	                <iterate ifEmpty="false">
+	                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+		                    <test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="EPMTask">
+		                    </test>
+	                    </adapt>
+	                </iterate>
+				</and>
+			</visibleWhen>
+		</command>
+	  </menuContribution>	  
+	  
+	  <menuContribution
+		locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+		<command
+			commandId="com.accenture.sbt.rac.commands.CreateBOMReport"
+			mnemonic="E"
+			icon="icons/ico_report.png"
+			id="com.mycom.addshortcut.menus.ExportReference">
+			<visibleWhen>
+				<and>
+				<reference
+					definitionId="com.teamcenter.rac.ui.inMainPerspective">
+				</reference>
+	                <iterate ifEmpty="false">
+	                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+		                    <test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision">
+		                    </test>
+	                    </adapt>
+	                </iterate>
+				</and>
+			</visibleWhen>
+		</command>
+	  </menuContribution>
+	  	  <menuContribution locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+			<command
+				commandId="com.accenture.sbt.rac.commands.CopyBOMProperties"
+				mnemonic="E"
+				icon="icons/ico_multi_fix.gif">
+				<visibleWhen>
+					<and>
+						<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"></reference>
+						<iterate ifEmpty="false">
+							<adapt type="com.teamcenter.rac.kernel.TCComponent">
+							<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision"></test>
+							</adapt>
+						</iterate>
+					</and>
+				</visibleWhen>
+			</command>
+		</menuContribution>
+	  
+	  <menuContribution locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+			<command
+				commandId="com.accenture.sbt.rac.commands.UpdateBOM"
+				mnemonic="E"
+				icon="icons/ico_new.gif" 
+				id="com.mycom.addshortcut.menus.ExportReference">
+				<visibleWhen>
+					<and>
+						<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"></reference>
+						<iterate ifEmpty="false">
+							<adapt type="com.teamcenter.rac.kernel.TCComponent">
+							<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision"></test>
+							</adapt>
+						</iterate>
+					</and>
+				</visibleWhen>
+			</command>
+		</menuContribution>
+   <menuContribution
+         locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+      <command
+            commandId="com.accenture.sbt.rac.commands.UpdateECORelation"
+            icon="icons/serialization_16.png"
+            id="com.accenture.sbt.rac.menus.UpdateECORelation"
+            style="push">
+         <visibleWhen>
+            <and>
+               <reference
+                     definitionId="com.teamcenter.rac.ui.inMainPerspective">
+               </reference>
+               <iterate
+                     ifEmpty="false">
+                  <adapt
+                        type="com.teamcenter.rac.kernel.TCComponent">
+                     <test
+                           property="com.teamcenter.rac.kernel.TCComponent.typeClass"
+                           value="ItemRevision">
+                     </test>
+                  </adapt>
+               </iterate>
+            </and>
+         </visibleWhen>
+      </command>
+   </menuContribution>
+		
+	  <!--<menuContribution locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+			<command
+				commandId="com.accenture.sbt.rac.commands.AddPdfToItemRevision"
+				mnemonic="E"
+				icon="icons/ico_upload.png" 
+				id="com.mycom.addshortcut.menus.ExportReference">
+				<visibleWhen>
+					<and>
+						<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"></reference>
+						<iterate ifEmpty="false">
+							<adapt type="com.teamcenter.rac.kernel.TCComponent">
+							<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision"></test>
+							</adapt>
+						</iterate>
+					</and>
+				</visibleWhen>
+			</command>
+		</menuContribution>-->
+		
+	<menuContribution locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+		<command
+			commandId="com.accenture.sbt.rac.commands.PasteDistributionList"
+			icon="icons/ico_copy.gif"
+            id="com.accenture.sbt.rac.popup.PasteDistributionList"
+            style="push">
+			<visibleWhen>
+				<and>
+					<reference definitionId="com.teamcenter.rac.ui.inMainPerspective">
+					</reference>
+					<iterate ifEmpty="false">
+						<adapt type="com.teamcenter.rac.kernel.TCComponent">
+							<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision">
+							</test>
+						</adapt>
+					</iterate>
+				</and>
+			</visibleWhen>
+		</command>
+	</menuContribution>		
+	<menuContribution locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+		<command
+			commandId="com.accenture.sbt.rac.commands.CopyDistributionList"
+			icon="icons/ico_copy.gif"
+			id="com.accenture.sbt.rac.popup.CopyDistributionList"
+			style="push">
+			<visibleWhen>
+				<and>
+					<reference definitionId="com.teamcenter.rac.ui.inMainPerspective">
+					</reference>
+					<iterate ifEmpty="false">
+						<adapt type="com.teamcenter.rac.kernel.TCComponent">
+							<test property="com.teamcenter.rac.kernel.TCComponent.typeClass" value="ItemRevision">
+							</test>
+						</adapt>
+					</iterate>
+				</and>
+			</visibleWhen>
+		</command>
+	</menuContribution>
+
+   </extension>
+   <extension
+         point="com.teamcenter.rac.util.tc_properties">
+   </extension>
+   
+   <extension point="com.teamcenter.rac.common.renderingHint">
+        <renderingHint id="textFieldDoubleFormatter" priority="0">
+            <propertyBean class="com.accenture.sbt.rac.stylesheet.beans.PLMTextfieldPropertyBean" />
+        </renderingHint> 
+    </extension>
+	
+	<extension point="com.teamcenter.rac.common.renderingHint">
+   	   <!-- Define SWT-based property beans for Edit Properties dialogs.
+   	        NOTE: OTB swing renderingHints are registered in com.teamcenter.rac.common/plugin.xml -->
+   	   <renderingHint id="bt7_docchange_swt" priority="0">
+	     <propertyBean
+	          class="com.teamcenter.rac.bt7propertytextfieldbean.renderingHint.properties.BT7PropertyTextFieldBean">
+	      </propertyBean>
+	   </renderingHint>
+	</extension>	
+
+</plugin>

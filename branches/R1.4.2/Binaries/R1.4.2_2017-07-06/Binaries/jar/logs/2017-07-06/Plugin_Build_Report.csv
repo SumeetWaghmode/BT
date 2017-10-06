@@ -1,0 +1,5 @@
+Project Name,Status,Message,Log File,
+com.accenture.rac.bom,Success,JAR-Location:D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Binaries\R1.4.2_2017-07-06\Binaries\jar\com.accenture.rac.bom_1.0.0.0.jar,D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Binaries\R1.4.2_2017-07-06\Binaries\jar\logs\2017-07-06\com.accenture.rac.bom.log,
+com.accenture.sbt.rac,Success,JAR-Location:D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Binaries\R1.4.2_2017-07-06\Binaries\jar\com.accenture.sbt.rac_1.0.0.0.jar,D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Binaries\R1.4.2_2017-07-06\Binaries\jar\logs\2017-07-06\com.accenture.sbt.rac.log,
+com.drwe.sbt.rac,Success,JAR-Location:D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Binaries\R1.4.2_2017-07-06\Binaries\jar\com.drwe.sbt.rac_1.1.0.0.jar,D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Binaries\R1.4.2_2017-07-06\Binaries\jar\logs\2017-07-06\com.drwe.sbt.rac.log,
+com.sbt.rac.dataset,Success,JAR-Location:D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Binaries\R1.4.2_2017-07-06\Binaries\jar\com.sbt.rac.dataset_1.0.0.20170706-085924.jar,D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Binaries\R1.4.2_2017-07-06\Binaries\jar\logs\2017-07-06\com.sbt.rac.dataset.log,

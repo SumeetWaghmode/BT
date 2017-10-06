@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="thumbnail"/>
+        <classificationTrace/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+	
+    <page text="General">
+        <column>
+            <property name="object_string"/>
+            <separator/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="supplier_addr"/>
+            <property name="contact_name"/>
+            <property name="supplier_phone"/>
+            <property name="web_site"/>
+            <property name="email_addr"/>
+            <separator/>
+            <property name="bt7_remark" renderingHint="textarea"/>
+            <separator/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+            <property name="last_mod_user"/>
+			<separator/>			
+			<property name="bt7_canceled"/>
+			<property name="bt7_cancelnr"/>
+        </column>
+		<column>
+            <image/>
+        </column>
+    </page>
+	<!--
+	Vendor Parts and Commerical Parts
+	
+	<page text="Related Parts" titleKey="web_whereused">
+
+            <section text="Commerical Parts">
+			<objectSet source="commercialparts.ItemRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+				<tableDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</tableDisplay>
+				<thumbnailDisplay/>
+				<treeDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</treeDisplay>
+				<listDisplay/>
+				<command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+				<command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton" />
+			</objectSet>
+            </section>
+
+            <section text="Vendor Parts">
+			<objectSet source="vendorparts.BT7_VendorPart" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+				<tableDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</tableDisplay>
+				<thumbnailDisplay/>
+				<treeDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</treeDisplay>
+				<listDisplay/>
+				<command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+				<command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton" />
+			</objectSet>
+            </section>
+	</page>
+	-->
+	<!--
+	Contacts, Locations, Quality Documents
+	-->
+    <page title="Related Documents">
+		<section text="Contacts">
+			<objectSet source="ContactInCompany.ItemRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+				<tableDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</tableDisplay>
+				<thumbnailDisplay/>
+				<treeDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</treeDisplay>
+				<listDisplay/>
+				<command commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+				<command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+				<command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton" />
+			</objectSet>
+		</section>
+		<section text="Locations">
+			<objectSet source="LocationInCompany.ItemRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+				<tableDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</tableDisplay>
+				<thumbnailDisplay/>
+				<treeDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</treeDisplay>
+				<listDisplay/>
+				<command commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+				<command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+				<command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton" />
+			</objectSet>
+		</section>
+		<section text="Quality Documents">
+			<objectSet source="TC_Quality_Document.ItemRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+				<tableDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</tableDisplay>
+				<thumbnailDisplay/>
+				<treeDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</treeDisplay>
+				<listDisplay/>
+				<command commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+				<command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+				<command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton" />
+			</objectSet>
+		</section>
+    </page>
+<!--
+	=================
+	Relation Browser
+	================
+-->
+	<inject type="dataset" src="RelationsSummary" />
+	 <page title="Reservation" titleKey="Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user" />
+        <separator/>
+        <property name="checked_out_date" />
+        <property name="checked_out_change_id" />
+        <separator/>
+        <property name="reservation" />
+    </page>
+
+    <page title="Project" titleKey="Project">
+        <property name="proj_assign_mod_date" />
+        <property name="project_ids" />
+        <separator/>
+        <property name="project_list" />
+    </page>
+</rendering>

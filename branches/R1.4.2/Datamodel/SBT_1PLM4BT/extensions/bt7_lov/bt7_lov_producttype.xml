@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_ProductType" lovType="ListOfValuesString" usage="Exhaustive"
+       description="BT7_LOV_ProductType">
+     <TcLOVValue value="---|---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Adapter|Adapter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Antrieb|Actuator" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Armatur mit integr. Antrieb|Valve with Integr. Actuator" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Bedieneinheit|Operating module" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Biogasventil|Biogasvalve" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Blinddeckel|Dummy cover" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Brennstoff-/Luftverbundsteuerung|Fuel-/Air ratio control system"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="CAN-Bus-Modul|CAN-Bus-Module" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Datenmodul|Data module" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Demogeraet|Demo unit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Drosselklappe|Butterfly valve" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Druckwaechter|Pressure switches" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Elektromotorischer Antrieb|Electromotive actuator" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Elektronische Zuendeinrichtung|Electronic ignition equipment"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="Feuerungsautomat|Burner control" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flammenfuehler|Flame detector" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flammenwaechter|Flame safeguards" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fuehler|Detector" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gasfeuerungsautomat|Gas burner control" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gasfeuerungsautomat LF|Gas burner control LF" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Gasmagnetventil|Gas magnetic valves" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gasventil|Gas valves" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Infrarot Flammenfühler|Infrared flame detector" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Interface|Interface" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Klappenantrieb|Butterfly valve actuator" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kleingasheizer|Small gas burner control" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kommunikationsmodul|Communication module" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Luftventil|Air valve" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mensch-Maschine Schnittstelle|Human Machine Interface (HMI)"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="Messumformer|Measuring transducer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mischer|Mixer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="O2-Regelung|Oxygen control" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oelfeuerungsautomat|Oil burner control" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oelvorwaermerregelung|Controller for oil preheater" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Pruefgeraet|Test control unit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sauerstofffuehler|Oxygen sensor" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Selen-/Photozellenfuehler|Selenium-/Photocell flame detector"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="Servicegeraet|Service unit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Software-Produkt|Software product" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Steckergehaeuse|Connector casing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stecksockel|Plug-in base" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stecksockel vorverdrahtet|Plug-in base prewired" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Stellantrieb|Hydraulic Drive" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Steuer/Regelgeraet|boiler management unit" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Steuer/Regelgeraet ohne Gehaeuse|boiler management unit without housing"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="Steuergeraet|Control unit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Temperaturfuehler|Temperature detector" description="" conditionName="isTrue"/>
+     <TcLOVValue value="UV-Flammenfühler|UV flame detector" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ventil |Valve" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Zubehoer|Accessories" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Zubehoer fuer Antrieb|Accessories for actuator" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Zuend-/Pilotbrenner|Ignition module-/Pilot burner" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Zuendfunkendetektor|Ignition spark detector" description=""
+         conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

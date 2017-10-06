@@ -1,0 +1,14 @@
+     [echo]  Executing MakeExecutable Target 
+     [echo] MSDEV_INCLUDE: ${env.MSDEV_INCLUDE}
+     [echo] MSDEV_HOME: C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC
+
+MakeExecutable:
+     [echo]  Compiling and linking bt7_report_bom . . . 
+       [cc] Starting dependency analysis for 1 files.
+       [cc] 1 files are up to date.
+       [cc] 0 files to be recompiled from dependency analysis.
+       [cc] 0 total files to be compiled.
+       [cc] Starting link
+       [cc] bt7_report_bom.obj : warning LNK4254: section 'ATL' (50000040) merged into '.rdata' (40000040) with different attributes
+   [delete] Deleting: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\bt7_report_bom\rerun
+     [echo]  Created bt7_report_bom.exe successfully 

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "report_bom_md", "bt7_report_cc.vcxproj", "{C556B939-1349-48EE-9175-EF3CB6E097BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		x64|ARM = x64|ARM
+		x64|Win32 = x64|Win32
+		x64|x64 = x64|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.Debug|ARM.Build.0 = Debug|ARM
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.Debug|Win32.ActiveCfg = Debug|ARM
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.Debug|x64.ActiveCfg = Debug|x64
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.Debug|x64.Build.0 = Debug|x64
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.Release|ARM.ActiveCfg = Release|ARM
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.Release|ARM.Build.0 = Release|ARM
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.Release|Win32.ActiveCfg = Release|ARM
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.Release|x64.ActiveCfg = Release|x64
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.Release|x64.Build.0 = Release|x64
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.x64|ARM.ActiveCfg = x64|ARM
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.x64|ARM.Build.0 = x64|ARM
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.x64|Win32.ActiveCfg = x64|ARM
+		{C556B939-1349-48EE-9175-EF3CB6E097BE}.x64|x64.ActiveCfg = x64|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------------
+Post Action Migration Report
+Date:Mon May 02 13:03:17 UTC 2016
+----------------------------------------------------------------------------------------------------------------------------------------
+Summary
+----------------------------------------------------------------------------------------------------------------------------------------
+Added the constant attach with value BT6_Rel_Specified||BT7_RelSpecifiedCreatePostAction||GRM_create||IMAN_save.
+ Post action BT7_RelSpecifiedCreatePostAction attached to GRM_create will be executed on IMAN_save for BT6_Rel_Specified.
+Added the constant attach with value BT7_SUPPLIERSPEC||BT7_RelSpecifiedCreatePostAction||GRM_create||IMAN_save.
+ Post action BT7_RelSpecifiedCreatePostAction attached to GRM_create will be executed on IMAN_save for BT7_SUPPLIERSPEC.
+Added the constant attach with value BT7_Includes||BT7_RelSpecifiedCreatePostAction||GRM_create||IMAN_save.
+ Post action BT7_RelSpecifiedCreatePostAction attached to GRM_create will be executed on IMAN_save for BT7_Includes.
+Added the constant attach with value BT6_Rel_Concerned||BT7_RelConcernedCreatePostAction||GRM_create||IMAN_save.
+ Post action BT7_RelConcernedCreatePostAction attached to GRM_create will be executed on IMAN_save for BT6_Rel_Concerned.
+Added the constant attach with value CMHasSolutionItem||BT7_CMHasSolutionItemPostAction||GRM_create||IMAN_save.
+ Post action BT7_CMHasSolutionItemPostAction attached to GRM_create will be executed on IMAN_save for CMHasSolutionItem.
+Done migrating post actions.
+----------------------------------------------------------------------------------------------------------------------------------------

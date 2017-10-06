@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcPropertyAttach typeName="BOMLine">
+      <TcProperty propName="bt7_rtp_resquant" propTypeName="Runtime" propValueType="PROP_string"
+          propMaxStringLength="32" isArray="false" arrayLength="0" description="bt7_rtp_resquant"
+          referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="BOMLine">
+      <TcProperty propName="bt7_rtp_resuom" propTypeName="Runtime" propValueType="PROP_string"
+          propMaxStringLength="32" isArray="false" arrayLength="0" description="bt7_rtp_resuom"
+          referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Item">
+      <TcProperty propName="bt7_rtp_itemNameDesc" propTypeName="Runtime" propValueType="PROP_string"
+          propMaxStringLength="32" isArray="false" arrayLength="0" description="bt7_rtp_itemNameDesc"
+          referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Item">
+      <TcProperty propName="bt7_rtp_lastrevwithstatus" propTypeName="Runtime" propValueType="PROP_string"
+          propMaxStringLength="32" isArray="false" arrayLength="0" description="bt7_rtp_lastrevwithstatus"
+          referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Item">
+      <TcProperty propName="bt7_rtp_latest_rev" propTypeName="Runtime" propValueType="PROP_string"
+          propMaxStringLength="32" isArray="false" arrayLength="0" description="bt7_rtp_latest_rev"
+          referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Item">
+      <TcProperty propName="bt7_rtp_latest_rev_status" propTypeName="Runtime" propValueType="PROP_string"
+          propMaxStringLength="32" isArray="false" arrayLength="0" description="bt7_rtp_latest_rev_status"
+          referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+      <TcProperty propName="bt7_rtp_ApprDate_DocMapp" propTypeName="Runtime" propValueType="PROP_string"
+          propMaxStringLength="32" isArray="false" arrayLength="0" description="bt7_rtp_ApprDate_DocMapp"
+          referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+      <TcProperty propName="bt7_rtp_latest_rel_status" propTypeName="Runtime" propValueType="PROP_string"
+          propMaxStringLength="32" isArray="false" arrayLength="0" description="bt7_rtp_latest_rel_status"
+          referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+      <TcProperty propName="bt7_rtp_map_status" propTypeName="Runtime" propValueType="PROP_string"
+          propMaxStringLength="32" isArray="false" arrayLength="0" description="bt7_rtp_map_status"
+          referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+      <TcProperty propName="bt7_rtp_resuom" propTypeName="Runtime" propValueType="PROP_string"
+          propMaxStringLength="32" isArray="false" arrayLength="0" description="bt7_rtp_resuom"
+          referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+</Add>
+</TcBusinessData>

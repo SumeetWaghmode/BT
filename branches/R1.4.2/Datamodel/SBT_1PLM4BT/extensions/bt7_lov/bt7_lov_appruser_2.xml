@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_ApprUser_2" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_ApprUser_2">
+     <TcLOVValue value="A. Moehrmann" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A. Wiegand" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B. Zimmermann" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C. Langrzyk" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E. Lang" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F. Mair" description="" conditionName="isTrue"/>
+     <TcLOVValue value="G. Fritz" description="" conditionName="isTrue"/>
+     <TcLOVValue value="H. Hauter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="H.-D. Huber" description="" conditionName="isTrue"/>
+     <TcLOVValue value="K. Obrecht" description="" conditionName="isTrue"/>
+     <TcLOVValue value="M. Juengling" description="" conditionName="isTrue"/>
+     <TcLOVValue value="M. Tews" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P. Ernstberger" description="" conditionName="isTrue"/>
+     <TcLOVValue value="R. Feldmeth" description="" conditionName="isTrue"/>
+     <TcLOVValue value="R. Heck" description="" conditionName="isTrue"/>
+     <TcLOVValue value="R. Schwarz" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S. Kuehn" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S. Osswald" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T. Frieling" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T. Frosch" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T. Schindler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U. Birkmann" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V. Schmid" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

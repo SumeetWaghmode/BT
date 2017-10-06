@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcTypeDisplayRule hiddenTypeName="BT6_AutoSketch" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_CorelDesigner" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_Document" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_DXF" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_EngChange" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_EngChangeDoc" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_FluidDraw" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_Integra_Mask_Drill" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_Integra" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_Integra_SQL" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_ItemNotice" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_Material" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_Notice" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_PCB" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_PCBLayoutOrder" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_Product_InitialHistoryDoc" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_Product" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_ProductPart" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_RevNotice" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_Software" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_SoftwareData" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_StandardPart" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_TIFF" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_TIFF_Scan" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_Tool" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+   <TcTypeDisplayRule hiddenTypeName="BT6_ToolPart" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description="" sourceTemplate="btfoundation"/>
+</Add>
+</TcBusinessData>

@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}BT7_7zip" status="Approved">BT7 7zip</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_AutoSketch" status="Approved">BT7 Auto Sketch</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_BTPartMasterS" status="Approved">BT7_BTPartMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_BTPartMaster" status="Approved">BT7_BTPartMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_BTPartRevMasterS" status="Approved">BT7_BTPartRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_BTPartRevisionMaster" status="Approved">BT7_BTPartRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_BTPartRevision" status="Approved">BT7 BTPartRevision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_BTPart" status="Approved">BT7_BTPart</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CAD_DesignMasterS" status="Approved">BT7_CAD_DesignMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CAD_DesignMaster" status="Approved">BT7_CAD_DesignMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CAD_DesignRevMasterS" status="Approved">BT7_CAD_DesignRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CAD_DesignRevisionMaster" status="Approved">BT7_CAD_DesignRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CAD_DesignRevision" status="Approved">BT7_CAD_DesignRevision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CAD_Design" status="Approved">BT7 CAD Design</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCRManufacturer" status="Approved">CCR Manufacturer</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCRStorage" status="Approved">BT7_CCRStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_CADIM_EntryStorage" status="Approved">BT7_CCR_CADIM_EntryStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_CADIM_Entry" status="Approved">BT7_CCR_CADIM_Entry</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMYMasterS" status="Approved">BT7_CCR_DUMMYMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMYMaster" status="Approved">BT7_CCR_DUMMYMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMYRevMasterS" status="Approved">BT7_CCR_DUMMYRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMYRevisionMaster" status="Approved">BT7_CCR_DUMMYRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMYRevision" status="Approved">BT7_CCR_DUMMYRevision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMY" status="Approved">BT7_CCR_DUMMY</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR" status="Approved">BT7 Common Component Request</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CancelInfoStorage" status="Approved">BT7_CancelInfoStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CancelInfo" status="Approved">Annulling Information</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ChangeNoticeMasterS" status="Approved">BT7_ChangeNoticeMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ChangeNoticeMaster" status="Approved">BT7_ChangeNoticeMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ChangeNoticeRevMasterS" status="Approved">BT7_ChangeNoticeRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ChangeNoticeRevisionMaster" status="Approved">BT7_ChangeNoticeRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ChangeNoticeRevision" status="Approved">BT7 Engineering Change Order Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ChangeNotice" status="Approved">BT7 Engineering Change Order</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ChangeRqstMasterS" status="Approved">BT7_ChangeRqstMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ChangeRqstMaster" status="Approved">BT7_ChangeRqstMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ChangeRqstRevMasterS" status="Approved">BT7_ChangeRqstRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ChangeRqstRevisionMaster" status="Approved">BT7_ChangeRqstRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ChangeRqstRevision" status="Approved">BT7_ChangeRqstRevision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ChangeRqst" status="Approved">BT7 Change Request</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Collection" status="Approved">BT7 Collection - INVALID</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CommonCompMasterS" status="Approved">BT7_CommonCompMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CommonCompMaster" status="Approved">BT7_CommonCompMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CommonCompRevMasterS" status="Approved">BT7_CommonCompRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CommonCompRevisionMaster" status="Approved">BT7_CommonCompRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CommonCompRevision" status="Approved">BT7 Electronic &amp; Electronic-Mechanic Comp Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CommonComp" status="Approved">BT7 Electronic &amp; Electronic-Mechanic Comp</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CompGraphMeta" status="Approved">BT7 CGM: Computer Graphics Metafile</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CompProgMasterS" status="Approved">BT7_CompProgMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CompProgMaster" status="Approved">BT7_CompProgMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CompProgRevMasterS" status="Approved">BT7_CompProgRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CompProgRevisionMaster" status="Approved">BT7_CompProgRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CompProgRevision" status="Approved">BT7 Component Programmed Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CompProg" status="Approved">BT7 Component Programmed</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ComponentMasterS" status="Approved">BT7_ComponentMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ComponentMaster" status="Approved">BT7_ComponentMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ComponentRevMasterS" status="Approved">BT7_ComponentRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ComponentRevisionMaster" status="Approved">BT7_ComponentRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ComponentRevision" status="Approved">BT7 Component Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Component" status="Approved">BT7 Component</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CorelDesigner" status="Approved">BT7 Corel Designer</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_DOCINDOC" status="Approved">Document Inclusion</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_DOCSTRUCT" status="Approved">Document Structure</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_DXF" status="Approved">BT7 DXF</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Default" status="Approved">BT7_Default</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_DistributionList" status="Approved">BT7 DistributionList</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_DocumentMasterS" status="Approved">BT7_DocumentMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_DocumentMaster" status="Approved">BT7_DocumentMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_DocumentRevMasterS" status="Approved">BT7_DocumentRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_DocumentRevisionMaster" status="Approved">BT7_DocumentRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_DocumentRevision" status="Approved">BT7 DocumentRevision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Document" status="Approved">BT7 Document</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ELCADMasterS" status="Approved">BT7_ELCADMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ELCADMaster" status="Approved">BT7_ELCADMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ELCADRevMasterS" status="Approved">BT7_ELCADRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ELCADRevisionMaster" status="Approved">BT7_ELCADRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ELCADRevision" status="Approved">BT7 Electronic CAD Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ELCAD" status="Approved">BT7 Electronic CAD</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_EMN" status="Approved">BT7 EMN</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_EngChangeDoc" status="Approved">BT7 Eng Change Doc</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_EngChangeOrder" status="Approved">BT7 Eng Change Order</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_FluidDraw" status="Approved">BT7 Fluid Draw</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_GroupFolder" status="Approved">BT7 Group Folder</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Includes" status="Approved">Included</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Integra_Mask_Drill" status="Approved">BT7 Integra Mask Drill</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Integra_SQL" status="Approved">BT7 Integra SQL</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Integra" status="Approved">BT7 Integra</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_IntelGraphExch" status="Approved">BT7 IGES: Initial Graphics Exchange File</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ItemNotice" status="Approved">BT7 Item Notice</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_LibraryFolder" status="Approved">BT7 Library Folder</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ManufacturerMasterS" status="Approved">BT7_ManufacturerMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ManufacturerMaster" status="Approved">BT7_ManufacturerMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ManufacturerRevMasterS" status="Approved">BT7_ManufacturerRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ManufacturerRevisionMaster" status="Approved">BT7_ManufacturerRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ManufacturerRevision" status="Approved">BT7 Manufacturer Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Manufacturer" status="Approved">BT7 Manufacturer</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MaterialMasterS" status="Approved">BT7 Material Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MaterialMaster" status="Approved">BT7 Material Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MaterialRevMasterS" status="Approved">BT7 Material Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MaterialRevisionMaster" status="Approved">BT7 Material Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MaterialRevision" status="Approved">BT7 MaterialRevision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Material" status="Approved">BT7 Material</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MigrationDataset" status="Approved">Migration Dataset</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MultiSEffFormStorage" status="Approved">BT7_MultiSEffFormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MultiSEffForm" status="Approved">Multi S Eff Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Notice" status="Approved">BT7 Notice</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_PARTDOC" status="Approved">Part Specification</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_PCBLayoutOrder" status="Approved">BT7 PCB Layout Order</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_PRTISDOC" status="Approved">Part is Document</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Parasolid" status="Approved">Parasolid</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyMasterS" status="Approved">BT7 Prod Type Key Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyMaster" status="Approved">BT7 Prod Type Key Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyRevMasterS" status="Approved">BT7 Prod Type Key Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyRevisionMaster" status="Approved">BT7 Prod Type Key Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyRevision" status="Approved">BT7  Prod Type Key Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKey_FormStorage" status="Approved">BT7_ProdTypeKey_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKey_Form" status="Approved">BT7 Prod Type Key Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKey" status="Approved">BT7 Product Type Key</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProductFolder" status="Approved">BT7 Product Folder</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProductMasterS" status="Approved">BT7_ProductMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProductMaster" status="Approved">BT7_ProductMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProductRevMasterS" status="Approved">BT7_ProductRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProductRevisionMaster" status="Approved">BT7_ProductRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProductRevision" status="Approved">BT7 Product Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Product_InitialHistoryDoc" status="Approved">BT7 Product Initial History Doc</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Product" status="Approved">BT7 Product</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProjectFolder" status="Approved">BT7 Project Folder</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_AuxMat_Primary" status="Approved">Auxiliary Material 1</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_AuxMat_Secondary" status="Approved">Auxiliary Material 2</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_Concerned" status="Approved">Concerned</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_Notice" status="Approved">Notice</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_ProdTypeKey" status="Approved">Product Type Key</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_Prod_InitialHistory" status="Approved">Change history</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_Specified" status="Approved">Specified</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarConditions" status="Approved">Variants Conditions</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarItemIDMap" status="Approved">Variant Item ID Mapping</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarItemID" status="Approved">Variant Item ID</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarItems" status="Approved">Variant Items</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarModules" status="Approved">Variants Modules</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarRules" status="Approved">Variant Rules</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_WorkflowRefObjects" status="Approved">Referenzobjekte</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_WorkflowTrgtObjects" status="Approved">Freigabeobjekte</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_RevNotice" status="Approved">BT7 Rev Notice</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_SBT_Collection" status="Approved">BT7 Collection</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_SBT_Selection" status="Approved">BT7 Selection</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_SUPPLIERSPEC" status="Approved">Supplier Specification</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Selection" status="Approved">BT7 Selection - INVALID</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_SoftwareData" status="Approved">BT7 Software Data</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_SoftwareMasterS" status="Approved">BT7_SoftwareMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_SoftwareMaster" status="Approved">BT7_SoftwareMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_SoftwareRevMasterS" status="Approved">BT7_SoftwareRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_SoftwareRevisionMaster" status="Approved">BT7_SoftwareRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_SoftwareRevision" status="Approved">BT7 Software Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Software" status="Approved">BT7 Software</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Step" status="Approved">STEP</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_TCENT_Material" status="Approved">TcEnt Material</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_TIFF_Scan" status="Approved">BT7 TIFF Scan</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_TIFF" status="Approved">BT7 TIFF</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_TcEntValuesStorage" status="Approved">BT7_TcEntValuesStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_TcEntValues" status="Approved">Teamcenter Enterprise values</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolFolder" status="Approved">BT7 Tool Folder</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolMasterS" status="Approved">BT7_ToolMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolMaster" status="Approved">BT7_ToolMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolPartMasterS" status="Approved">BT7 Tool Part Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolPartMaster" status="Approved">BT7 Tool Part Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolPartRevMasterS" status="Approved">BT7 Tool Part Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolPartRevisionMaster" status="Approved">BT7 Tool Part Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolPartRevision" status="Approved">BT7 ToolPart Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolPart" status="Approved">BT7 Tool Part</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolRevMasterS" status="Approved">BT7_ToolRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolRevisionMaster" status="Approved">BT7_ToolRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolRevision" status="Approved">BT7 Tool Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Tool" status="Approved">BT7 Tool</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_UDFFolder" status="Approved">BT7 UDF Folder</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VI_ID_Map_FormStorage" status="Approved">BT7_VI_ID_Map_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VI_ID_Map_Form" status="Approved">BT7 VariantItem ID Mapping Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarCond_FormStorage" status="Approved">BT7_VarCond_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarCondition_Form" status="Approved">BT7Var Condition Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarItemID_FormStorage" status="Approved">BT7_VarItemID_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarItemID_Form" status="Approved">BT7 Var Item ID Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarMatrix_FormStorage" status="Approved">BT7_VarMatrix_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarMatrix_Form" status="Approved">BT7 Var Matrix Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VendorPartMasterS" status="Approved">BT7_VendorPartMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VendorPartMaster" status="Approved">BT7_VendorPartMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VendorPartRevMasterS" status="Approved">BT7_VendorPartRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VendorPartRevisionMaster" status="Approved">BT7_VendorPartRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VendorPartRevision" status="Approved">BT7 Vendor Part Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VendorPart" status="Approved">BT7 Vendor Part</key>
+   <key locale="en_US" id="BusinessObject{::}CMHasImpactedItem" status="Approved">Impacted Items</key>
+   <key locale="en_US" id="BusinessObject{::}ChangeNotice" status="Approved">Change Notice (OOTB - invalid for SBT)</key>
+   <key locale="en_US" id="BusinessObject{::}ChangeRequest" status="Approved">Change Request (OOTB - invalid for SBT)</key>
+   <key locale="en_US" id="BusinessObject{::}ChangeSpecialist1" status="Approved">Change Control Manager (CCM)</key>
+   <key locale="en_US" id="BusinessObject{::}CommercialPart" status="Approved">Commercial Part (OOTB - invalid for SBT)</key>
+   <key locale="en_US" id="BusinessObject{::}Design" status="Approved">Design (OOTB)</key>
+   <key locale="en_US" id="BusinessObject{::}Document" status="Approved">Document (OOTB - invalid for SBT)</key>
+   <key locale="en_US" id="BusinessObject{::}ManufacturerPart" status="Approved">Vendor Part (OOTB - invalid for SBT)</key>
+   <key locale="en_US" id="BusinessObject{::}Vendor" status="Approved">Vendor (OOTB - invalid for SBT)</key>
+   <key locale="en_US" id="ConditionDescription{::}BT7_IsMemberOf_100_Admin" status="Approved">Is Member of 100_Admin</key>
+   <key locale="en_US" id="ConditionDescription{::}BT7_IsMemberOf_120_MDesign_A" status="Approved">Is Member of 120_MDesign_A</key>
+   <key locale="en_US" id="ConditionDescription{::}BT7_IsMemberOf_DBA" status="Approved">Is Member of dba</key>
+   <key locale="en_US" id="ConditionDescription{::}BT7_isBT7_ChangeNoticeCreatable"
+       status="Approved">This condition determines if change notice is creatable by the user.</key>
+   <key locale="en_US" id="ConditionDescription{::}BT7_isBT7_ChangeRqstCreatable"
+       status="Approved">This condition determines if change request is creatable by the user.</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_StatusList{::}10" status="Approved">Pre Release</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_StatusList{::}5" status="Approved">Locked</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_StatusList{::}60" status="Approved">Serial Release</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_StatusList{::}90" status="Approved">Obsolete</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_StatusList{::}98" status="Approved">Annulled</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_StatusList{::}BT7_ECO" status="Approved">Pre Released+</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_StatusList{::}BT7_Implemented" status="Approved">Implemented</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_YesNo-{::}-" status="Approved">-</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_YesNo-{::}No" status="Approved">No</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_YesNo-{::}Yes" status="Approved">Yes</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_assytype{::}PsmInseparable" status="Approved">Inseparable</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_assytype{::}PsmSeparable" status="Approved">Separable</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}BG-USA" status="Approved">BG-USA</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}BT/CPS/FID/QM"
+       status="Approved">BT/CPS/FID/QM</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}BT/CPS/GDT/EU/HW/PQA"
+       status="Approved">BT/CPS/GDT/EU/HW/PQA</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}BT/CPS/RD/ZG/HW/CCE"
+       status="Approved">BT/CPS/RD/ZG/HW/CCE</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}CSA-International"
+       status="Approved">CSA-International</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}CSI S.p.a. Italy"
+       status="Approved">CSI S.p.a. Italy</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}DIN CERTCO" status="Approved">DIN CERTCO</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}DVGW CERT GmbH"
+       status="Approved">DVGW CERT GmbH</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}EIBA (Regensburg)"
+       status="Approved">EIBA (Regensburg)</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}Eidg. Starkstrominsp"
+       status="Approved">Eidg. Starkstrominsp</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}FUJITSU SIEMENS"
+       status="Approved">FUJITSU SIEMENS</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}GOST-Russland"
+       status="Approved">GOST-Russland</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}I BT CPS FID QM"
+       status="Approved">I BT CPS FID QM</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}I-BT-CPS-FID-QM"
+       status="Approved">I-BT-CPS-FID-QM</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}IMIT" status="Approved">IMIT</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}JUMO GmbH" status="Approved">JUMO GmbH</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}KEINE" status="Approved">KEINE</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}KNX" status="Approved">KNX</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}SBT/CHINA/HVP-OEM"
+       status="Approved">SBT/CHINA/HVP-OEM</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}SBT/DE-RAS/AS"
+       status="Approved">SBT/DE-RAS/AS</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}SBT/STAEFA/BAU-HC"
+       status="Approved">SBT/STAEFA/BAU-HC</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}SBT/ZUG/BAU-HC"
+       status="Approved">SBT/ZUG/BAU-HC</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}SBT/ZUG/HVP-HC"
+       status="Approved">SBT/ZUG/HVP-HC</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}SBT/ZUG/HVP-PQM"
+       status="Approved">SBT/ZUG/HVP-PQM</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}SBT/ZUG/HVP-QA-DA"
+       status="Approved">SBT/ZUG/HVP-QA-DA</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}SBT/ZUG/HVP-RAC-HWC"
+       status="Approved">SBT/ZUG/HVP-RAC-HWC</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}TUEV-Mannheim"
+       status="Approved">TUEV-Mannheim</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}TUEV-Rheinland"
+       status="Approved">TUEV-Rheinland</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}The OpenTherm Assoc."
+       status="Approved">The OpenTherm Assoc.</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}UL-Northbrook"
+       status="Approved">UL-Northbrook</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}VDE" status="Approved">VDE</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}WSPCert (BACnet)"
+       status="Approved">WSPCert (BACnet)</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}eu.bac" status="Approved">eu.bac</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_certificationbody{::}eurofins" status="Approved">eurofins</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum0" status="Approved">8-Mia (nicht klassifizierende Nr)</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum10" status="Approved">A5Q (nicht klassifizierende, SBT allgemeine Nr)</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum11" status="Approved">FSP old Nummerierung</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum12" status="Approved">SSN</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum1" status="Approved">9-digits (nachträgliche Abbildung einer exist. L&amp;G Nr)</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum2" status="Approved">10-digits (nachträgliche Abbildung einer exist. L&amp;G Nr)</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum3" status="Approved">auto + Staefa</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum4" status="Approved">auto + ancient</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum5" status="Approved">auto + Tech.Doc.</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum6" status="Approved">auto + UT-UNM</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum7" status="Approved">auto + Leiterpl.</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum8" status="Approved">7-Mia (klassifizierende Nr)</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum9" status="Approved">auto + Corinth</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_2{::}L0Absch" status="Approved">Final project report</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_2{::}L0Anal" status="Approved">Profitability report</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_2{::}L0Antr" status="Approved">Request for release</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_2{::}L0Audit" status="Approved">Audit report</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_2{::}L0Basln" status="Approved">Baseline</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_2{::}L0DivD" status="Approved">Misc. Documents</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_2{::}L0Form" status="Approved">Set of release forms</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_2{::}L0PrjHB" status="Approved">Project Manual</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_2{::}L0Proto" status="Approved">Release minutes</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_2{::}L0Rep" status="Approved">Release report</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_2{::}L0Rev" status="Approved">Review report of project plan</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_2{::}L0Stat" status="Approved">Project status report</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_3{::}LGDesc" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_3{::}LGGuide" status="Approved">Guidelines</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_3{::}LGTemp" status="Approved">Template</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_3{::}LGWrkI" status="Approved">Work Instruction</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_3{::}j3_DtBS" status="Approved">Example</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_3{::}j3_DtCL" status="Approved">Checklist</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_3{::}lDOthr" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_dev{::}LGDesc" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_dev{::}LGDraw" status="Approved">Drawings / BOM / Schematics</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_dev{::}LGGuide" status="Approved">Guidelines</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_dev{::}LGResult" status="Approved">Results / Complaints</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_dev{::}LGWrkI" status="Approved">Work Instruction</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_dev{::}lDOthr" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_sde{::}LGDesc" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_sde{::}LGDraw" status="Approved">Drawings / BOM / Schematics</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_sde{::}LGGuide" status="Approved">Guidelines</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_sde{::}LGResult" status="Approved">Results / Complaints</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_sde{::}LGWrkI" status="Approved">Work Instruction</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_sde{::}lDOthr" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_sma{::}LGDesc" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_sma{::}LGDraw" status="Approved">Drawings / BOM / Schematics</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_sma{::}LGGuide" status="Approved">Guidelines</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_sma{::}LGPcbD" status="Approved">PCB Development</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_sma{::}LGResult" status="Approved">Results / Complaints</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_sma{::}LGWrkI" status="Approved">Work Instruction</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_sma{::}lDOthr" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_tdo{::}LGDSheet" status="Approved">Data Sheet</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_tdo{::}LGDecCon" status="Approved">Declaration of Conformity / Certificat</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_tdo{::}LGEnvPD" status="Approved">Environmental product declaration</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_tdo{::}LGPhoto" status="Approved">Photograph</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_tdo{::}LGProEnc" status="Approved">Product Enclosure</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_tdo{::}LGTekDwg" status="Approved">Drawing</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype_tdo{::}LGUsrDoc" status="Approved">Manuals and others</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGDSheet" status="Approved">Data Sheet</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGDecCon" status="Approved">Declaration of Conformity / Certificat</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGDesc" status="Approved">Information</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGDraw" status="Approved">Drawings / BOM / Schematics</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGEnvPD" status="Approved">Environmental product declaration</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGGuide" status="Approved">Guidelines</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGPcbD" status="Approved">PCB Development</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGPhoto" status="Approved">Photograph</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGProEnc" status="Approved">Product Enclosure</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGResult" status="Approved">Results / Complaints</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGTekDwg" status="Approved">Drawing</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGTemp" status="Approved">Template</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGUsrDoc" status="Approved">Manuals and others</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}LGWrkI" status="Approved">Work Instruction</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}j3_DtBS" status="Approved">Example</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}j3_DtCL" status="Approved">Checklist</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_doctype{::}lDOthr" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_full{::}--" status="Approved">---</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_full{::}LGDossierApproachPrj"
+       status="Approved">Approach Projects</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_full{::}LGDosssierDesPrd" status="Approved">Description Products</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_full{::}LGDosssierProPrd" status="Approved">Proof Products</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_full{::}LGDosssierReqPrd" status="Approved">Requirements Products</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_none{::}--" status="Approved">---</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_proc{::}LGDossierDocDaMgt"
+       status="Approved">Document &amp; Data Mgt.</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_proc{::}LGDossierFinCon" status="Approved">Finance &amp; Controlling</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_proc{::}LGDossierGloPro" status="Approved">Global Procurement</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_proc{::}LGDossierHumRes" status="Approved">Human Resources</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_proc{::}LGDossierLogist" status="Approved">Logistics</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_proc{::}LGDossierMark" status="Approved">Marketing</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_proc{::}LGDossierOpera" status="Approved">Operation</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_proc{::}LGDossierProMaDev"
+       status="Approved">Product Marketing &amp; Devel.</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier_proc{::}LGDossierQuEnMgt" status="Approved">Quality &amp; Environm. Mgt.</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier{::}LGDossierApproachPrj" status="Approved">Approach Projects</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier{::}LGDosssierDesPrd" status="Approved">Description Products</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier{::}LGDosssierProPrd" status="Approved">Proof Products</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_dossier{::}LGDosssierReqPrd" status="Approved">Requirements Products</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_entdoctype{::}LGBomDoc" status="Approved">BOM Document</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_entdoctype{::}LGDevelp" status="Approved">Development</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_entdoctype{::}LGFreigd" status="Approved">Release Documentation</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_entdoctype{::}LGISTD" status="Approved">ISTD-Document</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_entdoctype{::}LGQDoc" status="Approved">Management and Processes</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_entdoctype{::}LGSalDel" status="Approved">Sales and Delivery</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_entdoctype{::}LGSouMan" status="Approved">Sourcing and Manufacturing</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_entdoctype{::}LGTekDok" status="Approved">Technical Documentation</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_equalpart{::}l7_74Num" status="Approved">74.../4...</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_equalpart{::}l7_A5QNum" status="Approved">A5Q...</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_forprocess{::}MGT_QM" status="Approved">Quality &amp; Environm. Mgt.</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_forprocess{::}PDM" status="Approved">Produkt Marketing &amp; Entw.</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_forprocess{::}SDS_LOG" status="Approved">Logistics</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_forprocess{::}SMP_GP" status="Approved">Global Procurement</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_forprocess{::}SMP_OP" status="Approved">Produktion</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_forprocess{::}SPM_MA" status="Approved">Marketing</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_forprocess{::}SUP_DOC" status="Approved">Document &amp; Data Mgt.</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_forprocess{::}SUP_FC" status="Approved">Finance &amp; Controlling</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_forprocess{::}SUP_HR" status="Approved">Human Resources</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}736480" status="Approved">736480</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}CENTRA" status="Approved">CENTRA</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Cyrill Brandenberg" status="Approved">Cyrill Brandenberg</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}FLASH" status="Approved">FLASH</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}HC-Staefa_6634" status="Approved">HC-Staefa_6634</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}HC-Stäfa_6634" status="Approved">HC-Stäfa_6634</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}HONEYWELL" status="Approved">HONEYWELL</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}HONGKONG" status="Approved">HONGKONG</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Jumo" status="Approved">Jumo</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Keine" status="Approved">Keine</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Mühlhausen" status="Approved">Mühlhausen</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Print Center Staefa" status="Approved">Print Center Staefa</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Print center Stäfa" status="Approved">Print center Stäfa</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Rastatt R253" status="Approved">Rastatt R253</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Rastatt R255" status="Approved">Rastatt R255</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}SERO" status="Approved">SERO</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Zug 2026" status="Approved">Zug 2026</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Zug 2608" status="Approved">Zug 2608</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Zug 2815" status="Approved">Zug 2815</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_commoncomponent{::}pt_ekk"
+       status="Approved">Electronic Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_elcad{::}pt_ELCpr" status="Approved">ELCAD Prototype</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_product{::}pt_ASN" status="Approved">SBT Product</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_programmed{::}pt_passm" status="Approved">Programmed Assembly</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_software{::}pt_sw" status="Approved">Software</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}l7LGCodPEq"
+       status="Approved">PCB-A</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_ASN" status="Approved">SBT Product</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_ELCpr" status="Approved">ELCAD Prototype</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_assm" status="Approved">Assembly</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_aux" status="Approved">Auxiliary</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_cbuy" status="Approved">Buy Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_comp" status="Approved">Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_doc" status="Approved">Document</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_ekk" status="Approved">Electronic Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_mat" status="Approved">Material</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_mech" status="Approved">Mechanical Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_passm" status="Approved">Programmed Assembly</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_pcb" status="Approved">PCB-raw</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_pkg" status="Approved">Packing</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_sw" status="Approved">Software</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tcent_form{::}pt_tool" status="Approved">Tool</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_toolpart{::}l7LGCodPEq" status="Approved">PCB-A</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_toolpart{::}pt_assm" status="Approved">Assembly</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_toolpart{::}pt_aux" status="Approved">Auxiliary</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_toolpart{::}pt_cbuy" status="Approved">Buy Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_toolpart{::}pt_comp" status="Approved">Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_toolpart{::}pt_doc" status="Approved">Document</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_toolpart{::}pt_ekk" status="Approved">Electronic Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_toolpart{::}pt_mat" status="Approved">Material</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_toolpart{::}pt_mech" status="Approved">Mechanical Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_toolpart{::}pt_pcb" status="Approved">PCB raw</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_toolpart{::}pt_pkg" status="Approved">Packing</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_toolpart{::}pt_vassm" status="Approved">Variant Assembly</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_tool{::}pt_tool" status="Approved">Tool</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}l7LGCodPEq" status="Approved">PCB-A</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}pt_assm" status="Approved">Assembly</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}pt_aux" status="Approved">Auxiliary</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}pt_cbuy" status="Approved">Buy Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}pt_comp" status="Approved">Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}pt_doc" status="Approved">Document</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}pt_ekk" status="Approved">Electronic Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}pt_mat" status="Approved">Material</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}pt_mech" status="Approved">Mechanical Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}pt_pcb" status="Approved">PCB-raw</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}pt_pkg" status="Approved">Packing</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}AEROGYR" status="Approved">AEROGYR</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}ALBATROS" status="Approved">ALBATROS</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}Acvatix" status="Approved">Acvatix</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}BATIGYR" status="Approved">BATIGYR</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}CHRONOGYR" status="Approved">CHRONOGYR</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}DELTATRON" status="Approved">DELTATRON</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}DESIGO INSIGHT" status="Approved">DESIGO INSIGHT</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}DESIGO PX" status="Approved">DESIGO PX</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}DESIGO RX" status="Approved">DESIGO RX</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}DUOGYR" status="Approved">DUOGYR</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}INTEGRAL MS1000/TS1500"
+       status="Approved">INTEGRAL MS1000/TS1500</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}MEGATRON" status="Approved">MEGATRON</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}MEMOTRON" status="Approved">MEMOTRON</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}MONOGYR" status="Approved">MONOGYR</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}OPENAIR" status="Approved">OPENAIR</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}POLYGYR JOKER" status="Approved">POLYGYR JOKER</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}POLYGYR" status="Approved">POLYGYR</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}PolyCool" status="Approved">PolyCool</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}SAPHIR" status="Approved">SAPHIR</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}SIGMAGYR" status="Approved">SIGMAGYR</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}SONOGYR" status="Approved">SONOGYR</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}SYNERGYR" status="Approved">SYNERGYR</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}Siclimat" status="Approved">Siclimat</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}Synco" status="Approved">Synco</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}TEC" status="Approved">TEC</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}UNIGYRPRU" status="Approved">UNIGYRPRU</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}UNIGYR" status="Approved">UNIGYR</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}VISONIK PRV" status="Approved">VISONIK PRV</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}VISONIK" status="Approved">VISONIK</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}VOLUTRON" status="Approved">VOLUTRON</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_rangename{::}thecostat" status="Approved">thecostat</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_softwaretype{::}l9PB1" status="Approved">Memory, volatile</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_softwaretype{::}l9PB2" status="Approved">Memory, non-volatile</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_softwaretype{::}l9PB3" status="Approved">Controller, programmable</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_softwaretype{::}l9PSW" status="Approved">Code</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_softwaretype{::}l9SWP" status="Approved">Software for Product</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_statusset{::}24" status="Approved">24</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_statusset{::}28" status="Approved">28</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_statusset{::}30" status="Approved">30</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_statusset{::}40" status="Approved">40</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_statusset{::}46" status="Approved">46</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_statusset{::}62" status="Approved">62</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_statusset{::}66" status="Approved">66</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_statusset{::}69" status="Approved">69</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_validation{::}Last Time Buy" status="Approved">Last Time Buy</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_validation{::}Risk" status="Approved">Risk</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_validation{::}l7StPref" status="Approved">Preferred</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_validation{::}l7Stan" status="Approved">Standard</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_validation{::}l7_NFN3" status="Approved">Not for New Design</key>
+   <key locale="en_US" id="Note{::}BT7_EBOM_Relevant" status="Approved">EBOM relevant</key>
+   <key locale="en_US" id="Note{::}BT7_maya_pcb_comp_ow" status="Approved">BT7_maya_pcb_comp_ow</key>
+   <key locale="en_US" id="Note{::}maya_pcb_comp_owner" status="Approved">maya_pcb_comp_owner</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}bl_rev_bt7_rohs_compliant" status="Approved">RoHS Compliant?</key>
+   <key locale="en_US" id="Property{::}BT7_CCRManufacturer{::}bt7_CCR_MfgPrtName"
+       status="Approved">CCR Manufacturer Part Name</key>
+   <key locale="en_US" id="Property{::}BT7_CCRManufacturer{::}bt7_CCR_MfgPrtNumber2"
+       status="Approved">Vendor Part Number -2-</key>
+   <key locale="en_US" id="Property{::}BT7_CCRManufacturer{::}bt7_CCR_MfgPrtNumber"
+       status="Approved">Vendor Part Number -1-</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_Email" status="Approved">Email Requestor</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_EstProdLifeTime" status="Approved">estim. Prod. Life Time (years)</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_EstQtyPerYear" status="Approved">estim. Component Qty/year</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_GenericType" status="Approved">Generic Type</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_Manufacturer1" status="Approved">Manufacturer 1</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_Manufacturer2" status="Approved">Manufacturer 2</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_Manufacturer3" status="Approved">Manufacturer 3</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_MfgPartNr1" status="Approved">Manufacturer 1 Part Nr</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_MfgPartNr2" status="Approved">Manufacturer 2 Part Nr</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_MfgPartNr3" status="Approved">Manufacturer 3 Part Nr</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_NoteApprovals" status="Approved">Note / Approvals</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_Phone" status="Approved">Phone Requestor</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_ProjectAccount" status="Approved">Project Account</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_ProjectName" status="Approved">Project name</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_ReasonForIntro" status="Approved">Reason for Introduction</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_Requestor" status="Approved">Requestor</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_RespCompEng" status="Approved">Resp. Comp. Eng.</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_SpecialInstructions"
+       status="Approved">Special Instructions</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_cadimno" status="Approved">Former CADIM Number</key>
+   <key locale="en_US" id="Property{::}BT7_CCRStorage{::}bt7_tceno" status="Approved">Former TCE Number</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_A0TOPMLIST"
+       status="Approved">bt7_CDM_A0TOPMLIST</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_CLASS"
+       status="Approved">CADIM CLASS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_CREATIONDATE"
+       status="Approved">bt7_CDM_CREATIONDATE</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_CURDBNAME"
+       status="Approved">bt7_CDM_CURDBNAME</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_DOCUMENTNAME"
+       status="Approved">bt7_CDM_DOCUMENTNAME</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_EMAILADDR"
+       status="Approved">bt7_CDM_EMAILADDR</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L0INSTANCENAME"
+       status="Approved">bt7_CDM_L0INSTANCENAME</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L0MANUFNORIS"
+       status="Approved">bt7_CDM_L0MANUFNORIS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L0PARTTYPEGEN"
+       status="Approved">bt7_CDM_L0PARTTYPEGEN</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L3CASESIZE"
+       status="Approved">bt7_CDM_L3CASESIZE</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L4XFERFORLCMANDRULE"
+       status="Approved">bt7_CDM_L4XFERFORLCMANDRULE</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_A_AS"
+       status="Approved">bt7_CDM_L5_A_AS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_A_BAUF"
+       status="Approved">bt7_CDM_L5_A_BAUF</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_A_BEN_ENG"
+       status="Approved">bt7_CDM_L5_A_BEN_ENG</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_A_BEN_GER"
+       status="Approved">bt7_CDM_L5_A_BEN_GER</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_A_CLASS"
+       status="Approved">bt7_CDM_L5_A_CLASS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_A_ORG_EINH"
+       status="Approved">bt7_CDM_L5_A_ORG_EINH</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_CADIM_ID"
+       status="Approved">bt7_CDM_L5_CADIM_ID</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_D_BEN_GER"
+       status="Approved">bt7_CDM_L5_D_BEN_GER</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_D_DART"
+       status="Approved">bt7_CDM_L5_D_DART</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_D_DS"
+       status="Approved">bt7_CDM_L5_D_DS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_D_FK"
+       status="Approved">bt7_CDM_L5_D_FK</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_FK_GLOBAL"
+       status="Approved">bt7_CDM_L5_FK_GLOBAL</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_FK_WERK"
+       status="Approved">bt7_CDM_L5_FK_WERK</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_KEY"
+       status="Approved">bt7_CDM_L5_KEY</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_ORG_WERK"
+       status="Approved">bt7_CDM_L5_ORG_WERK</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_Q_STATUS"
+       status="Approved">bt7_CDM_L5_Q_STATUS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_10"
+       status="Approved">bt7_CDM_L5_S_10</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_11"
+       status="Approved">bt7_CDM_L5_S_11</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_12"
+       status="Approved">bt7_CDM_L5_S_12</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_13"
+       status="Approved">bt7_CDM_L5_S_13</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_14"
+       status="Approved">bt7_CDM_L5_S_14</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_15"
+       status="Approved">bt7_CDM_L5_S_15</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_16"
+       status="Approved">bt7_CDM_L5_S_16</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_17"
+       status="Approved">bt7_CDM_L5_S_17</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_18"
+       status="Approved">bt7_CDM_L5_S_18</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_19"
+       status="Approved">bt7_CDM_L5_S_19</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_1"
+       status="Approved">bt7_CDM_L5_S_1</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_20"
+       status="Approved">bt7_CDM_L5_S_20</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_2"
+       status="Approved">bt7_CDM_L5_S_2</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_3"
+       status="Approved">bt7_CDM_L5_S_3</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_4"
+       status="Approved">bt7_CDM_L5_S_4</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_5"
+       status="Approved">bt7_CDM_L5_S_5</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_6"
+       status="Approved">bt7_CDM_L5_S_6</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_7"
+       status="Approved">bt7_CDM_L5_S_7</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_8"
+       status="Approved">bt7_CDM_L5_S_8</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_S_9"
+       status="Approved">bt7_CDM_L5_S_9</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_TRANS_ERR"
+       status="Approved">CADIM Transfer Error</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_TRANS_ID"
+       status="Approved">bt7_CDM_L5_TRANS_ID</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_TRANS_STAT"
+       status="Approved">CADIM Transfer Status</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L5_VZT"
+       status="Approved">bt7_CDM_L5_VZT</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L9ORIGCLASS"
+       status="Approved">bt7_CDM_L9ORIGCLASS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L9ORIGDB"
+       status="Approved">bt7_CDM_L9ORIGDB</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_L9ORIGOBID"
+       status="Approved">bt7_CDM_L9ORIGOBID</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_LASTUPDATE"
+       status="Approved">bt7_CDM_LASTUPDATE</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_LGUSRBEMERKUNG"
+       status="Approved">bt7_CDM_LGUSRBEMERKUNG</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_OBID"
+       status="Approved">bt7_CDM_OBID</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_PARTNUMBER"
+       status="Approved">bt7_CDM_PARTNUMBER</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_RECYCLED"
+       status="Approved">bt7_CDM_RECYCLED</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_RELATIVEPATH"
+       status="Approved">bt7_CDM_RELATIVEPATH</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_RESPONSABLEPERSON"
+       status="Approved">bt7_CDM_RESPONSABLEPERSON</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_SEINDEXLANGUAGELIST"
+       status="Approved">bt7_CDM_SEINDEXLANGUAGELIST</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_SUPPLIERPARTNUMBER"
+       status="Approved">bt7_CDM_SUPPLIERPARTNUMBER</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_WBSID"
+       status="Approved">bt7_CDM_WBSID</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_WORKINGRELATIVEPATH"
+       status="Approved">bt7_CDM_WORKINGRELATIVEPATH</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_EntryStorage{::}bt7_CDM_ZBLOB"
+       status="Approved">bt7_CDM_ZBLOB</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_A0TOPMLIST"
+       status="Approved">bt7_CDM_A0TOPMLIST</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_CLASS" status="Approved">CADIM CLASS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_CREATIONDATE"
+       status="Approved">bt7_CDM_CREATIONDATE</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_CURDBNAME" status="Approved">bt7_CDM_CURDBNAME</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_DOCUMENTNAME"
+       status="Approved">bt7_CDM_DOCUMENTNAME</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_EMAILADDR" status="Approved">bt7_CDM_EMAILADDR</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L0INSTANCENAME"
+       status="Approved">bt7_CDM_L0INSTANCENAME</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L0MANUFNORIS"
+       status="Approved">bt7_CDM_L0MANUFNORIS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L0PARTTYPEGEN"
+       status="Approved">bt7_CDM_L0PARTTYPEGEN</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L3CASESIZE"
+       status="Approved">bt7_CDM_L3CASESIZE</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L4XFERFORLCMANDRULE"
+       status="Approved">bt7_CDM_L4XFERFORLCMANDRULE</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_A_AS" status="Approved">bt7_CDM_L5_A_AS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_A_BAUF" status="Approved">bt7_CDM_L5_A_BAUF</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_A_BEN_ENG"
+       status="Approved">bt7_CDM_L5_A_BEN_ENG</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_A_BEN_GER"
+       status="Approved">bt7_CDM_L5_A_BEN_GER</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_A_CLASS"
+       status="Approved">bt7_CDM_L5_A_CLASS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_A_ORG_EINH"
+       status="Approved">bt7_CDM_L5_A_ORG_EINH</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_CADIM_ID"
+       status="Approved">bt7_CDM_L5_CADIM_ID</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_D_BEN_GER"
+       status="Approved">bt7_CDM_L5_D_BEN_GER</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_D_DART" status="Approved">bt7_CDM_L5_D_DART</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_D_DS" status="Approved">bt7_CDM_L5_D_DS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_D_FK" status="Approved">bt7_CDM_L5_D_FK</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_FK_GLOBAL"
+       status="Approved">bt7_CDM_L5_FK_GLOBAL</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_FK_WERK"
+       status="Approved">bt7_CDM_L5_FK_WERK</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_KEY" status="Approved">bt7_CDM_L5_KEY</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_ORG_WERK"
+       status="Approved">bt7_CDM_L5_ORG_WERK</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_Q_STATUS"
+       status="Approved">bt7_CDM_L5_Q_STATUS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_10" status="Approved">bt7_CDM_L5_S_10</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_11" status="Approved">bt7_CDM_L5_S_11</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_12" status="Approved">bt7_CDM_L5_S_12</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_13" status="Approved">bt7_CDM_L5_S_13</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_14" status="Approved">bt7_CDM_L5_S_14</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_15" status="Approved">bt7_CDM_L5_S_15</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_16" status="Approved">bt7_CDM_L5_S_16</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_17" status="Approved">bt7_CDM_L5_S_17</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_18" status="Approved">bt7_CDM_L5_S_18</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_19" status="Approved">bt7_CDM_L5_S_19</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_1" status="Approved">bt7_CDM_L5_S_1</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_20" status="Approved">bt7_CDM_L5_S_20</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_2" status="Approved">bt7_CDM_L5_S_2</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_3" status="Approved">bt7_CDM_L5_S_3</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_4" status="Approved">bt7_CDM_L5_S_4</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_5" status="Approved">bt7_CDM_L5_S_5</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_6" status="Approved">bt7_CDM_L5_S_6</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_7" status="Approved">bt7_CDM_L5_S_7</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_8" status="Approved">bt7_CDM_L5_S_8</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_S_9" status="Approved">bt7_CDM_L5_S_9</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_TRANS_ERR"
+       status="Approved">CADIM Transfer Error</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_TRANS_ID"
+       status="Approved">bt7_CDM_L5_TRANS_ID</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_TRANS_STAT"
+       status="Approved">CADIM Transfer Status</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L5_VZT" status="Approved">bt7_CDM_L5_VZT</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L9ORIGCLASS"
+       status="Approved">bt7_CDM_L9ORIGCLASS</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L9ORIGDB" status="Approved">bt7_CDM_L9ORIGDB</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_L9ORIGOBID"
+       status="Approved">bt7_CDM_L9ORIGOBID</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_LASTUPDATE"
+       status="Approved">bt7_CDM_LASTUPDATE</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_LGUSRBEMERKUNG"
+       status="Approved">bt7_CDM_LGUSRBEMERKUNG</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_OBID" status="Approved">bt7_CDM_OBID</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_PARTNUMBER"
+       status="Approved">bt7_CDM_PARTNUMBER</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_RECYCLED" status="Approved">bt7_CDM_RECYCLED</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_RELATIVEPATH"
+       status="Approved">bt7_CDM_RELATIVEPATH</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_RESPONSABLEPERSON"
+       status="Approved">bt7_CDM_RESPONSABLEPERSON</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_SEINDEXLANGUAGELIST"
+       status="Approved">bt7_CDM_SEINDEXLANGUAGELIST</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_SUPPLIERPARTNUMBER"
+       status="Approved">bt7_CDM_SUPPLIERPARTNUMBER</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_WBSID" status="Approved">bt7_CDM_WBSID</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_WORKINGRELATIVEPATH"
+       status="Approved">bt7_CDM_WORKINGRELATIVEPATH</key>
+   <key locale="en_US" id="Property{::}BT7_CCR_CADIM_Entry{::}bt7_CDM_ZBLOB" status="Approved">bt7_CDM_ZBLOB</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_Email" status="Approved">Email Requestor</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_EstProdLifeTime" status="Approved">estim. Prod. Life Time (years)</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_EstQtyPerYear" status="Approved">estim. Component Qty/year</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_GenericType" status="Approved">Generic Type</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_Manufacturer1" status="Approved">Manufacturer 1</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_Manufacturer2" status="Approved">Manufacturer 2</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_Manufacturer3" status="Approved">Manufacturer 3</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_MfgPartNr1" status="Approved">Manufacturer 1 Part Nr</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_MfgPartNr2" status="Approved">Manufacturer 2 Part Nr</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_MfgPartNr3" status="Approved">Manufacturer 3 Part Nr</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_NoteApprovals" status="Approved">Note / Approvals</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_Phone" status="Approved">Phone Requestor</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_ProjectAccount" status="Approved">Project Account</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_ProjectName" status="Approved">Project name</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_ReasonForIntro" status="Approved">Reason for Introduction</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_Requestor" status="Approved">Requestor</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_RespCompEng" status="Approved">Resp. Comp. Eng.</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_SpecialInstructions" status="Approved">Special Instructions</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_cadimno" status="Approved">Former CADIM Number</key>
+   <key locale="en_US" id="Property{::}BT7_CCR{::}bt7_tceno" status="Approved">Former TCE Number</key>
+   <key locale="en_US" id="Property{::}BT7_CancelInfoStorage{::}bt7_canceled" status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT7_CancelInfoStorage{::}bt7_doccanceled" status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT7_CancelInfoStorage{::}bt7_doccancelnr" status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT7_CancelInfo{::}bt7_canceled" status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT7_CancelInfo{::}bt7_doccanceled" status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT7_CancelInfo{::}bt7_doccancelnr" status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT7_ChangeNoticeRevision{::}bt7_AuthorityClassification"
+       status="Approved">BT Authority Classification</key>
+   <key locale="en_US" id="Property{::}BT7_ChangeNoticeRevision{::}bt7_ClearQuestNumber"
+       status="Approved">ClearQuest Number</key>
+   <key locale="en_US" id="Property{::}BT7_ChangeNoticeRevision{::}bt7_cp_proposedsolution"
+       status="Approved">Proposed Solution</key>
+   <key locale="en_US" id="Property{::}BT7_ChangeNoticeRevision{::}bt7_proposedsolution"
+       status="Approved">Proposed Solution - OBSOLETE</key>
+   <key locale="en_US" id="Property{::}BT7_ChangeNoticeRevision{::}bt7_sapmando" status="Approved">SAP-Mandant</key>
+   <key locale="en_US" id="Property{::}BT7_ChangeNoticeRevision{::}bt7_wbsdescription"
+       status="Approved">Problem Description</key>
+   <key locale="en_US" id="Property{::}BT7_ChangeNotice{::}bt7_proposedsolution" status="Approved">Proposed Solution</key>
+   <key locale="en_US" id="Property{::}BT7_CommonCompRevision{::}bt7_validation" status="Approved">Component Validation</key>
+   <key locale="en_US" id="Property{::}BT7_CommonComp{::}bt7_cp_parttype" status="Approved">Part Type</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_AlternateUOM"
+       status="Approved">Alternate Unit Of Measure</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_EqPartNo" status="Approved">Alternate Number</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_ShortText"
+       status="Approved">Short Text</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_equalpart" status="Approved">Equal Part?</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_DocMgnt" status="Approved">Document Management</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_DocOrigin" status="Approved">Doc. Origin</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docarch" status="Approved">Archive</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docassoc" status="Approved">Associated</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_doccanceled" status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_doccancelnr" status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_doccertbody" status="Approved">Certification Body</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docclassno" status="Approved">Cat. Class</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_doccopyfrom" status="Approved">Hardcopy From</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docdesc" status="Approved">Short Description</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docdossier" status="Approved">Dossier</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docedition" status="Approved">Edition Date</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_doceqpartno" status="Approved">Equiv. Part-No</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docexpire" status="Approved">Expiration Date</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docformat" status="Approved">Format</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docgroup" status="Approved">Group</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docid" status="Approved">Coding</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_doclang" status="Approved">Language</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_doclocation" status="Approved">ISTD Location</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docloc" status="Approved">Location</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docorgtype" status="Approved">Organization Type</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docotherlang" status="Approved">Other Languages</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docprocess" status="Approved">For Process</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docproduct" status="Approved">Product</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docprojectid" status="Approved">Project ID</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docpublishpip"
+       status="Approved">to PIP (L+G)</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docsapmando" status="Approved">SAP-Mandant</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docsheet" status="Approved">Sheet</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docsource" status="Approved">EDP Source</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docsubtype" status="Approved">Sub-Type</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_doctdstatus" status="Approved">TD Status</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_doctitle_de" status="Approved">Title 2.</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_doctotalsheets"
+       status="Approved">Total Pages / Mbytes</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_documentClass"
+       status="Approved">.Document .Phase</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_documentSNType"
+       status="Approved">.Document Type</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_documentSubClass"
+       status="Approved">.Document Activity</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docvalidcounty"
+       status="Approved">Valid for Countries</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docverification"
+       status="Approved">Verification</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docversion" status="Approved">Version</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_entdoc_type" status="Approved">Document  TcEnt Type</key>
+   <key locale="en_US" id="Property{::}BT7_Document{::}bt7_DocType_2" status="Approved">Document Type DE</key>
+   <key locale="en_US" id="Property{::}BT7_Document{::}bt7_DocumentType" status="Approved">Document Type</key>
+   <key locale="en_US" id="Property{::}BT7_Includes{::}bt7_tcent_relation_type" status="Approved">TcEnt Relation Type</key>
+   <key locale="en_US" id="Property{::}BT7_ManufacturerRevision{::}bt7_Name2ndLine"
+       status="Approved">Name 2nd line</key>
+   <key locale="en_US" id="Property{::}BT7_ManufacturerRevision{::}bt7_abbrev" status="Approved">Abbreviation</key>
+   <key locale="en_US" id="Property{::}BT7_ManufacturerRevision{::}bt7_activeuser"
+       status="Approved">Active?</key>
+   <key locale="en_US" id="Property{::}BT7_ManufacturerRevision{::}bt7_noris" status="Approved">Noris</key>
+   <key locale="en_US" id="Property{::}BT7_ManufacturerRevision{::}bt7_orgidsap" status="Approved">SAP-Mandant</key>
+   <key locale="en_US" id="Property{::}BT7_ManufacturerRevision{::}bt7_orgtype" status="Approved">Organization Type</key>
+   <key locale="en_US" id="Property{::}BT7_ManufacturerRevision{::}bt7_remark" status="Approved">Remark</key>
+   <key locale="en_US" id="Property{::}BT7_ManufacturerRevision{::}comments" status="Approved">Comments</key>
+   <key locale="en_US" id="Property{::}BT7_Manufacturer{::}bt7_remark" status="Approved">Remark</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_MassValue" status="Approved">Mass value</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_MaterialAbbrev"
+       status="Approved">Mat. abbrev</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_MaterialColour"
+       status="Approved">Mat. color</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_MaterialDensity"
+       status="Approved">Mat. density(g/cm3)</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_MaterialNumber"
+       status="Approved">Mat. number</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_MaterialStandard"
+       status="Approved">Mat. standard</key>
+   <key locale="en_US" id="Property{::}BT7_MultiSEffFormStorage{::}bt7_RevEffective_StartDate"
+       status="Approved">Rev Effective Start Date</key>
+   <key locale="en_US" id="Property{::}BT7_MultiSEffForm{::}bt7_RevEffective_EndDate"
+       status="Approved">Revision Effectivity End Date</key>
+   <key locale="en_US" id="Property{::}BT7_MultiSEffForm{::}bt7_RevEffective_StartDate"
+       status="Approved">Revision Effectivity Start Date</key>
+   <key locale="en_US" id="Property{::}BT7_ProdTypeKey_FormStorage{::}bt7_PTK_LOV_1"
+       status="Approved">BT PTK LOV 1</key>
+   <key locale="en_US" id="Property{::}BT7_ProdTypeKey_Form{::}bt7_PTK_LOV_1" status="Approved">BT PTK LOV 1</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_cp_ProductType_1"
+       status="Approved">Product Type EN</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_cp_ProductType_2"
+       status="Approved">Product Type DE</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_prodsite" status="Approved">Production Site</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_rangename" status="Approved">Range Name</key>
+   <key locale="en_US" id="Property{::}BT7_Product{::}bt7_ProductType_1" status="Approved">Product Type EN</key>
+   <key locale="en_US" id="Property{::}BT7_Product{::}bt7_ProductType_2" status="Approved">Product Type DE</key>
+   <key locale="en_US" id="Property{::}BT7_Product{::}bt7_articletype" status="Approved">Article Type</key>
+   <key locale="en_US" id="Property{::}BT7_SoftwareRevision{::}bt7_swtype" status="Approved">Software Type</key>
+   <key locale="en_US" id="Property{::}BT7_SoftwareRevision{::}bt7_verificate" status="Approved">Verification</key>
+   <key locale="en_US" id="Property{::}BT7_SoftwareRevision{::}bt7_version" status="Approved">Version</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_2ndLanguageCode"
+       status="Approved">2. lang</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_ApprDate_DocMapp"
+       status="Approved">Approve date</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_ApprUser_2" status="Approved">Approver</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Email" status="Approved">Email Originator</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_EstProdLifeTime"
+       status="Approved">estim. Prod. Life Time (years)</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_EstQtyPerYear"
+       status="Approved">estim. Component Qty/year</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_FirstUse" status="Approved">First Use</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_GeneralTolerance"
+       status="Approved">General Tolerance</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_GenericType"
+       status="Approved">Generic Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_ItemRevName_2"
+       status="Approved">ItemRevision name 2. lang</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Manufacturer1"
+       status="Approved">Manufacturer 1</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Manufacturer2"
+       status="Approved">Manufacturer 2</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Manufacturer3"
+       status="Approved">Manufacturer 3</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_MassUnit" status="Approved">Mass unit</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_MassValue" status="Approved">Mass value</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_MaterialRequirement_1"
+       status="Approved">Material requirements of the part</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_MaterialRequirement_2"
+       status="Approved">Material requirements of the part. 2. lang</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_MfgPartNr1" status="Approved">Manufacturer 1 Part Nr</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_MfgPartNr2" status="Approved">Manufacturer 2 Part Nr</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_MfgPartNr3" status="Approved">Manufacturer 3 Part Nr</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_NoteApprovals"
+       status="Approved">Note / Approvals</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Phone" status="Approved">Phone</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_ProjectAccount"
+       status="Approved">Project Account</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_ProjectName"
+       status="Approved">Project name</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_ReasonForIntro"
+       status="Approved">Reason for Introduction</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Requestor" status="Approved">Requestor</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_RespCompEng"
+       status="Approved">Resp. Comp. Eng.</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Responsible"
+       status="Approved">For the doc responsible site</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_SFP_Dimension"
+       status="Approved">Dimension of SF part</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_SpecialInstructions"
+       status="Approved">Special Instructions</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Subtitle_1" status="Approved">Subtitle</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Subtitle_2" status="Approved">Subtitle 2. lang</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Supplier_1_PartNo"
+       status="Approved">Supplier 1 part number</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Supplier_1" status="Approved">Supplier 1</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Surface_1" status="Approved">Surface / Finish</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Surface_2" status="Approved">Surface / Finish 2. lang</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Treatment_1"
+       status="Approved">Treatment</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_Treatment_2"
+       status="Approved">Treatment 2. lang</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_VolumeUnit" status="Approved">Volume unit</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_VolumeValue"
+       status="Approved">Volume value</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_abbrev" status="Approved">Manufacture Abbrev</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_activeuser" status="Approved">Active?</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_articletype"
+       status="Approved">Article Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_assytype" status="Approved">Assembly Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_cadimde" status="Approved">CADIM German Name</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_cadimen" status="Approved">CADIM English Name</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_cadimno" status="Approved">Former CADIM Number</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_currentmanuf"
+       status="Approved">Current Manufacturer?</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_default_quantity"
+       status="Approved">Default Quantity</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docarch" status="Approved">Archive</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docassoc" status="Approved">Associated</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_doccanceled"
+       status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_doccancelnr"
+       status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_doccertbody"
+       status="Approved">Certification Body</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docchange" status="Approved">Change Description</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docclassno" status="Approved">Class Number</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_doccopyfrom"
+       status="Approved">Order Set</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docdesc" status="Approved">Document Description</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docdossier" status="Approved">Dossier</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docedition" status="Approved">Edition Date</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_doceqpartno"
+       status="Approved">Equal Part Number</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docexpire" status="Approved">Expiring Date</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docformat" status="Approved">ISTD Format</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docgroup" status="Approved">Group</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docid" status="Approved">Document Identity</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_doclang" status="Approved">Language</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_doclocation"
+       status="Approved">ISTD Location</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docloc" status="Approved">Location</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docmnumber" status="Approved">ECO No</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docorgtype" status="Approved">Organization Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docotherlang"
+       status="Approved">Other Languages</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docprocess" status="Approved">Process</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docproduct" status="Approved">Product</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docprojectid"
+       status="Approved">Project ID</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docpublishpip"
+       status="Approved">Publish to PIP</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docreleaser"
+       status="Approved">Released by</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docsapmando"
+       status="Approved">SAP Client</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docsheet" status="Approved">Sheet</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docsource" status="Approved">EDP Source</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docsubtitle_de"
+       status="Approved">Subtitle 2.</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docsubtitle"
+       status="Approved">Subtitle</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docsubtype" status="Approved">Subtype</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_doctdstatus"
+       status="Approved">Status Set</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_doctitle_de"
+       status="Approved">Title 2.</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_doctotalsheets"
+       status="Approved">Total Pages / Mbytes</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_doctype" status="Approved">Doc Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docvalidcounty"
+       status="Approved">Valid for Countries</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docverification"
+       status="Approved">Verification</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_docversion" status="Approved">Version</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_entdoc_type"
+       status="Approved">ENT. Document Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_equalpart" status="Approved">Equal Part</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_mailorg" status="Approved">Email Originator</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_manulocked" status="Approved">Manufacturer Locked?</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_noris" status="Approved">Manufacture Noris</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_orgidsap" status="Approved">SAP Client</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_orgtype" status="Approved">Organization Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_parttype" status="Approved">Part Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_preferred" status="Approved">Preferred</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_prodsite" status="Approved">Production Site</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_proposedsolution"
+       status="Approved">Proposed Solution</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_rangename" status="Approved">Range Name</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_releaser" status="Approved">Released by</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_remark" status="Approved">Remark</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_rohs" status="Approved">RoHS Compliant?</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_sapmando" status="Approved">SAP Client</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_shortinfo" status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_smd" status="Approved">SMD</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_sourceok" status="Approved">Sourcing OK</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_stdprtind" status="Approved">Standart Part Indicator</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_swtype" status="Approved">Software Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_tceno" status="Approved">TCE Number</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_techinfo" status="Approved">Technical Info</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_techok" status="Approved">Technical OK</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_validation" status="Approved">Component Validation</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_verificate" status="Approved">Verification</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_version" status="Approved">Version</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_wbsdescription"
+       status="Approved">WBS Description</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_wbsreq" status="Approved">Requestor</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_zulappro" status="Approved">UL Appropriate</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_zulce" status="Approved">EU/CE</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_zulgrd" status="Approved">GRD</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_zuloth" status="Approved">Others</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_zulsev" status="Approved">SEV/ESTI</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_zultuv" status="Approved">TUV</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_zuluse" status="Approved">UL Use</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValuesStorage{::}bt7_zulvde" status="Approved">VDE</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_2ndLanguageCode" status="Approved">2. lang</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_ApprDate_DocMapp" status="Approved">Approve date</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_ApprUser_2" status="Approved">Approver</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Email" status="Approved">Email Originator</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_EstProdLifeTime" status="Approved">estim. Prod. Life Time (years)</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_EstQtyPerYear" status="Approved">estim. Component Qty/year</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_FirstUse" status="Approved">First Use</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_GeneralTolerance" status="Approved">General Tolerance</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_GenericType" status="Approved">Generic Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_ItemRevName_2" status="Approved">ItemRevision name 2. lang</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Manufacturer1" status="Approved">Manufacturer 1</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Manufacturer2" status="Approved">Manufacturer 2</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Manufacturer3" status="Approved">Manufacturer 3</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_MassUnit" status="Approved">Mass unit</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_MassValue" status="Approved">Mass value</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_MaterialRequirement_1"
+       status="Approved">Material requirements of the part</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_MaterialRequirement_2"
+       status="Approved">Material requirements of the part. 2. lang</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_MfgPartNr1" status="Approved">Manufacturer 1 Part Nr</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_MfgPartNr2" status="Approved">Manufacturer 2 Part Nr</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_MfgPartNr3" status="Approved">Manufacturer 3 Part Nr</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_NoteApprovals" status="Approved">Note / Approvals</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Phone" status="Approved">Phone</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_ProjectAccount" status="Approved">Project Account</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_ProjectName" status="Approved">Project name</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_ReasonForIntro" status="Approved">Reason for Introduction</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Requestor" status="Approved">Requestor</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_RespCompEng" status="Approved">Resp. Comp. Eng.</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Responsible" status="Approved">For the doc responsible site</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_SFP_Dimension" status="Approved">Dimension of SF part</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_SpecialInstructions"
+       status="Approved">Special Instructions</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Subtitle_1" status="Approved">Subtitle</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Subtitle_2" status="Approved">Subtitle 2. lang</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Supplier_1_PartNo" status="Approved">Supplier 1 part number</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Supplier_1" status="Approved">Supplier 1</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Surface_1" status="Approved">Surface / Finish</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Surface_2" status="Approved">Surface / Finish 2. lang</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Treatment_1" status="Approved">Treatment</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_Treatment_2" status="Approved">Treatment 2. lang</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_VolumeUnit" status="Approved">Volume unit</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_VolumeValue" status="Approved">Volume value</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_abbrev" status="Approved">Manufacture Abbrev</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_activeuser" status="Approved">Active?</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_articletype" status="Approved">Article Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_assytype" status="Approved">Assembly Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_cadimde" status="Approved">CADIM German Name</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_cadimen" status="Approved">CADIM English Name</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_cadimno" status="Approved">Former CADIM Number</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_currentmanuf" status="Approved">Current Manufacturer?</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_default_quantity" status="Approved">Default Quantity</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docarch" status="Approved">Archive</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docassoc" status="Approved">Associated</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_doccanceled" status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_doccancelnr" status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_doccertbody" status="Approved">Certification Body</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docchange" status="Approved">Change Description</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docclassno" status="Approved">Class Number</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_doccopyfrom" status="Approved">Order Set</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docdesc" status="Approved">Document Description</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docdossier" status="Approved">Dossier</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docedition" status="Approved">Edition Date</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_doceqpartno" status="Approved">Equal Part Number</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docexpire" status="Approved">Expiring Date</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docformat" status="Approved">ISTD Format</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docgroup" status="Approved">Group</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docid" status="Approved">Document Identity</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_doclang" status="Approved">Language</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_doclocation" status="Approved">ISTD Location</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docloc" status="Approved">Location</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docmnumber" status="Approved">ECO No</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docorgtype" status="Approved">Organization Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docotherlang" status="Approved">Other Languages</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docprocess" status="Approved">Process</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docproduct" status="Approved">Product</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docprojectid" status="Approved">Project ID</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docpublishpip" status="Approved">Publish to PIP</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docreleaser" status="Approved">Released by</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docsapmando" status="Approved">SAP Client</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docsheet" status="Approved">Sheet</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docsource" status="Approved">EDP Source</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docsubtitle_de" status="Approved">Subtitle 2.</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docsubtitle" status="Approved">Subtitle</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docsubtype" status="Approved">Subtype</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_doctdstatus" status="Approved">Status Set</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_doctitle_de" status="Approved">Title 2.</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_doctotalsheets" status="Approved">Total Pages / Mbytes</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_doctype" status="Approved">Doc Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docvalidcounty" status="Approved">Valid for Countries</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docverification" status="Approved">Verification</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_docversion" status="Approved">Version</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_entdoc_type" status="Approved">ENT. Document Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_equalpart" status="Approved">Equal Part</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_mailorg" status="Approved">Email Originator</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_manulocked" status="Approved">Manufacturer Locked?</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_noris" status="Approved">Manufacture Noris</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_orgidsap" status="Approved">SAP Client</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_orgtype" status="Approved">Organization Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_parttype" status="Approved">Part Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_preferred" status="Approved">Preferred</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_prodsite" status="Approved">Production Site</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_proposedsolution" status="Approved">Proposed Solution</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_rangename" status="Approved">Range Name</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_releaser" status="Approved">Released by</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_remark" status="Approved">Remark</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_rohs" status="Approved">RoHS Compliant?</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_sapmando" status="Approved">SAP Client</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_shortinfo" status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_smd" status="Approved">SMD</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_sourceok" status="Approved">Sourcing OK</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_stdprtind" status="Approved">Standart Part Indicator</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_swtype" status="Approved">Software Type</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_tceno" status="Approved">TCE Number</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_techinfo" status="Approved">Technical Info</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_techok" status="Approved">Technical OK</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_validation" status="Approved">Component Validation</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_verificate" status="Approved">Verification</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_version" status="Approved">Version</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_wbsdescription" status="Approved">WBS Description</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_wbsreq" status="Approved">Requestor</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_zulappro" status="Approved">UL Appropriate</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_zulce" status="Approved">EU/CE</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_zulgrd" status="Approved">GRD</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_zuloth" status="Approved">Others</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_zulsev" status="Approved">SEV/ESTI</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_zultuv" status="Approved">TUV</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_zuluse" status="Approved">UL Use</key>
+   <key locale="en_US" id="Property{::}BT7_TcEntValues{::}bt7_zulvde" status="Approved">VDE</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPart{::}bt7_cp_parttype" status="Approved">Part Type</key>
+   <key locale="en_US" id="Property{::}BT7_ToolRevision{::}bt7_cp_ItemDesc_2" status="Approved">Item Description DE</key>
+   <key locale="en_US" id="Property{::}BT7_ToolRevision{::}bt7_cp_ItemName_2" status="Approved">Item Name DE</key>
+   <key locale="en_US" id="Property{::}BT7_VI_ID_Map_FormStorage{::}bt7_VarItemID_Mapping"
+       status="Approved">BT Variant Item ID Mapping</key>
+   <key locale="en_US" id="Property{::}BT7_VI_ID_Map_Form{::}bt7_VarItemID_Mapping"
+       status="Approved">BT Variant Item ID Mapping</key>
+   <key locale="en_US" id="Property{::}BT7_VarCond_FormStorage{::}bt7_VC_MTX_Line"
+       status="Approved">BT VC MTX Line</key>
+   <key locale="en_US" id="Property{::}BT7_VarCondition_Form{::}bt7_VC_MTX_Line" status="Approved">BT VC MTX Line</key>
+   <key locale="en_US" id="Property{::}BT7_VarItemID_FormStorage{::}bt7_VarItemID_Sequence"
+       status="Approved">BT Var Item ID Sequence</key>
+   <key locale="en_US" id="Property{::}BT7_VarItemID_Form{::}bt7_VarItemID_Sequence"
+       status="Approved">BT Var Item ID Sequence</key>
+   <key locale="en_US" id="Property{::}BT7_VarMatrix_FormStorage{::}bt7_VC_Matrix"
+       status="Approved">BT VC Matrix</key>
+   <key locale="en_US" id="Property{::}BT7_VarMatrix_Form{::}bt7_VC_Matrix" status="Approved">BT VC Matrix</key>
+   <key locale="en_US" id="Property{::}Dataset{::}bt7_SAPDIRNo" status="Approved">SAP DIR No</key>
+   <key locale="en_US" id="Property{::}Dataset{::}bt7_SentDIRToSAP" status="Approved">Sent DIR to SAP</key>
+   <key locale="en_US" id="Property{::}ImanRelation{::}bt7_rel_sbt_zug_logic" status="Approved">SBT Zug logic ?</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprDate_1" status="Approved">Appr. Date self-checking</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprDate_2" status="Approved">Appr. Date specialist department</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprDate_3" status="Approved">Appr. Date division-checking</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprDate_4" status="Approved">Appr. Date R&amp;D-Management</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprDate_DocMapp" status="Approved">Approve date</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprUser_1" status="Approved">Approver self-checking</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprUser_2" status="Approved">Approver</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprUser_3" status="Approved">App. User division-checking</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprUser_4" status="Approved">Appr. User R&amp;D-Management</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_FirstUse" status="Approved">First Use</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_GeneralTolerance" status="Approved">General Tolerance</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ItemRevName_2" status="Approved">ItemRevision name 2. lang</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_MassUnit" status="Approved">Mass unit</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_MassValue" status="Approved">Mass value</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_Material_Mapping_1" status="Approved">Material 1 Short Term (Alt/Neu)</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_Material_Mapping_2" status="Approved">Material 2 Short Term (Old/New)</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_PartType_2" status="Approved">Part Type 2. lang</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_Responsible" status="Approved">For the doc responsible site</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_RevLastStatus" status="Approved">Release Status</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_SAPDIRNo" status="Approved">SAP DIR No</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_SAPMatNo" status="Approved">SAP Mat No.</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_SFP_Dimension" status="Approved">Dimension of SF part</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_SentDIRToSAP" status="Approved">Sent DIR To SAP</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_SentMMToSAP" status="Approved">Sent MM to SAP</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_Subtitle_1" status="Approved">Subtitle</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_Subtitle_2" status="Approved">Subtitle 2. lang</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_SupplierCode_2_PartNo"
+       status="Approved">Supplier 2 Part Number</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_Supplier_1_PartNo" status="Approved">Supplier 1 Part Number</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_Supplier_2" status="Approved">Supplier 2</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ToolType_1" status="Approved">Tool Type EN</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ToolType_2" status="Approved">Tool Type DE</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ToolType" status="Approved">Tool Type</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_VolumeUnit" status="Approved">Volume unit</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_VolumeValue" status="Approved">Volume value</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_docchange" status="Approved">Change Description</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_docmnumber_40" status="Approved">EngChange No. (40)</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_docmnumber_60" status="Approved">ECO-No Status 50</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_docmnumber_98" status="Approved">ECO-No Status 98</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_docmnumber" status="Approved">ECO No</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_migrated_version" status="Approved">Migrated Version</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_relation_logic_bypass"
+       status="Approved">Relation Logic Bypass</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_releaser" status="Approved">Released by</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_revisionsuperseeded" status="Approved">Superseeded Indicator</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_rohs_compliant" status="Approved">RoHS Compliant?</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_shortInfo2" status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_techinfo" status="Approved">Technical Info</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_AlternateUnitOfMeasure" status="Approved">Alternate Unit Of Measure</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_EqPartNo" status="Approved">Alternate Number</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_ItemDesc_2" status="Approved">Item Description DE</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_ItemName_2" status="Approved">Item Name DE</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_ShortText" status="Approved">Short Text</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_StockItem" status="Approved">Stock Item</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_TCEnt_Doc_Class" status="Approved">TC Enterprise Doc Class</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_canceled" status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_cancelnr" status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_2ndLanguageCode" status="Approved">2. lang</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_GenericType" status="Approved">Generic Type</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_ItemRevName_2" status="Approved">ItemRevision name 2. lang</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_MaterialRequirement_1"
+       status="Approved">Material requirements of the part.</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_MaterialRequirement_2"
+       status="Approved">Material requirements of the part. 2. lang</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_SupplierCode_1_PartNo"
+       status="Approved">Supplier 1 part number</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_Supplier_1" status="Approved">Supplier 1</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_Surface_1" status="Approved">Surface / Finish</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_Surface_2" status="Approved">Surface / Finish 2. lang</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_Treatment_1" status="Approved">Treatment</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_Treatment_2" status="Approved">Treatment 2. lang</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_assytype" status="Approved">Assembly Type</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_cadimno" status="Approved">Former CADIM Number</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_cp_doceqpartno" status="Approved">Equiv. Part-No</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_currentmanuf" status="Approved">Current Manufacturer?</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_default_quantity" status="Approved">Default Quantity</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_doccanceled" status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_doccancelnr" status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_docid" status="Approved">Coding</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_mailorg" status="Approved">Email Originator</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_manulocked" status="Approved">Manufacturer Locked?</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_orgtype" status="Approved">Organization Type</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_parttype" status="Approved">Part Type</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_preferred" status="Approved">Preferred?</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_remark" status="Approved">Remark</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_rohs" status="Approved">RoHS_Old</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_sapmando" status="Approved">SAP-Mandant</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_shortinfo" status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_smd" status="Approved">SMD</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_sourceok" status="Approved">Sourcing OK?</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_stdprtind" status="Approved">Standart Part Indicator</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_tceno" status="Approved">Former TCE Number</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_techok" status="Approved">Technically OK?</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_validation" status="Approved">Component Validation</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_wbsreq" status="Approved">Requestor</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_zulappro" status="Approved">UL Appropriate</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_zulce" status="Approved">EU/CE</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_zulgrd" status="Approved">GRD</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_zuloth" status="Approved">Others</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_zulsev" status="Approved">SEV/ESTI</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_zultuv" status="Approved">TÜV</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_zuluse" status="Approved">UL Use</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_zulvde" status="Approved">VDE</key>
+   <key locale="en_US" id="Property{::}Part{::}bt7_cadimde" status="Approved">CADIM Part Name German</key>
+   <key locale="en_US" id="Property{::}Part{::}bt7_cadimen" status="Approved">CADIM Part Name English</key>
+   <key locale="en_US" id="Property{::}Part{::}bt7_doceqpartno" status="Approved">Equiv. Part-No</key>
+   <key locale="en_US" id="Property{::}Part{::}bt7_remark" status="Approved">Remark</key>
+   <key locale="en_US" id="Property{::}WorkspaceObject{::}bt7_migrated_from_ent" status="Approved">Is migrated from Enterprise?</key>
+   <key locale="en_US" id="Property{::}WorkspaceObject{::}bt7_migration_helper_1"
+       status="Approved">Migration Helper 1</key>
+   <key locale="en_US" id="Property{::}WorkspaceObject{::}bt7_migration_helper_2"
+       status="Approved">Migration Helper 2</key>
+   <key locale="en_US" id="ReleaseStatus{::}BT7_Implemented" status="Approved">Implemented</key>
+   <key locale="en_US" id="ReleaseStatus{::}Obsolete" status="Approved">Obsolete(invalid for SBT)</key>
+</Add>
+</TcBusinessDataLocalization>

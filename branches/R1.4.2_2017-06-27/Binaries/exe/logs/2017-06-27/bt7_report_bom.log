@@ -1,0 +1,22 @@
+     [echo]  Executing MakeExecutable Target 
+     [echo] MSDEV_INCLUDE: ${env.MSDEV_INCLUDE}
+     [echo] MSDEV_HOME: C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC
+
+MakeExecutable:
+     [echo]  Compiling and linking bt7_report_bom . . . 
+       [cc] 1 total files to be compiled.
+       [cc] bt7_report_bom.cpp
+       [cc] D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\bt7_report_bom\src\bt7_report_bom.cpp(1) : warning C4192: automatically excluding 'ISequentialStream' while importing type library 'MSXML6.dll'
+       [cc] D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\bt7_report_bom\src\bt7_report_bom.cpp(1) : warning C4192: automatically excluding '_FILETIME' while importing type library 'MSXML6.dll'
+       [cc] D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\bt7_report_bom\src\bt7_report_bom.cpp(285) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+       [cc] D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\bt7_report_bom\src\bt7_report_bom.cpp(287) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+       [cc] D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\bt7_report_bom\src\bt7_report_bom.cpp(290) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+       [cc] D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\bt7_report_bom\src\bt7_report_bom.cpp(292) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+       [cc] D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\bt7_report_bom\src\bt7_report_bom.cpp(426) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+       [cc] D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\bt7_report_bom\src\bt7_report_bom.cpp(1215) : warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+       [cc]         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\INCLUDE\string.h(249) : see declaration of 'stricmp'
+       [cc] d:\dump\0sbt-pr-tc11upgr\branches\r1.4.2\customization\itk\exe_projects\bt7_report_bom\src\bt7_report_bom.cpp(861) : warning C4715: 'putRelationToXML' : not all control paths return a value
+       [cc] Starting link
+       [cc] bt7_report_bom.obj : warning LNK4254: section 'ATL' (50000040) merged into '.rdata' (40000040) with different attributes
+   [delete] Deleting: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\bt7_report_bom\rerun
+     [echo]  Created bt7_report_bom.exe successfully 

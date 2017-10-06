@@ -1,0 +1,6 @@
+     [echo]  Compiling the source java files 
+     [echo]  Copying required files to project bin directory 
+     [echo]  Creating Accenture_CADIM_File_Export.jar file...
+      [jar] Building jar: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\Dispatcher\binaries\Accenture_CADIM_File_Export.jar
+   [delete] Deleting: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\Dispatcher\Accenture_CADIM_File_Export\rerun
+     [echo]  Project processed successfully 

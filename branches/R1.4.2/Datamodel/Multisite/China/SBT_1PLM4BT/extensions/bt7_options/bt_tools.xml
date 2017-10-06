@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcTool toolName="BT7_Autosketch" toolMimeType="application/tceautosketch" toolSymbol="$IMAN_BIN/autosketch"
+       toolVersion="1.0" toolReleaseDate="14-Dec-2010 10:50" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" description="application/autosketch application/tcetools application/tceautosketch">
+     <TcToolInputFormat formatName="BINARY"/>
+     <TcToolOutputFormat formatName="BINARY"/>
+   </TcTool>
+   <TcTool toolName="BT7_Designer" toolMimeType="application/tcecoreldesigner" toolSymbol="$IMAN_BIN/designer"
+       toolVersion="1.0" toolReleaseDate="14-Dec-2010 10:50" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" description="application/designer application/tcecoreldesigner">
+     <TcToolInputFormat formatName="BINARY"/>
+     <TcToolOutputFormat formatName="BINARY"/>
+   </TcTool>
+   <TcTool toolName="BT7_EngChangeOrder" toolMimeType="application/msword" toolSymbol="$IMAN_BIN/msword"
+       toolReleaseDate="14-Dec-2010 10:54" toolLaunchCommandMac="" toolLaunchCommandWin=""
+       toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+       toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+       toolDigitalSignatureCapable="false" description="">
+     <TcToolInputFormat formatName="BINARY"/>
+     <TcToolOutputFormat formatName="BINARY"/>
+   </TcTool>
+   <TcTool toolName="BT7_FluidDraw" toolMimeType="application/tcefluiddraw" toolSymbol="FluidDraw"
+       toolReleaseDate="14-Dec-2010 10:51" toolLaunchCommandMac="" toolLaunchCommandWin=""
+       toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+       toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+       toolDigitalSignatureCapable="false" description="">
+     <TcToolInputFormat formatName="BINARY"/>
+     <TcToolOutputFormat formatName="BINARY"/>
+   </TcTool>
+   <TcTool toolName="BT7_Layoutauftrag" toolMimeType="application/msword" toolSymbol="$IMAN_BIN/msword"
+       toolVersion="1.0" toolReleaseDate="14-Dec-2010 10:51" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" description="">
+     <TcToolInputFormat formatName="BINARY"/>
+     <TcToolOutputFormat formatName="BINARY"/>
+   </TcTool>
+   <TcTool toolName="BT7_PHistory" toolMimeType="application/msword" toolSymbol="$IMAN_BIN/msword"
+       toolVersion="1.0" toolReleaseDate="14-Dec-2010 10:51" toolLaunchCommandMac=""
+       toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+       toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+       toolVviRequired="false" toolDigitalSignatureCapable="false" description="">
+     <TcToolInputFormat formatName="BINARY"/>
+     <TcToolOutputFormat formatName="BINARY"/>
+   </TcTool>
+   <TcTool toolName="BT7_TMDoc" toolMimeType="application/msword" toolSymbol="$IMAN_BIN/msword"
+       toolReleaseDate="14-Dec-2010 10:51" toolLaunchCommandMac="" toolLaunchCommandWin=""
+       toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+       toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+       toolDigitalSignatureCapable="false" description="application/msword application/tcetools">
+     <TcToolInputFormat formatName="BINARY"/>
+     <TcToolOutputFormat formatName="BINARY"/>
+   </TcTool>
+</Add>
+<Change>
+   <TcDatasetToolActionAttach datasetType="PDF" tool="PDF_Tool" action="Open">
+      <TcToolActionReference export="true" referenceName="PDF_Reference"/>
+      <TcToolParameter name="$PDF_Reference"/>
+   </TcDatasetToolActionAttach>
+   <TcDatasetToolActionAttach datasetType="PDF" tool="PDF_Tool" action="OpenUsing">
+      <TcToolActionReference export="true" referenceName="PDF_Reference"/>
+      <TcToolParameter name="$PDF_Reference"/>
+   </TcDatasetToolActionAttach>
+   <TcDatasetReferenceAttach datasetType="Zip">
+      <TcDatasetReference name="ZIPFILE">
+         <TcDatasetReferenceInfo template="*.zip" format="BINARY"/>
+         <TcDatasetReferenceInfo template="*.tar" format="BINARY"/>
+      </TcDatasetReference>
+   </TcDatasetReferenceAttach>
+   <TcTool toolName="AIE-UGpart" toolMimeType="application/aie" toolSymbol="C:\aie"
+         toolVersion="1.0" toolReleaseDate="05-Oct-2006 17:45" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="AuditLogReader" toolMimeType="text/html" toolSymbol="%IMAN_BIN%\start_AuditRead.bat"
+         toolVersion="1.0" toolReleaseDate="28-May-2009 14:52" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" description="This tool will open the audit log xml in a html reader"/>
+   <TcTool toolName="CAE_Dummy" toolMimeType="" toolSymbol="CAE_Dummy" toolVersion="1.0"
+         toolReleaseDate="28-May-2009 14:55" toolLaunchCommandMac="" toolLaunchCommandWin=""
+         toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+         toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+         toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="IExplore" toolMimeType="text/html" toolSymbol="$TC_BIN/start_iexplore.bat"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="Image Editor" toolMimeType="" toolSymbol="$TC_BIN/image_edit"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="Image Viewer" toolMimeType="application/tcetools" toolSymbol="$TC_BIN/image_view"
+         toolVersion="1.0" toolReleaseDate="23-Aug-2007 15:48" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="MarkUp Tool" toolMimeType="" toolSymbol="$TC_BIN/image_markup"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="NX_AI_TOOL" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+         toolVersion="1.0" toolReleaseDate="28-May-2009 15:01" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="NoOp" toolMimeType="*" toolSymbol="StubPrg" toolVersion="1.0"
+         toolReleaseDate="08-May-2003 09:57" toolLaunchCommandMac="" toolLaunchCommandWin=""
+         toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+         toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+         toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="NoteEditor" toolMimeType="text/plain" toolSymbol="NoteEditor"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="Notepad" toolMimeType="text/plain" toolSymbol="%SystemRoot%\notepad.exe"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="PDF_Tool" toolMimeType="application/pdf" toolSymbol="%IMAN_USER_TOOLS%\Encap_pdf.bat"
+         toolVersion="1.0" toolReleaseDate="14-Dec-2010 10:50" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" description=""/>
+   <TcTool toolName="PV" toolMimeType="" toolSymbol="$TC_BIN/run_pv" toolVersion="1.0"
+         toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac="" toolLaunchCommandWin=""
+         toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+         toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+         toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="PV MarkUp Tool" toolMimeType="" toolSymbol="$TC_BIN/pv_image_markup"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="PV VisView" toolMimeType="application/pvportal" toolSymbol="$TC_BIN/non_existent"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="Photoshop" toolMimeType="image/psd" toolSymbol="Photoshop" toolVersion="1.0"
+         toolReleaseDate="28-May-2009 14:52" toolLaunchCommandMac="" toolLaunchCommandWin=""
+         toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+         toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+         toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="Report Design" toolMimeType="" toolSymbol="ReportDesign" toolVersion="1.0"
+         toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac="" toolLaunchCommandWin=""
+         toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+         toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+         toolDigitalSignatureCapable="false" description=""/>
+   <TcTool toolName="Report Viewer" toolMimeType="" toolSymbol="ReportViewer" toolVersion="1.0"
+         toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac="" toolLaunchCommandWin=""
+         toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+         toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+         toolDigitalSignatureCapable="false" description=""/>
+   <TcTool toolName="STL-VMU-NoBkm" toolMimeType="application/x-visnetwork" toolSymbol="$TC_BIN/non_existent"
+         toolVersion="1.0" toolReleaseDate="05-Oct-2006 17:45" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="SmtpTool" toolMimeType="" toolSymbol="$TC_BIN/tc_mail_smtp" toolVersion="1.0"
+         toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac="" toolLaunchCommandWin=""
+         toolDownloadRequired="false" toolCallbackEnabled="false" toolViewCapable="false"
+         toolMarkupCapable="false" toolEmbedApplication="false" toolVviRequired="false"
+         toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="SpatialDataDummy" toolMimeType="" toolSymbol="SpatialDataDummy"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="TextEditor" toolMimeType="text/plain" toolSymbol="$TC_BIN/tc_edit"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="TextEditorNT" toolMimeType="text/plain" toolSymbol="%TC_BIN%\tc_edit.bat"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="UGII V10-ALL" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="UGII V10-ANALYSIS" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="UGII V10-BASE" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="UGII V10-CAM" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="UGII V10-DESIGN" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="UGII V10-DRAFTING" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="UGII V10-GATEWAY" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="UGII V10-GFEM" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="UGII V10-MECHANISM" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="UGII V10-MOLDFLOW" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="UGII V10-TEAM" toolMimeType="application/ugmportal" toolSymbol="ugv10_shell"
+         toolVersion="1.0" toolReleaseDate="08-May-2003 09:56" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="UnZip" toolMimeType="application/x-zip-compressed" toolSymbol="$TC_BIN/run_unzip"
+         toolVersion="1.0" toolReleaseDate="13-Dec-2006 15:21" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="VMU" toolMimeType="application/x-visnetwork" toolSymbol="$TC_BIN/non_existent"
+         toolVersion="1.0" toolReleaseDate="07-May-2004 14:14" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="ValidationRuleSetEditor" toolMimeType="text/validationruleset"
+         toolSymbol="$TC_BIN/validation_rule" toolVersion="1.0" toolReleaseDate="28-May-2009 14:52"
+         toolLaunchCommandMac="" toolLaunchCommandWin="" toolDownloadRequired="false"
+         toolCallbackEnabled="false" toolViewCapable="false" toolMarkupCapable="false"
+         toolEmbedApplication="false" toolVviRequired="false" toolDigitalSignatureCapable="false"
+         packageName="com.teamcenter.core.options.tool" description=""/>
+   <TcTool toolName="VisPublishTP" toolMimeType="application/x-vtp" toolSymbol="$TC_BIN/run_vispublishtp"
+         toolVersion="1.0" toolReleaseDate="28-May-2009 14:48" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="Visio" toolMimeType="application/vnd.visio" toolSymbol="$TC_BIN/run_visio"
+         toolVersion="1.0" toolReleaseDate="28-May-2009 14:48" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+   <TcTool toolName="xmlEditor" toolMimeType="text/xml" toolSymbol="$TC_BIN/texteditor"
+         toolVersion="1.0" toolReleaseDate="05-Oct-2006 17:46" toolLaunchCommandMac=""
+         toolLaunchCommandWin="" toolDownloadRequired="false" toolCallbackEnabled="false"
+         toolViewCapable="false" toolMarkupCapable="false" toolEmbedApplication="false"
+         toolVviRequired="false" toolDigitalSignatureCapable="false" packageName="com.teamcenter.core.options.tool"
+         description=""/>
+</Change>
+<Delete/>
+</TcBusinessData>

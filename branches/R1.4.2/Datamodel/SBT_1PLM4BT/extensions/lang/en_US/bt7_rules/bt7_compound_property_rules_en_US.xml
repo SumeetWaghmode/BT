@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_YesNo-{::}NA" status="Approved">N/A</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_ItemDesc_2"
+       status="Approved">Item Description DE</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_ItemName_2"
+       status="Approved">Item Name DE</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialAbbrev_2"
+       status="Approved">Abbrev. term</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialAbbrev"
+       status="Approved">Abbrev. term</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialColour_2"
+       status="Approved">Color</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialColour"
+       status="Approved">Color</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialDensity_2"
+       status="Approved">Density(g/cm3)</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialDensity"
+       status="Approved">Density(g/cm3)</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialNumber_2"
+       status="Approved">Mat. number</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialNumber"
+       status="Approved">Mat. number</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialStandard_2"
+       status="Approved">Mat. Standard</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialStandard"
+       status="Approved">Mat. Standard</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_TCEnt_Doc_Class"
+       status="Approved">TC Enterprise Doc Class</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_item_id_Material_2"
+       status="Approved">ID(Secondary)</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_item_id_Material"
+       status="Approved">ID(Primary)</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_item_rev_id_Mat_2"
+       status="Approved">Revision ID(Secondary)</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_item_rev_id_Material"
+       status="Approved">Revision ID (Primary)</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_object_name_Item"
+       status="Approved">bt7_cp_object_name_Item</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_object_name_Mat_2"
+       status="Approved">Name</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_object_name_Material"
+       status="Approved">Name</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_DocType_2" status="Approved">Document Type DE</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_DocumentType"
+       status="Approved">Document Type EN</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_EqPartNo" status="Approved">Alternate Number</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_ItemDesc_2"
+       status="Approved">Item Description DE</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_ItemName_2"
+       status="Approved">Item Name DE</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_TCEnt_Doc_Class"
+       status="Approved">TC Enterprise Doc Class</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_object_name_Item"
+       status="Approved">Item name</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_cp_canceled" status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_cp_cancelnr" status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_cp_object_name_Item"
+       status="Approved">Object Name Item</key>
+   <key locale="en_US" id="Property{::}BT7_Material{::}bt7_cp_MaterialAbbrev" status="Approved">bt7_cp_MaterialAbbrev</key>
+   <key locale="en_US" id="Property{::}BT7_Material{::}bt7_cp_MaterialColour" status="Approved">bt7_cp_MaterialColour</key>
+   <key locale="en_US" id="Property{::}BT7_Material{::}bt7_cp_MaterialDensity" status="Approved">Mat. density(g/cm3)</key>
+   <key locale="en_US" id="Property{::}BT7_Material{::}bt7_cp_MaterialNumber" status="Approved">bt7_cp_MaterialNumber</key>
+   <key locale="en_US" id="Property{::}BT7_Material{::}bt7_cp_MaterialStandard" status="Approved">bt7_cp_MaterialStandard</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_cp_AlternateUOM"
+       status="Approved">Alternate Unit Of Measure</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_cp_ItemDesc_2" status="Approved">Item Description DE</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_cp_ItemName_2" status="Approved">Item Name DE</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_cp_articletype"
+       status="Approved">Article Type</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_cp_object_name_Item"
+       status="Approved">Item name</key>
+   <key locale="en_US" id="Property{::}BT7_SoftwareRevision{::}bt7_cp_ItemDesc_2"
+       status="Approved">Item Description DE</key>
+   <key locale="en_US" id="Property{::}BT7_SoftwareRevision{::}bt7_cp_ItemName_2"
+       status="Approved">Item Name DE</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_AlternateUOM"
+       status="Approved">Alternate Unit Of Measure</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_EqPartNo" status="Approved">Alternate Number</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_ItemDesc_2"
+       status="Approved">Item Description DE</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_ItemName_2"
+       status="Approved">Item Name DE</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialAbbrev_2"
+       status="Approved">Abbrev. term</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialAbbrev"
+       status="Approved">Abbrev. term</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialColour_2"
+       status="Approved">Color</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialColour"
+       status="Approved">Color</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialDensity_2"
+       status="Approved">Density(g/cm3)</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialDensity"
+       status="Approved">Density(g/cm3)</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialNumber_2"
+       status="Approved">Mat. number</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialNumber"
+       status="Approved">Mat. number</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialStandard_2"
+       status="Approved">Mat. Standard</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialStandard"
+       status="Approved">Mat. Standard</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_ShortText" status="Approved">Short Text</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_TCEnt_Doc_Class"
+       status="Approved">TC Enterprise Doc Class</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_item_id_Material_2"
+       status="Approved">ID(Secondary)</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_item_id_Material"
+       status="Approved">ID(Primary)</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_item_rev_id_Mat_2"
+       status="Approved">Revision ID</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_item_rev_id_Material"
+       status="Approved">Revision ID</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_object_name_Item"
+       status="Approved">Item Name</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_object_name_Mat_2"
+       status="Approved">Name</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_object_name_Material"
+       status="Approved">Name</key>
+   <key locale="en_US" id="Property{::}BT7_ToolRevision{::}bt7_cp_AlternateUOM" status="Approved">Alternate Unit Of Measure</key>
+   <key locale="en_US" id="Property{::}BT7_ToolRevision{::}bt7_cp_EqPartNo" status="Approved">Alternate Number</key>
+   <key locale="en_US" id="Property{::}BT7_ToolRevision{::}bt7_cp_TCEnt_Doc_Class"
+       status="Approved">TC Enterprise Doc Class</key>
+   <key locale="en_US" id="Property{::}BT7_ToolRevision{::}bt7_cp_object_name_Item"
+       status="Approved">bt7_cp_object_name_Item</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_cp_StockItem" status="Approved">Stock Item</key>
+   <key locale="en_US" id="Property{::}UGPART{::}bt7_cp_GeneralTol_CmnComp" status="Approved">GeneralTolerance (CommonComp)</key>
+   <key locale="en_US" id="Property{::}UGPART{::}bt7_cp_GeneralTol_Component" status="Approved">GeneralTolerance (Component)</key>
+   <key locale="en_US" id="Property{::}UGPART{::}bt7_cp_GeneralTol_ToolPart" status="Approved">GeneralTolerance (ToolPart)</key>
+</Add>
+</TcBusinessDataLocalization>

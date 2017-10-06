@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+     <tem engine="2008.0.0" />
+     <settings>
+          <sourceDir value="O:\\tc_install_base\\Tc11.2.0a_win64" />
+          <application value="tceng" />
+          <installLanguage value="ENGLISH" />
+          <silentMaintenance value="false" />
+          <aboutFullVersion value="11.2.2.1" />
+          <installingUser value="Administrator" />
+          <installDir value="C:\\ugs\\tc\\TC_VERSION" />
+          <version value="11000.2.2.21" />
+     </settings>
+     <config name="tcuacsp" id="tcuacsp">
+          <comments />
+          <data>
+               <HTTPServers guid="2FA7DE8FF431C8AAD16AC5E58A8F98AF">
+                    <servers value="BTC4T_TC_PROTOC://BTC4T_TC_SERVER:BTC4T_TC_SPORT/tc,BTC4T_TC_SNAME," />
+                    <useGzip value="true" />
+               </HTTPServers>
+               <RACSettings guid="5556237F3F54D1DD059F0A385B88CA46">
+                    <tempFolder value="" />
+                    <browserLoc value="" />
+               </RACSettings>
+               <RACFCCSettings guid="8BC34CE71B738026DF2B3D94A83A836C">
+                    <buildTccs value="false" />
+                    <doMerge value="false" />
+                    <newHome value="C:\\ugs\\tc\\TC_VERSION\\tccs" />
+                    <needToSetFmsHome value="true" />
+               </RACFCCSettings>
+               <NxRc guid="3AC7295FE31CCFE6D8F8E37B0695D76A">
+                    <installLocation value="C:\\ugs\\nx100" />
+               </NxRc>
+               <EmbeddedVisualization guid="0A0783942A238D1E4101CFBAD3F0F99A">
+                    <installLocation value="C:\\ugs\\tcvisTC_VERSION\\" />
+                    <installImageLocation value="" />
+                    <licenseLevel value="Standard" />
+                    <toBeUninstalled value="false" />
+                    <hasInstalled value="true" />
+               </EmbeddedVisualization>
+               <DSMSettings guid="OHGTNALQO1DW9T12L5NEG4V1H81YJRZ7">
+                    <keyLocation value="" />
+               </DSMSettings>
+               <RichClient2-tierSettings guid="FD83D83E316B865D4AFA06E24C106EC3">
+                    <webServer value="" />
+               </RichClient2-tierSettings>
+               <TcVisRc guid="BBD3CA9FC974BBC40139FEDD9ADFA64B">
+                    <installLocation value="C:\\ugs\\tcvisTC_VERSION\\" />
+               </TcVisRc>
+               <FSCParents guid="30E3AC7AF5CA4F82EAE21C80737EE55B">
+                    <assignmentMode value="clientmap" />
+                    <parents value="http,185.48.117.113,4445,,0,lan,;" />
+               </FSCParents>
+               <SsoRc guid="E55610E8ECDB81520D8DAFD99D6BF542">
+                    <tssBrowser value="" />
+                    <loginURL value="" />
+                    <appId value="Teamcenter" />
+               </SsoRc>
+               <ClientTransportMode guid="18DVF0VKAUEEFBQ5JOI6U7M17PHXK5XA">
+                    <filterText value="" />
+                    <useConfig value="false" />
+               </ClientTransportMode>
+          </data>
+          <features>
+               <installed feature="A0CF69C3A0BC61770EB81BD22667EA52" name="Microsoft Visual C++ Runtimes" />
+               <installed feature="WV56WDWGQRW3NDGOS4YEXNF55EKZHUEN" name="Client Communication System" />
+               <installed feature="42791A48DCBDD23FF08668F5847C96CC" name="JtUtilities Support" />
+               <installed feature="6O6A3KQKM1Q1ZU9D14NJPY6OGAPG9XKU" name="Data Share Manager" />
+               <installed feature="FF18D25DA73019F880BCFFBC0029CA28" name="Teamcenter Rich Client 4-tier" />
+               <installed feature="408579C11CFBD85308B4A8520653FDAF" name="Vendor Management/VendorManagement for Rich Client" />
+               <installed feature="EBB13202744A11E1B1B240504824019B" name="Change and Schedule Management Interface/Change and Schedule Management Interface" />
+               <installed feature="GMXLEGZT8SKZCVT0LUJHMCPAJ2WJBDHV" name="Material Management/Material Management For Rich Client" />
+               <installed feature="66481A9892E8755A847B43EDE9E2B583" name="Material Management/Runtime Server" />
+               <installed feature="115EA2D072AE11E19424D3DD4724019B" name="Change and Schedule Management Interface/Runtime Server" />
+               <installed feature="3645D0D80B399B9544D9642F0292347C" name="NX Rich Client Integration" />
+               <installed feature="D2E2D591EBEB29F96CD11670D137A529" name="Teamcenter Visualization (Stand-alone) for Rich Client" />
+               <installed feature="70E3D236E117DB49920EDAD9566777AC" name="Teamcenter Visualization (Embedded) for Rich Client" />
+               <spf feature="DFCD67D128B68E6961C46E080B24B42D" name="Change Management" />
+               <spf feature="42601F497B99BAEB661CEBA61E272323" name="Vendor Management" />
+               <spf feature="751BC8021BC6CA80EE1479BDEE3D72DA" name="Change and Schedule Management Interface" />
+               <spf feature="6FF546FE37A6E0110A01C0F19F5742A0" name="Material Management" />
+          </features>
+     </config>
+     <updateManager>
+          <patch dir="O:\\tc_install_base\\Tc11.2.2_patch_1\\wntx64" backup="C:\\ugs\\tc\\TC_VERSION\\install\\install\\patches\\backup" date="201609111622" />
+     </updateManager>
+</root>
+

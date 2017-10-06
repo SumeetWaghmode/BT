@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_Notice" propertyType="Relation"
+       objectTypeName="BT7_RevNotice" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_ProdTypeKey" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="CopyAsObject"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarConditions"
+       propertyType="Relation" objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarItemID" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="CopyAsObject"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarItemIDMap" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="CopyAsObject"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarRules" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="CopyAsObject"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_TCENT_Material" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="NoCopy"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_manifestation" propertyType="Relation"
+       objectTypeName="MSExcel" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_reference" propertyType="Relation"
+       objectTypeName="BT7_ItemNotice" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_reference" propertyType="Relation"
+       objectTypeName="BT7_VarItemID_Form" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_AutoSketch" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_CorelDesigner" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_DXF" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_EngChangeDoc" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_FluidDraw" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Integra" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Integra_Mask_Drill" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Integra_SQL" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_PCBLayoutOrder" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Product_InitialHistoryDoc" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_RevNotice" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_SoftwareData" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_TIFF" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_TIFF_Scan" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="DrawingSheet" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="HTML" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="Image" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MISC" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSExcel" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSExcelTemplate" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSExcelX" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSPowerPoint" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSPowerPointTemplate" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSPowerPointX" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSWord" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSWordTemplate" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSWordX" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="PDF" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="NoCopy"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="Text" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="Zip" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="NoCopy"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_Notice" propertyType="Relation"
+       objectTypeName="BT7_RevNotice" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_ProdTypeKey" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_Specified" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarConditions"
+       propertyType="Relation" objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarItemID" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarItemIDMap" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarItems" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarRules" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_TCENT_Material" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_manifestation" propertyType="Relation"
+       objectTypeName="MSExcel" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_reference" propertyType="Relation"
+       objectTypeName="BT7_ItemNotice" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_reference" propertyType="Relation"
+       objectTypeName="BT7_VarItemID_Form" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_AutoSketch" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_CorelDesigner" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_DXF" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_EngChangeDoc" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_FluidDraw" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Integra" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Integra_Mask_Drill" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Integra_SQL" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_PCBLayoutOrder" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Product_InitialHistoryDoc" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_RevNotice" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_SoftwareData" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_TIFF" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_TIFF_Scan" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="DrawingSheet" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="HTML" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="Image" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MISC" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSExcel" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSExcelTemplate" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSExcelX" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSPowerPoint" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSPowerPointTemplate" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSPowerPointX" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSWord" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSWordTemplate" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSWordX" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="PDF" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="Text" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="Zip" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+</Add>
+</TcBusinessData>

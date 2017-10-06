@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<preferences version="10.0">
+  <!-- START BT7-->
+  <preference name="TC_BT7_ChangeNoticeRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>BT Change Order</value>
+      <value>Annulling</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_CommonCompRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter"></context>
+  </preference>
+  <preference name="TC_BT7_ComponentRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>PR</value>
+	  <value>PR+</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_CompProgRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter"></context>
+  </preference>
+  <preference name="TC_BT7_DocumentRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>PR</value>
+	  <value>PR+</value>
+      <value>SR</value>
+      <value>BT7_Distribute</value>
+      <value>Annulling</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_ELCADRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter"></context>
+  </preference>
+  <preference name="TC_BT7_ManufacturerRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter"></context>
+  </preference>
+  <preference name="TC_BT7_ProductRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter"></context>
+  </preference>
+  <preference name="TC_BT7_ProdTypeKeyRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>Annulling</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_SoftwareRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter"></context>
+  </preference>
+  <preference name="TC_BT7_ToolRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter"></context>
+  </preference>
+  <preference name="TC_BT7_VendorPartRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter"></context>
+  </preference>
+  <!-- END BT7-->  <!-- START OOTB-->
+  <preference name="TC_DocumentRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter"></context>
+  </preference>
+  <!-- END OOTB-->
+  <preference name="CR_allow_alternate_procedures" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>none</value>
+    </context>
+  </preference>
+</preferences>

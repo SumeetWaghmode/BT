@@ -1,0 +1,6 @@
+     [echo]  Compiling the source java files 
+     [echo] bundle.. = com.drwe.sbt.rac
+     [echo]  Creating Jar - com.drwe.sbt.rac_1.1.0.0.jar 
+      [jar] Building jar: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\binaries\com.drwe.sbt.rac_1.1.0.0.jar
+   [delete] Deleting: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\com.drwe.sbt.rac\rerun
+     [echo]  Project processed successfully 

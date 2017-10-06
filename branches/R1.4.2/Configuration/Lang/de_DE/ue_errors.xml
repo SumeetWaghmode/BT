@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="yes"?>
+<!--=================================================================================================
+
+                        Copyright (c) 2001 Electronic Data Systems Corporation
+                                 Unpublished - All rights reserved
+
+====================================================================================================
+File description:
+
+            Filename:
+            Module:
+
+            XML File defining ___ module text/error messages.
+            This was previously done in UIH/UIL/VIL format.
+====================================================================================================
+   Date      Name                    Description of Change
+
+18-Jun-2002  Anupam Tiwari           Updated for phase P8.1.0.1
+1.1.1     16.01.2009  J. Baylis       added errors 124-126 for VPDG-checkForm
+$HISTORY$
+==================================================================================================-->
+<textsrv filename="ue_errors.xml">
+<errors module="ue" error_base="919000">
+<error id="1">USER_EXIT:    Beenden durch Benutzer %1$ fehlgeschlagen</error>
+<error id="124">VPDG-RH-checkForm: Nicht alle Mussfelder wurden ausgefuellt. %1$</error>
+<error id="125">VPDG-RH-checkForm: Nicht alle Mussfelder wurden ausgefuellt. Details:</error>
+<error id="126">VPDG-RH-checkForm: %1$</error>
+<error id="307">Werkzeug nicht verfügbar</error>
+<error id="308">Funktion nicht verfügbar für dieses Objekt</error>
+<error id="309">Änderungsstand nicht gefunden</error>
+<error id="310">Kein Ordner selektiert</error>
+<error id="311">Formular nicht gefunden</error>
+<error id="312">BenennteRefenrenz (Form) nicht gefunden</error>
+<error id="313">Formular nicht änderbar</error>
+<error id="314">Part nicht modifizierbar</error>
+<error id="315">Datensatztyp nicht definiert</error>
+<error id="320">Ungueltige Item ID</error>
+<error id="321">Ungueltige Revisions ID</error>
+<error id="322">Ungueltiger Item Name</error>
+<error id="323">Kein Nummergenerator für diesen Typ konfiguriert</error>
+<error id="324">Blockdefinition nicht gefunden</error>
+<error id="325">Ungueltige Revisions ID</error>
+<error id="326">Nummerngenerator Zähler Überlauf</error>
+<error id="340">Objekt ist ausgecheckt</error>
+<error id="341">Keine Schreibrecht auf Objekt vorhanden</error>
+<error id="342">Object ist nicht modifizierbar</error>
+<error id="343">Der letzte ReleaseStatus einer Revision ist zum Umbenennen nicht zulässig</error>
+<error id="344">Ungültiges Attribut in der ReName Präferenz SaveOldId</error>
+<error id="345">Die Teilenummer ist registriert. Vor dem Umbenennen muß diese Registrierung durch einen dba Benutzer aufgehoben werden</error>
+<error id="350">Fehler beim Öffnen einer Datei</error>
+<error id="351">Revision nicht Refunden</error>
+<error id="352">Item nicht gefunden</error>
+<error id="353">Objecttyp nicht unterstützt</error>
+<error id="401">Statuswechsel nicht möglich, Keine Änderungsrechte erteilt</error>
+<error id="402">Statuswechsel für selektierten Objecttyp nicht konfiguriert</error>
+<error id="403">Statuswechsel für selektierten Objecttyp nicht erlaubt</error>
+<error id="404">Statuswechsel nicht möglich, Pflichtattribut nicht gefüllt</error>
+<error id="405">Statuswechsel nicht möglich da noch ein Object ausgecheckt ist</error>
+<error id="408">Statuswechsel nicht möglich, Status der Vorgänger Revision ungültig</error>
+<error id="500">Der Ordner %1$ ist nicht leer. Bitte leeren Sie den Ordner vor dem Löschen.</error>
+<error id="501">Der Datensatz %1$ wird in einer Baugruppe verwendet und kann deshalb nicht entfernt werden</error>
+<error id="502">Der Datensatz %1$ wird in einer Baugruppe verwendet und kann deshalb nicht entfernt werden</error>
+<error id="701">Error: The ItemID is rejected by the Siemens Normmodul</error>
+<error id="702">Error: MfgPrtName and MfgPrtNumber should not be empty.</error>
+<error id="703">Error: The ItemID already exists. Please check the Mfg. Name and Number</error>
+<error id="704">Error: Temporary Common Comp could not be found</error>
+<error id="705">Error: Workflow targets must contain a CCR and a Common Component</error>
+<error id="706">Error: Only revisions are allowed to be pasted into the impacted items folder</error>
+<error id="707">Error: For the revision you tried to copy into the impacted items folder a successor (higher revision) already exists.</error>
+<error id="731">WARNING: The BT7_Product is used in a completed workflow and could not be removed</error>
+<error id="732">ERROR: Das Objekt Revision ist nicht in ECO - Lösung . Unfähig Workflow starten</error>
+<error id="998">%1$</error>
+<error id="999">Unbekannter Fehler</error>
+</errors>
+</textsrv>

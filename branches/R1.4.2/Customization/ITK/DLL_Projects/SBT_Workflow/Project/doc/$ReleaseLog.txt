@@ -1,0 +1,23 @@
+2014-04-29 (SF):
+> NEW RH: SBT-RH-check-supplier-doc (???)
+> NEW RH: SBT-RH-check-target-released (???)
+> NEW RH: SBT-RH-elec3d-compare-meta-data
+> NEW AH: SBT-AH-attach-bom-childs-for-anulling
+> NEW AH: SBT-AH-elec3d-export-meta-data
+> NEW AH: SBT-AH-elec3d-new-minor-revision
+> NEW AH: SBT-AH-elec3d-assign-mcad-designer
+
+2014-05-07 (SF):
+> UPDATE: Run Macro for Code-Beatifying
+> NEW AH: SBT-AH-attach-item-and-all-revs (support Reactivation)
+> NEW AH: SBT-AH-attach-bom-childs-for-anulling (support Anulling)
+
+2014-05-14 (SF):
+> UPDATE: Enable CCR-Handler for "Status 10 - Loop"
+> NEW AH: SBT-AH-assign-to-approver-of-same-group (supporting ReleaseAndDistribute)
+> NEW AH: SBT-AH-set-status-for-object-type (supporing CCR)
+
+2014-05-15 (SF):
+> NEW AH: SBT_AH_assign_to_project (supporing CCR)
+> NEW AH: SBT_AH_remove_current_revision_add_based_on_revisions (supporting deactivation of previous revisions - used in misc workflows)
+> NEW AH: SBT-AH-send-notification (supporting detailed mail for distribution)

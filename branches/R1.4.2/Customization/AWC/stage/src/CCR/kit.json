@@ -1,0 +1,10 @@
+{
+    "name": "CCRKit",
+    "level": 5,
+    "modules": [
+        "CCR"
+    ],
+    "gwtModuleDeps": [ 
+	"com.sbt.awc.ccr.CCR"
+	]
+}

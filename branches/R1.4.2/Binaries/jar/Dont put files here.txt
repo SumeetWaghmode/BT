@@ -1,0 +1,5 @@
+Dont put files here. auto build will create custom jars automatically
+
+this directory should contains only thrid party jars and OOTB modified jars. like plmeasy, modified ootb jars, sap etc
+
+dont put cusotm plugin projects' jar files, such customizaed projects build by auto build automatically.

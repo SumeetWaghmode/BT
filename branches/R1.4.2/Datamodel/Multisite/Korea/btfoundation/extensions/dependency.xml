@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="11.2_4" displayName="BT Foundation" enableOpsDataDeploy="true" guid="C410920C636D410D4434538FC566A35D" isDescriptionMandatory="false" name="btfoundation" optional="true" prefixes="BT6" teamcenterTemplate="false">
+    <include file="foundation_template.xml"/>
+</TcBusinessDataIncludes>

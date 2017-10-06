@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE ActiveWorkspaceGateway SYSTEM "Awp0aws2ActiveWorkspaceGateway.dtd" >
+<ActiveWorkspaceGateway version="1.0">
+    <!-- Remove tiles from collection -->
+    <TileCollection>
+        <SiteScope/>
+		<CollectionTiles tileId="Awp0QuickStartTile"     groupName="Quick Links"  size="0" removed="1"></CollectionTiles>
+    </TileCollection>
+</ActiveWorkspaceGateway>

@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="BT7_ProdTypeKey" parentClassName="BT7_Document" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT7_ProdTypeKeyMasterS" parentClassName="BT7_DocumentMasterS"
+       isExportable="true" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT7_ProdTypeKeyRevMasterS" parentClassName="BT7_DocumentRevMasterS"
+       isExportable="true" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT7_ProdTypeKeyRevision" parentClassName="BT7_DocumentRevision"
+       isExportable="true" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT7_ProdTypeKey_FormStorage" parentClassName="POM_object" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="bt7_PTK_LOV_1" description="Product Key LOV1" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_2" description="Product Key LOV2" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_3" description="Product Key LOV3" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_4" description="Product Key LOV4" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_5" description="Product Key LOV5" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_6" description="Product Key LOV6" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_7" description="Product Key LOV7" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_8" description="Product Key LOV8" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_9" description="Product Key LOV9" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_10" description="Product Key LOV10" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_11" description="Product Key LOV11" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_12" description="Product Key LOV12" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_13" description="Product Key LOV13" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_14" description="Product Key LOV14" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_PTK_LOV_15" description="Product Key LOV15" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="BT7_Rel_ProdTypeKey" parentClassName="ImanRelation" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT7_Rel_VarConditions" parentClassName="ImanRelation" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT7_Rel_VarItemID" parentClassName="ImanRelation" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT7_Rel_VarItemIDMap" parentClassName="ImanRelation" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT7_Rel_VarItems" parentClassName="ImanRelation" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT7_Rel_VarModules" parentClassName="ImanRelation" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT7_Rel_VarRules" parentClassName="ImanRelation" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT7_VI_ID_Map_FormStorage" parentClassName="POM_object" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="bt7_VarItemID_Mapping" description="" attributeType="POM_long_string"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="BT7_VarCond_FormStorage" parentClassName="POM_object" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="bt7_VC_MTX_Line" description="" attributeType="POM_string"
+         maxStringLength="50" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="BT7_VarItemID_FormStorage" parentClassName="POM_object" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="bt7_VarItemID_Sequence" description="" attributeType="POM_long_string"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="BT7_VarMatrix_FormStorage" parentClassName="POM_object" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="bt7_VC_Matrix" description="Variant Conditions Matrix Value"
+         attributeType="POM_long_string" maxStringLength="0" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         lowerBoundValue="" upperBoundValue=""/>
+   </TcClass>
+   <OperationInputType typeName="BT7_ProdTypeKeyCreI" parentTypeName="BT7_DocumentCreI"
+       typeClassName="BT7_ProdTypeKeyCreI" description="CreateInput object for &quot;BT7_ProdTypeKey&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyCreI"/>
+   <OperationInputType typeName="BT7_ProdTypeKeyMasterCreI" parentTypeName="BT7_DocumentMasterCreI"
+       typeClassName="BT7_ProdTypeKeyMasterCreI" description="CreateInput object for &quot;BT7_ProdTypeKeyMaster&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyMasterCreI"/>
+   <OperationInputType typeName="BT7_ProdTypeKeyMasterSCreI" parentTypeName="BT7_DocumentMasterSCreI"
+       typeClassName="BT7_ProdTypeKeyMasterSCreI" description="CreateInput object for &quot;BT7_ProdTypeKeyMasterS&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyMasterSCreI"/>
+   <OperationInputType typeName="BT7_ProdTypeKeyMasterSSvAI" parentTypeName="BT7_DocumentMasterSSvAI"
+       typeClassName="BT7_ProdTypeKeyMasterSSvAI" description="SaveAsInput object for &quot;BT7_ProdTypeKeyMasterS&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyMasterSSvAI"/>
+   <OperationInputType typeName="BT7_ProdTypeKeyMasterSvAI" parentTypeName="BT7_DocumentMasterSvAI"
+       typeClassName="BT7_ProdTypeKeyMasterSvAI" description="SaveAsInput object for &quot;BT7_ProdTypeKeyMaster&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyMasterSvAI"/>
+   <OperationInputType typeName="BT7_ProdTypeKeyRevMasterSCreI" parentTypeName="BT7_DocumentRevMasterSCreI"
+       typeClassName="BT7_ProdTypeKeyRevMasterSCreI" description="CreateInput object for &quot;BT7_ProdTypeKeyRevMasterS&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyRevMasterSCreI"/>
+   <OperationInputType typeName="BT7_ProdTypeKeyRevMasterSSvAI" parentTypeName="BT7_DocumentRevMasterSSvAI"
+       typeClassName="BT7_ProdTypeKeyRevMasterSSvAI" description="SaveAsInput object for &quot;BT7_ProdTypeKeyRevMasterS&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyRevMasterSSvAI"/>
+   <OperationInputType typeName="BT7_ProdTypeKeyRevisio_alt0CreI" parentTypeName="BT7_DocumentRevisionMasterCreI"
+       typeClassName="BT7_ProdTypeKeyRevisio_alt0CreI" description="CreateInput object for &quot;BT7_ProdTypeKeyRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyRevisio_alt0CreI"/>
+   <OperationInputType typeName="BT7_ProdTypeKeyRevisio_alt0SvAI" parentTypeName="BT7_DocumentRevisionMasterSvAI"
+       typeClassName="BT7_ProdTypeKeyRevisio_alt0SvAI" description="SaveAsInput object for &quot;BT7_ProdTypeKeyRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyRevisio_alt0SvAI"/>
+   <OperationInputType typeName="BT7_ProdTypeKeyRevisionCreI" parentTypeName="BT7_DocumentRevisionCreI"
+       typeClassName="BT7_ProdTypeKeyRevisionCreI" description="CreateInput object for &quot;BT7_ProdTypeKeyRevision&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyRevisionCreI"/>
+   <OperationInputType typeName="BT7_ProdTypeKeyRevisionRevI" parentTypeName="BT7_DocumentRevisionRevI"
+       typeClassName="BT7_ProdTypeKeyRevisionRevI" description="ReviseInput object for &quot;BT7_ProdTypeKeyRevision&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyRevisionRevI"/>
+   <OperationInputType typeName="BT7_ProdTypeKeyRevisionSvAI" parentTypeName="BT7_DocumentRevisionSvAI"
+       typeClassName="BT7_ProdTypeKeyRevisionSvAI" description="SaveAsInput object for &quot;BT7_ProdTypeKeyRevision&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyRevisionSvAI"/>
+   <OperationInputType typeName="BT7_ProdTypeKeySvAI" parentTypeName="BT7_DocumentSvAI"
+       typeClassName="BT7_ProdTypeKeySvAI" description="SaveAsInput object for &quot;BT7_ProdTypeKey&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeySvAI"/>
+   <OperationInputType typeName="BT7_ProdTypeKey_FormCreI" parentTypeName="FormCreI"
+       typeClassName="BT7_ProdTypeKey_FormCreI" description="CreateInput object for &quot;BT7_ProdTypeKey_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKey_FormCreI"/>
+   <OperationInputType typeName="BT7_ProdTypeKey_FormSt_alt0CreI" parentTypeName="POM_objectCreI"
+       typeClassName="BT7_ProdTypeKey_FormSt_alt0CreI" description="CreateInput object for &quot;BT7_ProdTypeKey_FormStorage&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKey_FormSt_alt0CreI"/>
+   <OperationInputType typeName="BT7_ProdTypeKey_FormSt_alt0SvAI" parentTypeName="POM_objectSvAI"
+       typeClassName="BT7_ProdTypeKey_FormSt_alt0SvAI" description="SaveAsInput object for &quot;BT7_ProdTypeKey_FormStorage&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKey_FormSt_alt0SvAI"/>
+   <OperationInputType typeName="BT7_ProdTypeKey_FormSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT7_ProdTypeKey_FormSvAI" description="SaveAsInput object for &quot;BT7_ProdTypeKey_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKey_FormSvAI"/>
+   <OperationInputType typeName="BT7_Rel_ProdTypeKeyCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT7_Rel_ProdTypeKeyCreI" description="CreateInput object for &quot;BT7_Rel_ProdTypeKey&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_ProdTypeKeyCreI"/>
+   <OperationInputType typeName="BT7_Rel_ProdTypeKeySvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT7_Rel_ProdTypeKeySvAI" description="SaveAsInput object for &quot;BT7_Rel_ProdTypeKey&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_ProdTypeKeySvAI"/>
+   <OperationInputType typeName="BT7_Rel_VarConditionsCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT7_Rel_VarConditionsCreI" description="CreateInput object for &quot;BT7_Rel_VarConditions&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_VarConditionsCreI"/>
+   <OperationInputType typeName="BT7_Rel_VarConditionsSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT7_Rel_VarConditionsSvAI" description="SaveAsInput object for &quot;BT7_Rel_VarConditions&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_VarConditionsSvAI"/>
+   <OperationInputType typeName="BT7_Rel_VarItemIDCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT7_Rel_VarItemIDCreI" description="CreateInput object for &quot;BT7_Rel_VarItemID&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_VarItemIDCreI"/>
+   <OperationInputType typeName="BT7_Rel_VarItemIDMapCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT7_Rel_VarItemIDMapCreI" description="CreateInput object for &quot;BT7_Rel_VarItemIDMap&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_VarItemIDMapCreI"/>
+   <OperationInputType typeName="BT7_Rel_VarItemIDMapSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT7_Rel_VarItemIDMapSvAI" description="SaveAsInput object for &quot;BT7_Rel_VarItemIDMap&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_VarItemIDMapSvAI"/>
+   <OperationInputType typeName="BT7_Rel_VarItemIDSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT7_Rel_VarItemIDSvAI" description="SaveAsInput object for &quot;BT7_Rel_VarItemID&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_VarItemIDSvAI"/>
+   <OperationInputType typeName="BT7_Rel_VarItemsCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT7_Rel_VarItemsCreI" description="CreateInput object for &quot;BT7_Rel_VarItems&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_VarItemsCreI"/>
+   <OperationInputType typeName="BT7_Rel_VarItemsSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT7_Rel_VarItemsSvAI" description="SaveAsInput object for &quot;BT7_Rel_VarItems&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_VarItemsSvAI"/>
+   <OperationInputType typeName="BT7_Rel_VarModulesCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT7_Rel_VarModulesCreI" description="CreateInput object for &quot;BT7_Rel_VarModules&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_VarModulesCreI"/>
+   <OperationInputType typeName="BT7_Rel_VarModulesSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT7_Rel_VarModulesSvAI" description="SaveAsInput object for &quot;BT7_Rel_VarModules&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_VarModulesSvAI"/>
+   <OperationInputType typeName="BT7_Rel_VarRulesCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BT7_Rel_VarRulesCreI" description="CreateInput object for &quot;BT7_Rel_VarRules&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_VarRulesCreI"/>
+   <OperationInputType typeName="BT7_Rel_VarRulesSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BT7_Rel_VarRulesSvAI" description="SaveAsInput object for &quot;BT7_Rel_VarRules&quot; business object"
+       isAbstract="false" artifactName="BT7_Rel_VarRulesSvAI"/>
+   <OperationInputType typeName="BT7_VI_ID_Map_FormCreI" parentTypeName="FormCreI"
+       typeClassName="BT7_VI_ID_Map_FormCreI" description="CreateInput object for &quot;BT7_VI_ID_Map_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_VI_ID_Map_FormCreI"/>
+   <OperationInputType typeName="BT7_VI_ID_Map_FormStorageCreI" parentTypeName="POM_objectCreI"
+       typeClassName="BT7_VI_ID_Map_FormStorageCreI" description="CreateInput object for &quot;BT7_VI_ID_Map_FormStorage&quot; business object"
+       isAbstract="false" artifactName="BT7_VI_ID_Map_FormStorageCreI"/>
+   <OperationInputType typeName="BT7_VI_ID_Map_FormStorageSvAI" parentTypeName="POM_objectSvAI"
+       typeClassName="BT7_VI_ID_Map_FormStorageSvAI" description="SaveAsInput object for &quot;BT7_VI_ID_Map_FormStorage&quot; business object"
+       isAbstract="false" artifactName="BT7_VI_ID_Map_FormStorageSvAI"/>
+   <OperationInputType typeName="BT7_VI_ID_Map_FormSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT7_VI_ID_Map_FormSvAI" description="SaveAsInput object for &quot;BT7_VI_ID_Map_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_VI_ID_Map_FormSvAI"/>
+   <OperationInputType typeName="BT7_VarCond_FormStorageCreI" parentTypeName="POM_objectCreI"
+       typeClassName="BT7_VarCond_FormStorageCreI" description="CreateInput object for &quot;BT7_VarCond_FormStorage&quot; business object"
+       isAbstract="false" artifactName="BT7_VarCond_FormStorageCreI"/>
+   <OperationInputType typeName="BT7_VarCond_FormStorageSvAI" parentTypeName="POM_objectSvAI"
+       typeClassName="BT7_VarCond_FormStorageSvAI" description="SaveAsInput object for &quot;BT7_VarCond_FormStorage&quot; business object"
+       isAbstract="false" artifactName="BT7_VarCond_FormStorageSvAI"/>
+   <OperationInputType typeName="BT7_VarCondition_FormCreI" parentTypeName="FormCreI"
+       typeClassName="BT7_VarCondition_FormCreI" description="CreateInput object for &quot;BT7_VarCondition_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_VarCondition_FormCreI"/>
+   <OperationInputType typeName="BT7_VarCondition_FormSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT7_VarCondition_FormSvAI" description="SaveAsInput object for &quot;BT7_VarCondition_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_VarCondition_FormSvAI"/>
+   <OperationInputType typeName="BT7_VarItemID_FormCreI" parentTypeName="FormCreI"
+       typeClassName="BT7_VarItemID_FormCreI" description="CreateInput object for &quot;BT7_VarItemID_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_VarItemID_FormCreI"/>
+   <OperationInputType typeName="BT7_VarItemID_FormStorageCreI" parentTypeName="POM_objectCreI"
+       typeClassName="BT7_VarItemID_FormStorageCreI" description="CreateInput object for &quot;BT7_VarItemID_FormStorage&quot; business object"
+       isAbstract="false" artifactName="BT7_VarItemID_FormStorageCreI"/>
+   <OperationInputType typeName="BT7_VarItemID_FormStorageSvAI" parentTypeName="POM_objectSvAI"
+       typeClassName="BT7_VarItemID_FormStorageSvAI" description="SaveAsInput object for &quot;BT7_VarItemID_FormStorage&quot; business object"
+       isAbstract="false" artifactName="BT7_VarItemID_FormStorageSvAI"/>
+   <OperationInputType typeName="BT7_VarItemID_FormSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT7_VarItemID_FormSvAI" description="SaveAsInput object for &quot;BT7_VarItemID_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_VarItemID_FormSvAI"/>
+   <OperationInputType typeName="BT7_VarMatrix_FormCreI" parentTypeName="FormCreI"
+       typeClassName="BT7_VarMatrix_FormCreI" description="CreateInput object for &quot;BT7_VarMatrix_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_VarMatrix_FormCreI"/>
+   <OperationInputType typeName="BT7_VarMatrix_FormStorageCreI" parentTypeName="POM_objectCreI"
+       typeClassName="BT7_VarMatrix_FormStorageCreI" description="CreateInput object for &quot;BT7_VarMatrix_FormStorage&quot; business object"
+       isAbstract="false" artifactName="BT7_VarMatrix_FormStorageCreI"/>
+   <OperationInputType typeName="BT7_VarMatrix_FormStorageSvAI" parentTypeName="POM_objectSvAI"
+       typeClassName="BT7_VarMatrix_FormStorageSvAI" description="SaveAsInput object for &quot;BT7_VarMatrix_FormStorage&quot; business object"
+       isAbstract="false" artifactName="BT7_VarMatrix_FormStorageSvAI"/>
+   <OperationInputType typeName="BT7_VarMatrix_FormSvAI" parentTypeName="FormSvAI"
+       typeClassName="BT7_VarMatrix_FormSvAI" description="SaveAsInput object for &quot;BT7_VarMatrix_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_VarMatrix_FormSvAI"/>
+   <TcForm typeName="BT7_ProdTypeKeyMaster" parentTypeName="BT7_DocumentMaster" typeClassName="Form"
+       description="MasterForm object for &quot;BT7_ProdTypeKey&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyMaster" formStorageClassName="BT7_ProdTypeKeyMasterS"/>
+   <TcForm typeName="BT7_ProdTypeKeyRevisionMaster" parentTypeName="BT7_DocumentRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;BT7_ProdTypeKeyRevision&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyRevisionMaster" formStorageClassName="BT7_ProdTypeKeyRevMasterS"/>
+   <TcForm typeName="BT7_ProdTypeKey_Form" parentTypeName="Form" typeClassName="Form"
+       description="" isAbstract="false" artifactName="BT7_ProdTypeKey_Form" formStorageClassName="BT7_ProdTypeKey_FormStorage"/>
+   <TcForm typeName="BT7_VI_ID_Map_Form" parentTypeName="Form" typeClassName="Form"
+       description="" isAbstract="false" artifactName="BT7_VI_ID_Map_Form" formStorageClassName="BT7_VI_ID_Map_FormStorage"/>
+   <TcForm typeName="BT7_VarCondition_Form" parentTypeName="Form" typeClassName="Form"
+       description="" isAbstract="false" artifactName="BT7_VarCondition_Form" formStorageClassName="BT7_VarCond_FormStorage"/>
+   <TcForm typeName="BT7_VarItemID_Form" parentTypeName="Form" typeClassName="Form"
+       description="" isAbstract="false" artifactName="BT7_VarItemID_Form" formStorageClassName="BT7_VarItemID_FormStorage"/>
+   <TcForm typeName="BT7_VarMatrix_Form" parentTypeName="Form" typeClassName="Form"
+       description="" isAbstract="false" artifactName="BT7_VarMatrix_Form" formStorageClassName="BT7_VarMatrix_FormStorage"/>
+   <TcStandardType typeName="BT7_ProdTypeKey" parentTypeName="BT7_Document" typeClassName="BT7_ProdTypeKey"
+       description="" isAbstract="false" artifactName="BT7_ProdTypeKey"/>
+   <TcStandardType typeName="BT7_ProdTypeKeyMasterS" parentTypeName="BT7_DocumentMasterS"
+       typeClassName="BT7_ProdTypeKeyMasterS" description="Form Storage object for &quot;BT7_ProdTypeKeyMaster&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyMasterS"/>
+   <TcStandardType typeName="BT7_ProdTypeKeyRevMasterS" parentTypeName="BT7_DocumentRevMasterS"
+       typeClassName="BT7_ProdTypeKeyRevMasterS" description="Form Storage object for &quot;BT7_ProdTypeKeyRevMaster&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyRevMasterS"/>
+   <TcStandardType typeName="BT7_ProdTypeKeyRevision" parentTypeName="BT7_DocumentRevision"
+       typeClassName="BT7_ProdTypeKeyRevision" description="ItemRevision object for &quot;BT7_ProdTypeKey&quot;  business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKeyRevision"/>
+   <TcStandardType typeName="BT7_ProdTypeKey_FormStorage" parentTypeName="POM_object"
+       typeClassName="BT7_ProdTypeKey_FormStorage" description="Form Storage object for &quot;BT7_ProdTypeKey_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_ProdTypeKey_FormStorage"/>
+   <TcStandardType typeName="BT7_Rel_ProdTypeKey" parentTypeName="ImanRelation" typeClassName="BT7_Rel_ProdTypeKey"
+       description="" isAbstract="false" artifactName="BT7_Rel_ProdTypeKey"/>
+   <TcStandardType typeName="BT7_Rel_VarConditions" parentTypeName="ImanRelation"
+       typeClassName="BT7_Rel_VarConditions" description="" isAbstract="false" artifactName="BT7_Rel_VarConditions"/>
+   <TcStandardType typeName="BT7_Rel_VarItemID" parentTypeName="ImanRelation" typeClassName="BT7_Rel_VarItemID"
+       description="" isAbstract="false" artifactName="BT7_Rel_VarItemID"/>
+   <TcStandardType typeName="BT7_Rel_VarItemIDMap" parentTypeName="ImanRelation" typeClassName="BT7_Rel_VarItemIDMap"
+       description="" isAbstract="false" artifactName="BT7_Rel_VarItemIDMap"/>
+   <TcStandardType typeName="BT7_Rel_VarItems" parentTypeName="ImanRelation" typeClassName="BT7_Rel_VarItems"
+       description="" isAbstract="false" artifactName="BT7_Rel_VarItems"/>
+   <TcStandardType typeName="BT7_Rel_VarModules" parentTypeName="ImanRelation" typeClassName="BT7_Rel_VarModules"
+       description="" isAbstract="false" artifactName="BT7_Rel_VarModules"/>
+   <TcStandardType typeName="BT7_Rel_VarRules" parentTypeName="ImanRelation" typeClassName="BT7_Rel_VarRules"
+       description="" isAbstract="false" artifactName="BT7_Rel_VarRules"/>
+   <TcStandardType typeName="BT7_VI_ID_Map_FormStorage" parentTypeName="POM_object"
+       typeClassName="BT7_VI_ID_Map_FormStorage" description="Form Storage object for &quot;BT7_VI_ID_Map_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_VI_ID_Map_FormStorage"/>
+   <TcStandardType typeName="BT7_VarCond_FormStorage" parentTypeName="POM_object"
+       typeClassName="BT7_VarCond_FormStorage" description="Form Storage object for &quot;BT7_VarCondition_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_VarCond_FormStorage"/>
+   <TcStandardType typeName="BT7_VarItemID_FormStorage" parentTypeName="POM_object"
+       typeClassName="BT7_VarItemID_FormStorage" description="Form Storage object for &quot;BT7_VarItemID_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_VarItemID_FormStorage"/>
+   <TcStandardType typeName="BT7_VarMatrix_FormStorage" parentTypeName="POM_object"
+       typeClassName="BT7_VarMatrix_FormStorage" description="Form Storage object for &quot;BT7_VarMatrix_Form&quot; business object"
+       isAbstract="false" artifactName="BT7_VarMatrix_FormStorage"/>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT7_Rel_ProdTypeKey" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT7_Rel_VarConditions" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT7_Rel_VarItemID" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT7_Rel_VarItemIDMap" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT7_Rel_VarItems" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT7_Rel_VarModules" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BT7_Rel_VarRules" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcTypeConstantAttach constantName="Awp0SearchClassifySearchEnabled" typeName="BT7_ProdTypeKey"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchClassifySearchEnabled" typeName="BT7_ProdTypeKey_Form"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchClassifySearchEnabled" typeName="BT7_ProdTypeKeyRevision"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchClassifySearchEnabled" typeName="BT7_VarCondition_Form"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchClassifySearchEnabled" typeName="BT7_VarItemID_Form"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchClassifySearchEnabled" typeName="BT7_VarMatrix_Form"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchClassifySearchEnabled" typeName="BT7_VI_ID_Map_Form"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchIsClassifyDataIndexed" typeName="BT7_ProdTypeKey"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchIsClassifyDataIndexed" typeName="BT7_ProdTypeKey_Form"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchIsClassifyDataIndexed" typeName="BT7_ProdTypeKeyRevision"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchIsClassifyDataIndexed" typeName="BT7_VarCondition_Form"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchIsClassifyDataIndexed" typeName="BT7_VarItemID_Form"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchIsClassifyDataIndexed" typeName="BT7_VarMatrix_Form"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchIsClassifyDataIndexed" typeName="BT7_VI_ID_Map_Form"
+       value="true"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_ProdTypeKey" value="BT7_ProdTypeKeyCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_ProdTypeKey_Form"
+       value="BT7_ProdTypeKey_FormCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_ProdTypeKey_FormStorage"
+       value="BT7_ProdTypeKey_FormSt_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_ProdTypeKeyMaster"
+       value="BT7_ProdTypeKeyMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_ProdTypeKeyMasterS"
+       value="BT7_ProdTypeKeyMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_ProdTypeKeyRevision"
+       value="BT7_ProdTypeKeyRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_ProdTypeKeyRevisionMaster"
+       value="BT7_ProdTypeKeyRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_ProdTypeKeyRevMasterS"
+       value="BT7_ProdTypeKeyRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_Rel_ProdTypeKey"
+       value="BT7_Rel_ProdTypeKeyCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_Rel_VarConditions"
+       value="BT7_Rel_VarConditionsCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_Rel_VarItemID" value="BT7_Rel_VarItemIDCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_Rel_VarItemIDMap"
+       value="BT7_Rel_VarItemIDMapCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_Rel_VarItems" value="BT7_Rel_VarItemsCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_Rel_VarModules"
+       value="BT7_Rel_VarModulesCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_Rel_VarRules" value="BT7_Rel_VarRulesCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_VarCond_FormStorage"
+       value="BT7_VarCond_FormStorageCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_VarCondition_Form"
+       value="BT7_VarCondition_FormCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_VarItemID_Form"
+       value="BT7_VarItemID_FormCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_VarItemID_FormStorage"
+       value="BT7_VarItemID_FormStorageCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_VarMatrix_Form"
+       value="BT7_VarMatrix_FormCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_VarMatrix_FormStorage"
+       value="BT7_VarMatrix_FormStorageCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_VI_ID_Map_Form"
+       value="BT7_VI_ID_Map_FormCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_VI_ID_Map_FormStorage"
+       value="BT7_VI_ID_Map_FormStorageCreI"/>
+   <TcTypeConstantAttach constantName="DisplayName" typeName="BT7_ProdTypeKey" value="$item_id+&quot; | &quot;+$object_name"/>
+   <TcTypeConstantAttach constantName="DisplayName" typeName="BT7_ProdTypeKeyRevision"
+       value="$item_id+&quot; | &quot;+$item_revision_id+&quot; | &quot;+$object_name+$bt7_revisionsuperseeded"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="BT7_ProdTypeKey" value="BT7_ProdTypeKeyRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT7_ProdTypeKey" value="BT7_ProdTypeKeyMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT7_ProdTypeKeyRevision"
+       value="BT7_ProdTypeKeyRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="BT7_ProdTypeKeyRevision"
+       value="BT7_ProdTypeKeyRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_ProdTypeKey" value="BT7_ProdTypeKeySvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_ProdTypeKey_Form"
+       value="BT7_ProdTypeKey_FormSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_ProdTypeKey_FormStorage"
+       value="BT7_ProdTypeKey_FormSt_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_ProdTypeKeyMaster"
+       value="BT7_ProdTypeKeyMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_ProdTypeKeyMasterS"
+       value="BT7_ProdTypeKeyMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_ProdTypeKeyRevision"
+       value="BT7_ProdTypeKeyRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_ProdTypeKeyRevisionMaster"
+       value="BT7_ProdTypeKeyRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_ProdTypeKeyRevMasterS"
+       value="BT7_ProdTypeKeyRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_Rel_ProdTypeKey"
+       value="BT7_Rel_ProdTypeKeySvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_Rel_VarConditions"
+       value="BT7_Rel_VarConditionsSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_Rel_VarItemID" value="BT7_Rel_VarItemIDSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_Rel_VarItemIDMap"
+       value="BT7_Rel_VarItemIDMapSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_Rel_VarItems" value="BT7_Rel_VarItemsSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_Rel_VarModules"
+       value="BT7_Rel_VarModulesSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_Rel_VarRules" value="BT7_Rel_VarRulesSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_VarCond_FormStorage"
+       value="BT7_VarCond_FormStorageSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_VarCondition_Form"
+       value="BT7_VarCondition_FormSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_VarItemID_Form"
+       value="BT7_VarItemID_FormSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_VarItemID_FormStorage"
+       value="BT7_VarItemID_FormStorageSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_VarMatrix_Form"
+       value="BT7_VarMatrix_FormSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_VarMatrix_FormStorage"
+       value="BT7_VarMatrix_FormStorageSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_VI_ID_Map_Form"
+       value="BT7_VI_ID_Map_FormSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_VI_ID_Map_FormStorage"
+       value="BT7_VI_ID_Map_FormStorageSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_ProdTypeKeyRevision"
+       propertyName="BT7_Rel_ProdTypeKey" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_VarCondition_Form"
+       propertyName="bt7_VC_MTX_Line" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_VarItemID_Form"
+       propertyName="bt7_VarItemID_Sequence" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_VarMatrix_Form"
+       propertyName="bt7_VC_Matrix" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_VI_ID_Map_Form"
+       propertyName="bt7_VarItemID_Mapping" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="BT7_Rel_ProdTypeKey"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="BT7_Rel_VarConditions"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="BT7_Rel_VarItemID"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="BT7_Rel_VarItemIDMap"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="BT7_Rel_VarItems"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="BT7_Rel_VarModules"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="BT7_Rel_VarRules"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_ProdTypeKeyRevision"
+       propertyName="BT7_Rel_ProdTypeKey" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_VarCondition_Form"
+       propertyName="bt7_VC_MTX_Line" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_VarItemID_Form"
+       propertyName="bt7_VarItemID_Sequence" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_VarMatrix_Form"
+       propertyName="bt7_VC_Matrix" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_VI_ID_Map_Form"
+       propertyName="bt7_VarItemID_Mapping" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="BT7_Rel_ProdTypeKey"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="BT7_Rel_VarConditions"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="BT7_Rel_VarItemID"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="BT7_Rel_VarItemIDMap"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="BT7_Rel_VarItems"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="BT7_Rel_VarModules"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="BT7_Rel_VarRules"
+       value="Write"/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="100_Admin" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Change Control Manager in 110_Laboratory_A"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Change Control Manager in 110_MDesign_A"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Change Control Manager in 110_TechDoc_A"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Designer in 100_Admin"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Designer in 100_Purchase_A"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Designer in 110_Laboratory_A"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Designer in 110_MDesign_A"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Designer in 110_MDesign_B"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Designer in 110_MDesign_D"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Designer in 110_PMarket_A"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Designer in 110_PPlanning_A"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Designer in 110_ProjMgnt_A"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Designer in 110_Quality_A"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Designer in 110_SDesign_A"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Designer in 110_TestTech_A"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Planner in 110_PPlanning_A"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProdTypeKey" accessorName="Planner in 110_PPlanning_B"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcNamingRule name="BT7_varman_ProdTypeKey_ID_Rule">
+     <TcPattern generateCounters="true" patternString="&quot;8&quot;nnnnnnnnn">
+       <TcCounter initialValue="8000041000" maximumValue="8000059999"/>
+     </TcPattern>
+     <TcPattern generateCounters="false" patternString="&quot;1&quot;nnnnnnnn"/>
+     <TcPattern generateCounters="false" patternString="&quot;2&quot;nnnnnnnn"/>
+     <TcPattern generateCounters="false" patternString="&quot;3&quot;nnnnnnnn"/>
+     <TcPattern generateCounters="false" patternString="&quot;4&quot;nnnnnnnn"/>
+     <TcPattern generateCounters="false" patternString="&quot;71&quot;nnnnnnnn"/>
+     <TcPattern generateCounters="false" patternString="&quot;72&quot;nnnnnnnn"/>
+     <TcPattern generateCounters="false" patternString="&quot;73&quot;nnnnnnnn"/>
+     <TcPattern generateCounters="false" patternString="&quot;74&quot;nnnnnnnn"/>
+     <TcPattern generateCounters="false" patternString="&quot;35&quot;nnnnnnnnnnn"/>
+     <TcPattern generateCounters="false" patternString="&quot;36&quot;nnnnnnnnnnn"/>
+     <TcPattern generateCounters="false" patternString="&quot;735&quot;nnnnnnnnnnn"/>
+     <TcPattern generateCounters="false" patternString="&quot;736&quot;nnnnnnnnnnn"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_varman_Revision_ID_Rule">
+     <TcPattern generateCounters="false" patternString="%^[A-HKMNP-Z][A-HKMNP-Z0-9][0-9]$"/>
+     <TcPattern generateCounters="false" patternString="%^[A-HKMNP-Z][A-HKMNP-Z0-9]$"/>
+     <TcPattern generateCounters="false" patternString="%^[A-HKMNP-Z]$"/>
+     <TcPattern generateCounters="false" patternString="%^[0-9]{1,2}$"/>
+   </TcNamingRule>   
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarConditions"
+       propertyType="Relation" objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarItemID" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="CopyAsObject"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarItemIDMap" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="CopyAsObject"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarRules" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="CopyAsObject"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>   
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarConditions"
+       propertyType="Relation" objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarItemID" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarItemIDMap" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarItems" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_VarRules" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>       
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="ItemRevision" relationTypeName="BT7_Rel_VarItems"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="WriteAccessReq"
+       changeability="Changeable" detachability="WriteAccessReq" description=""/>
+   <TcGRMRule primaryTypeName="WorkspaceObject" secondaryTypeName="WorkspaceObject"
+       relationTypeName="BT7_Rel_VarItems" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_Rel_VarConditions"
+       value="BT7_Rel_VarConditionsCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_Rel_VarItemID" value="BT7_Rel_VarItemIDCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_Rel_VarItemIDMap"
+       value="BT7_Rel_VarItemIDMapCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_Rel_VarItems" value="BT7_Rel_VarItemsCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_Rel_VarModules"
+       value="BT7_Rel_VarModulesCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_Rel_VarRules" value="BT7_Rel_VarRulesCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_Rel_VarConditions"
+       value="BT7_Rel_VarConditionsSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_Rel_VarItemID" value="BT7_Rel_VarItemIDSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_Rel_VarItemIDMap"
+       value="BT7_Rel_VarItemIDMapSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_Rel_VarItems" value="BT7_Rel_VarItemsSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_Rel_VarModules"
+       value="BT7_Rel_VarModulesSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_Rel_VarRules" value="BT7_Rel_VarRulesSvAI"/>   
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_ProdTypeKey" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="CopyAsObject"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_ProdTypeKey" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcExtensionAttach extensionName="createObjects" operationName="ITEM_create_rev"
+       isActive="true" extendableElementName="BT7_ProdTypeKeyRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description="">
+     <TcExtensionArguments parameter="BT7_ProdTypeKey_Form::BT7_Rel_ProdTypeKey"/>
+   </TcExtensionAttach>
+</Add>
+</TcBusinessData>

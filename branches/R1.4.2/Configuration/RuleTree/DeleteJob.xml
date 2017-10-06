@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- TC Encapsulation : Mapping X-File  -->
+
+<Tc_data_access_config>
+	<named_acls>
+		<named_acl type="WORKFLOW">
+			<acl_name language="en_US">DeleteJob</acl_name>
+			<ace_entry>
+				<accessor_type>Group</accessor_type>
+				<accessor>100_Admin</accessor>
+				<grant>
+					<p>READ</p>
+					<p>WRITE</p>
+					<p>DELETE</p>
+				</grant>
+				<revoke/>
+				<accessor_type>Group</accessor_type>
+				<accessor>dba</accessor>
+				<grant>
+					<p>READ</p>
+					<p>WRITE</p>
+					<p>DELETE</p>
+				</grant>
+				<revoke/>
+				<accessor_type>World</accessor_type>
+				<accessor></accessor>
+				<grant>
+					<p>READ</p>
+					<p>WRITE</p>
+					<p>COPY</p>
+				</grant>
+				<revoke>
+					<p>DELETE</p>
+					<p>CHANGE</p>
+					<p>DEMOTE</p>
+					<p>PROMOTE</p>
+					<p>CHANGE_OWNER</p>
+				</revoke>
+			</ace_entry>
+		</named_acl>
+	</named_acls>
+</Tc_data_access_config>

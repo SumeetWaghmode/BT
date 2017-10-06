@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_Responsible" lovType="ListOfValuesString" usage="Exhaustive"
+       description="BT7_LOV_Responsible">
+     <TcLOVValue value="CH-Zug/FZ-MEC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CH-Zug/MD-Comfrt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CH-Zug/MD-FID" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CH-Zug/MD-Fire" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CH-Zug/Packaging" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CH-Zug/PCB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/AS-OEM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/ED-OEM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/HD-OEM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/MD-FID" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/MD-OEM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/MD-TEF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/PDM-OEM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/PM-OEM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/PP-FID" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/PP-OEM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/QD-OEM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/RD-LAB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/SD-OEM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/TC-OEM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-RAS/TP-OEM" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

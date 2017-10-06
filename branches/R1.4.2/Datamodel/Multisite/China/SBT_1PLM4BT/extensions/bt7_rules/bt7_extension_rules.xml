@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcExtension name="BT7_ProductCreatePreCondition" internal="false" cannedExtension="false"
+       languageType="CPlusPlus" libraryName="libBT7_Extensions" description="">
+     <TcExtensionValidity parameter="TYPE:BT7_Product:ITEM_create:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_Software:ITEM_create:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_CompProg:ITEM_create:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_Component:ITEM_create:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_ELCAD:ITEM_create:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_Document:ITEM_create:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_CommonComp:ITEM_create:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_Material:ITEM_create:1"/>
+   </TcExtension>
+   <TcExtension name="BT7_ProductSaveAsPreCondition" internal="false" cannedExtension="false"
+       languageType="CPlusPlus" libraryName="libBT7_Extensions" description="">
+     <TcExtensionValidity parameter="TYPE:BT7_Product:ITEM_create_from_rev:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_Software:ITEM_create_from_rev:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_CompProg:ITEM_create_from_rev:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_Component:ITEM_create_from_rev:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_ELCAD:ITEM_create_from_rev:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_Document:ITEM_create_from_rev:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_Material:ITEM_create_from_rev:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_CommonComp:ITEM_create_from_rev:1"/>
+   </TcExtension>
+   <TcExtension name="BT7_RelConcernedCreatePostAction" internal="false" cannedExtension="false"
+       languageType="ANSI_C" libraryName="libBT7_Extensions" description="">
+     <TcExtensionValidity parameter="TYPE:BT7_Rel_Concerned:GRM_create:3"/>
+   </TcExtension>
+   <TcExtension name="BT7_RelConcernedCreatePreCondition" internal="false" cannedExtension="false"
+       languageType="ANSI_C" libraryName="libBT7_Extensions" description="">
+     <TcExtensionValidity parameter="TYPE:BT7_Rel_Concerned:GRM_create:1"/>
+   </TcExtension>
+   <TcExtension name="BT7_RelConcernedDeletePreCondition" internal="false" cannedExtension="false"
+       languageType="ANSI_C" libraryName="libBT7_Extensions" description="">
+     <TcExtensionValidity parameter="TYPE:BT7_Rel_Concerned:IMAN_delete:1"/>
+   </TcExtension>
+   <TcExtension name="BT7_RelSpecifiedCreatePostAction" internal="false" cannedExtension="false"
+       languageType="ANSI_C" libraryName="libBT7_Extensions" description="">
+     <TcExtensionValidity parameter="TYPE:BT7_Rel_Specified:GRM_create:3"/>
+     <TcExtensionValidity parameter="TYPE:BT7_Includes:GRM_create:3"/>
+     <TcExtensionValidity parameter="TYPE:BT7_SUPPLIERSPEC:GRM_create:3"/>
+   </TcExtension>
+   <TcExtension name="BT7_RelSpecifiedCreatePreCondition" internal="false" cannedExtension="false"
+       languageType="ANSI_C" libraryName="libBT7_Extensions" description="">
+     <TcExtensionValidity parameter="TYPE:BT7_Rel_Specified:GRM_create:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_Includes:GRM_create:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_SUPPLIERSPEC:GRM_create:1"/>
+   </TcExtension>
+   <TcExtension name="BT7_RelSpecifiedDeletePreCondition" internal="false" cannedExtension="false"
+       languageType="ANSI_C" libraryName="libBT7_Extensions" description="">
+     <TcExtensionValidity parameter="TYPE:BT7_Rel_Specified:IMAN_delete:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_Includes:IMAN_delete:1"/>
+     <TcExtensionValidity parameter="TYPE:BT7_SUPPLIERSPEC:IMAN_delete:1"/>
+   </TcExtension>
+   <TcExtension name="BT7_RestrictAttibuteSize" internal="false" cannedExtension="true"
+       languageType="CPlusPlus" libraryName="libBT7_Extensions" description="Restrict Subtitle 1 &amp;amp; Subtitle 2 attribute size to 50 from user end, as its internal size is greater than that&lt;br /&gt;&lt;br /&gt;Target Business Object: ItemRevision&lt;br /&gt;&lt;br /&gt;Operation: IMAN_save&lt;br /&gt;&lt;br /&gt;Action: PreCondition">
+     <TcExtensionValidity parameter="TYPE:ItemRevision:IMAN_save:1"/>
+   </TcExtension>
+   <TcExtensionAttach extensionName="BT7_ProductCreatePreCondition" operationName="ITEM_create"
+       isActive="true" extendableElementName="BT7_CommonComp" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductCreatePreCondition" operationName="ITEM_create"
+       isActive="true" extendableElementName="BT7_Component" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductCreatePreCondition" operationName="ITEM_create"
+       isActive="true" extendableElementName="BT7_CompProg" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductCreatePreCondition" operationName="ITEM_create"
+       isActive="true" extendableElementName="BT7_Document" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductCreatePreCondition" operationName="ITEM_create"
+       isActive="true" extendableElementName="BT7_ELCAD" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductCreatePreCondition" operationName="ITEM_create"
+       isActive="true" extendableElementName="BT7_Material" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductCreatePreCondition" operationName="ITEM_create"
+       isActive="true" extendableElementName="BT7_Product" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductCreatePreCondition" operationName="ITEM_create"
+       isActive="true" extendableElementName="BT7_Software" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductSaveAsPreCondition" operationName="ITEM_create_from_rev"
+       isActive="true" extendableElementName="BT7_CommonComp" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductSaveAsPreCondition" operationName="ITEM_create_from_rev"
+       isActive="true" extendableElementName="BT7_Component" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductSaveAsPreCondition" operationName="ITEM_create_from_rev"
+       isActive="true" extendableElementName="BT7_CompProg" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductSaveAsPreCondition" operationName="ITEM_create_from_rev"
+       isActive="true" extendableElementName="BT7_Document" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductSaveAsPreCondition" operationName="ITEM_create_from_rev"
+       isActive="true" extendableElementName="BT7_ELCAD" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductSaveAsPreCondition" operationName="ITEM_create_from_rev"
+       isActive="true" extendableElementName="BT7_Material" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductSaveAsPreCondition" operationName="ITEM_create_from_rev"
+       isActive="true" extendableElementName="BT7_Product" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_ProductSaveAsPreCondition" operationName="ITEM_create_from_rev"
+       isActive="true" extendableElementName="BT7_Software" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_RelConcernedCreatePostAction" operationName="GRM_create"
+       isActive="true" extendableElementName="BT7_Rel_Concerned" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_RelConcernedCreatePreCondition" operationName="GRM_create"
+       isActive="true" extendableElementName="BT7_Rel_Concerned" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_RelConcernedDeletePreCondition" operationName="IMAN_delete"
+       isActive="true" extendableElementName="BT7_Rel_Concerned" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_RelSpecifiedCreatePostAction" operationName="GRM_create"
+       isActive="true" extendableElementName="BT7_Includes" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_RelSpecifiedCreatePostAction" operationName="GRM_create"
+       isActive="true" extendableElementName="BT7_Rel_Specified" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_RelSpecifiedCreatePostAction" operationName="GRM_create"
+       isActive="true" extendableElementName="BT7_SUPPLIERSPEC" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_RelSpecifiedCreatePreCondition" operationName="GRM_create"
+       isActive="true" extendableElementName="BT7_Includes" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_RelSpecifiedCreatePreCondition" operationName="GRM_create"
+       isActive="true" extendableElementName="BT7_Rel_Specified" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_RelSpecifiedCreatePreCondition" operationName="GRM_create"
+       isActive="true" extendableElementName="BT7_SUPPLIERSPEC" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="BT7_RestrictAttibuteSize" operationName="IMAN_save"
+       isActive="true" extendableElementName="ItemRevision" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+</Add>
+</TcBusinessData>

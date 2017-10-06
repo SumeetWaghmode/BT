@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_YesOrNo" lovType="ListOfValuesString" usage="Exhaustive" description="BT7_LOV_YesOrNo">
+      <TcLOVValue value="YES" description="" conditionName="isTrue"/>
+      <TcLOVValue value="NO" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

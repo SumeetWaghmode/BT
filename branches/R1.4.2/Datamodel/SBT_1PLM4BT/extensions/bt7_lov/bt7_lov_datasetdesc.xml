@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_DatasetDesc" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_DatasetDesc">
+     <TcLOVValue value="---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Anschlussschema" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Assembly drawing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bauteileposition" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bezeichnungsvorschrift" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Blank drawing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Collection drawing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Datenblatt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Detail drawing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dimension drawing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Druckvorlage" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EEDesigner-File" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Einzelvariante" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Engineering drawing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Exploded view drw." description="" conditionName="isTrue"/>
+     <TcLOVValue value="Foreign part drawing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fotoplot-/Bohrdaten" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Indexblatt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Integra-File" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kundenfile" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Layoutauftrag" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Layout-Zeichnung" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lieferantenvereinbarung" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lotpaste / Kleber Daten" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lotpaste / Kleber Zeichnung" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NC-Programm" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PCB Fixed components" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PCB Keep-out area" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PCB Outline" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PCB Placem./Keep-out" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PCB Placement area" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prozessdaten und Parameter-Infrastruktur" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prueffile" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Quality Requirements Specification" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RAM-EEProm-Adressliste" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Referece drawing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stueckliste" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stueckliste LP (alle Varianten)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stuecklistenverwaltung" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Supplier drawing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Technical Delivery conditions" description="" conditionName="isTrue"/>
+     <TcLOVValue value="topCad-File" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Typisierungsmitteilung" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VIEWLogic-File" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Work Instruction" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

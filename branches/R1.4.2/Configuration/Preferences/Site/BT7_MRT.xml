@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<preferences version="10.0">
+  <category_description></category_description>
+  <!-- BT7 --> 
+   <category name="Interface.Rich Client">
+    <category_description></category_description>	
+	<preference name="TC_Enable_LegacySaveAs" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates the display of the Legacy Save As dialog for all types in the Teamcenter Rich Client. Starting Teamcenter 11, this preference will be removed.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+  </category>
+  <category name="Configuration.Search">
+    <category_description></category_description>    
+    <preference name="TC_QRY_search_result_display_mode" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the search result display mode.
+Valid values are:
+* 1: The total number of found objects is not displayed. This is the default value.
+* 2: The total number of found objects only accounts for objects for which the user has access privileges.</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+  </category>
+  <category name="Material Management">
+	<category_description>Teamcenter Preferences for Material Management</category_description>
+    <preference name="MATERIALMGMT_material_creator_roles" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the roles allowed to create materials.
+Valid values are the role internal names.</preference_description>
+      <context name="Teamcenter">
+        <value>Material Analyst</value>
+      </context>
+    </preference>
+    <preference name="IMM_MATERIAL_SEARCH_TYPE" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>MANDATORY IMM PREF: Preference to set the search Type for IMM Material search.
+				Value = 0 =&gt; Material Search Type ItemRevision
+				Value = 1 =&gt; Material Search Type Item</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+	 <preference name="IMM_PARAMETER_CATEGORIES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>MANDATORY IMM PREF: Defines the Categories for MetaParameter to be displayed as Tabfolder in the parameter view.</preference_description>
+      <context name="Teamcenter">
+        <value>All</value>
+        <value>Other</value>
+        <value>Mechanical</value>
+        <value>Electrical</value>
+        <value>Thermal</value>
+        <value>Substances</value>
+        <value>Physical</value>
+      </context>
+    </preference>
+	<preference name="IMM_NX_SESSION_UNIT_ALIASNAMES" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>MANDATORY IMM_NX PREF:This preference is needed to map the Unit Alias names(accepted by NX) corresponding (in the same oder) to the Unit Category in the preference IMM_NX_SESSION_UNIT_CATEGORIES. When assigning a Material in NX the MATML will be generated with properties that have those units and their converted values</preference_description>
+      <context name="Teamcenter">
+        <value>J,sec,N/m^2,m,J/kg-K,m^3,kg,A,%,C,m^2,W,W/m-C,10^-3 mm/mm,N,rad,mol,UNITLESS,V,kg/m^3,kg/mol</value>
+      </context>
+    </preference>
+	<!-- Material density double value property formatter settings limited to IMM only -->
+	<preference name="IMM_SESSION_DEFAULT_NUMBER_FORMAT" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Format to be used by IMM during the Session to display double values</preference_description>
+      <context name="Teamcenter">
+        <value>#0.00</value>
+      </context>
+    </preference>
+    <preference name="IMM_SESSION_DEFAULT_NUMBER_FORMAT_LIST" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This TC Preference is used to select the format needed to display the values</preference_description>
+      <context name="Teamcenter">
+        <value>#0.00</value>
+      </context>
+    </preference>
+	
+    <preference name="IMM_TC_Display_Statuses" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>MANDATORY IMM PREF: Statuses to be displayed in IMM TC search criteria.</preference_description>
+      <context name="Teamcenter">
+        <value>Any(-);Locked(5);Pre Release(10);Serial Release(60);Obsolete(90);Annulled(98);</value>
+      </context>
+    </preference>	
+  </category> 	
+  
+  <!-- R1.4.1-->
+   <category name="Interface.NX">
+    <category_description></category_description>
+	<preference name="NX_Supports_VISSC" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Activates NX support of configuration using &quot;VisStructureContext&quot; during a &quot;Send to NX&quot; operation.
+The value must be set to false if using an NX version prior to NX8.5.1.
+The default value is true.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+	</category>
+  <category name="General">
+    <category_description></category_description>
+		<preference name="TC_customization_libraries" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		  <preference_description>SBT - TCE customization library</preference_description>
+		  <context name="Teamcenter">
+			<value>libt4s</value>
+			<value>SBT_Workflow</value>
+			<value>libtcpb</value>			
+			<value>libSCH4tools</value>
+			<value>libSCH4java</value>
+			<value>libSCH4handler</value>
+			<value>libSCH4notif</value>
+			<value>libMDS</value>
+			<value>libtcpb_basetool</value>
+			<value>libtcpb_itktool</value>
+			<value>libSCH4SiemensBT</value>
+		  </context>
+		</preference>
+  </category>
+  <category name="Active Workspace">
+    <category_description></category_description>
+    <preference name="AWC_StartupPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of preferences to be retrieved at startup by the Active Workspace client from the Teamcenter server. Each entry in the list is a valid Teamcenter preference name.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_ColorFiltering</value>
+        <value>AWC_DefaultPageSize</value>
+        <value>AWC_DefaultCreateTypes</value>
+        <value>AWC_GalleryViewerSearchRelations</value>
+        <value>AWC_NX_OpenSupportedTypes</value>
+        <value>AWC_RAC_OpenSupportedTypes</value>
+        <value>AWC_VIS_OpenSupportedTypes</value>
+        <value>TC_NX_Foreign_Datasets</value>
+        <value>AWC_ReqEditor</value>
+        <value>AW_SubLocation_allChangesSubLocation_ViewMode</value>
+        <value>AW_SubLocation_allQuestionsSubLocation_ViewMode</value>
+        <value>AW_SubLocation_allTasksSubLocation_ViewMode</value>
+        <value>AW_SubLocation_answeredQuestionsSubLocation_ViewMode</value>
+        <value>AW_SubLocation_approvedChangesSubLocation_ViewMode</value>
+        <value>AW_SubLocation_disApprovedChangesSubLocation_ViewMode</value>
+        <value>AW_SubLocation_favoritesSubLocation_ViewMode</value>
+        <value>AW_SubLocation_Generic_ViewMode</value>
+        <value>AW_SubLocation_myRecentSubLocation_ViewMode</value>
+        <value>AW_SubLocation_myTasksSubLocation_ViewMode</value>
+        <value>AW_SubLocation_savedChangesSubLocation_ViewMode</value>
+        <value>AW_SubLocation_savedProblemReportsLocation_ViewMode</value>
+        <value>AW_SubLocation_SearchResultsSubLocation_ViewMode</value>
+        <value>AW_SubLocation_showAllReports_ViewMode</value>
+        <value>AW_SubLocation_showMyReports_ViewMode</value>
+        <value>AW_SubLocation_showReportBuilderReports_ViewMode</value>
+        <value>AW_SubLocation_submittedChangesSubLocation_ViewMode</value>
+        <value>AW_SubLocation_submittedProblemReportsLocation_ViewMode</value>
+        <value>AW_SubLocation_surrogateTasksSubLocation_ViewMode</value>
+        <value>AW_SubLocation_tasksToTrackSubLocation_ViewMode</value>
+        <value>AW_SubLocation_teamTasksSubLocation_ViewMode</value>
+        <value>AW_SubLocation_unAnsweredQuestionsSubLocation_ViewMode</value>
+        <value>Pdf_viewer_preference</value>
+        <value>DM_IsBatchPrintingEnabled</value>
+        <value>ICS_classifiable_types</value>
+        <value>ICS_AW_enable_classification</value>
+        <value>AWS_Notifications_Polling_Interval</value>
+        <value>Create_WORKSPACE_OBJECT_mru_list</value>
+        <value>TC_config_rule_name</value>
+        <value>AWC_IPEM_OpenSupportedTypes</value>
+        <value>AWC_SEEC_OpenSupportedTypes</value>
+        <value>AWC_SWIM_OpenSupportedTypes</value>
+        <value>AWC_TCAA_OpenSupportedTypes</value>
+        <value>AWC_TCAI_OpenSupportedTypes</value>
+        <value>AWC_TCIC_OpenSupportedTypes</value>
+        <value>AWC_TCISC_OpenSupportedTypes</value>
+        <value>AWC_OC_OpenSupportedTypes</value>
+        <value>AWC_IPEM_ShowObjectDatasetTypes</value>
+        <value>AWC_SEEC_ShowObjectDatasetTypes</value>
+        <value>AWC_SWIM_ShowObjectDatasetTypes</value>
+        <value>AWC_TCAA_ShowObjectDatasetTypes</value>
+        <value>AWC_TCAI_ShowObjectDatasetTypes</value>
+        <value>AWC_TCIC_ShowObjectDatasetTypes</value>
+        <value>AWC_TCISC_ShowObjectDatasetTypes</value>
+        <value>Create_WorkspaceObject_mru_max</value>
+        <value>AWS_SearchPreFilter_Property1_SelectedValue</value>
+        <value>AWS_SearchPreFilter_Property2_SelectedValue</value>
+        <value>HostConfig_2014_02_OpenSupportedTypes</value>
+        <value>AWC_NX_AddComponentSupportedTypes</value>
+        <value>AWC_NX_OpenRelationBrowserSupportedTypes</value>
+        <value>AWC_NX_OpenRequirementLinksSupportedTypes</value>
+        <value>WEB_default_site_server</value>
+        <value>WEB_default_site_deployed_app_name</value>
+        <value>AWC_HiddenCommands</value>
+        <value>AWS_FullTextSearch_IdxObjIndexedProperties_ObjectData</value>
+        <value>AWBSupportsProductSet</value>
+        <value>AWBBackgroundContextAutoSaveFrequency</value>
+        <value>TC_Fnd0Booleansolve_EffectivityDateRangeFromTo</value>
+        <value>TC_Fnd0Booleansolve_EffectivityIntegerRangeFromTo</value>
+        <value>AW_SubLocation_OccurrenceManagementSubLocation_ViewMode</value>
+        <value>CR_allow_alternate_procedures</value>
+        <value>WRKFLW_allow_resourcepool_assignments</value>
+        <value>WRKFLW_show_user_assignment_options</value>
+        <value>AW_Advanced_Search_Visibility</value>
+        <value>AWC_CustomPropValueColor</value>
+        <value>AWC_CancelEdit_Confirmation</value>
+        <value>AWV0HostAWInVisUponLaunch</value>
+        <value>TraceReport_Default_TraceLink_Type</value>
+        <value>Tracelink_Edit_enabled</value>
+      </context>
+    </preference>
+  </category>  
+</preferences>

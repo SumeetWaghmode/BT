@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ===========================================================================
+
+    The XmlPropertyPolicy will create Policies based on XML configuration files.
+
+   <ObjectPropertyPolicy xmlns="http://teamcenter.com/Schemas/Soa/ObjectPropertyPolicy" >
+        <Include file="site/SiteDefault.xml">
+     <ObjectType name="WorkspaceObject">
+        <Property name="object_string" />
+        <Property name="object_type" />
+           <Property name="reservation" />
+        </ObjectType>
+        <ObjectType name="Folder">
+            <!- inherite WorkspaceObject properties ->
+        </ObjectType>
+        <ObjectType name="User">
+           <Property name="user_id"/>
+           <Property name="user_name"/>
+           <Property name="default_group"/>
+           <Property name="home_folder" withProperties="true"/>
+           <Property name="userinbox"/>
+     </ObjectType>
+     <ObjectType name="Item">
+        <Property name="has_variant_module" />
+        <Property name="is_configuration_item" />
+     </ObjectType>
+        <ObjectType name="ItemRevision">
+        <Property name="view" />
+        <Property name="items_tag" />
+    </ObjectType>
+     <ObjectType name="BOMLine">
+        <Property  name="bl_has_children" />
+        <Property  name="bl_is_variant" />
+        <Preference name="PortalPSEColumnsShownPref" />
+    </ObjectType>
+  </ObjectPropertyPolicy>
+
+    In the above examples Item and ItemReviesion objects will not only have the
+  property values returned for the properties defined under those types but also
+  the properties defined under WorkspaceObject, since WorkspaceObject is the
+  parent object for both Item and ItemRevision. BOMLine objects will have property
+  values for the two properties explicitly named and all of the property names
+    defined in the Preference variable PortalPSEColumnsShownPref.
+
+    Optionally the Property element can include the withProperties attribute. By default the
+    Object Property Policy is applied only to the objects explicitly returned by the service
+    implemenation. So if the service returns a 'User' object and the 'home_folder' property is
+    part of the policy, the referenced 'home_folder' obect will be added to the return data, but
+    without any associated properties. By adding withProperties="true" to the 'home_folder' property,
+    properties for home folder will also be returned.
+
+    Additional types and properties specified in the site/SiteDefault.xml file will be included in this Policy.
+     =========================================================================== -->
+<ObjectPropertyPolicy xmlns="http://teamcenter.com/Schemas/Soa/ObjectPropertyPolicy" >
+   <Include file="site/SiteDefault.xml" />
+
+    <ObjectType name="WorkspaceObject">
+        <Property name="object_string"/>
+        <Property name="object_type"/>
+        <Property name="owning_user"/>
+        <Property name="owning_group"/>
+        <Property name="last_mod_date"/>
+        <Property name="checked_out"/>
+        <Property name="release_status_list"/>
+        <Property name="process_stage_list"/>
+        <Property name="owning_site"/>
+        <Property name="object_desc"/>
+        <Property name="revision_number"/>
+    </ObjectType>
+
+    <ObjectType name="Folder">
+    <!-- inherite WorkspaceObject properties -->
+    </ObjectType>
+
+    <ObjectType name="User">
+        <Property name="user_name"/>
+        <Property name="user_id"/>
+        <Property name="person"/>
+        <Property name="default_group"/>
+        <Property name="home_folder"/>
+        <Property name="newstuff_folder"/>
+        <Property name="userinbox"/>
+        <Property name="user_projects"/>
+        <Property name="license_level"/>
+    </ObjectType>
+
+    <ObjectType name="Group">
+        <Property name="name"/>
+        <Property name="description"/>
+    <Property name="object_full_name"/>
+        <Property name="privilege"/>
+    </ObjectType>
+
+    <ObjectType name="Role">
+        <Property name="role_name"/>
+        <Property name="description"/>
+    </ObjectType>
+
+    <ObjectType name="ImanVolume">
+        <Property name="volume_name"/>
+    </ObjectType>
+
+    <ObjectType name="Person">
+        <Property name="user_name"/>
+        <Property name="PA1"/>
+        <Property name="PA2"/>
+        <Property name="PA3"/>
+        <Property name="PA4"/>
+        <Property name="PA5"/>
+        <Property name="PA6"/>
+        <Property name="PA7"/>
+        <Property name="PA8"/>
+        <Property name="PA9"/>
+        <Property name="PA10"/>
+    </ObjectType>
+
+    <ObjectType name="GroupMember">
+        <Property name="ga"/>
+        <Property name="user_name"/>
+    </ObjectType>
+    
+    <ObjectType name="Discipline">
+        <Property name="discipline_name"/>
+        <Property name="default_rate"/>
+        <Property name="default_currency"/>
+    </ObjectType>
+
+    <ObjectType name="Item">
+        <Property name="has_variant_module"/>
+        <Property name="is_configuration_item"/>
+        <Property name="is_vi"/>
+    </ObjectType>
+
+
+
+    <ObjectType name="ItemRevision">
+        <Property name="view"/>
+        <Property name="has_variant_module"/>
+        <Property name="is_vi"/>
+        <Property name="items_tag"/>
+        <Property name="is_IRDC"/>
+        <Property name="fms_tickets"/>
+        <Property name="fnd0IRDCUsed"/>
+        <Property name="current_id"/>				<!-- For SBT by ACN -->
+        <Property name="current_revision_id"/>		<!-- For SBT by ACN -->		
+    </ObjectType>
+    <ObjectType name="TransferMode">
+        <Property name="object_name"/>
+        <Property name="object_desc"/>
+        <Property name="context_string"/>
+        <Property name="direction"/>
+        <Property name="incremental"/>
+        <Property name="schema_format"/>
+        <Property name="multi_site"/>
+        <Property name="closure_rules"/>
+        <Property name="filters"/>
+        <Property name="prop_sets"/>
+        <Property name="xslt_files"/>
+        <Property name="config_objs"/>
+        <Property name="action_list"/>
+    </ObjectType>
+    <ObjectType name="ClosureRule">
+        <Property name="name"/>
+        <Property name="description"/>
+        <Property name="scope"/>
+        <Property name="schema_format"/>
+        <Property name="clauses"/>
+    </ObjectType>
+    <ObjectType name="Filter">
+        <Property name="name"/>
+        <Property name="description"/>
+        <Property name="scope"/>
+        <Property name="schema_format"/>
+        <Property name="clauses"/>
+    </ObjectType>
+    <ObjectType name="PIEActionRule">
+        <Property name="name"/>
+        <Property name="description"/>
+        <Property name="scope"/>
+        <Property name="schema_format"/>
+        <Property name="actionLocation"/>
+        <Property name="actionName"/>
+    </ObjectType>
+    <ObjectType name="PropertySet">
+        <Property name="name"/>
+        <Property name="description"/>
+        <Property name="scope"/>
+        <Property name="clauses"/>
+    </ObjectType>
+    <ObjectType name="TransferOptionSet">
+        <Property name="object_name"/>
+        <Property name="object_desc"/>
+        <Property name="scope"/>
+        <Property name="site"/>
+        <Property name="transfermode"/>
+        <Property name="option_realnames"/>
+        <Property name="option_displaynames"/>
+        <Property name="option_initialvalues"/>
+        <Property name="option_groupnames"/>
+        <Property name="option_descriptions"/>
+        <Property name="option_readonlyflags"/>
+    </ObjectType>
+
+    <ObjectType name="TC_Project">
+        <Property name="project_id"/>
+        <Property name="project_name"/>
+        <Property name="project_desc"/>
+        <Property name="is_active"/>
+        <Property name="object_name"/>
+        <Property name="object_string"/>
+        <Property name="object_desc"/>
+    </ObjectType>
+
+    <ObjectType name="TC_WorkContext">
+        <Property name="object_string"/>
+        <Property name="object_name"/>
+        <Property name="object_desc"/>
+        <Property name="loginuser_groupmember"/>
+        <Property name="workcontext_name"/>
+        <Property name="workcontext_desc"/>
+    </ObjectType>
+
+<!--  <PDJ>   6-Oct-2005
+      Removed GCS CP as behavior that depended on it has been moved to server. Also got rid of UG
+      NAME, Charles included it in original version & doesn't know why. Removing these two
+      properties means we're no longer force loading occ notes, unless notes columns are actually
+      being displayed.
+-->
+    <ObjectType name="BOMLine">
+        <Property name="bl_has_children"/>
+        <Property name="bl_is_variant"/>
+        <Property name="bl_has_substitutes"/>
+        <Property name="bl_is_packed"/>
+        <Property name="bl_is_orphan"/>
+        <Property name="bl_is_all_history_line"/>
+        <Property name="bl_load_state"/>
+        <Property name="bl_has_module"/>
+        <Property name="bl_is_vi"/>
+        <Property name="bl_has_global_alternates"/>
+        <Property name="bl_view_type"/>
+        <Property name="bl_indented_title"/>
+        <Property name="bl_affecting_ice_types"/>
+        <Property name="bl_item"/>
+        <Property name="bl_item_owning_site"/>
+        <Property name="bl_revision"/>
+        <Property name="bl_parent"/>
+        <Property name="bl_window"/>
+        <Property name="bl_quantity"/>
+        <Property name="bl_appearance"/>
+        <Property name="bl_is_pending_cut"/>
+        <Property name="bl_quick_num_children"/>
+        <Property name="bl_pack_master"/>
+        <Property name="bl_sequence_no"/>
+        <Property name="bl_item_uom_tag"/>
+        <Property name="bl_rev_release_status_list"/>
+        <Property name="bl_rev_has_variants"/>
+        <Property name="bl_variant_state"/>
+        <Property name="bl_variant_condition"/>
+        <Property name="bl_compare_change"/>
+        <Property name="bl_quantity_change"/>
+        <Property name="bl_revision_change"/>
+        <Property name="bl_rev_object_type"/>
+        <Property name="bl_formatted_title"/>
+        <Property name="bl_rev_checked_out"/>
+        <Property name="bl_rev_checked_out_user"/>
+        <Property name="bl_fg_colour_int_as_str"/>
+        <Property name="bl_bg_colour_int_as_str"/>
+        <Property name="bl_is_precise"/>
+        <Property name="bl_properties_in_context"/>
+        <Property name="bl_property_context_tags"/>
+        <Property name="bl_property_ic_context_types"/>
+        <Property name="bl_visible_parent"/>
+        <Property name="bl_occ_type"/>
+        <Property name="bl_line_object"/>
+        <Property name="bl_is_classified"/>
+        <Property name="bl_pending_edit_status"/>
+        <Property name="bl_item_object_desc"/>
+        <Property name="bl_occurrence"/>
+        <!-- [weissjue 3/4/2007] additional attributes to determine BOM line icon
+        <Property name="bl_occurrence"/>
+        <Property name="bl_clone_stable_occurrence_id"/>
+        <    (see com.teamcenter.rac.cme.common.CMEBOMLineNode.setBOMLineIcon()) -->
+        <Property name="bl_item_has_variant_module"/>
+        <Property name="bl_rev_is_vi"/>
+        <!-- -->
+        <Preference name="PortalPSEColumnsShownPref"/>
+        <Preference name="ProductColumnsShownPref"/>
+        <Preference name="WorkareaColumnsShownPref"/>
+    </ObjectType>
+
+
+    <ObjectType name="BOPLine">
+        <Property name="bl_me_refobj"/>
+        <Property name="bl_me_op_has_useditems"/>
+    </ObjectType>
+
+    <ObjectType name="ImanItemBOPLine">
+        <!-- [weissjue 3/4/2007] copy line attributes, because properties for BOPLine
+        <    are not propagated to ImanItemBOPLine -->
+        <Property name="bl_me_refobj"/>
+        <Property name="bl_me_op_has_useditems"/>
+        <!-- -->
+        <Preference name="ProcessColumnsShownPref"/>
+    </ObjectType>
+
+    <ObjectType name="GDEBOPLine">
+        <Preference name="ProcessColumnsShownPref"/>
+    </ObjectType>
+
+    <ObjectType name="AppGroupBOPLine">
+        <Preference name="ProcessColumnsShownPref"/>
+        <Property name="bl_me_appgroup"/>
+    </ObjectType>
+
+    <ObjectType name="BOMWindow">
+        <Property name="top_line"/>
+        <Property name="revision_rule"/>
+        <Property name="engineering_change"/>
+        <Property name="ec_flag"/>
+        <Property name="appearance_root"/>
+        <Property name="has_occupancy_cache"/>
+        <Property name="show_unconfigured_variants"/>
+        <Property name="icm_flag"/>
+        <Property name="show_unconfigured_changes"/>
+        <Property name="is_packed_by_default"/>
+        <Property name="is_tracking_appearances"/>
+        <Property name="ove_ignore_errors"/>
+        <Property name="ove_message_error_level"/>
+        <Property name="incr_change_rev"/>
+        <Property name="show_out_of_context_lines"/>
+    </ObjectType>
+
+
+
+    <ObjectType name="BOPWindow">
+    </ObjectType>
+
+    <ObjectType name="EffectivityMapping">
+        <Property name="effectivity"/>
+        <Property name="sub_unit"/>
+        <Property name="sub_date"/>
+        <Property name="sub_end_item"/>
+        <Property name="sub_end_itemrev"/>
+    </ObjectType>
+
+    <ObjectType name="Effectivity">
+        <Property name="end_item"/>
+        <Property name="end_item_rev"/>
+        <Property name="range_text"/>
+        <Property name="unit_range_text"/>
+        <Property name="effectivity_dates"/>
+        <Property name="date_open_ended_status"/>
+        <Property name="unit_open_ended_status"/>
+        <Property name="range_type"/>
+        <Property name="effectivity_protection"/>
+    </ObjectType>
+
+
+    <ObjectType name="Dataset">
+        <Property name="revision_number"/>
+        <Property name="fnd0IsSignable"/>
+        <Property name="fnd0IsCheckOutForSign"/>
+    </ObjectType>
+
+    <ObjectType name="RevisionRule">
+        <Property name="object_name"/>
+        <Property name="object_desc"/>
+        <Property name="object_string"/>
+        <Property name="user_visible"/>
+        <Property name="suppressed"/>
+    </ObjectType>
+
+    <ObjectType name="SCMServer">
+        <Property name="scm_type"/>
+        <Property name="object_name"/>
+        <Property name="scm_server_uuid"/>
+        <Property name="scm_replica_id"/>
+    </ObjectType>
+
+    <ObjectType name="SCMConfigContext">
+        <Property name="scm_config_type"/>
+        <Property name="scm_config_rule"/>
+        <Property name="scm_server"/>
+    </ObjectType>
+
+    <ObjectType name="SCMElement">
+        <Property name="object_name"/>
+        <Property name="scm_element_path"/>
+        <Property name="scm_element_type"/>
+        <Property name="scm_server"/>
+    </ObjectType>
+
+    <ObjectType name="SCMCompoundElement">
+        <Property name="object_name"/>
+        <Property name="scm_elements"/>
+        <Property name="scm_server"/>
+    </ObjectType>
+
+    <ObjectType name="SCMVersionObject">
+        <Property name="object_name"/>
+        <Property name="scm_config_context"/>
+        <Property name="scm_element"/>
+        <Property name="scm_checkout_view"/>
+    </ObjectType>
+
+    <ObjectType name="AllocationLine">
+        <Property name="allocation_line_name"/>
+        <Property name="allocation_line_type"/>
+        <Property name="allocation_line_allocation"/>
+        <Property name="allocation_line_window"/>
+        <Property name="allocation_line_sources"/>
+        <Property name="allocation_line_targets"/>
+        <Property name="allocation_line_reason"/>
+        <Property name="allocation_line_condition"/>
+        <Property name="allocation_line_ic_name_list"/>
+        <Property name="allocation_line_conf_ic_name_list"/>
+        <Property name="allocation_line_is_conf_by_ic"/>
+        <Property name="allocation_line_is_changed_by_ic"/>
+        <Property name="allocation_line_is_added_by_ic"/>
+        <Property name="allocation_line_is_removed_by_ic"/>
+        <Property name="allocation_line_ic_effectivity"/>
+        <Property name="allocation_line_ic_release_status"/>
+        <Property name="allocation_line_ic_intent"/>
+        <Property name="allocation_line_affecting_ice_types"/>
+        <Property name="allocation_line_ice_tags"/>
+    </ObjectType>
+
+    <ObjectType name="POM_imc">
+        <Property name="site_id"/>
+        <Property name="name"/>
+    </ObjectType>
+    <ObjectType name="AllocationLine">
+
+    </ObjectType>
+    <ObjectType name="IncrementalChangeElement">
+        <Property name="change_type"/>
+    </ObjectType>
+
+    <ObjectType name="AllocationWindow">
+        <Property name="allocation_window_context"/>
+        <Property name="allocation_window_revrule"/>
+        <Property name="allocation_window_icm_flag"/>
+        <Property name="allocation_window_icrev"/>
+    </ObjectType>
+
+
+    <!-- Application Interface related -->
+    <ObjectType name="AppInterface">
+        <Property name="request_objects"/>
+        <Property name="object_name"/>
+        <Property name="object_desc"/>
+        <Property name="owning_user"/>
+        <Property name="owning_group"/>
+        <Property name="tm_export"/>
+        <Property name="tm_import"/>
+    </ObjectType>
+    <ObjectType name="RequestObject">
+        <Property name="request_type"/>
+        <Property name="status"/>
+        <Property name="status_msg"/>
+        <Property name="state"/>
+        <Property name="state_msg"/>
+        <Property name="update_type"/>
+        <Property name="processed_on"/>
+        <Property name="processed_by"/>
+        <Property name="scope"/>
+        <Property name="object_name"/>
+        <Property name="object_desc"/>
+        <Property name="can_process"/>
+    </ObjectType>
+    <ObjectType name="TransferMode">
+        <Property name="object_name"/>
+        <Property name="object_desc"/>
+    </ObjectType>
+    <ObjectType name="EPMTaskTemplate">
+        <Property name="template_name"/>
+    </ObjectType>
+    <ObjectType name="IncrementalChangeElement">
+        <Property name="change_type"/>
+    </ObjectType>
+
+<!-- Calendar related -->
+    <ObjectType name="TCCalendar">
+        <Property name="base_calendar_tag"/>
+                <Property name="tccal_name"/>
+                <Property name="tccal_desc"/>
+        <Property name="sun_ranges"/>
+        <Property name="mon_ranges"/>
+        <Property name="tue_ranges"/>
+        <Property name="wed_ranges"/>
+        <Property name="thu_ranges"/>
+        <Property name="fri_ranges"/>
+        <Property name="sat_ranges"/>
+        <Property name="tccal_type"/>
+        <Property name="time_zone"/>
+    </ObjectType>
+
+    <ObjectType name="TCCalendarEvent">
+    <Property name="event_expiry_date"/>
+        <Property name="event_range"/>
+        <Property name="event_type"/>
+        <Property name="first_recur_end"/>
+        <Property name="first_recur_start"/>
+        <Property name="num_recurrences"/>
+        <Property name="recur_days_of_week"/>
+        <Property name="recur_interval"/>
+        <Property name="recur_month"/>
+        <Property name="recur_weeks_of_month"/>
+        <Property name="tccalendar_tag"/>
+    </ObjectType>
+
+
+    <ObjectType name="Range">
+    <Property name="range_start"/>
+        <Property name="range_end"/>
+    </ObjectType>
+
+<!-- Scheduling in PLM1 -->
+    <ObjectType name="Schedule">
+        <Property name="object_name"/>
+        <Property name="object_desc"/>
+        <Property name="activeschbaseline_tag"/>
+        <Property name="customer_name"/>
+        <Property name="customer_number"/>
+        <Property name="is_baseline"/>
+        <Property name="base_schedule_cost"/>
+        <Property name="schedule_deliverable_list"/>
+        <Property name="fnd0SummaryTask"/>
+        <Property name="schedulemember_taglist"/>
+        <Property name="start_date"/>
+        <Property name="sum_rollup_status"/>
+        <Property name="finish_date"/>
+        <Property name="priority"/>
+        <Property name="status"/>
+        <Property name="published"/>
+        <Property name="links_allowed"/>
+        <Property name="rights_mask"/>
+        <Property name="dates_linked"/>
+        <Property name="percent_linked"/>
+        <Property name="is_template"/>
+        <Property name="schedule_type"/>
+        <Property name="is_public"/>
+        <Property name="act_date_preference"/>
+        <Property name="sch_notification_count"/>
+        <Property name="sch_subscription_count"/>
+
+        <Property name="notifications_enabled"/>
+        <Property name="wbsformat"/>
+        <Property name="wbsvalue"/>
+        <Property name="end_date_scheduling"/>
+        <Property name="recalc_type"/>
+    </ObjectType>
+
+    <ObjectType name="ScheduleTask">
+        <Property name="object_name"/>
+        <Property name="object_desc"/>
+
+        <Property name="schedule_tag"/>
+        <Property name="ms_integration_link"/>
+        <Property name="is_baseline"/>
+        <Property name="baseline_var_cost"/>
+        <Property name="original_task_tag"/>
+        
+        <Property name="child_task_taglist"/>
+        <Property name="fnd0ParentTask"/>
+        <Property name="privileged_user"/>
+        <Property name="priority"/>
+        <Property name="fixed_type"/>
+        <Property name="auto_complete"/>
+        <Property name="task_type"/>
+        <Property name="constraint"/>
+
+        <Property name="start_date"/>
+        <Property name="finish_date"/>
+        <Property name="work_estimate"/>
+        <Property name="duration"/>
+        <Property name="sch_task_notification_count"/>
+        <Property name="sch_task_subscription_count"/>
+        <Property name="workflow_template"/>
+        <Property name="workflow_trigger_type"/>
+        <Property name="sch_task_deliverable_list"/>
+        <Property name="wbs_code"/>
+        <Property name="approved_work"/>
+
+        <Property name="cost_form_info"/>
+        <Property name="bill_type"/>
+        <Property name="billrate_tag"/>
+        <Property name="bill_code"/>
+        <Property name="bill_sub_code"/>
+        <Property name="fixed_cost_taglist"/>
+
+        <Property name="work_complete"/>
+        <Property name="complete_percent"/>
+        <Property name="actual_start_date"/>
+        <Property name="actual_finish_date"/>
+        <Property name="status"/>
+        <Property name="workflow_process"/>
+        <Property name="ResourceAssignment"/>
+        <Property name="approved_work"/>
+    </ObjectType>
+
+    <ObjectType name="ResourceAssignment">
+        <Property name="primary_object"/>
+        <Property name="secondary_object"/>
+        <Property name="resource_level"/>
+        <Property name="discipline"/>
+    </ObjectType>
+    <ObjectType name="TaskDependency">
+        <Property name="secondary_object"/>
+        <Property name="primary_object"/>
+        <Property name="dependency_type"/>
+        <Property name="lag_time"/>
+    </ObjectType>
+
+    <ObjectType name="SchDeliverable">
+        <Property name="deliverable_type"/>
+        <Property name="deliverable_name"/>
+        <Property name="deliverable_inst"/>
+    </ObjectType>
+
+    <ObjectType name="SchTaskDeliverable">
+        <Property name="schedule_deliverable"/>
+        <Property name="submit_type"/>
+    </ObjectType>
+  
+    <ObjectType name="ScheduleMember">
+        <Property name="member_priv"/>
+        <Property name="resource_tag" />
+        <Property name="costvalue_form_tag"/>
+    </ObjectType>
+  
+    <ObjectType name="BillRate">
+        <Property name="object_name"/>
+        <Property name="tc_type"/>
+        <Property name="costvalue_form_tag"/>
+    </ObjectType>
+
+    <ObjectType name="SchedulingFixedCost">
+        <Property name="cost_name"/>
+        <Property name="accrual_type"/>
+        <Property name="use_actual_cost"/>
+        <Property name="bill_code"/>
+        <Property name="bill_sub_code"/>
+        <Property name="bill_type"/>
+    </ObjectType>
+
+    <ObjectType name="CostValue">
+        <Property name="cost"/>
+        <Property name="currency"/>
+    </ObjectType>
+
+    <ObjectType name="SchMgtCostFormStorage">
+        <Property name="bill_code"/>
+        <Property name="bill_sub_code"/>
+        <Property name="bill_type"/>
+        <Property name="billrate_tag"/>
+        <Property name="fixed_cost_taglist"/>
+    </ObjectType>
+
+    <ObjectType name="TimeSheetEntry">
+        <Property name="date"/>
+        <Property name="minutes"/>
+        <Property name="billrate_tag"/>
+        <Property name="bill_code"/>
+        <Property name="bill_sub_code"/>
+        <Property name="bill_type"/>
+        <Property name="scheduletask_tag"/>
+        <Property name="user_tag"/>
+    </ObjectType>
+
+
+<!-- DMTemplateRevision -->
+    <ObjectType name="DMTemplateRevision">
+        <Property name="ApplicationName"/>
+        <Property name="ApplicationRelation"/>
+        <Property name="ApplicationVersion"/>
+        <Property name="ItemTypesToCreate"/>
+        <Property name="TemplateType"/>
+        <Property name="TemplateUnits"/>
+    </ObjectType>
+
+    <ObjectType name="ImanQuery">
+        <Property  name="query_class" />
+        <Property  name="query_name" />
+        <Property  name="query_flag" />
+        <Property  name="query_desc" />
+        <Property  name="results_type" />
+    </ObjectType>
+
+    <ObjectType name="ReportDefinition">
+        <Property  name="rd_class" />
+        <Property  name="rd_description" />
+        <Property  name="rd_folder_name" />
+        <Property  name="rd_id" />
+        <Property  name="rd_name" />
+        <Property  name="rd_param_values" />
+        <Property  name="rd_parameters" />
+        <Property  name="rd_property_source" />
+        <Property  name="rd_query_source" />
+        <Property  name="rd_source" />
+        <Property  name="rd_state" />
+        <Property  name="rd_style_sheets" />
+        <Property  name="rd_type" />
+        <Property  name="owning_user" />
+    </ObjectType>
+    
+    <ObjectType name="ExcelTemplate">
+        <Property  name="object_name" />
+    </ObjectType>
+    
+    <ObjectType name="SpecTemplate">
+        <Property  name="object_name" />
+    </ObjectType>
+    
+    <ObjectType name="CrfQuerySource">
+        <Property  name="qry_src_tc_transfer_mode" />
+    </ObjectType>
+
+    <ObjectType name="DispatcherRequest">
+        <Property name="currentState"/>
+        <Property name="providerName"/>
+        <Property name="serviceName"/>
+        <Property name="priority"/>
+        <Property name="primaryObjects"/>
+        <Property name="secondaryObjects"/>
+        <Property name="taskID"/>
+        <Property name="historyStates"/>
+        <Property name="historyDates"/>
+        <Property name="argumentKeys"/>
+        <Property name="argumentData"/>
+        <Property name="dataFilesKeys"/>
+        <Property name="dataFiles"/>
+        <Property name="startTime"/>
+        <Property name="endTime"/>
+        <Property name="interval"/>
+        <Property name="type"/>
+        <Property name="mode"/>
+        <Property name="creation_date"/>
+        <Property name="owning_user"/>
+        <Property name="owning_group"/>
+        <Property name="last_mod_user"/>
+        <Property name="owning_site"/>
+        <Property name="last_mod_date"/>
+    </ObjectType>
+
+    <ObjectType name="Mdl0ApplicationModel">
+        <Property  name="mdl0model_id" />
+        <Property  name="mdl0revision_id" />
+        <Property  name="mdl0config_prod_namespace" />
+        <Property  name="mdl0config_product_name" />
+    </ObjectType>
+
+    <ObjectType name="ConfigurationFamily">
+        <Property  name="description" />
+        <Property  name="isMandatory" />
+        <Property  name="isModelFamily" />
+        <Property  name="mode" />
+        <Property  name="name" />
+        <Property  name="namespace" />
+        <Property  name="uom" />
+    </ObjectType>
+  
+    <ObjectType name="Mdl0SearchOptionSet">
+        <Property name="mdl0optionNames" />
+        <Property name="mdl0optionValues" />
+        <Property name="mdl0optionSet" />
+    </ObjectType>
+    
+    <ObjectType name="VisualReportDefinition">
+        <Property name="object_name"/>
+        <Property name="full_name"/>
+        <Property name="application"/>
+        <Property name="owning_user"/>
+        <Property name="creation_date"/>
+        <Property name="last_mod_date"/>
+        <Property name="owning_group"/>
+    </ObjectType>
+    
+    <ObjectType name="Fnd0SubscriptionTemplate">
+        <Property name="object_name"/>
+        <Property name="object_desc"/>
+        <Property name="fnd0ClosureRule"/>
+        <Property name="fnd0SubscribedObjectType"/>
+        <Property name="fnd0TargetObjectType"/>
+        <Property name="fnd0SubscribedAttrNames"/>
+        <Property name="fnd0SubscribedAttrValues"/>
+        <Property name="fnd0SubscribedLogicOps"/>     
+        <Property name="fnd0SubscribedMathOps"/>     
+        <Property name="fnd0TargetAttrNames"/>    
+        <Property name="fnd0TargetAttrValues"/>      
+        <Property name="fnd0TargetLogicOps"/>         
+        <Property name="fnd0TargetMathOps"/>  
+        <Property name="fnd0ValidAccessors"/>  
+    </ObjectType>
+</ObjectPropertyPolicy>
+
+

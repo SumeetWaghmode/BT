@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_AlternateUOM" lovType="ListOfValuesString" usage="Exhaustive"
+       description="BT7_LOV_AlternateUOM">
+     <TcLOVValue value="---|---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ST (Stueck)|PCS (Piece)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MA (Mitarbeiter)|STF (Staff)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L (Liter)|L (Liter)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KG (Kilogramm)|KG (Kilogram)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="M (Meter)|M (Meter)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="M2 (Quadratmeter)|SQM (Square meter)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PAL (Palette)|PAL (Pallet)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T (Tage)|D (Day)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KI (Kiste)|B (Box)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BL (Blatt)|PG (Page)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MIN (Minute)|MIN (Minute)" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

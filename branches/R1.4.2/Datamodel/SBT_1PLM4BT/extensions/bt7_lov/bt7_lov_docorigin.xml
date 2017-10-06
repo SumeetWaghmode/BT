@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_DocOrigin" lovType="ListOfValuesString" usage="Exhaustive"
+       description="BT7_LOV_DocOrigin">
+     <TcLOVValue value="---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Teamcenter Rastatt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TC Enterprise Zug" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

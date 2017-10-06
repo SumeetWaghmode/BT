@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="cl /c /Zi /nologo /w /WX- /O2 /Oi /Gm- /TP /EHsc /MD /Gs /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /Gd /c /nologo /DNDEBUG /MD /DWIN64 /DNDEBUG /D_WINDOWS /D_USRDLL /DIPLIB=none /D_WINDLL /I..\..\..\dump\112\include /I..\..\..\dump\112\include_cpp /I..\..\..\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\DLL_Projects\SBT_Workflow\src /I..\..\..\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\DLL_Projects\WEMH_Common /I..\..\..\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\DLL_Projects\SBT_Workflow\lib /IC:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include /I..\..\..\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\DLL_Projects\SBT_Workflow\incl">
+      <target file="SBT_Invoke_PDM_Server.obj" lastModified="15ee1fa3bb0">
+         <source file="..\src\SBT_Invoke_PDM_Server.cpp" lastModified="15cd48b1fe1"/>
+      </target>
+      <target file="SBT_Workflow_Attributes.obj" lastModified="15ee1fa928c">
+         <source file="..\src\SBT_Workflow_Attributes.cpp" lastModified="15cd48b202c"/>
+      </target>
+      <target file="SBT_ItemRevision.obj" lastModified="15ee1fa2736">
+         <source file="..\src\SBT_ItemRevision.cpp" lastModified="15cd48b1fef"/>
+      </target>
+      <target file="SBT_User_ItemID.obj" lastModified="15ee1fa3c70">
+         <source file="..\src\SBT_User_ItemID.cpp" lastModified="15cd48b2008"/>
+      </target>
+      <target file="sbt_rh_checkRevsInProc.obj" lastModified="15ee1fa2800">
+         <source file="..\src\sbt_rh_checkRevsInProc.cpp" lastModified="15d5f35f511"/>
+      </target>
+      <target file="SBT_ah_multiselect_effectivity.obj" lastModified="15ee1fa91dd">
+         <source file="..\src\SBT_ah_multiselect_effectivity.cpp" lastModified="15cd48b1f9f"/>
+      </target>
+      <target file="SBT_Utilities_Mail.obj" lastModified="15ee1fa26dd">
+         <source file="..\src\SBT_Utilities_Mail.cpp" lastModified="15cd48b201e"/>
+      </target>
+      <target file="SBT_Utilities.obj" lastModified="15ee1fa4121">
+         <source file="..\src\SBT_Utilities.cpp" lastModified="15cd48b1f73"/>
+      </target>
+      <target file="SBT_Workflow_Elec3D_Handlers.obj" lastModified="15ee1fa900d">
+         <source file="..\src\SBT_Workflow_Elec3D_Handlers.cpp" lastModified="15cd48b1f95"/>
+      </target>
+      <target file="SBT_01.obj" lastModified="15ee1fa3dbc">
+         <source file="..\src\SBT_01.cpp" lastModified="15cd48b1fc8"/>
+      </target>
+      <target file="SBT_Workflow_register_handler.obj" lastModified="15ee1fa3d60">
+         <source file="..\src\SBT_Workflow_register_handler.cpp" lastModified="15d3fd59173"/>
+      </target>
+      <target file="rghStrs.obj" lastModified="15ee1fa98d7">
+         <source file="..\src\rghStrs.cpp" lastModified="15cd48b2045"/>
+      </target>
+      <target file="SBT_Workflow_Exit_Handlers.obj" lastModified="15ee1fab734">
+         <source file="..\src\SBT_Workflow_Exit_Handlers.cpp" lastModified="15ee1f98959"/>
+      </target>
+      <target file="SBT_RH_checkOwningGroup.obj" lastModified="15ee1fa25fc">
+         <source file="..\src\SBT_RH_checkOwningGroup.cpp" lastModified="15cd48b1f9a"/>
+      </target>
+      <target file="SBT_User_BOMCompareMode.obj" lastModified="15ee1fa9270">
+         <source file="..\src\SBT_User_BOMCompareMode.cpp" lastModified="15cd48b2004"/>
+      </target>
+      <target file="SBT_Item.obj" lastModified="15ee1fa298d">
+         <source file="..\src\SBT_Item.cpp" lastModified="15cd48b1fe5"/>
+      </target>
+      <target file="SBT_Workflow_CO_Handlers.obj" lastModified="15ee1fa9839">
+         <source file="..\src\SBT_Workflow_CO_Handlers.cpp" lastModified="15cd48b1fab"/>
+      </target>
+      <target file="SBT_Workflow.obj" lastModified="15ee1fa278b">
+         <source file="..\src\SBT_Workflow.cpp" lastModified="15cd48b2027"/>
+      </target>
+      <target file="ItemRevStatusCsvReport.obj" lastModified="15ee1fa9038">
+         <source file="..\src\ItemRevStatusCsvReport.cpp" lastModified="15cd48b1fc4"/>
+      </target>
+      <target file="SBT_Workflow_dll.obj" lastModified="15ee1fa3b22">
+         <source file="..\src\SBT_Workflow_dll.cpp" lastModified="15cd48b2031"/>
+      </target>
+      <target file="SBT_File.obj" lastModified="15ee1fa27ab">
+         <source file="..\src\SBT_File.cpp" lastModified="15cd48b1fd9"/>
+      </target>
+      <target file="SBT_Workflow_Status_Handlers.obj" lastModified="15ee1fa98c3">
+         <source file="..\src\SBT_Workflow_Status_Handlers.cpp" lastModified="15cd48b1fb5"/>
+      </target>
+      <target file="SBT_Utilities_d.obj" lastModified="15ee1fa98f4">
+         <source file="..\src\SBT_Utilities_d.cpp" lastModified="15cd48b2021"/>
+      </target>
+      <target file="SBT_Utilities_Common.obj" lastModified="15ee1fa4211">
+         <source file="..\src\SBT_Utilities_Common.cpp" lastModified="15cd48b2018"/>
+      </target>
+      <target file="SBT_Workflow_CCR_Handlers.obj" lastModified="15ee1fa3b01">
+         <source file="..\src\SBT_Workflow_CCR_Handlers.cpp" lastModified="15cd48b1f8c"/>
+      </target>
+      <target file="SBT_Workspaceobject.obj" lastModified="15ee1fa2768">
+         <source file="..\src\SBT_Workspaceobject.cpp" lastModified="15d0d8a6f24"/>
+      </target>
+      <target file="SBT_Workflow_register_properties.obj" lastModified="15ee1fa92cf">
+         <source file="..\src\SBT_Workflow_register_properties.cpp" lastModified="15cd48b203a"/>
+      </target>
+      <target file="SBT_Workflow_grouphandler.obj" lastModified="15ee1fa4209">
+         <source file="..\src\SBT_Workflow_grouphandler.cpp" lastModified="15cd48b2037"/>
+      </target>
+      <target file="SBT_Query.obj" lastModified="15ee1fa2969">
+         <source file="..\src\SBT_Query.cpp" lastModified="15cd48b1ffa"/>
+      </target>
+      <target file="SBT_User_Properties.obj" lastModified="15ee1fa2757">
+         <source file="..\src\SBT_User_Properties.cpp" lastModified="15cd48b2012"/>
+      </target>
+      <target file="SBT_Dataset.obj" lastModified="15ee1fa2729">
+         <source file="..\src\SBT_Dataset.cpp" lastModified="15cd48b1fd1"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<preferences version="10.0">
+	<category name="PLM-Easy.BaseIni">
+	<category_description/>
+		<preference name="TCPB_CopyDataSetNames" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - CopyDataSetNames</preference_description>
+			<context name="Teamcenter">
+				<value>UGALTREP.IMAN_UG_altrep=%s-%s~ITEMID~REVID</value>
+				<value>UGALTREP=%s-%s~ITEMID~REVID</value>
+				<value>UGMASTER=%s-%s~ITEMID~REVID</value>
+				<value>UGPART.IMAN_manifestation=%s-%s~ITEMID~REVID</value>
+				<value>UGPART=%s-%s~ITEMID~REVID</value>
+				<value>DirectModel=%s-%s~ITEMID~REVID</value>
+				<value>DirectModel.IMAN_rendering=%s-%s~ITEMID~REVID</value>
+				<value>PDF=%s-%s~ITEMID~REVID</value>
+				<value>MSWord=%s-%s~ITEMID~REVID</value>
+				<value>MSWordX=%s-%s~ITEMID~REVID</value>
+				<value>MSExcel=%s-%s~ITEMID~REVID</value>
+				<value>MSExcelX=%s-%s~ITEMID~REVID</value>
+				<value>MSPowerPoint=%s-%s~ITEMID~REVID</value>
+				<value>MSPowerPointX=%s-%s~ITEMID~REVID</value>
+				<value>MSProject=%s-%s~ITEMID~REVID</value>
+				<value>Zip=%s-%s~ITEMID~REVID</value>
+				<value>BT7_TIFF=%s-%s~ITEMID~REVID</value>
+				<value>BT7_TIFF_Scan=%s-%s~ITEMID~REVID</value>
+				<value>BT7_CorelDesigner=%s-%s~ITEMID~REVID</value>
+				<value>BT7_AutoSketch=%s-%s~ITEMID~REVID</value>
+				<value>BT7_SoftwareData=%s-%s~ITEMID~REVID</value>
+				<value>BT7_Integra=%s-%s~ITEMID~REVID</value>
+				<value>BT7_Integra_SQL=%s-%s~ITEMID~REVID</value>
+				<value>BT7_Integra_Mask_Drill=%s-%s~ITEMID~REVID</value>
+				<value>BT7_FluidDraw=%s-%s~ITEMID~REVID</value>
+				<value>BT7_EngChangeDoc=%s-%s~ITEMID~REVID</value>
+				<value>BT7_PCBLayoutOrder=%s-%s~ITEMID~REVID</value>
+				<value>UseImanPreference=1</value>
+				<value>NameModifiable=1</value>
+				<value>ValidationRequired=0</value>
+				<value>UseOrginalOwner=0</value>
+				<value>CopyState=2</value>
+				<value>CopyState.IMAN_specification=2</value>
+			</context>
+		</preference>
+	</category>
+</preferences>

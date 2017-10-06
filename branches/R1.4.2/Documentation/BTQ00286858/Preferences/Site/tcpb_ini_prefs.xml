@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<preferences version="10.0">
+	<category name="PLM-Easy.BaseIni">
+	<category_description/>
+		<preference name="TCPB_Global" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - GLOBAL</preference_description>
+			<context name="Teamcenter">
+				<value>LogLevel=4</value>
+				<value>LogLevelStdOut=4</value>
+				<value>PrintVerInfo=1</value>
+				<value>PrintVerInfoStdOut=1</value>
+				<value>DateFormat=%d.%m.%Y</value>
+			</context>
+		</preference>
+		<preference name="TCPB_NumberGenerator" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>PLM-Easy Konfiguration - NummernGenerator</preference_description>
+			<context name="Teamcenter">
+				<value>Item=0</value>
+				<value>ItemRevision=0</value>
+				<value>BT7_Product=0</value>
+				<value>BT7_ProductRevision=0</value>
+				<value>BT7_Tool=0</value>
+				<value>BT7_ToolRevision=0</value>
+				<value>BT7_ToolPart=0</value>
+				<value>BT7_ToolPartRevision=0</value>
+				<value>BT7_CommonComp=0</value>
+				<value>BT7_CommonCompRevision=0</value>
+				<value>BT7_Component=0</value>
+				<value>BT7_ComponentRevision=0</value>
+				<value>BT7_Document=0</value>
+				<value>BT7_DocumentRevision=0</value>
+				<value>BT7_Software=0</value>
+				<value>BT7_SoftwareRevision=0</value>
+				<value>BT7_Material=0</value>
+				<value>BT7_MaterialRevision=0</value>
+				<value>Document=0</value>
+				<value>DocumentRevision=0</value>
+				<value>BT7_ChangeNotice=0</value>
+				<value>BT7_ChangeNoticeRevision=0</value>
+				<value>Item.dba=Test%06d;Test_item_id</value>
+				<value>BT7_ChangeNotice.*=%06d;TM_item_id</value>
+				<value>BT7_ChangeNotice.dba=x%06d;TM_item_id</value>
+				<value>BT7_ChangeNotice.100_Admin=x%06d;TM_item_id</value>
+				<value>Document.*=AA%06d;Document_item_id</value>
+				<value>RevIdModifiable=1</value>
+				<value>FirstRevId=00</value>
+				<value>SecondRevId=01</value>
+			</context>
+		</preference>
+		<preference name="TCPB_NumberValidator" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - NummernValidator
+		</preference_description>
+			<context name="Teamcenter">
+			</context>
+		</preference>
+		<preference name="TCPB_ItemRename" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - Rename</preference_description>
+			<context name="Teamcenter">
+				<value>ChangeRegisteredItemId=3</value>
+				<value>ChangeRevisionName=1</value>
+				<value>ChangeRevisionDescription=1</value>
+				<value>ExcludeItemRelations=IMAN_classification;IMAN_Reference</value>
+				<value>ExcludeRevisionRelations==IMAN_classification;IMAN_Reference;BT7_Rel_AuxMat_Primary;BT7_Rel_AuxMat_Secondary;BT7_Rel_Concerned;BT7_Rel_Notice;BT7_Rel_Product_InitialHistory;BT7_Rel_Specified;BT7_Rel_WorkflowReferenceObjects;BT7_Rel_WorkflowTargetObjects;BT7_Rel_VarConditions;BT7_Rel_VarModules;BT7_Rel_ProdTypeKey;BT7_Rel_VarItemID;BT7_Rel_VarRules;BT7_Rel_VarItems;BT7_Rel_VarItemIDMap</value>
+			</context>
+		</preference>
+		<preference name="TCPB_DataSetNames" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - DataSetNames</preference_description>
+			<context name="Teamcenter">
+				<value>UGMASTER=%s-%s~ITEMID~REVID</value>
+				<value>UGMASTER.NotChangeOnSubString=%s-%s~ITEMID~REVID</value>
+				<value>UGMASTER_Separator=-</value>
+				<value>UGPART.IMAN_manifestation=%s-%s-M-%02d~ITEMID~REVID~COUNT</value>
+				<value>UGPART=%s-%s-Z%01d-1~ITEMID~REVID~COUNT</value>
+				<value>UGALTREP.IMAN_UG_altrep=%s-%s-A-%02d~ITEMID~REVID~COUNT</value>
+				<value>UGALTREP=%s-%s-A-%02d~ITEMID~REVID~COUNT</value>
+				<value>DirectModel=%s-%s-JT-%02d~ITEMID~REVID~COUNT</value>
+				<value>PDF=%s-%s-PDF-%02d~ITEMID~REVID~COUNT</value>
+				<value>MSWord=%s-%s-MSWORD-%02d~ITEMID~REVID~COUNT</value>
+				<value>MSWordX=%s-%s-MSWORDX-%02d~ITEMID~REVID~COUNT</value>
+				<value>MSExcel=%s-%s-MSEXCEL-%02d~ITEMID~REVID~COUNT</value>
+				<value>MSExcelX=%s-%s-MSEXCELX-%02d~ITEMID~REVID~COUNT</value>
+				<value>MSPowerPoint=%s-%s-MSPPT-%02d~ITEMID~REVID~COUNT</value>
+				<value>MSPowerPointX=%s-%s-MSPPTX-%02d~ITEMID~REVID~COUNT</value>
+				<value>MSProject=%s-%s-MSPROJECT-%02d~ITEMID~REVID~COUNT</value>
+				<value>Zip=%s-%s-ZIP-%02d~ITEMID~REVID~COUNT</value>
+				<value>BT7_TIFF=%s-%s-Z-%02d~ITEMID~REVID~COUNT</value>
+				<value>BT7_TIFF_Scan=%s-%s-SCAN-%02d~ITEMID~REVID~COUNT</value>
+				<value>BT7_CorelDesigner=%s-%s-DSF-%02d~ITEMID~REVID~COUNT</value>
+				<value>BT7_AutoSketch=%s-%s-SKF-%02d~ITEMID~REVID~COUNT</value>
+				<value>BT7_SoftwareData=%s-%s-SWF_%02d~ITEMID~REVID~COUNT</value>
+				<value>BT7_Integra=%s-%s-HWF_TC-%02d~ITEMID~REVID~COUNT</value>
+				<value>BT7_Integra_SQL=%s-%s-HWF_STKVERW-%02d~ITEMID~REVID~COUNT</value>
+				<value>BT7_Integra_Mask_Drill=%s-%s-HWF_FB-%02d~ITEMID~REVID~COUNT</value>
+				<value>BT7_FluidDraw=%s-%s-FluidDraw-%02d~ITEMID~REVID~COUNT</value>
+				<value>BT7_CompGraphMeta=%s-%s-CGM-%02d~ITEMID~REVID~COUNT</value>
+				<value>STL=%s-%s-STL-%02d~ITEMID~REVID~COUNT</value>
+				<value>BT7_IntelGraphExch=%s-%s-IGES-%02d~ITEMID~REVID~COUNT</value>
+				<value>BT7_STEP=%s-%s-STEP-%02d~ITEMID~REVID~COUNT</value>
+				<value>BT7_Parasolid=%s-%s-Parasolid-%02d~ITEMID~REVID~COUNT</value>
+			</context>
+		</preference>
+		<preference name="TCPB_CopyDataSetNames" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - CopyDataSetNames</preference_description>
+			<context name="Teamcenter">
+				<value>UGALTREP.IMAN_UG_altrep=%s-%s~ITEMID~REVID</value>
+				<value>UGALTREP=%s-%s~ITEMID~REVID</value>
+				<value>UGMASTER=%s-%s~ITEMID~REVID</value>
+				<value>UGPART.IMAN_manifestation=%s-%s~ITEMID~REVID</value>
+				<value>UGPART=%s-%s~ITEMID~REVID</value>
+				<value>DirectModel=%s-%s~ITEMID~REVID</value>
+				<value>DirectModel.IMAN_rendering=%s-%s~ITEMID~REVID</value>
+				<value>PDF=%s-%s~ITEMID~REVID</value>
+				<value>MSWord=%s-%s~ITEMID~REVID</value>
+				<value>MSWordX=%s-%s~ITEMID~REVID</value>
+				<value>MSExcel=%s-%s~ITEMID~REVID</value>
+				<value>MSExcelX=%s-%s~ITEMID~REVID</value>
+				<value>MSPowerPoint=%s-%s~ITEMID~REVID</value>
+				<value>MSPowerPointX=%s-%s~ITEMID~REVID</value>
+				<value>MSProject=%s-%s~ITEMID~REVID</value>
+				<value>Zip=%s-%s~ITEMID~REVID</value>
+				<value>BT7_TIFF=%s-%s~ITEMID~REVID</value>
+				<value>BT7_TIFF_Scan=%s-%s~ITEMID~REVID</value>
+				<value>BT7_CorelDesigner=%s-%s~ITEMID~REVID</value>
+				<value>BT7_AutoSketch=%s-%s~ITEMID~REVID</value>
+				<value>BT7_SoftwareData=%s-%s~ITEMID~REVID</value>
+				<value>BT7_Integra=%s-%s~ITEMID~REVID</value>
+				<value>BT7_Integra_SQL=%s-%s~ITEMID~REVID</value>
+				<value>BT7_Integra_Mask_Drill=%s-%s~ITEMID~REVID</value>
+				<value>BT7_FluidDraw=%s-%s~ITEMID~REVID</value>
+				<value>BT7_EngChangeDoc=%s-%s~ITEMID~REVID</value>
+				<value>BT7_PCBLayoutOrder=%s-%s~ITEMID~REVID</value>
+				<value>UseImanPreference=1</value>
+				<value>NameModifiable=1</value>
+				<value>ValidationRequired=0</value>
+				<value>UseOrginalOwner=0</value>
+				<value>CopyState=2</value>
+				<value>CopyState.IMAN_specification=2</value>
+			</context>
+		</preference>
+	</category>
+	<category name="PLM-Easy.CopyRev"><category_description/>
+		<preference name="TCPB_CopyRev" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - CopyRev</preference_description>
+			<context name="Teamcenter">
+				<value>CutFamilyMemberFolder=1</value>
+			</context>
+		</preference>
+		<preference name="TCPB_AutoCreateDataset" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - AutoCreateDataset</preference_description>
+			<context name="Teamcenter">
+			</context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_ProductRevision_Revise" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - SetDefault_BT7_ProductRevision_Revise</preference_description>
+			<context name="Teamcenter">
+				<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+				<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+			</context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_ProductRevision_SaveAs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - SetDefault_BT7_ProductRevision_SaveAs</preference_description>
+			<context name="Teamcenter">
+				<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+				<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+			</context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_ToolRevision_Revise" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - SetDefault_BT7_ToolRevision_Revise</preference_description>
+			<context name="Teamcenter">
+				<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+				<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+			</context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_ToolRevision_SaveAs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - SetDefault_BT7_ToolRevision_SaveAs</preference_description>
+			<context name="Teamcenter">
+				<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+				<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+			</context>
+		</preference>		
+		<preference name="TCPB_SetDefault_BT7_ToolPartRevision_Revise" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - SetDefault_BT7_ToolPartRevision_Revise</preference_description>
+			<context name="Teamcenter">
+				<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+				<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+			</context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_ToolPartRevision_SaveAs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - SetDefault_BT7_ToolPartRevision_SaveAs</preference_description>
+			<context name="Teamcenter">
+				<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+				<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+			</context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_CommonCompRevision_Revise" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - SetDefault_BT7_CommonCompRevision_Revise</preference_description>
+			<context name="Teamcenter">
+				<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+				<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+			</context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_CommonCompRevision_SaveAs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - SetDefault_BT7_CommonCompRevision_SaveAs</preference_description>
+			<context name="Teamcenter">
+				<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+				<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+			</context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_ComponentRevision_Revise" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - SetDefault_BT7_ComponentRevision_Revise</preference_description>
+			<context name="Teamcenter">
+				<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+				<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+			</context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_ComponentRevision_SaveAs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - SetDefault_BT7_ComponentRevision_SaveAs</preference_description>
+			<context name="Teamcenter">
+				<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+				<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+			</context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_SoftwareRevision_Revise" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		  <preference_description>PLM-Easy Konfiguration - SetDefault_BT7_SoftwareRevision_Revise</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_SoftwareRevision_SaveAs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		  <preference_description>PLM-Easy Konfiguration - SetDefault_BT7_SoftwareRevision_SaveAs</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_DocumentRevision_Revise" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		  <preference_description>PLM-Easy Konfiguration - SetDefault_BT7_DocumentRevision_Revise</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_docdesc;bt7_docchange;bt7_docverification;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_DocumentRevision_SaveAs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		  <preference_description>PLM-Easy Konfiguration - SetDefault_BT7_DocumentRevision_SaveAs</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_docdesc;bt7_docchange;bt7_docverification;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>		
+		<preference name="TCPB_SetDefault_BT7_MaterialRevision_Revise" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		  <preference_description>PLM-Easy Konfiguration - SetDefault_BT7_MaterialRevision_Revise</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_MaterialRevision_SaveAs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		  <preference_description>PLM-Easy Konfiguration - SetDefault_BT7_MaterialRevision_SaveAs</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_ChangeNoticeRevision_Revise" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - SetDefault_BT7_ChangeNoticeRevision_Revise</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_ChangeNoticeRevision_SaveAs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - SetDefault_BT7_ChangeNoticeRevision_SaveAs</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>		  
+		<preference name="TCPB_SetDefault_BT7_ManufacturerRevision_Revise" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		  <preference_description>PLM-Easy Konfiguration - CopyRev</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_docchange;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_ManufacturerRevision_SaveAs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		  <preference_description>PLM-Easy Konfiguration - CopyRev</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_docchange;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_ProdTypeKeyRevision_Revise" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		  <preference_description>PLM-Easy Konfiguration - CopyRev</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_docdesc;bt7_docchange;bt7_docverification;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_ProdTypeKeyRevision_SaveAs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		  <preference_description>PLM-Easy Konfiguration - CopyRev</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_docdesc;bt7_docchange;bt7_docverification;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>    
+		<preference name="TCPB_SetDefault_BT7_VendorPartRevision_Revise" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		  <preference_description>PLM-Easy Konfiguration - CopyRev</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>
+		<preference name="TCPB_SetDefault_BT7_VendorPartRevision_SaveAs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		  <preference_description>PLM-Easy Konfiguration - CopyRev</preference_description>
+		  <context name="Teamcenter">
+			<value>Del_Date=bt7_ApprDate_1;bt7_ApprDate_2;bt7_ApprDate_3;bt7_ApprDate_4;bt7_ApprDate_DocMapp</value>
+			<value>Value=bt7_ApprUser_1;bt7_ApprUser_2;bt7_ApprUser_3;bt7_ApprUser_4;bt7_docchange;bt7_RevLastStatus=-</value>
+		  </context>
+		</preference>			
+	</category>
+	<category name="PLM-Easy.BaseIni"><category_description/>
+		<preference name="TCPB_BusinessObjectType" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+		<preference_description>PLM-Easy Konfiguration - BusinessObjectType</preference_description>
+		<context name="Teamcenter">
+				<value>BT7_VendorPart=p</value>
+				<value>BT7_Product=p</value>
+				<value>BT7_Tool=p</value>
+				<value>BT7_ToolPart=p</value>
+				<value>BT7_CommonComp=p</value>
+				<value>BT7_Component=p</value>
+				<value>BT7_Document=p</value>
+				<value>BT7_Software=p</value>
+				<value>BT7_Material=p</value>
+				<value>BT7_ChangeNotice=p</value>
+				<value>BT7_Manufacturer=p</value>
+				<value>BT7_ProdTypeKey=p</value>
+				<value>Item=p</value>
+				<value>Document=p</value>
+			</context>
+		</preference>
+	</category>
+	<category name=".BT7 TCPB">
+    <category_description></category_description>    
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_ApprDate_DocMapp_BT7_ChangeNoticeRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_ApprDate_DocMapp_BT7_CommonCompRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_ApprDate_DocMapp_BT7_DocumentRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_ApprDate_DocMapp_BT7_MaterialRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_ApprDate_DocMapp_BT7_ProdTypeKeyRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_ApprDate_DocMapp_BT7_ProductRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_ApprDate_DocMapp_BT7_SoftwareRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_ApprDate_DocMapp_BT7_ToolPartRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_ApprDate_DocMapp_BT7_ToolRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_ApprDate_DocMapp_BT7_VendorPartRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>TCPB_RTP_CONF_TCPB_bt7_ApprDate_DocMapp_BT7_VendorPartRevision</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_rtp_ApprDate_DocMapp_BT7_ChangeNoticeRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>BT7_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_rtp_ApprDate_DocMapp_BT7_CommonCompRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_rtp_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_rtp_ApprDate_DocMapp_BT7_DocumentRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>BT7_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_rtp_ApprDate_DocMapp_BT7_MaterialRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_rtp_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_rtp_ApprDate_DocMapp_BT7_ProdTypeKeyRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_rtp_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_rtp_ApprDate_DocMapp_BT7_ProductRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_rtp_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_rtp_ApprDate_DocMapp_BT7_SoftwareRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_rtp_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_rtp_ApprDate_DocMapp_BT7_ToolPartRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_rtp_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_rtp_ApprDate_DocMapp_BT7_ToolRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_rtp_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_TCPB_bt7_rtp_ApprDate_DocMapp_BT7_VendorPartRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>TCPB_RTP_CONF_TCPB_bt7_rtp_ApprDate_DocMapp_BT7_VendorPartRevision</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_rtp_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_bt7_ApprDate_DocMapp_BT7_ComponentRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>Revision</value>
+        <value>bt7_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>
+    <preference name="TCPB_RTP_CONF_bt7_rtp_ApprDate_DocMapp_BT7_ComponentRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>SBT - RTP</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision</value>
+        <value>bt7_rtp_ApprDate_DocMapp</value>
+        <value>string</value>
+      </context>
+    </preference>    
+  </category>
+</preferences>

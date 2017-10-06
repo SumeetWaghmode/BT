@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_MethodOfManufact_EN" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_MethodOfManufact_EN">
+     <TcLOVValue value="---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="bending" description="" conditionName="isTrue"/>
+     <TcLOVValue value="drilling" description="" conditionName="isTrue"/>
+     <TcLOVValue value="turning" description="" conditionName="isTrue"/>
+     <TcLOVValue value="die casting" description="" conditionName="isTrue"/>
+     <TcLOVValue value="fine blanked" description="" conditionName="isTrue"/>
+     <TcLOVValue value="milling" description="" conditionName="isTrue"/>
+     <TcLOVValue value="gravity die casting" description="" conditionName="isTrue"/>
+     <TcLOVValue value="laser cutting" description="" conditionName="isTrue"/>
+     <TcLOVValue value="sand casting" description="" conditionName="isTrue"/>
+     <TcLOVValue value="welding" description="" conditionName="isTrue"/>
+     <TcLOVValue value="sintering" description="" conditionName="isTrue"/>
+     <TcLOVValue value="injection molding" description="" conditionName="isTrue"/>
+     <TcLOVValue value="punched-bent part" description="" conditionName="isTrue"/>
+     <TcLOVValue value="punching" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

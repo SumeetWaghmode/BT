@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<meta charset="utf-8"/>
+<style type="text/css">
+
+table
+    {
+    width: 100%;
+    padding: 0;
+    border: 1px solid rgb(50%, 50%, 50%);
+    border-collapse:collapse;
+    }
+
+th
+    {
+    font: bold 16px "Times New Roman";
+    text-align: left;
+    padding: 4px 4px 4px 4px;
+    border: 1px solid rgb(50%, 50%, 50%);
+    background: #CCCCFF;
+    vertical-align:top;
+    }
+
+td
+    {
+    font: normal 14px "Times New Roman";
+    padding: 4px 4px 4px 4px;
+    border: 1px solid rgb(50%, 50%, 50%);
+    vertical-align:top;
+    }
+
+th.light { background:#EEEEFF; font: bold 16px "Times New Roman"  }
+td.diff { background:#ffffcc; }
+td.userAction { background:#ffebeb; }
+td.noUserAction { background:#ebffeb; }
+td.merged { background:#ebebff; }
+td.bold { font: bold 14px "Times New Roman"; }
+tr.collapsed { visibility:collapse; background:#ebffeb; }
+
+</style>
+
+<script type="text/javascript">
+    function hideDetailSection(id)
+        {
+        row = document.getElementById(id);
+        row.style.visibility ="collapse";
+        str = "<a style='color: #0000FF; font-size: 12pt; cursor: pointer;' onclick='showDetailSection(\""+id+"\")'>Show details</a>";
+        document.getElementById(id+"detailsLink").innerHTML = str;
+    }
+    function showDetailSection( id )    {        row = document.getElementById( id );
+        row.style.visibility ="visible";
+        str = "<a style='color: #0000FF; font-size: 12pt' onclick='hideDetailSection(\""+id+"\")'>Hide details</a>";
+        document.getElementById(id+"detailsLink").innerHTML = str;
+    }
+    function hideErrorMessage(id)
+        {
+        row = document.getElementById(id);
+        row.style.visibility ="collapse";
+        str = "<a style='color: #0000FF; font-size: 12pt; cursor: pointer;' onclick='showErrorMessage(\""+id+"\")'>Show Error</a>";
+        document.getElementById(id+"Link").innerHTML = str;
+    }
+    function showErrorMessage( id )    {        row = document.getElementById( id );
+        row.style.visibility ="visible";
+        str = "<a style='color: #0000FF; font-size: 12pt; cursor: pointer;' onclick='hideErrorMessage(\""+id+"\")'>Hide Error</a>";
+        document.getElementById(id+"Link").innerHTML = str;
+    }
+    function hideWarningMessage(id)
+        {
+        row = document.getElementById(id);
+        row.style.visibility ="collapse";
+        str = "<a style='color: #0000FF; font-size: 12pt; cursor: pointer;' onclick='showWarningMessage(\""+id+"\")'>Show Warning</a>";
+        document.getElementById(id+"Link").innerHTML = str;
+    }
+    function showWarningMessage( id )    {        row = document.getElementById( id );
+        row.style.visibility ="visible";
+        str = "<a style='color: #0000FF; font-size: 12pt; cursor: pointer;' onclick='hideWarningMessage(\""+id+"\")'>Hide Warning</a>";
+        document.getElementById(id+"Link").innerHTML = str;
+    }
+</script>
+<TITLE>Project Migration Report</TITLE>
+</HEAD>
+<BODY>
+<CENTER>
+<H2>Project Migration Report</H2>
+<H2>Project Name = SBT_1PLM4BT</H2>
+<H3>Start Time: Fri May 19 06:09:27 UTC 2017</H3>
+<BR/>
+</CENTER>
+<h4>Migration Summary:  
+The migration and loading of the project has completed successfully.<h4>Project Location = O:\0SBT-PR-TC11UPGR\branches\R1.4.2\Datamodel\SBT_1PLM4BT</h4><h4>Upgrade Log = <a href = "O:\0SBT-PR-TC11UPGR\branches\R1.4.2\Datamodel\SBT_1PLM4BT\output\upgrade\upgrade_template_2017_05_19_06-09-27.log">O:\0SBT-PR-TC11UPGR\branches\R1.4.2\Datamodel\SBT_1PLM4BT\output\upgrade\upgrade_template_2017_05_19_06-09-27.log</a></h4>
+</h4><table border="1" width="100%"  CELLPADDING="1" CELLSPACING="0">
+    <th width="32%">Tasks</th>
+    <th width="8%">Status</th>
+    <th width="60%">Description</th>
+    <tr>
+        <table border="1" width="100%" id="Load Project ModelTbl">
+            <td width="32%"><b>Load Project Model</b></td>
+            <td width="8%"><b>Passed</b></td>
+            <td width="60%">Loads Project Model<br/>Project "SBT_1PLM4BT" upgraded successfully.<br/>
+                <div id="Load Project ModeldetailsLink"><a style="color: #0000FF; font-size: 12pt; cursor: pointer;" onclick="showDetailSection('Load Project Model')">Show details</a></div>
+            </td>
+        <tr id="Load Project Model" class="collapsed">
+            <td colspan="3">Loads Project Model
+This service modifies the following files: <br/>
+No file modified<br/>
+</td>        </tr>
+        </table>
+    </tr>
+    <tr>
+        <table border="1" width="100%" id="com.teamcenter.bmide.migration.core.DescriptionWriterMigrationServiceTbl">
+            <td width="32%"><b>Default Description Writer Service </b></td>
+            <td width="8%"><b>Passed</b></td>
+            <td width="60%">This service will write default descriptions to all auto-generated business objects<br/>Migration service successfully wrote descriptions to files<br/>
+                <div id="com.teamcenter.bmide.migration.core.DescriptionWriterMigrationServicedetailsLink"><a style="color: #0000FF; font-size: 12pt; cursor: pointer;" onclick="showDetailSection('com.teamcenter.bmide.migration.core.DescriptionWriterMigrationService')">Show details</a></div>
+            </td>
+        <tr id="com.teamcenter.bmide.migration.core.DescriptionWriterMigrationService" class="collapsed">
+            <td colspan="3">
+This service modifies the following files: <br/>
+O:\0SBT-PR-TC11UPGR\branches\R1.4.2\Datamodel\SBT_1PLM4BT\extensions\bt7_business_objects\bt7_business_objects.xml<br/>
+</td>        </tr>
+        </table>
+    </tr>
+    </table>
+</BODY>
+</HTML>
+

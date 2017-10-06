@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<!-- DEPLOYISSUE -->
+<!-- <Add>
+   <TcStatus statusName="BT7_10" description=""/>
+   <TcStatus statusName="BT7_100" description=""/>
+   <TcStatus statusName="BT7_101" description=""/>
+   <TcStatus statusName="BT7_20" description=""/>
+   <TcStatus statusName="BT7_30" description=""/>
+   <TcStatus statusName="BT7_40" description=""/>
+   <TcStatus statusName="BT7_5" description=""/>
+   <TcStatus statusName="BT7_50" description=""/>
+   <TcStatus statusName="BT7_60" description=""/>
+   <TcStatus statusName="BT7_70" description=""/>
+   <TcStatus statusName="BT7_80" description=""/>
+   <TcStatus statusName="BT7_90" description=""/>
+   <TcStatus statusName="BT7_98" description=""/>
+   <TcStatus statusName="BT7_99" description=""/>
+   <TcStatus statusName="BT7_Abgelehnt" description=""/>
+   <TcStatus statusName="BT7_Freigegeben" description=""/>
+</Add> -->
+</TcBusinessData>

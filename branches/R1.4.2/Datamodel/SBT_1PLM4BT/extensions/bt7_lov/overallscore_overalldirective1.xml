@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="OverallScore_OverAllDirective1" lovType="ListOfValuesString" usage="Suggestive"
+       description="List of possible values for OverallScore and OverAllDirective">
+     <TcLOVValue value="red~red~red~red~red" description="" conditionName="isTrue"/>
+     <TcLOVValue value="red~red~green~red~red" description="" conditionName="isTrue"/>
+     <TcLOVValue value="red~red~yellow~red~red" description="" conditionName="isTrue"/>
+     <TcLOVValue value="red~green~red~red~red" description="" conditionName="isTrue"/>
+     <TcLOVValue value="red~green~green~red~red" description="" conditionName="isTrue"/>
+     <TcLOVValue value="red~green~yellow~red~red" description="" conditionName="isTrue"/>
+     <TcLOVValue value="red~yellow~red~red~red" description="" conditionName="isTrue"/>
+     <TcLOVValue value="red~yellow~green~red~red" description="" conditionName="isTrue"/>
+     <TcLOVValue value="red~yellow~yellow~red~red" description="" conditionName="isTrue"/>
+     <TcLOVValue value="green~red~red~red~red" description="" conditionName="isTrue"/>
+     <TcLOVValue value="green~red~green~red~red" description="" conditionName="isTrue"/>
+     <TcLOVValue value="green~red~yellow~red~red" description="" conditionName="isTrue"/>
+     <TcLOVValue value="green~yellow~red~yellow~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="green~yellow~green~yellow~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="green~yellow~yellow~yellow~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="green~green~red~yellow~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="green~green~green~green~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="green~green~yellow~yellow~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="yellow~red~red~yellow~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="yellow~red~green~yellow~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="yellow~red~yellow~yellow~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="yellow~yellow~red~yellow~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="yellow~yellow~green~yellow~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="yellow~yellow~yellow~yellow~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="yellow~green~red~yellow~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="yellow~green~green~green~white" description="" conditionName="isTrue"/>
+     <TcLOVValue value="yellow~green~yellow~yellow~white" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

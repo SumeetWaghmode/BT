@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<preferences version="10.0">
+  <preference name="CR_allow_alternate_procedures" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>none</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_ChangeNoticeRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+	  <value>BT Change Order</value>
+      <value>Annulling</value>
+	</context>
+  </preference>
+  <preference name="TC_BT7_DocumentRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>PR</value>
+	  <value>PR+</value>
+	  <value>SR</value>
+      <value>BT7_Distribute</value>
+      <value>Annulling</value>
+    </context>
+  </preference>  
+</preferences>

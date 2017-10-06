@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="en_US"/>
+   <TcTypeConstantAttach constantName="DisplayName" typeName="Item" value="$item_id+&quot;~&quot;+$object_name"/>
+   <TcTypeConstantAttach constantName="DisplayName" typeName="ItemRevision" value="$item_id+&quot;-&quot;+$item_revision_id+&quot;~&quot;+$object_name"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_DocumentRevision"
+       propertyName="bt7_documentClass" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_DocumentRevision"
+       propertyName="bt7_documentSNType" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_DocumentRevision"
+       propertyName="bt7_documentSubClass" value="true"/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_Notice" propertyType="Relation"
+       objectTypeName="BT7_RevNotice" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_TCENT_Material" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="NoCopy"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_manifestation" propertyType="Relation"
+       objectTypeName="MSExcel" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_reference" propertyType="Relation"
+       objectTypeName="BT7_ItemNotice" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_Simulation" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="NoCopy"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_AutoSketch" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_CorelDesigner" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_DXF" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_EngChangeDoc" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_FluidDraw" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Integra" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Integra_Mask_Drill" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Integra_SQL" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_PCBLayoutOrder" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Product_InitialHistoryDoc" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_SoftwareData" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_TIFF" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_TIFF_Scan" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="DrawingSheet" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="HTML" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="Image" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MISC" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSExcel" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSExcelTemplate" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSExcelX" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSPowerPoint" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSPowerPointTemplate" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSPowerPointX" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSWord" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSWordTemplate" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSWordX" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="PDF" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="NoCopy"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="Text" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="Zip" conditionName="isTrue" operationName="ITEM_copy_rev" copyType="NoCopy"
+       isTargetPrimary="true" secured="false" copyRelationAttributes="true" isRequired="false"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_Notice" propertyType="Relation"
+       objectTypeName="BT7_RevNotice" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_Rel_Specified" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="BT7_TCENT_Material" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_manifestation" propertyType="Relation"
+       objectTypeName="MSExcel" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_reference" propertyType="Relation"
+       objectTypeName="BT7_ItemNotice" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_Simulation" propertyType="Relation"
+       objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_AutoSketch" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_CorelDesigner" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_DXF" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_EngChangeDoc" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_FluidDraw" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Integra" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Integra_Mask_Drill" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Integra_SQL" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_PCBLayoutOrder" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_Product_InitialHistoryDoc" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_SoftwareData" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_TIFF" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="BT7_TIFF_Scan" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="DrawingSheet" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="true" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="HTML" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="Image" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MISC" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSExcel" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSExcelTemplate" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSExcelX" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSPowerPoint" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSPowerPointTemplate" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSPowerPointX" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSWord" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSWordTemplate" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="MSWordX" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="PDF" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="Text" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+       objectTypeName="Zip" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcGRMRule primaryTypeName="Dataset" secondaryTypeName="Dataset" relationTypeName="IMAN_external_object_link"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="Dataset" secondaryTypeName="Folder" relationTypeName="IMAN_external_object_link"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="Dataset" secondaryTypeName="Item" relationTypeName="IMAN_external_object_link"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="Dataset" secondaryTypeName="ItemRevision" relationTypeName="IMAN_external_object_link"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="Item" secondaryTypeName="Dataset" relationTypeName="IMAN_reference"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="Item" secondaryTypeName="Item" relationTypeName="IMAN_reference"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="Item" secondaryTypeName="ItemRevision" relationTypeName="IMAN_reference"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_AutoSketch" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_CorelDesigner"
+       relationTypeName="BT7_Rel_Notice" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_DXF" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_EngChangeDoc"
+       relationTypeName="BT7_Rel_Notice" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_FluidDraw" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_Integra" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_Integra_Mask_Drill"
+       relationTypeName="BT7_Rel_Notice" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_Integra_SQL" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_MaterialRevision"
+       relationTypeName="BT7_Rel_AuxMat_Primary" primaryCardinality="-1" secondaryCardinality="1"
+       secured="false" attachability="WriteAccessReq" changeability="Changeable" detachability="WriteAccessReq"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_MaterialRevision"
+       relationTypeName="BT7_Rel_AuxMat_Secondary" primaryCardinality="-1" secondaryCardinality="1"
+       secured="false" attachability="WriteAccessReq" changeability="Changeable" detachability="WriteAccessReq"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_Notice" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="WriteAccessReq"
+       changeability="Changeable" detachability="WriteAccessReq" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_PCBLayoutOrder"
+       relationTypeName="BT7_Rel_Notice" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_Product_InitialHistoryDoc"
+       relationTypeName="BT7_Rel_Notice" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_Rel_AuxMat_Secondary"
+       relationTypeName="*" primaryCardinality="-1" secondaryCardinality="-1" secured="false"
+       attachability="Unrestricted" changeability="Changeable" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_SoftwareData"
+       relationTypeName="BT7_Rel_Notice" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_TIFF" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="BT7_TIFF_Scan" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="Item" relationTypeName="BT7_Rel_AuxMat_Primary"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="Item" relationTypeName="BT7_Rel_AuxMat_Secondary"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="ItemRevision" relationTypeName="BT7_Rel_AuxMat_Primary"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="ItemRevision" relationTypeName="BT7_Rel_AuxMat_Secondary"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="ItemRevision" relationTypeName="BT7_Rel_Specified"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="WriteAccessReq"
+       changeability="Changeable" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="ItemRevision" relationTypeName="IMAN_specification"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="MSExcel" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="MSPowerPoint" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="MSWord" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="PDF" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="STL" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="ItemRevision" secondaryTypeName="Zip" relationTypeName="BT7_Rel_Notice"
+       primaryCardinality="-1" secondaryCardinality="-1" secured="false" attachability="Unrestricted"
+       changeability="Frozen" detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="WorkspaceObject" secondaryTypeName="WorkspaceObject"
+       relationTypeName="BT7_Rel_AuxMat_Primary" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="WriteAccessReq" changeability="Changeable" detachability="WriteAccessReq"
+       description=""/>
+   <TcGRMRule primaryTypeName="WorkspaceObject" secondaryTypeName="WorkspaceObject"
+       relationTypeName="BT7_Rel_AuxMat_Secondary" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="WriteAccessReq" changeability="Changeable" detachability="WriteAccessReq"
+       description=""/>
+   <TcGRMRule primaryTypeName="WorkspaceObject" secondaryTypeName="WorkspaceObject"
+       relationTypeName="BT7_Rel_Concerned" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="WriteAccessReq" changeability="Changeable" detachability="WriteAccessReq"
+       description=""/>
+   <TcGRMRule primaryTypeName="WorkspaceObject" secondaryTypeName="WorkspaceObject"
+       relationTypeName="BT7_Rel_Specified" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Frozen" detachability="Unrestricted"
+       description=""/>
+   <TcTypeDisplayRule hiddenTypeName="AllocationMap" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="AllocationMap" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Architecture" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Architecture" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ArcWeld" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ArcWeld" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ChangeNotice" accessorName="DBA in dba"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_CommonComp" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Component" accessorName="100_Library_A"
+       accessorType="Group" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Component" accessorName="Engineering" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Component" accessorName="Project Administration"
+       accessorType="Group" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Component" accessorName="system" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Component" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_GroupFolder" accessorName="100_Admin" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_GroupFolder" accessorName="100_Library_A"
+       accessorType="Group" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_GroupFolder" accessorName="100_Purchase_A"
+       accessorType="Group" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_GroupFolder" accessorName="110_MDesign_A"
+       accessorType="Group" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_GroupFolder" accessorName="110_MDesign_B"
+       accessorType="Group" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_GroupFolder" accessorName="110_MDesign_C"
+       accessorType="Group" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_GroupFolder" accessorName="110_MDesign_D"
+       accessorType="Group" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_GroupFolder" accessorName="120_MDesign_A"
+       accessorType="Group" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_LibraryFolder" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Material" accessorName="110_MDesign_A" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Material" accessorName="110_MDesign_B" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Material" accessorName="120_MDesign_A" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Material" accessorName="Engineering" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Material" accessorName="Project Administration"
+       accessorType="Group" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Material" accessorName="system" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Material" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Product" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProductFolder" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProjectFolder" accessorName="Approver in 110_MDesign_A"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProjectFolder" accessorName="Approver in 110_MDesign_B"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProjectFolder" accessorName="Approver in 120_MDesign_A"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProjectFolder" accessorName="Designer in 110_MDesign_A"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProjectFolder" accessorName="Designer in 110_MDesign_B"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProjectFolder" accessorName="Designer in 120_MDesign_A"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProjectFolder" accessorName="Viewer in 110_MDesign_A"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProjectFolder" accessorName="Viewer in 110_MDesign_B"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ProjectFolder" accessorName="Viewer in 120_MDesign_A"
+       accessorType="RoleInGroup" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Software" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Tool" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ToolFolder" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ToolPart" accessorName="100_Library_A" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ToolPart" accessorName="Engineering" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ToolPart" accessorName="Project Administration"
+       accessorType="Group" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ToolPart" accessorName="system" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ToolPart" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_UDFFolder" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEAnalysis" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEAnalysis" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEBCItem" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEBCItem" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEConnItem" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEConnItem" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEGeometry" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEGeometry" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEItem" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAELoadItem" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAELoadItem" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEModel" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEModel" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEResult" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEResult" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Company" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Company" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CondValAgent" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CondValAgent" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CondValData" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CondValData" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Connection" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Connection" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Constituent" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPBrief" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPBrief" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPMarketingBrief" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPMarketingBrief" accessorName="DBA in dba"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPProductRough" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPProductRough" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPThemeBoard" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPThemeBoard" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Dataset" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="DatumPoint" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="DatumPoint" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Design" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="DesignReq" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="DesignReq" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="DMTemplate" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="DMTemplate" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Document" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Document" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Drawing" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Drawing" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Email" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Email" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="EngChange" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ExcelTemplate" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ExcelTemplate" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ExportTemplate" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0AbstractNote" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0AbstractNote" accessorName="DBA in dba"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0CustomNote" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0CustomNote" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0EffectvtyGrp" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0EffectvtyGrp" accessorName="DBA in dba"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0ParamReqment" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0ParamReqment" accessorName="DBA in dba"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Functionality" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Functionality" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GCS_CP" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GCS_CP_Plug" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GCS_CP_Plug" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GCS_CP" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GCS_CP_Socket" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GCS_CP_Socket" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GPA" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GPA" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Graphic" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GraphicOption" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Item" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Item" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mail Folder" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MaterialBase" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEContext" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEContext" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEDepartment" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEDepartment" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEDrill" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEDrill" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEEDM" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEEDM" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEGenericBOP" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEGenericBOP" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MELine" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MELine" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEMilling" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEMilling" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEMillTurn" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEMillTurn" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MENCMachining" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MENCMachining" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEOP" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEOP" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEPlant" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEPlant" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEProcess" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEProcess" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEProductBOP" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEProductBOP" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEProductLocation" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEProductLocation" accessorName="DBA in dba"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MESite" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MESite" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Message" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Message" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEStation" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEStation" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="METurning" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="METurning" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEWEDM" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEWEDM" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEWorkarea" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEWorkarea" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEEquipment" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEEquipment" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MENCMachine" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MENCMachine" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MENCTool" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MENCTool" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEResource" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEResource" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ModelReq" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ModelReq" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Network" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Network" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Newstuff Folder" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXAgent" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXAgent" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXCheckMate" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXCheckMate" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXCMValData" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXCMValData" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXRDDV" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXRDDV" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXRDDVValData" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXRDDVValData" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXValData" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXValData" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ObjectTemplate" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ObjectTemplate" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Paragraph" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Paragraph" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Part" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Part" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="PSConnection" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="PSConnection" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="PSSignal" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="PSSignal" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="RawMaterial" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Requirement" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Requirement" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="RequirementSpec" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="RequirementSpec" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="RouteLocation" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="RouteLocation" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Schedule" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Schedule" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ScheduleTask" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ScheduleTask" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Signal" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Signal" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="SpecElement" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Specification" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="SpecTemplate" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="SpecTemplate" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="StructureMap" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="StructureMap" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Template" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="TranslationOrder" accessorName="DBA in dba"
+       accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="TranslatnDelvry" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="TransltnOffice" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValData" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValData" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValidationAgent" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValidationAgent" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValidationReq" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValidationReq" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValToolAgent" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValToolAgent" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="WeldPoint" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="WeldPoint" accessorName="DBA in dba" accessorType="RoleInGroup"
+       conditionName="isFalse" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev"
+       isActive="true" extendableElementName="BT7_ChangeNoticeRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev"
+       isActive="true" extendableElementName="BT7_CommonCompRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev"
+       isActive="true" extendableElementName="BT7_ComponentRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev"
+       isActive="true" extendableElementName="BT7_DocumentRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev"
+       isActive="true" extendableElementName="BT7_ProductRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev"
+       isActive="true" extendableElementName="BT7_SoftwareRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev"
+       isActive="true" extendableElementName="BT7_ToolPartRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev"
+       isActive="true" extendableElementName="BT7_ToolRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev_to_existing"
+       isActive="true" extendableElementName="BT7_ChangeNoticeRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev_to_existing"
+       isActive="true" extendableElementName="BT7_CommonCompRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev_to_existing"
+       isActive="true" extendableElementName="BT7_ComponentRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev_to_existing"
+       isActive="true" extendableElementName="BT7_DocumentRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev_to_existing"
+       isActive="true" extendableElementName="BT7_ProductRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev_to_existing"
+       isActive="true" extendableElementName="BT7_SoftwareRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev_to_existing"
+       isActive="true" extendableElementName="BT7_ToolPartRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="SCH4_ItemRevNotification_BMF" operationName="ITEM_copy_rev_to_existing"
+       isActive="true" extendableElementName="BT7_ToolRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   <TcNamingRule name="SBT1_REVISION_ID_RULE">
+     <TcPattern generateCounters="false" patternString="%^[A-HKMNP-Z][A-HKMNP-Z0-9][0-9]$"/>
+     <TcPattern generateCounters="false" patternString="%^[A-HKMNP-Z][A-HKMNP-Z0-9]$"/>
+     <TcPattern generateCounters="false" patternString="%^[A-HKMNP-Z0-9]{1,4}$"/>
+     <TcPattern generateCounters="false" patternString="%^[0-9]{1,2}$"/>
+   </TcNamingRule>
+   <TcNamingRule name="SBT_BASELINE">
+     <TcPattern generateCounters="true" patternString="&quot;_B&quot;NN">
+       <TcCounter initialValue="_B00" maximumValue="_B99"/>
+     </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="SBT_BFG_NUMBER_GEN">
+     <TcPattern generateCounters="true" patternString="&quot;BFG-&quot;NNNNNN">
+       <TcCounter initialValue="BFG-000000" maximumValue="BFG-999999"/>
+     </TcPattern>
+     <TcPattern generateCounters="false" patternString="&quot;BFG-&quot;NNNNNN&quot;_CAM&quot;"/>
+     <TcPattern generateCounters="false" patternString="[RULE:SBT_NUM_9-10Digit]"/>
+     <TcPattern generateCounters="false" patternString="[RULE:SBT_NUM_9-10Digit]&quot;_CAM&quot;"/>
+     <TcPattern generateCounters="false" patternString="[RULE:SBT_NUM_TNS]"/>
+     <TcPattern generateCounters="false" patternString="[RULE:SBT_NUM_TNS]&quot;_CAM&quot;"/>
+   </TcNamingRule>
+   <TcNamingRule name="SBT_NUM_9-10Digit">
+     <TcPattern generateCounters="false" patternString="&quot;1&quot;NNNNNNNN"/>
+     <TcPattern generateCounters="false" patternString="&quot;2&quot;NNNNNNNN"/>
+     <TcPattern generateCounters="false" patternString="&quot;3&quot;NNNNNNNN"/>
+     <TcPattern generateCounters="false" patternString="&quot;4&quot;NNNNNNNN"/>
+     <TcPattern generateCounters="false" patternString="&quot;71&quot;NNNNNNNN"/>
+     <TcPattern generateCounters="false" patternString="&quot;72&quot;NNNNNNNN"/>
+     <TcPattern generateCounters="false" patternString="&quot;73&quot;NNNNNNNN"/>
+     <TcPattern generateCounters="false" patternString="&quot;74&quot;NNNNNNNN"/>
+     <TcPattern generateCounters="false" patternString="&quot;8&quot;NNNNNNNNN"/>
+   </TcNamingRule>
+   <TcNamingRule name="SBT_NUM_TNS">
+     <TcPattern generateCounters="false" patternString="&quot;A5Q&quot;NNNNNNNN"/>
+     <TcPattern generateCounters="false" patternString="&quot;A5Q&quot;NNNNNNNNA"/>
+   </TcNamingRule>
+   <TcNamingRuleAttach ruleName="SBT_BASELINE" typeName="BT7_ComponentPDR" propertyName="item_revision_id"
+       case="Mix" conditionName="isTrue" override="false" ruleType="NamingRule" description=""/>
+   <TcNamingRuleAttach ruleName="SBT_BASELINE" typeName="PartPDR" propertyName="item_revision_id"
+       case="Mix" conditionName="isTrue" override="false" ruleType="NamingRule" description=""/>
+   <TcNamingRuleAttach ruleName="SBT_BFG_NUMBER_GEN" typeName="Document" propertyName="item_id"
+       case="Mix" conditionName="isTrue" override="false" ruleType="NamingRule" description=""/>
+   <TcLOV name="BT7_DocMgnt" lovType="ListOfValuesString" usage="Exhaustive" description="Handler Config LOV for bt7_DocMgnt">
+     <TcLOVValue value="CH-Zug/4994" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="BT7_GeneralTolerance" lovType="ListOfValuesString" usage="Suggestive"
+       description="">
+     <TcLOVValue value="DIN ISO 2768 - m" description="DIN General tolerances" conditionName="isTrue"/>
+     <TcLOVValue value="DIN 16901 - 130" description="DIN Plastics mouldings" conditionName="isTrue"/>
+     <TcLOVValue value="DIN ISO 3302 - M3" description="DIN Rubber - products" conditionName="isTrue"/>
+     <TcLOVValue value="DIN 1686 GTB 15" description="DIN Rough castings of grey iron"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN 1685 GTB 16" description="DIN Rough castings of cast iron spher graphite GGG"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN 1687 GTA 16" description="DIN Heavy metal alloy raw castings"
+         conditionName="isTrue"/>
+     <TcLOVValue value="VDG P 690" description="VDG Precision casting" conditionName="isTrue"/>
+     <TcLOVValue value="DIN 2095 Class 2" description="DIN Helical Springs Made of Round Wire"
+         conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="BT7_LOV_MassUnit" lovType="ListOfValuesString" usage="Suggestive"
+       description="">
+     <TcLOVValue value="g" description="" conditionName="isTrue"/>
+     <TcLOVValue value="kg" description="" conditionName="isTrue"/>
+     <TcLOVValue value="mg" description="" conditionName="isTrue"/>
+     <TcLOVValue value="t" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="BT7_LOV_PartType_EN" lovType="ListOfValuesString" usage="Suggestive"
+       description="">
+     <TcLOVValue value="Component" description="Component which belongs onto a product- or tool parts list"
+         conditionName="isTrue"/>
+     <TcLOVValue value="Support Part" description="Contains only NX support elements for other files (e.g. Concept-Model data)"
+         conditionName="isTrue"/>
+     <TcLOVValue value="Assembly" description="Assembly for assembling or Support assembly"
+         conditionName="isTrue"/>
+     <TcLOVValue value="Main Assembly" description="Main assembly, inside TCEnt below the ASN"
+         conditionName="isTrue"/>
+     <TcLOVValue value="Variant Assembly" description="Contains more then one variant of a product"
+         conditionName="isTrue"/>
+     <TcLOVValue value="System Assembly" description="Assembly contains assemblies from more then one product"
+         conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="BT7_Releaser" lovType="ListOfValuesString" usage="Suggestive" description="">
+     <TcLOVValue value="A. Beyda" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D. Anderson" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D. Chapovalov" description="" conditionName="isTrue"/>
+     <TcLOVValue value="G. Caliendo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J. Wille" description="" conditionName="isTrue"/>
+     <TcLOVValue value="K. Galle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="R. Amerson" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P. Hepp" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="BT7_Responsible" lovType="ListOfValuesString" usage="Suggestive" description="Handler Config LOV for SBT1_RESPONSIBLE">
+     <TcLOVValue value="CH-Zug/2868" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CH-Zug/3752" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CH-Sta/6719" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CH-Zug/3004" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CH-Zug/3882" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="BT7_TCEnt_Doc_Class" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="for_sourcing_and_manufacturing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="for_development" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="BT7_VolumeValue" lovType="ListOfValuesString" usage="Suggestive" description="Handler Config LOV for SBT1_VOLUME">
+     <TcLOVValue value="mm" description="" conditionName="isTrue"/>
+     <TcLOVValue value="cm" description="" conditionName="isTrue"/>
+     <TcLOVValue value="dm" description="" conditionName="isTrue"/>
+     <TcLOVValue value="m" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="bt7_2ndLanguageCode" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Handler Config LOV for bt7_2ndLanguageCode">
+     <TcLOVValue value="de" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="BT7_LOV_MassUnit" typeName="ItemRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="bt7_MassUnit" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_LOV_PartType_EN" typeName="Part Revision">
+     <TcLOVAttachPropertyInfo valuePropertyName="bt7_parttype" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_Responsible" typeName="ItemRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="bt7_Responsible" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_TCEnt_Doc_Class" typeName="Item">
+     <TcLOVAttachPropertyInfo valuePropertyName="bt7_TCEnt_Doc_Class" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_VolumeValue" typeName="ItemRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="bt7_VolumeUnit" conditionName="isFalse"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="bt7_2ndLanguageCode" typeName="Part Revision">
+     <TcLOVAttachPropertyInfo valuePropertyName="bt7_2ndLanguageCode" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

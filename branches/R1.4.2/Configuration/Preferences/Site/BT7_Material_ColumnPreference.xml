@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<preferences version="10.0">
+  <category name="General">
+    <category_description>Defines parameters for the session langage.</category_description>    
+    <preference name="BT7_MaterialRevision_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision.object_string</value>
+        <value>ItemRevision.object_type</value>
+        <value>ItemRevision.relation</value>
+        <value>ItemRevision.owning_user</value>
+        <value>ItemRevision.owning_group</value>
+        <value>ItemRevision.last_mod_date</value>
+        <value>ItemRevision.checked_out</value>
+        <value>ItemRevision.release_status_list</value>
+      </context>
+    </preference>
+    <preference name="BT7_MaterialRevision_ColumnWidthPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>30</value>
+        <value>17</value>
+        <value>13</value>
+        <value>22</value>
+        <value>19</value>
+        <value>23</value>
+        <value>6</value>
+        <value>26</value>
+      </context>
+    </preference>
+    <preference name="BT7_Material_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>Item.object_string</value>
+        <value>Item.object_type</value>
+        <value>Item.relation</value>
+        <value>Item.owning_user</value>
+        <value>Item.owning_group</value>
+        <value>Item.export_sites</value>
+        <value>Item.last_mod_date</value>
+        <value>Item.checked_out</value>
+        <value>BOMView Revision.checked_out_user</value>
+        <value>Item.release_status_list</value>
+      </context>
+    </preference>
+    <preference name="BT7_Material_ColumnWidthPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>32</value>
+        <value>17</value>
+        <value>15</value>
+        <value>21</value>
+        <value>18</value>
+        <value>23</value>
+        <value>17</value>
+        <value>6</value>
+        <value>15</value>
+        <value>11</value>
+      </context>
+    </preference>
+  </category>
+</preferences>

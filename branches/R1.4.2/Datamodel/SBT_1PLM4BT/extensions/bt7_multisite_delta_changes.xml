@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcAttributeAttach className="ItemRevision">
+      <TcAttribute attributeName="bt7_SupplierCode_1" description="" attributeType="POM_string"
+          maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+          upperBoundValue=""/>
+      <TcAttribute attributeName="bt7_SupplierCode_2" description="" attributeType="POM_string"
+          maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+          lowerBoundValue="" upperBoundValue=""/>
+   </TcAttributeAttach>
+   <TcPropertyAttach typeName="ItemRevisionCreI">
+      <OperationInputProperty propName="bt7_MassUnit" compoundObjectConstant="" srcPropName="bt7_MassUnit"
+          compoundObjectType="" fieldType="SimpleProperty" description="Mass unit"/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevisionCreI">
+      <OperationInputProperty propName="bt7_rohs_compliant" compoundObjectConstant=""
+          srcPropName="bt7_rohs_compliant" compoundObjectType="" fieldType="SimpleProperty"
+          description="RoHS Compliant?"/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevisionCreI">
+      <OperationInputProperty propName="bt7_shortInfo2" compoundObjectConstant=""
+          srcPropName="bt7_shortInfo2" compoundObjectType="" fieldType="SimpleProperty"
+          description="Short Info"/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevisionCreI">
+      <OperationInputProperty propName="bt7_Subtitle_1" compoundObjectConstant=""
+          srcPropName="bt7_Subtitle_1" compoundObjectType="" fieldType="SimpleProperty"
+          description="Subtitle"/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevisionCreI">
+      <OperationInputProperty propName="bt7_SupplierCode_2_PartNo" compoundObjectConstant=""
+          srcPropName="bt7_SupplierCode_2_PartNo" compoundObjectType="" fieldType="SimpleProperty"
+          description=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevisionCreI">
+      <OperationInputProperty propName="bt7_ToolType" compoundObjectConstant="" srcPropName="bt7_ToolType"
+          compoundObjectType="" fieldType="SimpleProperty" description="Tool Type"/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevisionCreI">
+      <OperationInputProperty propName="bt7_ToolType_1" compoundObjectConstant=""
+          srcPropName="bt7_ToolType_1" compoundObjectType="" fieldType="SimpleProperty"
+          description="Tool Type EN"/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Part RevisionCreI">
+      <OperationInputProperty propName="bt7_currentmanuf" compoundObjectConstant=""
+          srcPropName="bt7_currentmanuf" compoundObjectType="" fieldType="SimpleProperty"
+          description="Current Manufacturer?"/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Part RevisionCreI">
+      <OperationInputProperty propName="bt7_MaterialRequirement_1" compoundObjectConstant=""
+          srcPropName="bt7_MaterialRequirement_1" compoundObjectType="" fieldType="SimpleProperty"
+          description="Material requirements of the part."/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Part RevisionCreI">
+      <OperationInputProperty propName="bt7_remark" compoundObjectConstant="" srcPropName="bt7_remark"
+          compoundObjectType="" fieldType="SimpleProperty" description="Remark"/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Part RevisionCreI">
+      <OperationInputProperty propName="bt7_Supplier_1" compoundObjectConstant=""
+          srcPropName="bt7_Supplier_1" compoundObjectType="" fieldType="SimpleProperty"
+          description="Supplier 1"/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Part RevisionCreI">
+      <OperationInputProperty propName="bt7_Surface_1" compoundObjectConstant="" srcPropName="bt7_Surface_1"
+          compoundObjectType="" fieldType="SimpleProperty" description="Surface / Finish"/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Part RevisionCreI">
+      <OperationInputProperty propName="bt7_Treatment_1" compoundObjectConstant=""
+          srcPropName="bt7_Treatment_1" compoundObjectType="" fieldType="SimpleProperty"
+          description="Treatment"/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Part RevisionCreI">
+      <OperationInputProperty propName="bt7_validation" compoundObjectConstant=""
+          srcPropName="bt7_validation" compoundObjectType="" fieldType="SimpleProperty"
+          description="Component Validation"/>
+   </TcPropertyAttach>
+   <Condition name="BT7_IsMemberOf_100Admin_dba_role_DBA" expression="(o.group_name!=&quot;100_Admin&quot; AND o.role_name!=&quot;DBA&quot;) OR (o.group_name!=&quot;dba&quot; AND o.role_name!=&quot;DBA&quot;)"
+        secured="true" description="">
+      <ConditionParameter name="o" parameterTypeName="UserSession"/>
+   </Condition>
+   <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="Item" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="ItemRevision"
+        propertyName="bt7_RevLastStatus" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_CommonCompSvAI"
+        propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_CommonCompSvAI"
+        propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_ComponentSvAI"
+        propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_ComponentSvAI"
+        propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_DocumentSvAI"
+        propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_DocumentSvAI"
+        propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_ProductSvAI"
+        propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_ProductSvAI"
+        propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_ToolPartRevisionSvAI"
+        propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_ToolPartRevisionSvAI"
+        propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_ToolPartSvAI"
+        propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_ToolPartSvAI"
+        propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_ToolRevisionSvAI"
+        propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_ToolRevisionSvAI"
+        propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_ToolSvAI"
+        propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="BT7_ToolSvAI"
+        propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_DocumentRevision"
+        propertyName="bt7_DocMgnt" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_DocumentRevision"
+        propertyName="bt7_documentClass" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_DocumentRevision"
+        propertyName="bt7_documentSNType" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_DocumentRevision"
+        propertyName="bt7_documentSubClass" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_UGPartAttr" propertyName="bt7_CheckClass"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="bt7_SupplierCode_1"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="UGALTREP" propertyName="bt7_cp_CheckClass"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="UGMASTER" propertyName="bt7_cp_CheckClass"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="UGPART" propertyName="bt7_cp_CheckClass"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_DocumentRevision"
+        propertyName="bt7_DocMgnt" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_DocumentRevision"
+        propertyName="bt7_documentClass" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_DocumentRevision"
+        propertyName="bt7_documentSNType" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_DocumentRevision"
+        propertyName="bt7_documentSubClass" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_UGPartAttr" propertyName="bt7_CheckClass"
+        value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="bt7_SupplierCode_1"
+        value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Mat1MetaSingleParameter"
+        propertyName="mat1UnitAliasName" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Mat1ParameterDouble"
+        propertyName="mat1UnitAliasName" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="UGALTREP" propertyName="bt7_cp_CheckClass"
+        value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="UGMASTER" propertyName="bt7_cp_CheckClass"
+        value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="UGPART" propertyName="bt7_cp_CheckClass"
+        value="Write"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_CommonCompSvAI"
+        propertyName="object_desc" value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_CommonCompSvAI"
+        propertyName="object_name" value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_ComponentSvAI"
+        propertyName="object_desc" value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_ComponentSvAI"
+        propertyName="object_name" value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_DocumentRevision"
+        propertyName="bt7_documentClass" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_DocumentRevision"
+        propertyName="bt7_documentSNType" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_DocumentRevision"
+        propertyName="bt7_documentSubClass" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_DocumentRevisionCreI"
+        propertyName="bt7_rohs_compliant" value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_DocumentSvAI" propertyName="object_desc"
+        value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_DocumentSvAI" propertyName="object_name"
+        value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_ManufacturerRevisionCreI"
+        propertyName="bt7_rohs_compliant" value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_ProductSvAI" propertyName="object_desc"
+        value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_ProductSvAI" propertyName="object_name"
+        value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_rohs_compliant" value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_ToolPartRevisionSvAI"
+        propertyName="object_desc" value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_ToolPartRevisionSvAI"
+        propertyName="object_name" value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_ToolRevisionSvAI"
+        propertyName="object_desc" value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_ToolRevisionSvAI"
+        propertyName="object_name" value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_ToolSvAI" propertyName="object_desc"
+        value="false"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="BT7_ToolSvAI" propertyName="object_name"
+        value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompRevisionCreI"
+        propertyName="bt7_docchange" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompRevisionCreI"
+        propertyName="bt7_FirstUse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompRevisionCreI"
+        propertyName="bt7_GeneralTolerance" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompRevisionCreI"
+        propertyName="bt7_MassUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompRevisionCreI"
+        propertyName="bt7_MassValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompRevisionCreI"
+        propertyName="bt7_MaterialRequirement_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompRevisionCreI"
+        propertyName="bt7_Responsible" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompRevisionCreI"
+        propertyName="bt7_Supplier_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompRevisionCreI"
+        propertyName="bt7_Supplier_2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompRevisionCreI"
+        propertyName="bt7_Surface_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompRevisionCreI"
+        propertyName="bt7_Treatment_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompRevisionCreI"
+        propertyName="bt7_VolumeUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompRevisionCreI"
+        propertyName="bt7_VolumeValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompSvAI"
+        propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompSvAI"
+        propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ComponentRevisionCreI"
+        propertyName="bt7_Supplier_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ComponentRevisionCreI"
+        propertyName="bt7_Supplier_2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ComponentRevisionCreI"
+        propertyName="bt7_zulce" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ComponentRevisionCreI"
+        propertyName="bt7_zulgrd" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ComponentRevisionCreI"
+        propertyName="bt7_zuloth" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ComponentRevisionCreI"
+        propertyName="bt7_zulsev" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ComponentRevisionCreI"
+        propertyName="bt7_zultuv" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ComponentRevisionCreI"
+        propertyName="bt7_zuluse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ComponentRevisionCreI"
+        propertyName="bt7_zulvde" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ComponentSvAI" propertyName="object_desc"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ComponentSvAI" propertyName="object_name"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_docchange" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_FirstUse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_GeneralTolerance" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_MassUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_MassValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_MaterialRequirement_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_Responsible" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_shortInfo2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_Supplier_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_Supplier_2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_Surface_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_Treatment_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_VolumeUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgRevisionCreI"
+        propertyName="bt7_VolumeValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_DocumentRevisionCreI"
+        propertyName="bt7_GeneralTolerance" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_DocumentRevisionCreI"
+        propertyName="bt7_MassUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_DocumentRevisionCreI"
+        propertyName="bt7_MassValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_DocumentRevisionCreI"
+        propertyName="bt7_rohs_compliant" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_DocumentRevisionCreI"
+        propertyName="bt7_shortInfo2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_DocumentRevisionCreI"
+        propertyName="bt7_Supplier_2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_DocumentRevisionCreI"
+        propertyName="bt7_techinfo" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_DocumentRevisionCreI"
+        propertyName="bt7_VolumeUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_DocumentRevisionCreI"
+        propertyName="bt7_VolumeValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_DocumentSvAI" propertyName="object_name"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_docchange" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_FirstUse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_GeneralTolerance" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_MassUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_MassValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_MaterialRequirement_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_remark" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_Responsible" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_shortInfo2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_Supplier_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_Supplier_2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_Surface_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_Treatment_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_VolumeUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADRevisionCreI"
+        propertyName="bt7_VolumeValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ManufacturerRevisionCreI"
+        propertyName="bt7_docchange" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ManufacturerRevisionCreI"
+        propertyName="bt7_FirstUse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ManufacturerRevisionCreI"
+        propertyName="bt7_GeneralTolerance" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ManufacturerRevisionCreI"
+        propertyName="bt7_MassUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ManufacturerRevisionCreI"
+        propertyName="bt7_MassValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ManufacturerRevisionCreI"
+        propertyName="bt7_Responsible" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ManufacturerRevisionCreI"
+        propertyName="bt7_rohs_compliant" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ManufacturerRevisionCreI"
+        propertyName="bt7_shortInfo2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ManufacturerRevisionCreI"
+        propertyName="bt7_Supplier_2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ManufacturerRevisionCreI"
+        propertyName="bt7_techinfo" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ManufacturerRevisionCreI"
+        propertyName="bt7_VolumeUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ManufacturerRevisionCreI"
+        propertyName="bt7_VolumeValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProdTypeKeyRevisionCreI"
+        propertyName="bt7_doccertbody" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProdTypeKeyRevisionCreI"
+        propertyName="bt7_docdesc" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProdTypeKeyRevisionCreI"
+        propertyName="bt7_docedition" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProdTypeKeyRevisionCreI"
+        propertyName="bt7_doceqpartno" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProdTypeKeyRevisionCreI"
+        propertyName="bt7_docexpire" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProdTypeKeyRevisionCreI"
+        propertyName="bt7_docverification" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProdTypeKeyRevisionCreI"
+        propertyName="bt7_docversion" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProdTypeKeyRevisionCreI"
+        propertyName="bt7_FirstUse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProdTypeKeyRevisionCreI"
+        propertyName="bt7_Responsible" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_docchange" value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_FirstUse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_GeneralTolerance" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_MassUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_MassValue" value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_MaterialRequirement_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_Responsible" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_shortInfo2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_Supplier_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_Supplier_2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_Surface_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_Treatment_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_VolumeUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_VolumeValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_zulappro" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_zulce" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_zulgrd" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_zuloth" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_zulsev" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_zultuv" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_zuluse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductRevisionCreI"
+        propertyName="bt7_zulvde" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductSvAI" propertyName="object_desc"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ProductSvAI" propertyName="object_name"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_docchange" value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_FirstUse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_GeneralTolerance" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_MassUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_MassValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_MaterialRequirement_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_Responsible" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_rohs_compliant" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_shortInfo2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_Supplier_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_Supplier_2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_Surface_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_techinfo" value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_Treatment_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_validation" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_VolumeUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_VolumeValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_zulappro" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_zulce" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_zulgrd" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_zuloth" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_zulsev" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_zultuv" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_zuluse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareRevisionCreI"
+        propertyName="bt7_zulvde" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionCreI"
+        propertyName="bt7_docchange" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionCreI"
+        propertyName="bt7_shortInfo2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionCreI"
+        propertyName="bt7_SupplierCode_2_PartNo" value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionCreI"
+        propertyName="bt7_techinfo" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionCreI"
+        propertyName="bt7_validation" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionCreI"
+        propertyName="bt7_zulce" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionCreI"
+        propertyName="bt7_zulgrd" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionCreI"
+        propertyName="bt7_zuloth" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionCreI"
+        propertyName="bt7_zulsev" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionCreI"
+        propertyName="bt7_zultuv" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionCreI"
+        propertyName="bt7_zuluse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionCreI"
+        propertyName="bt7_zulvde" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionSvAI"
+        propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartRevisionSvAI"
+        propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_docchange" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_FirstUse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_GeneralTolerance" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_MaterialRequirement_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_remark" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_shortInfo2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_Surface_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_ToolType" value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_ToolType_1" value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_Treatment_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_VolumeUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_VolumeValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_zulappro" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_zulce" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_zulgrd" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_zuloth" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_zulsev" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_zultuv" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_zuluse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionCreI"
+        propertyName="bt7_zulvde" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionSvAI"
+        propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolRevisionSvAI"
+        propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolSvAI" propertyName="object_desc"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolSvAI" propertyName="object_name"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_docchange" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_FirstUse" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_GeneralTolerance" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_MassUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_MassValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_MaterialRequirement_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_parttype" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_Responsible" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_shortInfo2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_Supplier_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_Supplier_2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_Surface_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_Treatment_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_VolumeUnit" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartRevisionCreI"
+        propertyName="bt7_VolumeValue" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="ItemRevisionCreI" propertyName="bt7_SupplierCode_2_PartNo"
+        value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="ItemRevisionCreI" propertyName="bt7_ToolType"
+        value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="ItemRevisionCreI" propertyName="bt7_ToolType_1"
+        value="false"/>
+   <TcCompoundPropertyRule destTypeName="UGALTREP" destPropertyName="bt7_cp_CheckClass"
+        sourceTypeName="UGPartAttr" sourcePropertyName="bt7_CheckClass" isReadOnly="false"
+        pathToSource="REF(ref_list,UGPartAttr).bt7_CheckClass" description="Compound property of attribute bt7_CheckClass of BO UGPartAttr"/>
+   <TcCompoundPropertyRule destTypeName="UGMASTER" destPropertyName="bt7_cp_CheckClass"
+        sourceTypeName="UGPartAttr" sourcePropertyName="bt7_CheckClass" isReadOnly="false"
+        pathToSource="REF(ref_list,UGPartAttr).bt7_CheckClass" description="Compound property of attribute bt7_CheckClass of UGPartAttr"/>
+   <TcCompoundPropertyRule destTypeName="UGPART" destPropertyName="bt7_cp_CheckClass"
+        sourceTypeName="UGPartAttr" sourcePropertyName="bt7_CheckClass" isReadOnly="false"
+        pathToSource="REF(ref_list,UGPartAttr).bt7_CheckClass" description="Compound property of attribute bt7_CheckClass of BO UGPartAttr"/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_Rendering" propertyType="Relation"
+        objectTypeName="DirectModel" conditionName="isTrue" operationName="ITEM_copy_rev"
+        copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+        isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+        objectTypeName="BT7_TcEntValues" conditionName="isTrue" operationName="ITEM_copy_rev"
+        copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+        isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="Mat1UsesMaterial" propertyType="Relation"
+        objectTypeName="BT7_MaterialRevision" conditionName="isTrue" operationName="ITEM_copy_rev"
+        copyType="CopyAsReference" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+        isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_Rendering" propertyType="Relation"
+        objectTypeName="DirectModel" conditionName="isTrue" operationName="ITEM_create_from_rev"
+        copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+        isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="IMAN_specification" propertyType="Relation"
+        objectTypeName="BT7_TcEntValues" conditionName="isTrue" operationName="ITEM_create_from_rev"
+        copyType="NoCopy" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+        isRequired="false" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ChangeNotice" accessorName="Organization" accessorType="Organization"
+        conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Cm0ActionItem" accessorName="Organization" accessorType="Organization"
+        conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Cm0ActionItem" accessorName="DBA in dba" accessorType="RoleInGroup"
+        conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Envelope" accessorName="Organization" accessorType="Organization"
+        conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Envelope" accessorName="DBA in dba" accessorType="RoleInGroup"
+        conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEActivity" accessorName="Organization" accessorType="Organization"
+        conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEActivity" accessorName="DBA in dba" accessorType="RoleInGroup"
+        conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MENCProgram" accessorName="Organization" accessorType="Organization"
+        conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MENCProgram" accessorName="DBA in dba" accessorType="RoleInGroup"
+        conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MENCToolActivity" accessorName="Organization"
+        accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MENCToolActivity" accessorName="DBA in dba"
+        accessorType="RoleInGroup" conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0RefFrame" accessorName="dba" accessorType="Group"
+        conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0RefFrame" accessorName="Organization" accessorType="Organization"
+        conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="StdFolder" accessorName="Organization" accessorType="Organization"
+        conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="StdFolder" accessorName="DBA in dba" accessorType="RoleInGroup"
+        conditionName="isFalse" description=""/>
+   <TcExtensionAttach extensionName="BT7_RelSpecifiedDeletePreCondition" operationName="IMAN_delete"
+        isActive="true" extendableElementName="BT7_Includes" extendableElementType="Type"
+        extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcNamingRule name="BT7_object_name_CCR_Rule">
+      <TcPattern generateCounters="false" patternString="%^[A-Za-z0-9\ \/\(\)\+\&gt;\&lt;\=\&apos;\-\@\_\.\,\;\:\°\%\&amp;\µ]{1,40}$"/>
+   </TcNamingRule>
+   <TcNamingRuleAttach ruleName="BT7_CommonComp" typeName="BT7_CommonComp" propertyName="item_id"
+        case="Mix" conditionName="BT7_IsMemberOf_100Admin_dba_role_DBA" override="false"
+        ruleType="NamingRule" description=""/>
+   <TcNamingRuleAttach ruleName="BT7_RevisionID" typeName="BT7_ToolPart" propertyName="item_revision_id"
+        case="Upper" conditionName="isTrue" override="false" ruleType="NamingRule"
+        description=""/>
+   <TcNamingRuleAttach ruleName="BT7_object_name_CCR_Rule" typeName="BT7_CommonComp"
+        propertyName="object_name" case="Mix" conditionName="isTrue" override="true"
+        ruleType="NamingRule" description=""/>
+   <TcLOV name="Bt7_LOV_Class_Dev_Con" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_07" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_09" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_24" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_27" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_28" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_Dev_PaP" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_08" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_Dev_Spec" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_04" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_06" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_15" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_20" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_24" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_27" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_Dev_Ver" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_02" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_06" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_16" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_20" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_MaP_Con" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_07" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_09" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_24" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_28" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_MaP_PaP" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_MaP_Spec" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_24" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_MaP_Ver" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_Manu_Con" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_07" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_09" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_24" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_27" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_28" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_Manu_PaP" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_08" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_14" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_21" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_Manu_Spec" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_01" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_03" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_06" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_11" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_15" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_19" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_20" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_23" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_24" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_26" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_27" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_Manu_Ver" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_06" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_12" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_16" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_20" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_UaD_Con" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_07" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_09" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_24" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_27" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_28" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_UaD_PaP" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_UaD_Spec" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_05" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_06" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_10" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_15" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_17" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_18" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_24" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_27" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_Class_UaD_Ver" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dtype_05" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_06" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_13" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_16" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_17" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_22" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dtype_25" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_DocumentClass" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dclass_dev" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dclass_manu" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dclass_UaD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dclass_MaP" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_DocumentSubclass_MaP" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dsclass_Con_MaP" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dsclass_Spec_MaP" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dsclass_Ver_MaP" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dsclass_PaP_MaP" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_DocumentSubclass_UaD" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dsclass_Con_UaD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dsclass_Spec_UaD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dsclass_Ver_UaD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dsclass_PaP_UaD" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_DocumentSubclass_dev" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dsclass_Con_dev" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dsclass_Spec_dev" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dsclass_Ver_dev" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dsclass_PaP_dev" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Bt7_LOV_DocumentSubclass_manu" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="dsclass_Con_manu" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dsclass_Spec_manu" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dsclass_Ver_manu" description="" conditionName="isTrue"/>
+      <TcLOVValue value="dsclass_PaP_manu" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentClass" targetValue="dclass_dev"
+        subLOVName="Bt7_LOV_DocumentSubclass_dev" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentClass" targetValue="dclass_manu"
+        subLOVName="Bt7_LOV_DocumentSubclass_manu" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentClass" targetValue="dclass_MaP"
+        subLOVName="Bt7_LOV_DocumentSubclass_MaP" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentClass" targetValue="dclass_UaD"
+        subLOVName="Bt7_LOV_DocumentSubclass_UaD" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_dev" targetValue="dsclass_Con_dev"
+        subLOVName="Bt7_LOV_Class_Dev_Con" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_manu" targetValue="dsclass_Con_manu"
+        subLOVName="Bt7_LOV_Class_Manu_Con" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_MaP" targetValue="dsclass_Con_MaP"
+        subLOVName="Bt7_LOV_Class_MaP_Con" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_UaD" targetValue="dsclass_Con_UaD"
+        subLOVName="Bt7_LOV_Class_UaD_Con" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_dev" targetValue="dsclass_PaP_dev"
+        subLOVName="Bt7_LOV_Class_Dev_PaP" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_manu" targetValue="dsclass_PaP_manu"
+        subLOVName="Bt7_LOV_Class_Manu_PaP" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_MaP" targetValue="dsclass_PaP_MaP"
+        subLOVName="Bt7_LOV_Class_MaP_PaP" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_UaD" targetValue="dsclass_PaP_UaD"
+        subLOVName="Bt7_LOV_Class_UaD_PaP" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_dev" targetValue="dsclass_Spec_dev"
+        subLOVName="Bt7_LOV_Class_Dev_Spec" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_manu" targetValue="dsclass_Spec_manu"
+        subLOVName="Bt7_LOV_Class_Manu_Spec" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_MaP" targetValue="dsclass_Spec_MaP"
+        subLOVName="Bt7_LOV_Class_MaP_Spec" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_UaD" targetValue="dsclass_Spec_UaD"
+        subLOVName="Bt7_LOV_Class_UaD_Spec" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_dev" targetValue="dsclass_Ver_dev"
+        subLOVName="Bt7_LOV_Class_Dev_Ver" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_manu" targetValue="dsclass_Ver_manu"
+        subLOVName="Bt7_LOV_Class_Manu_Ver" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_MaP" targetValue="dsclass_Ver_MaP"
+        subLOVName="Bt7_LOV_Class_MaP_Ver" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="Bt7_LOV_DocumentSubclass_UaD" targetValue="dsclass_Ver_UaD"
+        subLOVName="Bt7_LOV_Class_UaD_Ver" conditionName="isTrue"/>
+   <TcLOVAttach lovName="Bt7_LOV_DocumentClass" typeName="BT7_DocumentRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_documentClass" conditionName="isTrue"
+          override="false" level="1"/>
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_documentSubClass" conditionName="isTrue"
+          override="false" level="2" parentPropertyName="bt7_documentClass"/>
+      <TcLOVAttachPropertyInfo valuePropertyName="bt7_documentSNType" conditionName="isTrue"
+          override="false" level="3" parentPropertyName="bt7_documentSubClass"/>
+   </TcLOVAttach>
+   <PropertyRendererAttach rendererName="BT7_ToolPartPartTyp_PropRenderer" typeName="BT7_ToolPart"
+        propertyName="object_string" conditionName="isTrue"/>
+   <PropertyRendererAttach rendererName="BT7_ToolPartRevPartTyp_PropRenderer" typeName="BT7_ToolPartRevision"
+        propertyName="object_string" conditionName="isTrue"/>
+</Add>
+</TcBusinessData>

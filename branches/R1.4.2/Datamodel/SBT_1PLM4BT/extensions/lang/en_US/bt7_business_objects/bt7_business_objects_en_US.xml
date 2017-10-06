@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMYCNTMasterS" status="Approved">CCR DUMMYCNT Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMYCNTMaster" status="Approved">CCR DUMMYCNT Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMYCNTRevMasterS" status="Approved">CCR DUMMYCNT Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMYCNTRevisionMaster" status="Approved">CCR DUMMYCNT Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMYCNTRevision" status="Approved">CCR DUMMYCNT Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMYCNT" status="Approved">BT7 CCR DUMMYCNT</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MultiSEff" status="Approved">Multi S Effectivity</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_UGPartAttr" status="Approved">UG Part Attr</key>
+   <key locale="en_US" id="LOVValueDescription{::}BT7_lov_parttype_toolpart{::}pt_catpart"
+       status="Approved">mech. Catalog part</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_EN{::}Purchased Part" status="Approved">Purchased Part</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_commoncomponent{::}pt_mech"
+       status="Approved">Mechanical Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype_toolpart{::}pt_catpart" status="Approved">mech. Catalog part</key>
+   <key locale="en_US" id="Property{::}BT7_MultiSEff{::}bt7_RevEffective_EndDate"
+       status="Approved">Rev Effective End Date</key>
+   <key locale="en_US" id="Property{::}BT7_MultiSEff{::}bt7_RevEffective_StartDate"
+       status="Approved">Rev Effective Start Date</key>
+   <key locale="en_US" id="Property{::}BT7_UGPartAttr{::}bt7_CheckClass" status="Approved">Check Class</key>
+   <key locale="en_US" id="Property{::}BT7_UGPartAttr{::}bt7_DrawingSize" status="Approved">Drawing Size</key>
+   <key locale="en_US" id="Property{::}BT7_UGPartAttr{::}bt7_Scale" status="Approved">Scale</key>
+   <key locale="en_US" id="Property{::}Document Master{::}bt7_ApprDate_1" status="Approved">bt7_ApprDate_1</key>
+   <key locale="en_US" id="Property{::}DocumentRevision Master{::}bt7_ApprDate_1"
+       status="Approved">bt7_ApprDate_1</key>
+   <key locale="en_US" id="Property{::}IMSProfile{::}bt7_ApprDate_1" status="Approved">bt7_ApprDate_1</key>
+   <key locale="en_US" id="Property{::}IMSProfile{::}bt7_ApprDate_2" status="Approved">bt7_ApprDate_2</key>
+   <key locale="en_US" id="Property{::}IMSProfile{::}bt7_ApprDate_3" status="Approved">bt7_ApprDate_3</key>
+   <key locale="en_US" id="Property{::}IMSProfile{::}bt7_ApprDate_4" status="Approved">bt7_ApprDate_4</key>
+   <key locale="en_US" id="Property{::}IMSProfile{::}bt7_ApprDate_DocMapp" status="Approved">bt7_ApprDate_DocMapp</key>
+   <key locale="en_US" id="Property{::}IMSProfile{::}bt7_ApprUser_1" status="Approved">bt7_ApprUser_1</key>
+   <key locale="en_US" id="Property{::}IMSProfile{::}bt7_ApprUser_2" status="Approved">bt7_ApprUser_2</key>
+   <key locale="en_US" id="Property{::}IMSProfile{::}bt7_ApprUser_3" status="Approved">bt7_ApprUser_3</key>
+   <key locale="en_US" id="Property{::}IMSProfile{::}bt7_ApprUser_4" status="Approved">bt7_ApprUser_4</key>
+   <key locale="en_US" id="Property{::}IMSProfile{::}bt7_ItemRevName_2" status="Approved">bt7_ItemRevName_2</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_AltMaterial" status="Approved">Alternate Material</key>
+   <key locale="en_US" id="Property{::}RequirementSpec Master{::}bt7_ApprDate_1" status="Approved">bt7_ApprDate_1</key>
+   <key locale="en_US" id="Property{::}Specification Master{::}bt7_ApprDate_1" status="Approved">bt7_ApprDate_1</key>
+   <key locale="en_US" id="ReleaseStatus{::}BT7_ECO" status="Approved">Pre Release+</key>
+</Add>
+</TcBusinessDataLocalization>

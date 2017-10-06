@@ -1,0 +1,15 @@
+     [echo]  Executing MakeExecutable Target 
+     [echo] MSDEV_INCLUDE: ${env.MSDEV_INCLUDE}
+     [echo] MSDEV_HOME: C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC
+
+MakeExecutable:
+     [echo]  Compiling and linking Doc_Rev_LOV_Migration . . . 
+       [cc] 2 total files to be compiled.
+       [cc] Loading_LOV_Data.cpp
+       [cc] Doc_Rev_LOV_Migration.cpp
+       [cc] D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\Doc_Rev_LOV_Migration\src\Doc_Rev_LOV_Migration.cpp(412) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+       [cc] D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\Doc_Rev_LOV_Migration\src\Doc_Rev_LOV_Migration.cpp(312) : warning C4101: 'iRows' : unreferenced local variable
+       [cc] Generating Code...
+       [cc] Starting link
+   [delete] Deleting: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\EXE_Projects\Doc_Rev_LOV_Migration\rerun
+     [echo]  Created Doc_Rev_LOV_Migration.exe successfully 

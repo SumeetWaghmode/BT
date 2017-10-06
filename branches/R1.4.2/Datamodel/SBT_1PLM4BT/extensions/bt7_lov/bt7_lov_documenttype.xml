@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_DocumentType" lovType="ListOfValuesString" usage="Exhaustive"
+       description="BT7_LOV_DocumentType">
+     <TcLOVValue value="---|---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Angebot|Quotation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="APV|Test Instruction" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Arbeitsanweisung|Work instruction" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Beipackzettel|Package leaflet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BK - Bestellung|Equipment design-order" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CE - Dokument|CE-document" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Checkliste|Checklist" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Datenblatt|Data sheet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dok. Projektabwicklung|Docs. project management" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Dokumentation|Documentation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Druckvorlage|Artwork" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Erfassung von Aenderungen|Recording modifications" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Erstmusterprüfbericht|FAIR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Festigkeitsnachweis|Strenght verification" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Kundenvereinbarung|Customer agreement" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Layoutauftrag|PCB Layout order" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lieferantenvereinbarung|Supplier agreement" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Liefervorschrift|Supplier specification" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Liste|List" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Montageanleitung|Mounting instruction" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Nachweispflichtiges Dokument|Document for approval" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Pneum. Steuerungs Dok.|Pneum. control docs." description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Produkt Umweltdeklaration|Environ. Product Declaration" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Protokoll|Minutes" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prüffile|Testfile" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stückliste - Betriebsmittel|BOM - Equipment design" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Stückliste - Ersatzteile|BOM - Spare parts" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Stückliste - Gerät|BOM - Unit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stückliste - Leiterplatte|BOM - PCB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stückliste - Zubehör|BOM - Accessories" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SW-Versionskontrolle|SW-version control" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Technische Lieferbedingungen|Technical Delivery Conditions"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="Typenschildtabelle|Type-label sheet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Typenschlüssel|Type code" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Typisierungsmitteilung|Type declaration" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Umbauanweisung|Rework instruction" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Verfahrensvorschrift|Process instruction" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Vorlage|Template" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

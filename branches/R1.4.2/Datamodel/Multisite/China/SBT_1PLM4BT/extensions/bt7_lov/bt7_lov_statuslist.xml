@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_StatusList" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_StatusList">
+     <TcLOVValue value="5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="10" description="" conditionName="isTrue"/>
+     <TcLOVValue value="60" description="" conditionName="isTrue"/>
+     <TcLOVValue value="90" description="" conditionName="isTrue"/>
+     <TcLOVValue value="98" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Abgelehnt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BT7_ECO" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BT7_Implemented" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

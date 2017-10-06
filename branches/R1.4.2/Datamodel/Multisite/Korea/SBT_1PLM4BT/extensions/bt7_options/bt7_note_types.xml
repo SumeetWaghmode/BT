@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<!-- DEPLOYISSUE -->
+<!-- <Add>
+   <TcNoteType noteTypeName="PLME_ALTQUANT" description="PLME_ALTQUANT"/>
+   <TcNoteType noteTypeName="PLME_BEMERKUNG" description="PLME_BEMERKUNG"/>
+   <TcNoteType noteTypeName="PLME_CUST1" description="PLME_CUST1"/>
+   <TcNoteType noteTypeName="PLME_CUST2" description="PLME_CUST2"/>
+   <TcNoteType noteTypeName="PLME_CUST3" description="PLME_CUST3"/>
+   <TcNoteType noteTypeName="PLME_CUST4" description="PLME_CUST4"/>
+   <TcNoteType noteTypeName="PLME_CUST5" description="PLME_CUST5"/>
+   <TcNoteType noteTypeName="PLME_CUST6" description="PLME_CUST6"/>
+   <TcNoteType noteTypeName="PLME_CUST7" description="PLME_CUST7"/>
+   <TcNoteType noteTypeName="PLME_MUNIT" description="PLME_MUNIT"/>
+   <TcNoteType noteTypeName="PLME_POSTYPE" description="PLME_POSTYPE"/>
+   <TcNoteType noteTypeName="PLME_ROHMASS" description="PLME_ROHMASS"/>
+</Add> -->
+</TcBusinessData>

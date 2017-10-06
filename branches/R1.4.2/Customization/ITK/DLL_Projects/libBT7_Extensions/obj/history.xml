@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="cl /c /Zi /nologo /w /WX- /O2 /Oi /Gm- /TP /EHsc /MD /Gs /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /Gd /c /nologo /DNDEBUG /MD /DWIN64 /DNDEBUG /D_WINDOWS /D_USRDLL /DIPLIB=none /D_WINDLL /I..\..\..\dump\112\include /I..\..\..\dump\112\include_cpp /I..\..\..\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\DLL_Projects\libBT7_Extensions\src /I..\..\..\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\DLL_Projects\WEMH_Common /I..\..\..\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\DLL_Projects\libBT7_Extensions\lib /IC:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include /I..\..\..\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\DLL_Projects\libBT7_Extensions\incl">
+      <target file="BT7_CommonComponentRequestsSavePostAction.obj" lastModified="15ee1fb39a0">
+         <source file="..\src\BT7_CommonComponentRequestsSavePostAction.cpp" lastModified="15cd48b27ab"/>
+      </target>
+      <target file="BT7_RelConcernedDeletePreCondition.obj" lastModified="15ee1fb5b07">
+         <source file="..\src\BT7_RelConcernedDeletePreCondition.cpp" lastModified="15cd48b27bf"/>
+      </target>
+      <target file="BT7_RelSpecifiedDeletePreCondition.obj" lastModified="15ee1fb5ca2">
+         <source file="..\src\BT7_RelSpecifiedDeletePreCondition.cpp" lastModified="15cd48b27c8"/>
+      </target>
+      <target file="BT7_RelConcernedCreatePostAction.obj" lastModified="15ee1fb3f7b">
+         <source file="..\src\BT7_RelConcernedCreatePostAction.cpp" lastModified="15cd48b27b9"/>
+      </target>
+      <target file="BT7_CMHasProblemItemPreCondition.obj" lastModified="15ee1fb33b0">
+         <source file="..\src\BT7_CMHasProblemItemPreCondition.cpp" lastModified="15cd48b27a6"/>
+      </target>
+      <target file="BT7_ProductSavePreCondition.obj" lastModified="15ee1fb37a3">
+         <source file="..\src\BT7_ProductSavePreCondition.cpp" lastModified="15cd48b2798"/>
+      </target>
+      <target file="RevisePart.obj" lastModified="15ee1fb3c23">
+         <source file="..\src\RevisePart.cpp" lastModified="15cd48b27d8"/>
+      </target>
+      <target file="BT7_CMHasImpactedItemPreCondition.obj" lastModified="15ee1fb3915">
+         <source file="..\src\BT7_CMHasImpactedItemPreCondition.cpp" lastModified="15cd48b27a2"/>
+      </target>
+      <target file="BT7_RestrictAttibuteSize.obj" lastModified="15ee1fb3895">
+         <source file="..\src\BT7_RestrictAttibuteSize.cpp" lastModified="15cd48b27ce"/>
+      </target>
+      <target file="BT7_BomWindowSavePreAction.obj" lastModified="15ee1fb36c0">
+         <source file="..\src\BT7_BomWindowSavePreAction.cpp" lastModified="15cd48b279e"/>
+      </target>
+      <target file="BT7_CMHasSolutionItemDeletePreAction.obj" lastModified="15ee1fb3a39">
+         <source file="..\src\BT7_CMHasSolutionItemDeletePreAction.cpp" lastModified="15cd48b278e"/>
+      </target>
+      <target file="BT7_RelSpecifiedCreatePreCondition.obj" lastModified="15ee1fb5c28">
+         <source file="..\src\BT7_RelSpecifiedCreatePreCondition.cpp" lastModified="15cd48b27c5"/>
+      </target>
+      <target file="BT7_RelConcernedCreatePreCondition.obj" lastModified="15ee1fb3ff7">
+         <source file="..\src\BT7_RelConcernedCreatePreCondition.cpp" lastModified="15cd48b27bc"/>
+      </target>
+      <target file="BT7_ItemSavePreCondition.obj" lastModified="15ee1fb3efb">
+         <source file="..\src\BT7_ItemSavePreCondition.cpp" lastModified="15cd48b27b6"/>
+      </target>
+      <target file="BT7_CMHasSolutionItemPostAction.obj" lastModified="15ee1fb3ace">
+         <source file="..\src\BT7_CMHasSolutionItemPostAction.cpp" lastModified="15cd48b2790"/>
+      </target>
+      <target file="BT7_CMHasSolutionItemPreCondition.obj" lastModified="15ee1fb3db4">
+         <source file="..\src\BT7_CMHasSolutionItemPreCondition.cpp" lastModified="15cd48b27a8"/>
+      </target>
+      <target file="CommonFunctions.obj" lastModified="15ee1fb3d42">
+         <source file="..\src\CommonFunctions.cpp" lastModified="15cd48b278b"/>
+      </target>
+      <target file="BT7_ItemRevisionSavePostAction.obj" lastModified="15ee1fb3477">
+         <source file="..\src\BT7_ItemRevisionSavePostAction.cpp" lastModified="15cd48b27b3"/>
+      </target>
+      <target file="BT7_ItemRevisionDeepCopyPostAction.obj" lastModified="15ee1fb35dc">
+         <source file="..\src\BT7_ItemRevisionDeepCopyPostAction.cpp" lastModified="15cd48b2793"/>
+      </target>
+      <target file="BT7_RelSpecifiedCreatePostAction.obj" lastModified="15ee1fb3e2e">
+         <source file="..\src\BT7_RelSpecifiedCreatePostAction.cpp" lastModified="15cd48b27c2"/>
+      </target>
+      <target file="ReviseDocument.obj" lastModified="15ee1fb5ba4">
+         <source file="..\src\ReviseDocument.cpp" lastModified="15cd48b27d5"/>
+      </target>
+      <target file="BT7_ItemCreatePreCondition.obj" lastModified="15ee1fb3b43">
+         <source file="..\src\BT7_ItemCreatePreCondition.cpp" lastModified="15cd48b27b0"/>
+      </target>
+      <target file="BT7_SetReleaseStatusListPostAction.obj" lastModified="15ee1fb350e">
+         <source file="..\src\BT7_SetReleaseStatusListPostAction.cpp" lastModified="15cd48b27d1"/>
+      </target>
+      <target file="BT7_ItemCreateFromRevPreCondition.obj" lastModified="15ee1fb381a">
+         <source file="..\src\BT7_ItemCreateFromRevPreCondition.cpp" lastModified="15cd48b27ad"/>
+      </target>
+   </processor>
+</history>

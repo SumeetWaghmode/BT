@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcNamingRule name="BT7_Document_ID_Rule">
+      <TcPattern generateCounters="true" patternString="&quot;8&quot;nnnnnnnnn">
+         <TcCounter initialValue="8000041000" maximumValue="8000059999"/>
+      </TcPattern>
+      <TcPattern generateCounters="false" patternString="[RULE:BT7_NUM_9-10Digit]"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_EngChange_ID_Rule">
+      <TcPattern generateCounters="false" patternString="&quot;24&quot;nnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;x24&quot;nnnn"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_Material_ID_Rule">
+      <TcPattern generateCounters="true" patternString="&quot;CSE-&quot;NNNNNN">
+         <TcCounter initialValue="CSE-000001" maximumValue="CSE-999999"/>
+      </TcPattern>
+      <TcPattern generateCounters="false" patternString="[RULE:BT7_NUM_9-10Digit]"/>
+      <TcPattern generateCounters="false" patternString="[RULE:BT7_NUM_TNS]"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_NUM_9-10Digit">
+      <TcPattern generateCounters="false" patternString="&quot;1&quot;NNNNNNNN"/>
+      <TcPattern generateCounters="false" patternString="&quot;2&quot;NNNNNNNN"/>
+      <TcPattern generateCounters="false" patternString="&quot;3&quot;NNNNNNNN"/>
+      <TcPattern generateCounters="false" patternString="&quot;4&quot;NNNNNNNN"/>
+      <TcPattern generateCounters="false" patternString="&quot;71&quot;NNNNNNNN"/>
+      <TcPattern generateCounters="false" patternString="&quot;72&quot;NNNNNNNN"/>
+      <TcPattern generateCounters="false" patternString="&quot;73&quot;NNNNNNNN"/>
+      <TcPattern generateCounters="false" patternString="&quot;74&quot;NNNNNNNN"/>
+      <TcPattern generateCounters="false" patternString="&quot;8&quot;NNNNNNNNN"/>
+      <TcPattern generateCounters="false" patternString="&quot;35&quot;nnnnnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;36&quot;nnnnnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;735&quot;nnnnnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;736&quot;nnnnnnnnnnn"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_NUM_TNS">
+      <TcPattern generateCounters="false" patternString="&quot;A5Q&quot;NNNNNNNN"/>
+      <TcPattern generateCounters="false" patternString="&quot;A5Q&quot;NNNNNNNNA"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_PCB_ID_Rule">
+      <TcPattern generateCounters="true" patternString="&quot;CSE-&quot;NNNNNN">
+         <TcCounter initialValue="CSE-000001" maximumValue="CSE-999999"/>
+      </TcPattern>
+      <TcPattern generateCounters="false" patternString="[RULE:BT7_NUM_9-10Digit]"/>
+      <TcPattern generateCounters="false" patternString="[RULE:BT7_NUM_TNS]"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_ProductPart_ID_Rule">
+      <TcPattern generateCounters="true" patternString="&quot;CSE-&quot;NNNNNN">
+         <TcCounter initialValue="CSE-000001" maximumValue="CSE-999999"/>
+      </TcPattern>
+      <TcPattern generateCounters="false" patternString="&quot;CSE-&quot;NNNNNN&quot;_CAM&quot;"/>
+      <TcPattern generateCounters="false" patternString="[RULE:BT7_NUM_9-10Digit]"/>
+      <TcPattern generateCounters="false" patternString="[RULE:BT7_NUM_9-10Digit]&quot;_CAM&quot;"/>
+      <TcPattern generateCounters="false" patternString="[RULE:BT7_NUM_TNS]"/>
+      <TcPattern generateCounters="false" patternString="[RULE:BT7_NUM_TNS]&quot;_CAM&quot;"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_Product_ID_Rule">
+      <TcPattern generateCounters="false" patternString="%^[A-Z][A-Z][A-Z][A-Z0-9\-\.\/]{1,12}$"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_Revision_ID_Rule">
+      <TcPattern generateCounters="false" patternString="%^[A-HKMNP-Z][A-HKMNP-Z0-9][0-9]$"/>
+      <TcPattern generateCounters="false" patternString="%^[A-HKMNP-Z][A-HKMNP-Z0-9]$"/>
+      <TcPattern generateCounters="false" patternString="%^[A-HKMNP-Z0-9]{1,4}$"/>
+      <TcPattern generateCounters="false" patternString="%^[0-9]{1,2}$"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_Software_ID_Rule">
+      <TcPattern generateCounters="true" patternString="&quot;8&quot;nnnnnnnnn">
+         <TcCounter initialValue="8000041000" maximumValue="8000050999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_CommonComp_ID_Rule">
+      <TcPattern generateCounters="true" patternString="&quot;CSE-&quot;nnnnnn">
+         <TcCounter initialValue="CSE-000001" maximumValue="CSE-999999"/>
+      </TcPattern>
+      <TcPattern generateCounters="false" patternString="&quot;1&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;2&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;4&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;71&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;72&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;74&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;A5Q&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;388&quot;nnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;7388&quot;nnnnnn"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_ToolPart_ID_Rule">
+      <TcPattern generateCounters="true" patternString="&quot;CSE-&quot;nnnnnn">
+         <TcCounter initialValue="CSE-000001" maximumValue="CSE-999999"/>
+      </TcPattern>
+      <TcPattern generateCounters="false" patternString="&quot;CSE-&quot;nnnnnn&quot;_CAM&quot;"/>
+      <TcPattern generateCounters="false" patternString="[RULE:BT7_NUM_9-10Digit]"/>
+      <TcPattern generateCounters="false" patternString="[RULE:BT7_NUM_9-10Digit]&quot;_CAM&quot;"/>
+      <TcPattern generateCounters="false" patternString="[RULE:BT7_NUM_TNS]"/>
+      <TcPattern generateCounters="false" patternString="[RULE:BT7_NUM_TNS]&quot;_CAM&quot;"/>
+      <TcPattern generateCounters="false" patternString="&quot;3&quot;nnnnnnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;3&quot;nnnnnnnnnnnn&quot;_CAM&quot;"/>
+      <TcPattern generateCounters="false" patternString="&quot;73&quot;nnnnnnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;73&quot;nnnnnnnnnnnn&quot;_CAM&quot;"/>
+      <TcPattern generateCounters="false" patternString="&quot;RAS-&quot;nnnnnn&quot;_CAM&quot;"/>
+      <TcPattern generateCounters="false" patternString="&quot;ZUG-&quot;nnnnnn&quot;_CAM&quot;"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_Tool_ID_Rule">
+      <TcPattern generateCounters="false" patternString="&quot;3&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;73&quot;nnnnnnnn"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_object_name_Rule">
+      <TcPattern generateCounters="false" patternString="%^[A-Za-z0-9\ \/\(\)\+\&gt;\&lt;\=\&apos;\-\_\.\,\;\:\°\%\&amp;\µ]{1,40}$"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_varman_ProdTypeKey_ID_Rule">
+      <TcPattern generateCounters="true" patternString="&quot;8&quot;nnnnnnnnn">
+         <TcCounter initialValue="8000041000" maximumValue="8000059999"/>
+      </TcPattern>
+      <TcPattern generateCounters="false" patternString="&quot;1&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;2&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;3&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;4&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;71&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;72&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;73&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;74&quot;nnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;35&quot;nnnnnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;36&quot;nnnnnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;735&quot;nnnnnnnnnnn"/>
+      <TcPattern generateCounters="false" patternString="&quot;736&quot;nnnnnnnnnnn"/>
+   </TcNamingRule>
+   <TcNamingRule name="BT7_varman_Revision_ID_Rule">
+      <TcPattern generateCounters="false" patternString="%^[A-HKMNP-Z][A-HKMNP-Z0-9][0-9]$"/>
+      <TcPattern generateCounters="false" patternString="%^[A-HKMNP-Z][A-HKMNP-Z0-9]$"/>
+      <TcPattern generateCounters="false" patternString="%^[A-HKMNP-Z]$"/>
+      <TcPattern generateCounters="false" patternString="%^[0-9]{1,2}$"/>
+   </TcNamingRule>
+   <TcNamingRuleAttach ruleName="BT7_object_name_Rule" typeName="Dataset" propertyName="object_name"
+         case="Mix" conditionName="isTrue" override="false" ruleType="NamingRule"
+         description=""/>
+   <TcNamingRuleAttach ruleName="BT7_object_name_Rule" typeName="Item" propertyName="object_name"
+         case="Mix" conditionName="isTrue" override="false" ruleType="NamingRule"
+         description=""/>
+</Add>
+</TcBusinessData>

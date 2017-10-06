@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<preferences version="10.0">
+  <!-- START BT7-->
+  <preference name="TC_BT7_ChangeNoticeRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>BT Change Order</value>
+      <value>Annulling</value>
+      <value>BT7_Reactivate</value>
+      <value>Remove_Status_All</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_CommonCompRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+	  <value>Annulling</value>
+      <value>BT7_ReExportToCADIM</value>
+      <value>BT7_Reactivate</value>           
+      <value>Remove_Status_Released</value>
+      <value>mach Status Pre Release</value>
+      <value>mach Status Serial Release</value>
+      <value>mach Status Obsolete</value>
+      <value>mach Status Annulled</value>
+	  <value>Remove_Status_Pre Release</value>
+      <value>Remove_Status_Serial Release</value>
+      <value>Remove_Status_Obsolete</value>
+      <value>Remove_Status_Annulled</value>
+      <value>Remove_Status_All</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_ComponentRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>Annulling</value>
+      <value>BT7_Reactivate</value>
+      <value>PR</value>
+	  <value>PR+</value>
+      <value>SR</value>
+	  <value>mach Status Pre Release</value>
+      <value>mach Status Serial Release</value>
+      <value>mach Status Obsolete</value>
+      <value>mach Status Annulled</value>
+      <value>Remove_Status_Pre Release</value>
+      <value>Remove_Status_Serial Release</value>
+      <value>Remove_Status_Obsolete</value>
+      <value>Remove_Status_Annulled</value>
+      <value>Remove_Status_Released</value>
+      <value>Remove_Status_All</value>
+	  <value>BT7_Admin_Change_ObjectType</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_CompProgRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>Annulling</value>
+      <value>BT7_Reactivate</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_DocumentRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>PR</value>
+	  <value>PR+</value>
+      <value>SR</value>
+      <value>Remove_Status_Pre Release</value>
+      <value>Remove_Status_Serial Release</value>
+      <value>Remove_Status_Obsolete</value>
+      <value>Remove_Status_Annulled</value>
+      <value>Remove_Status_Released</value>
+      <value>Remove_Status_All</value>
+      <value>Annulling</value>
+      <value>BT7_Reactivate</value>
+	  <value>mach Status Pre Release</value>
+      <value>mach Status Serial Release</value>
+      <value>mach Status Obsolete</value>
+      <value>mach Status Annulled</value>
+	  <value>BT7_Admin_Change_ObjectType</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_ProdTypeKeyRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>Annulling</value>
+      <value>BT7_Reactivate</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_MaterialRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>Annulling</value>
+      <value>BT7_Reactivate</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_ELCADRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>Annulling</value>
+      <value>BT7_Reactivate</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_VendorPartRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>SerialRelease - VendorPart</value>
+      <value>Annulling - VendorPart</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_ManufacturerRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>Annulling</value>
+      <value>BT7_Reactivate</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_ProductRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>PR</value>
+	  <value>PR+</value>
+      <value>SR</value>
+      <value>Remove_Status_Pre Release</value>
+      <value>Remove_Status_Serial Release</value>
+      <value>Remove_Status_Obsolete</value>
+      <value>Remove_Status_Annulled</value>
+      <value>Remove_Status_Released</value>
+      <value>Remove_Status_All</value>
+      <value>Annulling</value>
+      <value>BT7_Reactivate</value>
+	  <value>mach Status Pre Release</value>
+      <value>mach Status Serial Release</value>
+      <value>mach Status Obsolete</value>
+      <value>mach Status Annulled</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_SoftwareRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>PR</value>
+	  <value>PR+</value>
+      <value>SR</value>
+      <value>Remove_Status_Pre Release</value>
+      <value>Remove_Status_Serial Release</value>
+      <value>Remove_Status_Obsolete</value>
+      <value>Remove_Status_Annulled</value>
+      <value>Remove_Status_Released</value>
+      <value>Remove_Status_All</value>
+      <value>Annulling</value>
+      <value>BT7_Reactivate</value>
+	  <value>mach Status Pre Release</value>
+      <value>mach Status Serial Release</value>
+      <value>mach Status Obsolete</value>
+      <value>mach Status Annulled</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_ToolRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+	  <value>PR</value>
+	  <value>PR+</value>
+      <value>SR</value>
+      <value>Remove_Status_Pre Release</value>
+      <value>Remove_Status_Serial Release</value>
+      <value>Remove_Status_Obsolete</value>
+      <value>Remove_Status_Annulled</value>
+      <value>Remove_Status_Released</value>
+      <value>Remove_Status_All</value>
+      <value>Annulling</value>
+      <value>BT7_Reactivate</value>
+	  <value>mach Status Pre Release</value>
+      <value>mach Status Serial Release</value>
+      <value>mach Status Obsolete</value>
+      <value>mach Status Annulled</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_ToolPartRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>PR</value>
+	  <value>PR+</value>
+      <value>SR</value>
+      <value>Remove_Status_Pre Release</value>
+      <value>Remove_Status_Serial Release</value>
+      <value>Remove_Status_Obsolete</value>
+      <value>Remove_Status_Annulled</value>
+      <value>Remove_Status_Released</value>
+      <value>Remove_Status_All</value>
+      <value>Annulling</value>
+      <value>BT7_Reactivate</value>
+	  <value>mach Status Pre Release</value>
+      <value>mach Status Serial Release</value>
+      <value>mach Status Obsolete</value>
+      <value>mach Status Annulled</value>
+    </context>
+  </preference>
+  <!-- END BT7-->
+
+
+
+		<!-- START OOTB-->
+  <preference name="TC_DocumentRevision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>Annulling</value>
+      <value>BT7_Reactivate</value>
+    </context>
+  </preference>
+  <!-- END OOTB-->
+  <preference name="CR_allow_alternate_procedures" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>Assigned</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_LibraryFolder_release_procedure" type="String" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>RAS - Projektstrukt. BK anlegen</value>
+    </context>
+  </preference>
+  <preference name="TC_BT7_ProductPart Revision_release_procedure" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>RAS - 10 - Entwicklerfreigabe</value>
+      <value>RAS - 10 - EntwFreigab_o_check</value>
+      <value>RAS - 10 - Bestandsdatenimport</value>
+      <value>RAS - 60 - Bestandsdatenimport</value>
+      <value>RAS - 60 - Serienf. (ohne TM)</value>
+      <value>RAS - 98 - Annul (ohne TM)</value>
+      <value>Remove_Status_Pre Release</value>
+      <value>Remove_Status_Serial Release</value>
+      <value>Remove_Status_Obsolete</value>
+      <value>Remove_Status_Annulled</value>
+      <value>Remove_Status_Released</value>
+      <value>Remove_Status_All</value>
+    </context>
+  </preference>
+  <preference name="WhereReferencePOMPref" type="String" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+    <preference_description>SBT - No description available for this preference</preference_description>
+    <context name="Teamcenter">
+      <value>1</value>
+    </context>
+  </preference>
+</preferences>

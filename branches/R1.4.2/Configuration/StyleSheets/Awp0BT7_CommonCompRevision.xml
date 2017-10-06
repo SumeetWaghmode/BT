@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2013 Siemens BT
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: BT7_CommonCompRevision.xml
+
+    Default style sheet for displaying BT7_CommonCompRevision.
+ -->
+
+<rendering>
+
+    <header>
+        <image source="thumbnail" />
+        <classificationTrace />
+        <property name="owning_user" />
+        <property name="last_mod_date" />
+        <property name="date_released" />
+        <property name="release_status_list" />
+        <property name="object_type" />
+    </header>
+    
+<!--
+	=========================
+    	Overview
+    ========================= 
+-->
+    <page title="Overview" titleKey="First" format="TwoColumn">
+		<column>
+			<section text="ItemProperties">
+				<property name="object_name" />
+				<property name="object_desc" />
+				<property name="items_tag" />
+				<property name="bt7_migrated_from_ent"/>
+				<separator />
+				<property name="owning_user" renderingHint="objectlink" modifiable="false" />
+				<property name="owning_group" renderingHint="objectlink" modifiable="false" />
+				<separator />
+				<property name="last_mod_user" />
+				<property name="checked_out" />
+				<property name="checked_out_user" />
+				<separator />
+				<property name="release_status_list" />
+				<property name="bt7_docmnumber" renderingHint="label"/>
+				<property name="effectivity_text" />
+				<separator />
+				<property name="bt7_doccanceled" />
+				<property name="bt7_doccancelnr" />
+				<separator />
+				<property name="export_sites" />
+				<property name="owning_site" />
+				<property name="project_ids" />
+			</section>
+			<view name="actions">
+				<command actionKey="copyAction" commandId="com.teamcenter.rac.copy" />
+				<command actionKey="reviseAction" commandId="com.teamcenter.rac.revise" />
+				<command actionKey="newProcessAction" commandId="com.teamcenter.rac.newProcess" text="newProc" />
+				<command actionKey="saveAsAction" commandId="org.eclipse.ui.file.saveAs" />
+			</view>
+		</column>
+
+		<column>
+			<section text="Preview">
+				<image source="preview" />
+			</section>
+			<section text="Properties">
+				<property name="bt7_parttype" />				
+				<!-- <property name="bt7_mailorg" /> -->
+				<property name="bt7_preferred" />
+				<property name="bt7_Subtitle_1" />
+				<property name="bt7_shortInfo2" />
+				<property name="bt7_smd" />
+				<property name="bt7_sourceok" />
+				<property name="bt7_techok" />
+				<!-- <property name="bt7_wbsreq" /> -->
+				<property name="bt7_techinfo" />
+				<property name="bt7_validation" />
+				<property name="bt7_remark" />
+				<property name="bt7_GenericType" />
+			</section>
+			<section text="Approvals">
+				<property name="bt7_rohs_compliant" />
+				<property name="bt7_zulappro" />
+				<property name="bt7_zulce" />
+				<property name="bt7_zulgrd" />
+				<property name="bt7_zuloth" />
+				<property name="bt7_zulsev" />
+				<property name="bt7_zultuv" />
+				<property name="bt7_zuluse" />
+				<property name="bt7_zulvde" />
+			</section>
+		</column>
+    </page>
+<!--
+	=========================
+    Variants
+    ========================= 
+
+	<page title="Variants *"  visibleWhen = "BT7_Rel_Specified==null">
+			<label text="no Variant data for this part..." />
+	</page>
+
+	<page title="Variants" format="OneColumn" visibleWhen = "BT7_Rel_Specified!=null">
+		 <label text="Variant Items" />
+		 <objectSet source="BT7_Rel_VarItems.ItemRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+			</tableDisplay>
+			<treeDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+			</treeDisplay>
+			<listDisplay/>
+			<command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+			<command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+					<parameter name="localSelection" value="true"/>
+			</command>
+		</objectSet>
+		<separator/>
+		
+		<label text="Variant Product Type Key" />
+		<objectSet source="BT7_Rel_Specified.ItemRevision" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<treeDisplay>
+				<property name="object_name"/>
+				<property name="release_status_list"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</treeDisplay>
+			<listDisplay/>
+			<command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+			<command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+					<parameter name="localSelection" value="true"/>
+			</command>
+		</objectSet>
+		<separator/>
+		
+		<label text="Variant Rules" />
+		<objectSet source="BT7_Rel_VarRules.VariantRule" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_name"/>
+				<property name="owning_user"/>
+				<property name="owning_group"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<treeDisplay>
+				<property name="object_name"/>
+				<property name="owning_user"/>
+				<property name="owning_group"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</treeDisplay>
+			<listDisplay/>
+		</objectSet>
+		
+		<separator/>
+		<label text="Variant Conditions" />
+		<objectSet source="BT7_Rel_VarConditions.Form" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_name"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<treeDisplay>
+				<property name="object_name"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</treeDisplay>
+			<listDisplay/>
+		</objectSet>
+		
+		<label text="Variant Mapping" />
+		<objectSet source="BT7_Rel_VarItemIDMap.Form" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_name"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<treeDisplay>
+				<property name="object_name"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</treeDisplay>
+			<listDisplay/>
+		</objectSet>
+		<label text="Subset Definition" />
+		<objectSet source="BT7_Rel_VarItemID.Form" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_name"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<treeDisplay>
+				<property name="object_name"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</treeDisplay>
+			<listDisplay/>
+		</objectSet>
+	</page>
+-->	
+<!--
+	=========================
+	Vendor Info
+    ========================= 
+-->	
+	<page title="Vendor_Info">
+		<column>
+			<section title="Vendor_Parts">
+				<objectSet source="VMRepresents.BT7_VendorPart" defaultdisplay="tableDisplay" sortdirection="descending" sortby="last_mod_date">
+					<tableDisplay>
+						<property name="vendor_name"/>
+						<property name="vendor_id"/>
+  						<property name="vendor_part_num"/>
+						<!-- <property name="bt7_rohs_compliant"/>
+						<property name="bt7_remark"/>
+						<property name="object_name"/> -->
+						<property name="release_status_list"/>
+						<property name="date_released"/>
+					</tableDisplay>
+					<thumbnailDisplay/>
+					<treeDisplay>
+						<property name="vendor_name"/>
+						<property name="vendor_id"/>
+  						<property name="vendor_part_num"/>
+						<!-- <property name="bt7_rohs_compliant"/>
+						<property name="bt7_remark"/>
+						<property name="object_name"/> -->
+						<property name="release_status_list"/>
+						<property name="date_released"/>
+					</treeDisplay>
+					<listDisplay/>
+			<command commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+			<command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+			<command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+					<parameter name="localSelection" value="true"/>
+			</command>
+				</objectSet>
+			</section>
+ 			<section text="Vendors">
+				<objectSet source="vendors.Vendor" defaultdisplay="tableDisplay" sortdirection="descending" sortby="last_mod_date">
+					<tableDisplay>
+						<property name="object_name"/>
+						<property name="item_id"/>
+						<property name="contact_name"/>
+						<property name="supplier_phone"/>
+						<property name="email_addr"/>
+						<property name="supplier_addr"/>
+					</tableDisplay>
+					<thumbnailDisplay/>
+					<treeDisplay>
+						<property name="object_name"/>
+						<property name="item_id"/>
+						<property name="contact_name"/>
+						<property name="supplier_phone"/>
+						<property name="email_addr"/>
+						<property name="supplier_addr"/>
+					</treeDisplay>
+					<listDisplay/>
+				</objectSet>
+			</section>
+		</column>	
+	</page>
+<!--
+	=========================
+	Where used
+    ========================= 
+-->	
+	
+	<page title="Where used *"  visibleWhen = "ps_parents==null">
+		<label text="this ItemRevision is not in use..." />
+	</page>
+
+	<page title="Where used"  visibleWhen = "ps_parents!=null">
+		<label text="Part is used in following assemblies:" />
+		 <objectSet source="ps_parents.ItemRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="owning_user"/>
+				<property name="owning_group"/>
+			</tableDisplay>
+			<treeDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="owning_user"/>
+				<property name="owning_group"/>
+			</treeDisplay>
+			<listDisplay/>
+			<command commandId = "com.teamcenter.rac.pse.sendto" defaultTitle = "Open Selected in Structure Manager">
+					<parameter name="localSelection" value="true"/>
+			</command>
+		</objectSet>
+		<separator/>
+	</page>
+<!--
+	=========================
+    Related Documents and Datasets
+    ========================= 
+-->
+<page title="Attachments">
+	<section title="Related Datasets">
+		<objectSet source="IMAN_reference.Dataset,IMAN_specification.Dataset,IMAN_manifestation.Dataset,TC_Attaches.Dataset,IMAN_Rendering.Dataset,SimplifiedRendering.Dataset,IMAN_3D_snap_shot.Dataset" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<thumbnailDisplay/>
+			<treeDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/>
+			</treeDisplay>
+			<listDisplay/>
+		</objectSet>
+	</section>
+		<section text="Specified">
+			<objectSet source="BT7_Rel_Specified.ItemRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+				<tableDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</tableDisplay>
+				<thumbnailDisplay/>
+				<treeDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</treeDisplay>
+				<listDisplay/>
+			</objectSet>
+		</section>
+		<section text="Concerned">
+			<objectSet source="BT7_Rel_Concerned.ItemRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+				<tableDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</tableDisplay>
+				<thumbnailDisplay/>
+				<treeDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</treeDisplay>
+				<listDisplay/>
+			</objectSet>
+		</section>
+		<section text="Included">
+			<objectSet source="BT7_Includes.ItemRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+				<tableDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</tableDisplay>
+				<thumbnailDisplay/>
+				<treeDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</treeDisplay>
+				<listDisplay/>
+			</objectSet>
+		</section>
+		<section text="Referenced">
+			<objectSet source="IMAN_reference.ItemRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+				<tableDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</tableDisplay>
+				<thumbnailDisplay/>
+				<treeDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</treeDisplay>
+				<listDisplay/>
+			</objectSet>
+		</section>
+</page>
+<!--
+	=========================
+    History
+    ========================= 
+-->
+	<page title = "History">
+        <objectSet source = "revision_list.ItemRevision" defaultdisplay = "tableDisplay" sortdirection = "descending" sortby = "item_revision_id">
+            <tableDisplay>
+                <property name = "object_string"/>
+				<property name = "release_status_list"/>
+                <property name = "date_released"/>
+				<property name="object_desc"/>
+                <property name = "owning_user"/>
+                <property name = "owning_group"/>
+				<property name = "object_type"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <treeDisplay>
+                <property name = "object_string"/>
+				<property name = "release_status_list"/>
+                <property name = "date_released"/>
+				<property name="object_desc"/>
+                <property name = "owning_user"/>
+                <property name = "owning_group"/>
+				<property name = "object_type"/>
+            </treeDisplay>
+            <listDisplay/>
+			<command commandId = "com.teamcenter.rac.pse.sendto" renderingHint="commandbutton"/>
+        </objectSet>
+    </page>
+<!--
+	=================
+	Relation Browser
+	================
+-->
+	<inject type="dataset" src="RelationsSummary" />
+	<!--
+	=========================
+    Mechanical Attributes
+    ========================= 
+-->
+	<page title="Mechanical Attributes">
+		<section text="Mechanical Attributes">
+			<property name="bt7_2ndLanguageCode" />
+			<property name="bt7_ApprDate_2" renderingHint="label"/>
+			<property name="bt7_ApprUser_2" renderingHint="label"/>
+			<property name="bt7_FirstUse" />
+			<property name="bt7_GeneralTolerance" />
+			<property name="bt7_ItemRevName_2" />
+			<property name="bt7_MassUnit" />
+			<property name="bt7_MassValue" />
+			<property name="bt7_MaterialRequirement_1" />
+			<property name="bt7_MaterialRequirement_2" />
+			<property name="bt7_Responsible" />
+			<property name="bt7_SFP_Dimension" />
+			<property name="bt7_Subtitle_1" />
+			<property name="bt7_Subtitle_2" />
+			<property name="bt7_Supplier_1" />
+			<property name="bt7_Supplier_1_PartNo" />
+			<property name="bt7_Surface_1" />
+			<property name="bt7_Surface_2" />
+			<property name="bt7_Treatment_1" />
+			<property name="bt7_Treatment_2" />
+			<property name="bt7_VolumeValue" />
+			<property name="bt7_VolumeUnit" />
+		</section>
+	</page>
+<!--
+	=========================
+    Classification
+    ========================= 
+-->
+	<page title="Classification">
+		<classificationProperties />
+	</page>
+
+
+<!--
+	=========================
+    Legacy
+    ========================= 
+-->	
+	<page title="Legacy">
+		<section text="Properties">
+			<property name="bt7_default_quantity" renderingHint="label"/>
+			<property name="bt7_docid" renderingHint="label"/>
+			<property name="bt7_orgtype" renderingHint="label"/>
+			<property name="bt7_sapmando" renderingHint="label"/>
+			<property name="bt7_stdprtind" renderingHint="label"/>
+		</section>
+
+		<section text="TcEnt Migration Information">
+			<objectSet source="BT7_MigrationDataset.Dataset" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+				<tableDisplay>
+					<property name="object_string"/>
+					<property name="release_status_list"/>
+					<property name="last_mod_date"/>
+					<property name="last_mod_user"/>
+					<property name="checked_out_user"/>
+				</tableDisplay>
+			</objectSet>
+		</section>		
+	</page>
+</rendering>

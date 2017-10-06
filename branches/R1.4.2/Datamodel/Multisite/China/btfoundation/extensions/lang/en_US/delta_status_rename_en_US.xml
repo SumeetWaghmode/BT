@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+-->
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="Thu Sep 22 11:44:33 AM 2016">
+<Add>
+   <key id="ReleaseStatus{::}10" locale="en_US" sourceTemplate="btfoundation" status="Approved">Pre Release</key>
+   <key id="ReleaseStatus{::}5" locale="en_US" sourceTemplate="btfoundation" status="Approved">Locked</key>
+   <key id="ReleaseStatus{::}60" locale="en_US" sourceTemplate="btfoundation" status="Approved">Serial Release</key>
+   <key id="ReleaseStatus{::}90" locale="en_US" sourceTemplate="btfoundation" status="Approved">Obsolete</key>
+   <key id="ReleaseStatus{::}98" locale="en_US" sourceTemplate="btfoundation" status="Approved">Annulled</key>   
+    <key locale="en_US" id="BusinessObject{::}BT6_Rel_AuxMat_Primary" status="Approved"
+       sourceTemplate="btconfigra">BT Auxiliary Material 1</key>
+   <key locale="en_US" id="BusinessObject{::}BT6_Rel_AuxMat_Secondary" status="Approved"
+       sourceTemplate="btconfigra">BT Auxiliary Material 2</key>
+   <key locale="en_US" id="BusinessObject{::}BT6_Rel_Concerned" status="Approved"
+       sourceTemplate="btconfigra">BT Concerned</key>
+   <key locale="en_US" id="BusinessObject{::}BT6_Rel_Product_InitialHistory" status="Approved"
+       sourceTemplate="btconfigra">BT Change history</key>
+   <key locale="en_US" id="BusinessObject{::}BT6_Rel_Specified" status="Approved"
+       sourceTemplate="btconfigra">BT Specified</key>
+</Add>
+</TcBusinessDataLocalization>

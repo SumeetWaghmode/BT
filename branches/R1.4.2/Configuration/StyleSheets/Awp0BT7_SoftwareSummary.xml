@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2003-2005 UGS Corporation
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: BT7_SoftwareSummary.xml
+
+    Default style sheet for displaying BT7_Software summary.
+ 
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+	<header>
+		<image source="thumbnail"/>
+		<classificationTrace/>
+		<property name="owning_user"/>
+		<property name="last_mod_date"/>
+		<property name="release_status_list"/>
+		<property name="object_type"/>		
+	</header>
+	<page text="Overview" format="TwoColumn">
+		<firstcolumn>
+			<section text="AvailableRevisions">
+				<objectSet source="revision_list.ItemRevision" defaultdisplay="listDisplay" sortdirection="descending" sortby="item_revision_id">
+					<tableDisplay>
+						<property name="object_string"/>
+						<property name="item_revision_id"/>						
+						<property name="release_status_list"/>
+					</tableDisplay>
+					<thumbnailDisplay/>
+					<treeDisplay>
+						<property name="object_string"/>
+						<property name="item_revision_id"/>						
+						<property name="release_status_list"/>
+					</treeDisplay>
+					<listDisplay/>
+				</objectSet>
+			</section>
+			<section text="ItemProperties">
+				<property name="object_desc"/>
+				<separator/>
+				<property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+				<property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+				<property name="last_mod_user"/>
+				<separator/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+				<separator/>
+				<property name="export_sites"/>   
+				<property name="owning_site"/>
+				<property name="project_ids"/>
+				<separator/>
+				<property name="bt7_doceqpartno"/>
+				<separator/>
+			</section>
+		</firstcolumn>
+		<secondcolumn>
+			<view name="viewer"/>
+		</secondcolumn>
+	</page>
+<!-- 
+	<page text="AttachedFiles">
+		<objectSet source="IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<thumbnailDisplay/>
+			<treeDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/>
+			</treeDisplay>
+			<listDisplay/>
+			<command commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+			<command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+			<command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+					<parameter name="localSelection" value="true"/>
+			</command>
+		</objectSet>
+	</page>
+-->	
+	<page title="Item Master additional Data">
+		<objectSet source="item_master_tag.Form, bom_view_tags.BOMView" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="owning_user"/>
+				<property name="owning_group"/>
+			</tableDisplay>
+			<treeDisplay>
+				<property name="object_string"/>
+				<property name="owning_user"/>
+				<property name="owning_group"/>
+			</treeDisplay>
+			<listDisplay/>
+		</objectSet>
+	</page>
+<!--
+	=================
+	Relation Browser
+	================
+-->
+	<inject type="dataset" src="RelationsSummary" />
+</rendering>

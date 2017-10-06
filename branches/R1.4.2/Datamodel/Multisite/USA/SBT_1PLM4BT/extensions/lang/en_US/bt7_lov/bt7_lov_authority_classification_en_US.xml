@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_Authority_Classification{::}A" status="Approved">A</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_Authority_Classification{::}B" status="Approved">B</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_Authority_Classification{::}C" status="Approved">C</key>
+</Add>
+</TcBusinessDataLocalization>

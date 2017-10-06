@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="Property{::}BOMLine{::}bt7_rtp_resquant" status="Approved">BT7 Resulting Quantity</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}bt7_rtp_resuom" status="Approved">BT7 Resulting UOM</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_rtp_ApprDate_DocMapp" status="Approved">BT7 Appr. Date Doc. Mapping</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_rtp_latest_rel_status"
+       status="Approved">BT7 Latest Status</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_rtp_map_status" status="Approved">Status Description</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_rtp_resuom" status="Approved">BT7 resulting UOM</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_rtp_itemNameDesc" status="Approved">BT7 Name</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_rtp_lastrevwithstatus" status="Approved">BT7 LastRevWithStatus</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_rtp_latest_rev_status" status="Approved">BT7 LatestRev-Status</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_rtp_latest_rev" status="Approved">BT7 Latest Revision</key>
+</Add>
+</TcBusinessDataLocalization>

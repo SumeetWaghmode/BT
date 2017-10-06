@@ -1,0 +1,21 @@
+     [echo]  Executing MakeSharedLib Target 
+     [echo] TC_ROOT: D:\dump\112
+     [echo] TC_INCLUDE_CPP: D:\dump\112\include_cpp
+     [echo] TC_LIB: D:\dump\112\lib
+
+MakeSharedLib:
+     [echo]  Compiling and linking libBT7_Extensions . . . .
+       [cc] Starting dependency analysis for 20 files.
+       [cc] 20 files are up to date.
+       [cc] 0 files to be recompiled from dependency analysis.
+       [cc] 4 total files to be compiled.
+       [cc] BT7_RelSpecifiedDeletePreCondition.cpp
+       [cc] BT7_RelSpecifiedCreatePreCondition.cpp
+       [cc] ReviseDocument.cpp
+       [cc] BT7_RelConcernedDeletePreCondition.cpp
+       [cc] Generating Code...
+       [cc] Starting link
+       [cc] LINK : warning LNK4044: unrecognized option '/NODEBUG'; ignored
+       [cc]    Creating library libBT7_Extensions.lib and object libBT7_Extensions.exp
+   [delete] Deleting: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\DLL_Projects\libBT7_Extensions\rerun
+     [echo]  Created libBT7_Extensions.dll successfully 

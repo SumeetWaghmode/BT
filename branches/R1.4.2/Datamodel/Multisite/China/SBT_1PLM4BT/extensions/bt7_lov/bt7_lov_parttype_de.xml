@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_PartType_DE" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_PartType_DE">
+     <TcLOVValue value="---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Baugruppe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Einzelteil" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hilfsteil" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Systembaugruppe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Topbaugruppe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Variantenbaugruppe" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

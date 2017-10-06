@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<preferences version="10.0">
+	<category name="Active Workspace">
+		<category_description></category_description>
+		<preference name="AWC_BT7_CCR.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>BT7_CommonComponentRequestSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_CCRSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_CommonCompRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_CommonCompRevision</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_CommonCompRevision</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_ChangeNoticeRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ChangeNoticeRevisionSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ChangeNoticeRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_ComponentRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ComponentRevisionSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ComponentRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_CompProgRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_CompProgRevisionSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_CompProgRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_DocumentRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_DocumentRevisionSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_DocumentRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_ELCADRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ELCADRevisionSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ELCADRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_ManufacturerRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ManufactureRevisionSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ManufactureRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_MaterialRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_MaterialRevisionSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_MaterialRevisionSummary</value>
+			</context>
+		</preference>    
+		<preference name="AWC_BT7_ProdTypeKeyRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ProdTypeKey_RevSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ProdTypeKey_RevSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_ProductRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ProductRevisionSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ProductRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_SoftwareRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_SoftwareRevisionSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_SoftwareRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_ToolPartRevisioin.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ToolPartRevisioinSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ToolPartRevisioinSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_ToolRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ToolRevisionSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ToolRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_VendorPartRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_VendorPartRevisionSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_VendorPartRevisionSummary</value>
+			</context>
+		</preference>
+		
+		<preference name="AWC_BT7_CommonComp.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_CommonCompSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_CommonCompSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_Component.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ComponentSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ComponentSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_CompProg.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_CompProgSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_CompProgSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_Document.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_DocumentSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_DocumentSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_ELCAD.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ELCADSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ELCADSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_Manufacturer.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ManufacturerSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ManufacturerSummary</value>
+			</context>
+		</preference>  
+		<preference name="AWC_BT7_ProdTypeKey.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ProdTypeKeySummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ProdTypeKeySummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_Product.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ProductSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ProductSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_Software.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_SoftwareSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_SoftwareSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_ToolPart.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ToolPartSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ToolPartSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_Tool.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_ToolSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_ToolSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_BT7_VendorPart.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Awp0BT7_VendorPartSummary</preference_description>
+			<context name="Teamcenter">
+				<value>Awp0BT7_VendorPartSummary</value>
+			</context>
+		</preference>
+	</category>
+
+	<category name="General">
+		<category_description></category_description>
+		<preference name="BT7_ChangeNotice.CREATERENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ChangeNoticeCreate</value>
+			</context>
+		</preference>
+		<preference name="BT7_ChangeNoticeCreate.CREATE_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ChangeNotice</value>
+			</context>
+		</preference>	
+		<preference name="BT7_ChangeNoticeRevision.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ChangeNoticeRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_CCRManufacturer.RENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CCRManufacturerRelation</value>
+			</context>
+		</preference>
+		<preference name="BT7_CCRManufacturerRelation.REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CCRManufacturer</value>
+			</context>
+		</preference>
+		<preference name="BT7_CCR.RENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CommonComponentRequestProperties</value>
+			</context>
+		</preference>
+		<preference name="BT7_CommonComponentRequestProperties.REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CCR</value>
+			</context>
+		</preference>
+		<preference name="BT7_CCR.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CommonComponentRequestSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_CommonComponentRequestSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CCR</value>
+			</context>
+		</preference>
+		<preference name="BT7_CommonCompRevision.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CommonCompRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_CommonCompRevisionSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CommonCompRevision</value>
+			</context>
+		</preference>
+		<preference name="BT7_BTPart.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_BTPartSummary</value>
+			</context>
+		</preference>
+		<preference name="ItemRevision.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>ItemRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="ItemRevisionSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>ItemRevision</value>
+			</context>
+		</preference>
+		<preference name="Item.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>ItemSummary</value>
+			</context>
+		</preference>
+		<preference name="ItemSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>Item</value>
+			</context>
+		</preference>
+		<preference name="BT7_BTPartSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_BTPart</value>
+			</context>
+		</preference>
+		<preference name="BT7_CommonComp.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CommonCompSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_CommonCompSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CommonComp</value>
+			</context>
+		</preference>
+		<preference name="BT7_ComponentRevision.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ComponentRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_ComponentRevisionSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ComponentRevision</value>
+			</context>
+		</preference>
+		<preference name="BT7_CompProgRevision.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CompProgRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_CompProgRevisionSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CompProgRevision</value>
+			</context>
+		</preference>
+		<preference name="BT7_CompProg.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CompProgSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_CompProgSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_CompProg</value>
+			</context>
+		</preference>
+		<preference name="BT7_DocumentRevision.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_DocumentRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_DocumentRevisionSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_DocumentRevision</value>
+			</context>
+		</preference>
+		<preference name="BT7_ELCADRevisionMaster.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ELCADRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_ELCADRevisionSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ELCADRevisionMaster</value>
+			</context>
+		</preference>
+		<preference name="BT7_Manufacturer.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ManufacturerSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_ManufacturerSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_Manufacturer</value>
+			</context>
+		</preference>
+		<preference name="BT7_ManufacturerRevision.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ManufacturerRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_ManufacturerRevisionSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ManufacturerRevision</value>
+			</context>
+		</preference>
+		<preference name="BT7_ProductRevision.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ProductRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_ProductRevisionSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ProductRevision</value>
+			</context>
+		</preference>
+		<preference name="BT7_Product.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ProductSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_ProductSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_Product</value>
+			</context>
+		</preference>
+		<preference name="BT7_SoftwareRevision.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_SoftwareRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_SoftwareRevisionSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_SoftwareRevision</value>
+			</context>
+		</preference>
+		<preference name="BT7_Software.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>SBT</preference_description>
+			<context name="Teamcenter">
+				<value>BT7_SoftwareSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_SoftwareSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>SBT</preference_description>
+			<context name="Teamcenter">
+				<value>BT7_Software</value>
+			</context>
+		</preference>
+		<preference name="BT7_TcEntValues.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_TcEntValuesSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_TcEntValuesSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_TcEntValues</value>
+			</context>
+		</preference>
+
+		<preference name="BT7_Tool.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>SBT</preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ToolSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_ToolSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>SBT</preference_description>
+			<context name="Teamcenter">
+				<value>BT7_Tool</value>
+			</context>
+		</preference>	
+		<preference name="BT7_ToolPartRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>SBT</preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ToolPartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_ToolPartRevisionSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>SBT</preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ToolPartRevision</value>
+			</context>
+		</preference>
+		<preference name="BT7_ToolRevision.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ToolRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_ToolRevisionSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_ToolRevision</value>
+			</context>
+		</preference>
+		<preference name="BT7_VendorPart.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_VendorPartSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_VendorPartSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_VendorPart</value>
+			</context>
+		</preference>	
+		<preference name="BT7_VendorPartRevision.SUMMARYRENDERING" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_VendorPartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="BT7_VendorPartRevisionSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false">
+			<preference_description></preference_description>
+			<context name="Teamcenter">
+				<value>BT7_VendorPartRevision</value>
+			</context>
+		</preference>
+		<preference name="EPMTask.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Registration of summary stylesheet for EPMTask objects.</preference_description>
+			<context name="Teamcenter">
+				<value>EPMTaskSummary</value>
+			</context>
+		</preference>
+		<preference name="UGPART.RENDERING" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>UGPartProperty</preference_description>
+			<context name="Teamcenter">
+				<value>UGPartProperty</value>
+			</context>
+		</preference>
+		<preference name="UGPartProperty.REGISTEREDTO" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>UGPART</preference_description>
+			<context name="Teamcenter">
+				<value>UGPART</value>
+			</context>
+		</preference>
+		<preference name="UGALTREP.RENDERING" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>UGAltrepProperty</preference_description>
+			<context name="Teamcenter">
+				<value>UGAltrepProperty</value>
+			</context>
+		</preference>
+		<preference name="UGAltrepProperty.REGISTEREDTO" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>UGALTREP</preference_description>
+			<context name="Teamcenter">
+				<value>UGALTREP</value>
+			</context>
+		</preference>
+		<preference name="UGMASTER.RENDERING" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>UGMasterProperty</preference_description>
+			<context name="Teamcenter">
+				<value>UGMasterProperty</value>
+			</context>
+		</preference>
+		<preference name="UGMasterProperty.REGISTEREDTO" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>UGMASTER</preference_description>
+			<context name="Teamcenter">
+				<value>UGMASTER</value>
+			</context>
+		</preference>
+	</category>
+</preferences>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataIncludes>
+    <include iconfile="BT7_comp.png"/>
+    <include iconfile="BT7_EL_Part3_Rev.png"/>
+    <include iconfile="BT7_Serializ_icon.png"/>
+    <include iconfile="BT7_ToolPart_Rev_pur.png"/>
+    <include iconfile="BT7_ToolPart_Rev.png"/>
+    <include iconfile="BT7_ToolPart.png"/>
+    <include iconfile="EL_Part3.png"/>
+    <include iconfile="mechCatalogPart_Rev.png"/>
+    <include iconfile="mechCatalogPart.png"/>
+    <include iconfile="BT7_ToolPart_Rev_pt_catpart.png"/>
+</TcBusinessDataIncludes>

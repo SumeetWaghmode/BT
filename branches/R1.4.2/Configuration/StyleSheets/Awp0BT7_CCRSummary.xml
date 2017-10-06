@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying BT7_CCR summary. -->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list" renderingHint="label"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column>
+            <section title="CCR Properties">
+				<separator/>
+                <property name="object_name" />
+                <separator/>
+
+                <property name="bt7_Requestor" />
+                <property name="bt7_Phone" />
+                <property name="bt7_Email" />
+                <property name="bt7_RespCompEng" />
+                <!--property name="bt7_GenericType" /-->
+				
+                <separator/>
+
+                <property name="bt7_EstProdLifeTime" />
+                <property name="bt7_EstQtyPerYear" />
+                <property name="bt7_ProjectName" />
+                <property name="bt7_ProjectAccount" />
+
+                <separator/>
+				
+                <property name="bt7_ReasonForIntro" />
+                <property name="bt7_NoteApprovals" />
+                <property name="bt7_SpecialInstructions" />
+				
+                <separator/>
+
+				<property name="bt7_cadimno" />
+				<property name="bt7_tceno" />
+
+                <separator/>
+
+                <property name="bt7_Manufacturer1" />
+                <property name="bt7_MfgPartNr1" />
+                <property name="bt7_Manufacturer2" />
+                <property name="bt7_MfgPartNr2" />
+                <property name="bt7_Manufacturer3" />
+                <property name="bt7_MfgPartNr3" />	
+            </section>
+        </column>
+        <column>
+            <view name="actions">
+                <command actionKey="copyAction" commandId="com.teamcenter.rac.copy"/>
+            </view>
+			
+			<section titleKey="tc_xrt_ClassificationProperties">
+                <classificationProperties/>
+            </section>
+			
+			<section title="Manufacturer">
+				<objectSet source="BT7_CCRManufacturer.BT7_Manufacturer" defaultdisplay="tableDisplay">
+					<tableDisplay>
+						<property name="object_name"/>
+						<property name="release_status_list"/>
+						<property name="date_released"/>
+					</tableDisplay>
+					<command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+					<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+					<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+						<parameter name="localSelection" value="true"/>
+					</command>
+				</objectSet>
+            </section>
+        </column>
+    </page>
+    <page titleKey="attachments">
+        <section titleKey="tc_xrt_Files">
+            <objectSet source="IMAN_external_object_link.Dataset,IMAN_reference.Dataset" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+	<page titleKey="CADIM_DB_ENTRY">
+        <section titleKey=" ">
+           <objectSet source="IMAN_external_object_link.BT7_CCR_CADIM_Entry" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="bt7_CDM_L5_TRANS_STAT"/>
+				<property name="bt7_CDM_L5_TRANS_ERR"/>
+			</tableDisplay>
+		</objectSet>
+        </section>
+    </page>
+	<inject type="preference" src="InContextAnalyticsPref"/>
+	<inject type="dataset" src="RelationsSummary" />
+</rendering>

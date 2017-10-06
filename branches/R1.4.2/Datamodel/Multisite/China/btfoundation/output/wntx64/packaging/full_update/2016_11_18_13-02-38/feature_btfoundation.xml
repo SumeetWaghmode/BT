@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    Document   : feature_btfoundation.xml
+    Description: This XML is used by TEM to install or upgrade the "btfoundation" solution.
+--><feature>
+    <name value="BT Foundation"/>
+    <property name="feature_name" value="btfoundation"/>
+    <group value="package"/>
+    <guid value="AACD896A818FA8730ADD3CC3B2A66CB7"/>
+    <bundle value="${feature_name}Bundle.xml"/>
+    <description value="${feature_name}.description"/>
+    <include file="dataModelDependency.xml"/>
+    <relation/>
+    <feature>
+        <!--  Feature: Data Model -->
+        <name value="Data Model"/>
+        <property name="feature_id" value="datamodel"/>
+        <property name="bmide_optional" value="false"/>
+        <property name="template_name" value="${feature_name}"/>
+        <property name="template_file" value="${template_name}_template.xml"/>
+        
+        <root value="true"/>
+        <bundle value="${template_name}Bundle.xml"/>
+        <description value="${template_name}.description"/>
+        <guid value="C410920C636D410D4434538FC566A35D"/>
+        <include file="coreDataModel.xml"/>
+        <include file="generatePlmxmlSchema.xml"/>
+    </feature>
+</feature>

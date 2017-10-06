@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<preferences version="10.0">
+  <category name=".BT General">
+    <category_description></category_description>
+	<preference name="AWS_SearchPreFilter_Property2" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Contains the required information needed to display the second pre-filter in the Search panel of the Active Workspace client (AWC).
+		Valid values are in the format:
+		* The first value is the type and property internal names in the format &quot;type.property&quot; (e.g. &quot;WorkspaceObject.object_type&quot;).
+		* The second value onwards is the internal values for the property (e.g. &quot;ItemRevision&quot;).</preference_description>
+      <context name="Teamcenter">
+        <value>WorkspaceObject.object_type</value>
+        <value>BT7_DocumentRevision</value>
+        <value>BT7_ChangeNoticeRevision</value>
+        <value>BT7_CommonCompRevision</value>
+        <value>BT7_ComponentRevision</value>
+        <value>BT7_ManufacturerRevision</value>
+        <value>BT7_MaterialRevision</value>
+        <value>BT7_ProductRevision</value>
+        <value>BT7_SoftwareRevision</value>
+        <value>BT7_ToolRevision</value>
+        <value>BT7_ToolPartRevision</value>
+        <value>BT7_ProdTypeKeyRevision</value>
+		<value>BT7_VendorPartRevision</value>
+		<value>BT7_Document</value>
+		<value>BT7_CommonComp</value>
+		<value>BT7_Component</value>
+		<value>BT7_Manufacturer</value>
+		<value>BT7_Material</value>
+		<value>BT7_Product</value>
+		<value>BT7_Software</value>
+		<value>BT7_Tool</value>
+		<value>BT7_ToolPart</value>
+		<value>BT7_ProdTypeKey</value>
+		<value>BT7_VendorPart</value>
+      </context>
+    </preference>
+  </category>
+  <category name="Active Workspace">
+    <category_description>Active Workspace preferences</category_description>
+	<preference name="AWC_HiddenCommands" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of commands that should be hidden from Active Workspace client.</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0ShowSaveAs</value>
+		<value>Awp0NewWorkflowProcess</value>
+		<value>Awp0ChangeOwner</value>
+		<value>Awp0AssignProjects</value>
+		<value>Awp0AttachLicenses</value>
+		<value>Awp0InContextReport</value>
+		<value>S2clSCCommentaryTool</value>
+		<value>Awp0Print</value>
+      </context>
+    </preference>
+	
+  </category>
+  <category name="AW Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    <preference name="AWC_search_automatic_wildcard" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the automatic addition of wildcard to user search criteria.
+Valid values are:
+- 0: the user search criteria are not altered.
+- 1: the search engine will suffix * to user values (e.g. &quot;part&quot; will be &quot;part*&quot;).
+- 2: the search engine will prefix * to user values (e.g. &quot;part&quot; will be &quot;*part&quot;).
+- 3: the search engine will prefix and suffix * to user values (e.g. &quot;part&quot; would become &quot;*part*&quot;). This is the default value.
+- any other value is considered 0.
+If a user adds a wildcard as part of the search criteria, no additional wildcard will be added in that place. This is the same for both prefix and suffix. (e.g. &quot;part*&quot; will be &quot;part*&quot;).</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+  </category>
+</preferences>

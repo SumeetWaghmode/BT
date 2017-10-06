@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+-->
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="Thu Aug 11 08:54:44 AM 2016">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}BT7_AutoSketch" status="Approved" sourceTemplate="sbt1plm4bt">Auto Sketch</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CorelDesigner" status="Approved"
+       sourceTemplate="sbt1plm4bt">Corel Designer</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_DXF" status="Approved" sourceTemplate="sbt1plm4bt">DXF</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_EngChangeDoc" status="Approved" sourceTemplate="sbt1plm4bt">BT7 Eng Change Doc</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_EngChangeOrder" status="Approved"
+       sourceTemplate="sbt1plm4bt">Eng Change Order</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_FluidDraw" status="Approved" sourceTemplate="sbt1plm4bt">Fluid Draw</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_GroupFolder" status="Approved" sourceTemplate="sbt1plm4bt">BT7 Group Folder</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Integra_Mask_Drill" status="Approved"
+       sourceTemplate="sbt1plm4bt">Integra Mask Drill</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Integra_SQL" status="Approved" sourceTemplate="sbt1plm4bt">Integra SQL</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Integra" status="Approved" sourceTemplate="sbt1plm4bt">Integra</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ItemNotice" status="Approved" sourceTemplate="sbt1plm4bt">Item Notice</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_LibraryFolder" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Library Folder</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MaterialMasterS" status="Approved"
+       sourceTemplate="sbt1plm4bt">Material Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MaterialMaster" status="Approved"
+       sourceTemplate="sbt1plm4bt">Material Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MaterialRevMasterS" status="Approved"
+       sourceTemplate="sbt1plm4bt">Material Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MaterialRevisionMaster" status="Approved"
+       sourceTemplate="sbt1plm4bt">Material Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MaterialRevision" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 MaterialRevision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Material" status="Approved" sourceTemplate="sbt1plm4bt">BT7 Material</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MultiSEffFormStorage" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7_MultiSEffFormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MultiSEffForm" status="Approved"
+       sourceTemplate="sbt1plm4bt">Multi S Eff Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_MultiSEff" status="Approved" sourceTemplate="sbt1plm4bt">Multi S Effectivity</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Notice" status="Approved" sourceTemplate="sbt1plm4bt">Notice</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_PCBLayoutOrder" status="Approved"
+       sourceTemplate="sbt1plm4bt">PCB Layout Order</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyMasterS" status="Approved"
+       sourceTemplate="sbt1plm4bt">Prod Type Key Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyMaster" status="Approved"
+       sourceTemplate="sbt1plm4bt">Prod Type Key Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyRevMasterS" status="Approved"
+       sourceTemplate="sbt1plm4bt">Prod Type Key Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyRevisionMaster" status="Approved"
+       sourceTemplate="sbt1plm4bt">Prod Type Key Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKeyRevision" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT Prod Type Key Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKey_FormStorage" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7_ProdTypeKey_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKey_Form" status="Approved"
+       sourceTemplate="sbt1plm4bt">Prod Type Key Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProdTypeKey" status="Approved" sourceTemplate="sbt1plm4bt">BT Product Type Key</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProductFolder" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Product Folder</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Product_InitialHistoryDoc" status="Approved"
+       sourceTemplate="sbt1plm4bt">Product Initial History Doc</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProjectFolder" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Project Folder</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_AuxMat_Primary" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Auxiliary Material 1</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_AuxMat_Secondary" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Auxiliary Material 2</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_Concerned" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Concerned</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_Notice" status="Approved" sourceTemplate="sbt1plm4bt">BT7 Notice</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_ProdTypeKey" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Product Type Key</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_Prod_InitialHistory" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Change history</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_Specified" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Specified</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarConditions" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Variants Conditions</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarItemIDMap" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Variant Item ID Mapping</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarItemID" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Variant Item ID</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarItems" status="Approved" sourceTemplate="sbt1plm4bt">BT7 Variant Items</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarModules" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Variants Modules</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_VarRules" status="Approved" sourceTemplate="sbt1plm4bt">BT7 Variant Rules</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_WorkflowRefObjects" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Referenzobjekte</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_Rel_WorkflowTrgtObjects" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Freigabeobjekte</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_RevNotice" status="Approved" sourceTemplate="sbt1plm4bt">Rev Notice</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_SoftwareData" status="Approved" sourceTemplate="sbt1plm4bt">Software Data</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_TCENT_Material" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 TcEnt Material</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_TIFF_Scan" status="Approved" sourceTemplate="sbt1plm4bt">TIFF Scan</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_TIFF" status="Approved" sourceTemplate="sbt1plm4bt">TIFF</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolFolder" status="Approved" sourceTemplate="sbt1plm4bt">BT7 Tool Folder</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolPartMasterS" status="Approved"
+       sourceTemplate="sbt1plm4bt">Tool Part Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolPartMaster" status="Approved"
+       sourceTemplate="sbt1plm4bt">Tool Part Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolPartRevMasterS" status="Approved"
+       sourceTemplate="sbt1plm4bt">Tool Part Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolPartRevisionMaster" status="Approved"
+       sourceTemplate="sbt1plm4bt">Tool Part Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolPartRevision" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 ToolPart Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolPart" status="Approved" sourceTemplate="sbt1plm4bt">BT7 Tool Part</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_UDFFolder" status="Approved" sourceTemplate="sbt1plm4bt">BT7 UDF Folder</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_UGPartAttr" status="Approved" sourceTemplate="sbt1plm4bt">UG Part Attr</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VI_ID_Map_FormStorage" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7_VI_ID_Map_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VI_ID_Map_Form" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 VariantItem ID Mapping Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarCond_FormStorage" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7_VarCond_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarCondition_Form" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7Var Condition Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarItemID_FormStorage" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7_VarItemID_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarItemID_Form" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Var Item ID Form</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarMatrix_FormStorage" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7_VarMatrix_FormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VarMatrix_Form" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Var Matrix Form</key>
+   <key locale="en_US" id="LOVValueDescription{::}BT7_LOV_PartType_ToolPart{::}pt_catpart"
+       status="Approved" sourceTemplate="sbt1plm4bt">pt_catpart only for BT7_ToolPart</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_Authority_Classification{::}A" status="Approved"
+       sourceTemplate="sbt1plm4bt">A</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_Authority_Classification{::}B" status="Approved"
+       sourceTemplate="sbt1plm4bt">B</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_Authority_Classification{::}C" status="Approved"
+       sourceTemplate="sbt1plm4bt">C</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_ToolPart{::}l7LGCodPEq" status="Approved"
+       sourceTemplate="sbt1plm4bt">PCB-A</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_ToolPart{::}pt_assm" status="Approved"
+       sourceTemplate="sbt1plm4bt">Assembly</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_ToolPart{::}pt_aux" status="Approved"
+       sourceTemplate="sbt1plm4bt">Auxiliary</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_ToolPart{::}pt_catpart" status="Approved"
+       sourceTemplate="sbt1plm4bt">mech.Catalog part</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_ToolPart{::}pt_cbuy" status="Approved"
+       sourceTemplate="sbt1plm4bt">Buy Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_ToolPart{::}pt_comp" status="Approved"
+       sourceTemplate="sbt1plm4bt">Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_ToolPart{::}pt_doc" status="Approved"
+       sourceTemplate="sbt1plm4bt">Document</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_ToolPart{::}pt_ekk" status="Approved"
+       sourceTemplate="sbt1plm4bt">Electronic Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_ToolPart{::}pt_mat" status="Approved"
+       sourceTemplate="sbt1plm4bt">Material</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_ToolPart{::}pt_mech" status="Approved"
+       sourceTemplate="sbt1plm4bt">Mechanical Component</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_ToolPart{::}pt_pcb" status="Approved"
+       sourceTemplate="sbt1plm4bt">PCB-raw</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_ToolPart{::}pt_pkg" status="Approved"
+       sourceTemplate="sbt1plm4bt">Packing</key>
+   <key locale="en_US" id="LOVValue{::}BT7_LOV_PartType_ToolPart{::}pt_vassm" status="Approved"
+       sourceTemplate="sbt1plm4bt">150% Assembly</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_YesNo-{::}NA" status="Approved" sourceTemplate="sbt1plm4bt">N/A</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}HC-Stafa_6634" status="Approved"
+       sourceTemplate="sbt1plm4bt">HC-Stafa_6634</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}MUhlhausen" status="Approved"
+       sourceTemplate="sbt1plm4bt">MUhlhausen</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Print center Stafa" status="Approved"
+       sourceTemplate="sbt1plm4bt">Print center Stafa</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}pt_vassm" status="Approved"
+       sourceTemplate="sbt1plm4bt">Variant Assembly</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}bt7_rtp_resquant" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Resulting Quantity</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}bt7_rtp_resuom" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Resulting UOM</key>
+   <key locale="en_US" id="Property{::}BT7_ChangeNoticeRevision{::}bt7_AuthorityClassification"
+       status="Approved" sourceTemplate="sbt1plm4bt">BT Authority Classification</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_AlternateUOM"
+       status="Approved" sourceTemplate="sbt1plm4bt">Alternate Unit Of Measure</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_EqPartNo" status="Approved"
+       sourceTemplate="sbt1plm4bt">Alternate Number</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_ItemDesc_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Item Description DE</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_ItemName_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Item Name DE</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialAbbrev_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Abbrev. term</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialAbbrev"
+       status="Approved" sourceTemplate="sbt1plm4bt">Abbrev. term</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialColour_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Color</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialColour"
+       status="Approved" sourceTemplate="sbt1plm4bt">Color</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialDensity_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Density(g/cm3)</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialDensity"
+       status="Approved" sourceTemplate="sbt1plm4bt">Density(g/cm3)</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialNumber_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Mat. number</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialNumber"
+       status="Approved" sourceTemplate="sbt1plm4bt">Mat. number</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialStandard_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Mat. Standard</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_MaterialStandard"
+       status="Approved" sourceTemplate="sbt1plm4bt">Mat. Standard</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_ShortText"
+       status="Approved" sourceTemplate="sbt1plm4bt">Short Text</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_TCEnt_Doc_Class"
+       status="Approved" sourceTemplate="sbt1plm4bt">TC Enterprise Doc Class</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_item_id_Material_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">ID(Secondary)</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_item_id_Material"
+       status="Approved" sourceTemplate="sbt1plm4bt">ID(Primary)</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_item_rev_id_Mat_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Revision ID(Secondary)</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_item_rev_id_Material"
+       status="Approved" sourceTemplate="sbt1plm4bt">Revision ID (Primary)</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_object_name_Item"
+       status="Approved" sourceTemplate="sbt1plm4bt">bt7_cp_object_name_Item</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_object_name_Mat_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Name</key>
+   <key locale="en_US" id="Property{::}BT7_ComponentRevision{::}bt7_cp_object_name_Material"
+       status="Approved" sourceTemplate="sbt1plm4bt">Name</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_DocOrigin" status="Approved"
+       sourceTemplate="sbt1plm4bt">Doc. Origin</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_DocType_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Document Type DE</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_DocumentType"
+       status="Approved" sourceTemplate="sbt1plm4bt">Document Type EN</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_EqPartNo" status="Approved"
+       sourceTemplate="sbt1plm4bt">Alternate Number</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_ItemDesc_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Item Description DE</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_ItemName_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Item Name DE</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_TCEnt_Doc_Class"
+       status="Approved" sourceTemplate="sbt1plm4bt">TC Enterprise Doc Class</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_cp_object_name_Item"
+       status="Approved" sourceTemplate="sbt1plm4bt">Item name</key>
+   <key locale="en_US" id="Property{::}BT7_Document{::}bt7_DocType_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Document Type DE</key>
+   <key locale="en_US" id="Property{::}BT7_Document{::}bt7_DocumentType" status="Approved"
+       sourceTemplate="sbt1plm4bt">Document Type</key>
+   <key locale="en_US" id="Property{::}BT7_ManufacturerRevision{::}bt7_remark" status="Approved"
+       sourceTemplate="sbt1plm4bt">Remark</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_MassValue" status="Approved"
+       sourceTemplate="sbt1plm4bt">Mass value</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_MaterialAbbrev"
+       status="Approved" sourceTemplate="sbt1plm4bt">Material Abbrev</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_MaterialColour"
+       status="Approved" sourceTemplate="sbt1plm4bt">bt7_MaterialColour</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_MaterialDensity"
+       status="Approved" sourceTemplate="sbt1plm4bt">bt7_MaterialDensity</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_MaterialNumber"
+       status="Approved" sourceTemplate="sbt1plm4bt">bt7_MaterialNumber</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_MaterialStandard"
+       status="Approved" sourceTemplate="sbt1plm4bt">bt7_MaterialStandard</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_cp_canceled" status="Approved"
+       sourceTemplate="sbt1plm4bt">bt7_cp_canceled</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_cp_cancelnr" status="Approved"
+       sourceTemplate="sbt1plm4bt">bt7_cp_cancelnr</key>
+   <key locale="en_US" id="Property{::}BT7_MaterialRevision{::}bt7_cp_object_name_Item"
+       status="Approved" sourceTemplate="sbt1plm4bt">bt7_cp_object_name_Item</key>
+   <key locale="en_US" id="Property{::}BT7_Material{::}bt7_cp_MaterialAbbrev" status="Approved"
+       sourceTemplate="sbt1plm4bt">bt7_cp_MaterialAbbrev</key>
+   <key locale="en_US" id="Property{::}BT7_Material{::}bt7_cp_MaterialColour" status="Approved"
+       sourceTemplate="sbt1plm4bt">bt7_cp_MaterialColour</key>
+   <key locale="en_US" id="Property{::}BT7_Material{::}bt7_cp_MaterialDensity" status="Approved"
+       sourceTemplate="sbt1plm4bt">bt7_cp_MaterialDensity</key>
+   <key locale="en_US" id="Property{::}BT7_Material{::}bt7_cp_MaterialNumber" status="Approved"
+       sourceTemplate="sbt1plm4bt">bt7_cp_MaterialNumber</key>
+   <key locale="en_US" id="Property{::}BT7_Material{::}bt7_cp_MaterialStandard" status="Approved"
+       sourceTemplate="sbt1plm4bt">bt7_cp_MaterialStandard</key>
+   <key locale="en_US" id="Property{::}BT7_MultiSEffFormStorage{::}bt7_RevEffective_StartDate"
+       status="Approved" sourceTemplate="sbt1plm4bt">Rev Effective Start Date</key>
+   <key locale="en_US" id="Property{::}BT7_MultiSEffForm{::}bt7_RevEffective_StartDate"
+       status="Approved" sourceTemplate="sbt1plm4bt">Rev Effective Start Date</key>
+   <key locale="en_US" id="Property{::}BT7_MultiSEff{::}bt7_RevEffective_EndDate"
+       status="Approved" sourceTemplate="sbt1plm4bt">Rev Effective End Date</key>
+   <key locale="en_US" id="Property{::}BT7_MultiSEff{::}bt7_RevEffective_StartDate"
+       status="Approved" sourceTemplate="sbt1plm4bt">Rev Effective Start Date</key>
+   <key locale="en_US" id="Property{::}BT7_ProdTypeKey_FormStorage{::}bt7_PTK_LOV_1"
+       status="Approved" sourceTemplate="sbt1plm4bt">BT PTK LOV 1</key>
+   <key locale="en_US" id="Property{::}BT7_ProdTypeKey_Form{::}bt7_PTK_LOV_1" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT PTK LOV 1</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_cp_AlternateUOM"
+       status="Approved" sourceTemplate="sbt1plm4bt">Alternate Unit Of Measure</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_cp_ItemDesc_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Item Description DE</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_cp_ItemName_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Item Name DE</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_cp_ProductType_1"
+       status="Approved" sourceTemplate="sbt1plm4bt">Product Type EN</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_cp_ProductType_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Product Type DE</key>
+   <key locale="en_US" id="Property{::}BT7_ProductRevision{::}bt7_cp_object_name_Item"
+       status="Approved" sourceTemplate="sbt1plm4bt">Item name</key>
+   <key locale="en_US" id="Property{::}BT7_Product{::}bt7_ProductType_1" status="Approved"
+       sourceTemplate="sbt1plm4bt">Product Type EN</key>
+   <key locale="en_US" id="Property{::}BT7_Product{::}bt7_ProductType_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Product Type DE</key>
+   <key locale="en_US" id="Property{::}BT7_SoftwareRevision{::}bt7_cp_ItemDesc_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Item Description DE</key>
+   <key locale="en_US" id="Property{::}BT7_SoftwareRevision{::}bt7_cp_ItemName_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Item Name DE</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_AlternateUOM"
+       status="Approved" sourceTemplate="sbt1plm4bt">Alternate Unit Of Measure</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_EqPartNo" status="Approved"
+       sourceTemplate="sbt1plm4bt">Alternate Number</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_ItemDesc_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Item Description DE</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_ItemName_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Item Name DE</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialAbbrev_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Abbrev. term</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialAbbrev"
+       status="Approved" sourceTemplate="sbt1plm4bt">Abbrev. term</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialColour_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Color</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialColour"
+       status="Approved" sourceTemplate="sbt1plm4bt">Color</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialDensity_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Density(g/cm3)</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialDensity"
+       status="Approved" sourceTemplate="sbt1plm4bt">Density(g/cm3)</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialNumber_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Mat. number</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialNumber"
+       status="Approved" sourceTemplate="sbt1plm4bt">Mat. number</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialStandard_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Mat. Standard</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_MaterialStandard"
+       status="Approved" sourceTemplate="sbt1plm4bt">Mat. Standard</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_ShortText" status="Approved"
+       sourceTemplate="sbt1plm4bt">Short Text</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_TCEnt_Doc_Class"
+       status="Approved" sourceTemplate="sbt1plm4bt">TC Enterprise Doc Class</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_item_id_Material_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">ID(Secondary)</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_item_id_Material"
+       status="Approved" sourceTemplate="sbt1plm4bt">ID(Primary)</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_item_rev_id_Mat_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Revision ID</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_item_rev_id_Material"
+       status="Approved" sourceTemplate="sbt1plm4bt">Revision ID</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_object_name_Item"
+       status="Approved" sourceTemplate="sbt1plm4bt">Item Name</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_object_name_Mat_2"
+       status="Approved" sourceTemplate="sbt1plm4bt">Name</key>
+   <key locale="en_US" id="Property{::}BT7_ToolPartRevision{::}bt7_cp_object_name_Material"
+       status="Approved" sourceTemplate="sbt1plm4bt">Name</key>
+   <key locale="en_US" id="Property{::}BT7_ToolRevision{::}bt7_cp_AlternateUOM" status="Approved"
+       sourceTemplate="sbt1plm4bt">Alternate Unit Of Measure</key>
+   <key locale="en_US" id="Property{::}BT7_ToolRevision{::}bt7_cp_EqPartNo" status="Approved"
+       sourceTemplate="sbt1plm4bt">Alternate Number</key>
+   <key locale="en_US" id="Property{::}BT7_ToolRevision{::}bt7_cp_ItemDesc_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Item Description DE</key>
+   <key locale="en_US" id="Property{::}BT7_ToolRevision{::}bt7_cp_ItemName_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Item Name DE</key>
+   <key locale="en_US" id="Property{::}BT7_ToolRevision{::}bt7_cp_TCEnt_Doc_Class"
+       status="Approved" sourceTemplate="sbt1plm4bt">TC Enterprise Doc Class</key>
+   <key locale="en_US" id="Property{::}BT7_ToolRevision{::}bt7_cp_object_name_Item"
+       status="Approved" sourceTemplate="sbt1plm4bt">bt7_cp_object_name_Item</key>
+   <key locale="en_US" id="Property{::}BT7_UGPartAttr{::}bt7_DrawingSize" status="Approved"
+       sourceTemplate="sbt1plm4bt">Drawing Size</key>
+   <key locale="en_US" id="Property{::}BT7_UGPartAttr{::}bt7_Scale" status="Approved"
+       sourceTemplate="sbt1plm4bt">Scale</key>
+   <key locale="en_US" id="Property{::}BT7_VI_ID_Map_FormStorage{::}bt7_VarItemID_Mapping"
+       status="Approved" sourceTemplate="sbt1plm4bt">BT Variant Item ID Mapping</key>
+   <key locale="en_US" id="Property{::}BT7_VI_ID_Map_Form{::}bt7_VarItemID_Mapping"
+       status="Approved" sourceTemplate="sbt1plm4bt">BT Variant Item ID Mapping</key>
+   <key locale="en_US" id="Property{::}BT7_VarCond_FormStorage{::}bt7_VC_MTX_Line"
+       status="Approved" sourceTemplate="sbt1plm4bt">BT VC MTX Line</key>
+   <key locale="en_US" id="Property{::}BT7_VarCondition_Form{::}bt7_VC_MTX_Line" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT VC MTX Line</key>
+   <key locale="en_US" id="Property{::}BT7_VarItemID_FormStorage{::}bt7_VarItemID_Sequence"
+       status="Approved" sourceTemplate="sbt1plm4bt">BT Var Item ID Sequence</key>
+   <key locale="en_US" id="Property{::}BT7_VarItemID_Form{::}bt7_VarItemID_Sequence"
+       status="Approved" sourceTemplate="sbt1plm4bt">BT Var Item ID Sequence</key>
+   <key locale="en_US" id="Property{::}BT7_VarMatrix_FormStorage{::}bt7_VC_Matrix"
+       status="Approved" sourceTemplate="sbt1plm4bt">BT VC Matrix</key>
+   <key locale="en_US" id="Property{::}BT7_VarMatrix_Form{::}bt7_VC_Matrix" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT VC Matrix</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprDate_1" status="Approved"
+       sourceTemplate="sbt1plm4bt">Appr. Date self-checking</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprDate_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Appr. Date specialist department</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprDate_3" status="Approved"
+       sourceTemplate="sbt1plm4bt">Appr. Date division-checking</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprDate_4" status="Approved"
+       sourceTemplate="sbt1plm4bt">Appr. Date R&amp;D-Management</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprDate_DocMapp" status="Approved"
+       sourceTemplate="sbt1plm4bt">Approve date</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprUser_1" status="Approved"
+       sourceTemplate="sbt1plm4bt">Approver self-checking</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprUser_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Approver</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprUser_3" status="Approved"
+       sourceTemplate="sbt1plm4bt">App. User division-checking</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ApprUser_4" status="Approved"
+       sourceTemplate="sbt1plm4bt">Appr. User R&amp;D-Management</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_FirstUse" status="Approved"
+       sourceTemplate="sbt1plm4bt">First Use</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_GeneralTolerance" status="Approved"
+       sourceTemplate="sbt1plm4bt">General Tolerance</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ItemRevName_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">ItemRevision name 2. lang</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_MassUnit" status="Approved"
+       sourceTemplate="sbt1plm4bt">Mass unit</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_MassValue" status="Approved"
+       sourceTemplate="sbt1plm4bt">Mass value</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_Material_Mapping_1" status="Approved"
+       sourceTemplate="sbt1plm4bt">Material 1 Short Term (Alt/Neu)</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_Material_Mapping_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Material 2 Short Term (Old/New)</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_PartType_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Part Type 2. lang</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_Responsible" status="Approved"
+       sourceTemplate="sbt1plm4bt">For the doc responsible site</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_SFP_Dimension" status="Approved"
+       sourceTemplate="sbt1plm4bt">Dimension of SF part</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_Subtitle_1" status="Approved"
+       sourceTemplate="sbt1plm4bt">Subtitle</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_Subtitle_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Subtitle 2. lang</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_SupplierCode_2_PartNo"
+       status="Approved" sourceTemplate="sbt1plm4bt">Supplier 2 Part Number</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_Supplier_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Supplier 2</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ToolType_1" status="Approved"
+       sourceTemplate="sbt1plm4bt">Tool Type EN</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ToolType_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">Tool Type DE</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_ToolType" status="Approved"
+       sourceTemplate="sbt1plm4bt">Tool Type</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_VolumeUnit" status="Approved"
+       sourceTemplate="sbt1plm4bt">Volume unit</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_VolumeValue" status="Approved"
+       sourceTemplate="sbt1plm4bt">Volume value</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_docchange" status="Approved"
+       sourceTemplate="sbt1plm4bt">Change Description</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_docmnumber_40" status="Approved"
+       sourceTemplate="sbt1plm4bt">EngChange No. (40)</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_docmnumber_60" status="Approved"
+       sourceTemplate="sbt1plm4bt">ECO-No Status 50</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_docmnumber_98" status="Approved"
+       sourceTemplate="sbt1plm4bt">ECO-No Status 98</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_docmnumber" status="Approved"
+       sourceTemplate="sbt1plm4bt">ECO No</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_releaser" status="Approved"
+       sourceTemplate="sbt1plm4bt">Released by</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_revisionsuperseeded" status="Approved"
+       sourceTemplate="sbt1plm4bt">Superseeded Indicator</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_rtp_ApprDate_DocMapp" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Appr. Date Doc. Mapping</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_rtp_latest_rel_status"
+       status="Approved" sourceTemplate="sbt1plm4bt">BT7 Latest Status</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_rtp_map_status" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Status Description</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_rtp_resuom" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 resulting UOM</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}bt7_techinfo" status="Approved"
+       sourceTemplate="sbt1plm4bt">Technical Info</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_AlternateUnitOfMeasure" status="Approved"
+       sourceTemplate="sbt1plm4bt">Alternate Unit Of Measure</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_EqPartNo" status="Approved" sourceTemplate="sbt1plm4bt">Alternate Number</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_ItemDesc_2" status="Approved" sourceTemplate="sbt1plm4bt">Item Description DE</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_ItemName_2" status="Approved" sourceTemplate="sbt1plm4bt">Item Name DE</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_ShortText" status="Approved" sourceTemplate="sbt1plm4bt">Short Text</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_StockItem" status="Approved" sourceTemplate="sbt1plm4bt">Stock Item</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_TCEnt_Doc_Class" status="Approved"
+       sourceTemplate="sbt1plm4bt">TC Enterprise Doc Class</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_rtp_itemNameDesc" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Name</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_rtp_lastrevwithstatus" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 LastRevWithStatus</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_rtp_latest_rev_status" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 LatestRev-Status</key>
+   <key locale="en_US" id="Property{::}Item{::}bt7_rtp_latest_rev" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Latest Revision</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_AltMaterial" status="Approved"
+       sourceTemplate="sbt1plm4bt">Alternate Material</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_SupplierCode_1_PartNo"
+       status="Approved" sourceTemplate="sbt1plm4bt">Supplier 1 part number</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_assytype" status="Approved"
+       sourceTemplate="sbt1plm4bt">Assembly Type</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_cp_StockItem" status="Approved"
+       sourceTemplate="sbt1plm4bt">Stock Item</key>
+   <key locale="en_US" id="Property{::}UGPART{::}bt7_cp_GeneralTol_CmnComp" status="Approved"
+       sourceTemplate="sbt1plm4bt">GeneralTolerance (CommonComp)</key>
+   <key locale="en_US" id="Property{::}UGPART{::}bt7_cp_GeneralTol_Component" status="Approved"
+       sourceTemplate="sbt1plm4bt">GeneralTolerance (Component)</key>
+   <key locale="en_US" id="Property{::}UGPART{::}bt7_cp_GeneralTol_ToolPart" status="Approved"
+       sourceTemplate="sbt1plm4bt">GeneralTolerance (ToolPart)</key>
+   <key locale="en_US" id="ReleaseStatus{::}BT7_ECO" status="Approved" sourceTemplate="sbt1plm4bt">ECOChanged</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_ItemRevName_2" status="Approved"
+       sourceTemplate="sbt1plm4bt">ItemRevision name 2. lang</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMYRevMasterS" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7_CCR_DUMMYRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CCR_DUMMYMasterS" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7_CCR_DUMMYMasterS</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_Supplier_1_PartNo" status="Approved"
+       sourceTemplate="sbt1plm4bt">Supplier 1 part number</key>
+</Add>
+<Change>
+   <key locale="en_US" id="BusinessObject{::}BT6_Document Revision Master" status="Approved"
+       sourceTemplate="btconfigra">BT6_Document Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT6_EngChange Revision Master" status="Approved"
+       sourceTemplate="btconfigra">BT6_EngChange Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT6_EngChange" status="Approved" sourceTemplate="btconfigra">BT Eng Change</key>
+   <key locale="en_US" id="BusinessObject{::}BT6_Material Revision Master" status="Approved"
+       sourceTemplate="btconfigra">BT6_Material Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT6_PCB Revision Master" status="Approved"
+       sourceTemplate="btconfigra">BT6_PCB Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT6_Software Revision Master" status="Approved"
+       sourceTemplate="btconfigra">BT6_Software Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT6_StandardPart Revision Master" status="Approved"
+       sourceTemplate="btconfigra">BT6_StandardPart Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT6_Tool Revision Master" status="Approved"
+       sourceTemplate="btconfigra">BT6_Tool Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT6_ToolPart Revision Master" status="Approved"
+       sourceTemplate="btconfigra">BT6_ToolPart Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}BT6_ToolPart" status="Approved" sourceTemplate="btconfigra">BT Tool Part</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_BTPartRevision" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 BTPartRevision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_CommonCompRevision" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Electronic &amp; Electronic-Mechanic Comp Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ComponentRevision" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Component Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_DocumentRevision" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 DocumentRevision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ManufacturerRevision" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Manufacturer Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ProductRevision" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Product Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_SoftwareRevision" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Software Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_ToolRevision" status="Approved" sourceTemplate="sbt1plm4bt">BT7 Tool Revision</key>
+   <key locale="en_US" id="BusinessObject{::}BT7_VendorPartRevision" status="Approved"
+       sourceTemplate="sbt1plm4bt">BT7 Vendor Part Revision</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum1" status="Approved"
+       sourceTemplate="sbt1plm4bt">9-digits (nachtragliche Abbildung einer exist. L&amp;G Nr)</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_docident{::}l9LGNum2" status="Approved"
+       sourceTemplate="sbt1plm4bt">10-digits (nachtragliche Abbildung einer exist. L&amp;G Nr)</key>
+   <key locale="en_US" id="Property{::}Part Revision{::}bt7_zultuv" status="Approved"
+       sourceTemplate="sbt1plm4bt">TUV</key>
+</Change>
+<Delete>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}HC-Stäfa_6634" status="Approved">HC-Stäfa_6634</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Mühlhausen" status="Approved">Mühlhausen</key>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_orderset{::}Print center Stäfa" status="Approved">Print center Stäfa</key>
+   <key locale="en_US" id="Property{::}BT6_Document Revision Master{::}bt7_cp_canceled"
+       status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT6_Document Revision Master{::}bt7_cp_cancelnr"
+       status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT6_Document Revision Master{::}bt7_cp_shortInfo"
+       status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}BT6_EngChange Revision Master{::}bt7_cp_canceled"
+       status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT6_EngChange Revision Master{::}bt7_cp_cancelnr"
+       status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT6_EngChange Revision Master{::}bt7_cp_shortInfo"
+       status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}BT6_Material Revision Master{::}bt7_cp_canceled"
+       status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT6_Material Revision Master{::}bt7_cp_cancelnr"
+       status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT6_Material Revision Master{::}bt7_cp_rohs_compliant"
+       status="Approved">RoHS Compliant?</key>
+   <key locale="en_US" id="Property{::}BT6_Material Revision Master{::}bt7_cp_shortInfo"
+       status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}BT6_PCB Revision Master{::}bt7_cp_canceled"
+       status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT6_PCB Revision Master{::}bt7_cp_cancelnr"
+       status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT6_PCB Revision Master{::}bt7_cp_rohs_compliant"
+       status="Approved">RoHS Compliant?</key>
+   <key locale="en_US" id="Property{::}BT6_PCB Revision Master{::}bt7_cp_shortInfo"
+       status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}BT6_Product Revision Master{::}bt7_cp_canceled"
+       status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT6_Product Revision Master{::}bt7_cp_cancelnr"
+       status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT6_Product Revision Master{::}bt7_cp_rohs_compliant"
+       status="Approved">RoHS Compliant?</key>
+   <key locale="en_US" id="Property{::}BT6_Product Revision Master{::}bt7_cp_shortInfo"
+       status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}BT6_ProductPart Revision Master{::}bt7_cp_canceled"
+       status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT6_ProductPart Revision Master{::}bt7_cp_cancelnr"
+       status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT6_ProductPart Revision Master{::}bt7_cp_rohs_compliant"
+       status="Approved">RoHS Compliant?</key>
+   <key locale="en_US" id="Property{::}BT6_ProductPart Revision Master{::}bt7_cp_shortInfo"
+       status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}BT6_Software Revision Master{::}bt7_cp_canceled"
+       status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT6_Software Revision Master{::}bt7_cp_cancelnr"
+       status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT6_Software Revision Master{::}bt7_cp_shortInfo"
+       status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}BT6_StandardPart Revision Master{::}bt7_cp_canceled"
+       status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT6_StandardPart Revision Master{::}bt7_cp_cancelnr"
+       status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT6_StandardPart Revision Master{::}bt7_cp_rohs_compliant"
+       status="Approved">RoHS Compliant?</key>
+   <key locale="en_US" id="Property{::}BT6_StandardPart Revision Master{::}bt7_cp_shortInfo"
+       status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}BT6_Tool Revision Master{::}bt7_cp_canceled"
+       status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT6_Tool Revision Master{::}bt7_cp_cancelnr"
+       status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT6_Tool Revision Master{::}bt7_cp_shortInfo"
+       status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}BT6_ToolPart Revision Master{::}bt7_cp_canceled"
+       status="Approved">Cancel Date</key>
+   <key locale="en_US" id="Property{::}BT6_ToolPart Revision Master{::}bt7_cp_cancelnr"
+       status="Approved">Cancel No</key>
+   <key locale="en_US" id="Property{::}BT6_ToolPart Revision Master{::}bt7_cp_shortInfo"
+       status="Approved">Short Info</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docreleaser" status="Approved">Released by</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docsubtitle_de"
+       status="Approved">Subtitle 2.</key>
+   <key locale="en_US" id="Property{::}BT7_DocumentRevision{::}bt7_docsubtitle" status="Approved">Subtitle</key>
+</Delete>
+</TcBusinessDataLocalization>

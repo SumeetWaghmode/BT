@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-u="infodba" -p="UGSup5050" -g="dba" -report_type="EKK_BKK" -ecad_config="O:\0SBT-PR-TC11UPGR\trunk\MRT\Customization\ITK\SBT_Report_CSV\ECAD_Config.xml" -output="O:\0SBT-PR-TC11UPGR\trunk\MRT\Customization\ITK\SBT_Report_CSV\EKK_BHK.csv"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

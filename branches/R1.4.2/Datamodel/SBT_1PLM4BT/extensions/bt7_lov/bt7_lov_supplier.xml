@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_Supplier" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_Supplier">
+     <TcLOVValue value="---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ACE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AHP Merkle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Aircom Pneumatik" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Alcoa" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Alkon" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Almet amb" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Altenberger" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ambassador" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AMF - Andreas Maier" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AMP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Angst &amp; Pfister GmbH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Argus" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Aris" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Arosta - Metall" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Asco" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Auel Verbindungstechnik GmbH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="autosplice" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B.E.S.T Ventil Vitting GmbH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Balluff" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Balzers" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bär GmbH &amp; Co.KG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Baumer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Baus" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bender und Hobein" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Beuerle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bex" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bibus" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Biebl" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Biehler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bilz" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Blaessinger" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Blickle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Blohm" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BOC Edwards" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Boellhoff" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Borries" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bosch" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bosch-Rexroth" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bossert" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Brinschwitz GmbH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bühler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bürkle Alexander" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bürklin" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Burster" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Busak + Shamban" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BWZ Schwingungstechnik" description="" conditionName="isTrue"/>
+     <TcLOVValue value="cab-Produkttechnik" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cadillac" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Calcomp" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Camloc" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Canespa GmbH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Captron" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cetelon" description="" conditionName="isTrue"/>
+     <TcLOVValue value="COAX Müller" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Coftech" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Conrad Electronic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Contelec" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Contrinex" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cooper Tools" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CyTec Zylindertechnik" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Datalogic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Deckel-Maho" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Deprag" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE-STA-CO" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dianawerk" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Diatest" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Diel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dirak" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dorfnerwerk" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dr. Tretter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EFFBE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Eisele" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Elkose" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Elring" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Endress+Hauser" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Engel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Engmatec" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Enidine" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Entzmann" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EPT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Erfi" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ersa" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Etewe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Euchner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Everett Charles" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Exmar Armaturen" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Expresso" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Facon" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FAG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fähnle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FCI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Feinmetall" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fellhauer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Festo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fibro" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fixtest" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flender" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flexatec" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flexon-System Plast" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fraba" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Frei" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Freude" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Freudenberg" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Friedmann" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Friedrich" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Frietsch-Werkzeugschl." description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fritz" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fritz und Brunner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fröhlich J. W." description="" conditionName="isTrue"/>
+     <TcLOVValue value="FTG Friedrich-Göhringer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fundiven" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fürniss GmbH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ganter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gatex" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gather" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gemmel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GGB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Glacier" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gleich" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GLT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Götz" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gutekunst" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gutmann" description="" conditionName="isTrue"/>
+     <TcLOVValue value="H &amp; K Behälterbau" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Haag" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Haba" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hahn &amp; Kolb" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Haid" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Halder" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Happich" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hartchrom" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Härter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Harting" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hartmann Fritz" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Heidenhain" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Heinemeyer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Held" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Helsacomp" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hema" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Herberger" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Heydt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hilger und Kern" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hirschmann" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HKP Präzisionstechnik" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hoelzer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hohner (Pepperl+Fuchs)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Holz Hertel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hormec" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hornung" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HSS Hydraulik" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Huber" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hummel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hutchinson" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HYDAC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IEF Werner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IFM electronics" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Igus" description="" conditionName="isTrue"/>
+     <TcLOVValue value="INA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ingun" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Inmac" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Innotronic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IPF electronic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Isola" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ITF Robotic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ITV Sintermetalle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jäger" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JHW" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jordan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Joucomatic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jumo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kabu" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kager (Zetex)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kähny-Maschinenbau" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kaiser + Kraft" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kastner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kemper" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Keyence" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kipp" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Klapprodt-Wasa" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kleinkopf" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Klöckner Moeller" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Knörzer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Komax" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Körting" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kranert" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kremer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Krempel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kuhnke" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Künemund" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KVT-Canespa" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KVT-König" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lamers" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lanny" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lapp" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lechler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Leibold Vakuum GmbH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Leipold" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lenze" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Leuze Electronic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lotterer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ludwig Wolf GmbH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lumberg" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Maagtechnic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mabu Pressen" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mader" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mädler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Magtrol" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mahr" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Martor" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Matthes &amp; Schulze" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Max Storch GmbH &amp; Co." description="" conditionName="isTrue"/>
+     <TcLOVValue value="Maximator" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MayTec" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Merkle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mesenhöller" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Messwelk" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Metalltec" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Metallux" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Metzner &amp; Boehm" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Micronetics" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MiniTec" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mink" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Misumi" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MIT-Armaturen" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mitutoyo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mobac" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Moeller" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Monninger" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MPT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MTA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mueller Anton" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Müller Peter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Multi-Contact" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Murtfeldt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Nadella" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Neff" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Niederberger" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Nies" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Nord-Lock" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Norelem" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Norgren" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Novotechnik Ostfildern" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oberle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ODU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oel-Held" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oel-Peletter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Omron" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Omron Electronics GmbH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oriel-Corporation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Osram" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Osterrath" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P.E.I" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P.Müller" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Panasonic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Parker" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pepperl + Fuchs" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pfeiffer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pfisterer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Phoenix Contact" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Piller" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Plastro Mayer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Poly Rack" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Polytec" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Polytron-Print" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pöppelmann" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prototyp" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PTR Messtechnik" description="" conditionName="isTrue"/>
+     <TcLOVValue value="QUICK OHM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Quintest" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Raber + Maerker" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ratz (Emil Ratz GmbH)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rego-Fix" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Reichelt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Riegler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ritter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RMB (Blässinger)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RMG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Römheld" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rose &amp; Krieger" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rösnick" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ROTOR CLIP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Saia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SAV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schägner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schaltbau" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schmauser" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schmersal" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schmidt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schnaidt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schneeberger" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schober" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schroff" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schubert" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schunk" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schürfeld" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schuricht" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schurter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Schützinger" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Scotch 3M" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SEEGER" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Seho" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sekisui" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SensoPart" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Seton" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sferax" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SFS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SFS intec" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Shell" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SIBO" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sick" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sidrag" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Siegert" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Siemens" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sigma" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SKF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SL (System-Lineartechnik)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SMC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sortimat Automation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SSI Schäfer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stabilus" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stäubli" description="" conditionName="isTrue"/>
+     <TcLOVValue value="STC Stampfel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Steinebronn" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Steinel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stocko" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Stöger Automation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Streckfuß" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Supply Spec." description="" conditionName="isTrue"/>
+     <TcLOVValue value="Swagelok" description="" conditionName="isTrue"/>
+     <TcLOVValue value="System Plast" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Techniba" description="" conditionName="isTrue"/>
+     <TcLOVValue value="THF - Freudenberg" description="" conditionName="isTrue"/>
+     <TcLOVValue value="THK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Timken" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Titgemeyer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TOX Pressotechnik" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TR Electronic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Trelleborg" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Turck" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tyco" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W. Schumacher GmbH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Walzer u. Co" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wandres GmbH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wap" description="" conditionName="isTrue"/>
+     <TcLOVValue value="WASA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Weber" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Weihbrecht" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Weingärtner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Weiss" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Weisser &amp; Griesshaber" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Weisshaar" description="" conditionName="isTrue"/>
+     <TcLOVValue value="WelchAllyn / CAB IT-Technik" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wenglor" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Widmann" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wieland" description="" conditionName="isTrue"/>
+     <TcLOVValue value="WIKA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wirth" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wirth Verpackungen" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Woellner Hygiene" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wöhrle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wolf Produktionssysteme" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Würthner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Zander" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Zerhoch" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

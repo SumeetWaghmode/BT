@@ -1,0 +1,86 @@
+# Copyright 2012 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+# ==================================================
+# Copyright 2012.
+# Siemens Product Lifecycle Management Software Inc.
+# All Rights Reserved.
+# ==================================================
+# Copyright 2012 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+
+#*==================================================================================================
+# This properties file is used for client-specific properties.
+#===================================================================================================
+
+# Export directory for TC files
+# -----------------------------
+# This entry defines the client-specific piece of information that the TCComponentDataset requires
+# for downloading data onto the client.
+TCExportDir=
+
+# Location of this file
+# ---------------------
+# This setting will be created upon installation, so that we know exactly where it was installed.
+# This will be used to add persistent client-specific information at runtime like the last
+# successfully accessed server login, for use by the next login as a default.
+installSettingsFile=C:/ugs/tc/TC_VERSION/portal/plugins/configuration/client_specific.properties
+
+# Runner Execution command line
+# -----------------------------
+runnerCommand=C:/ugs/tc/TC_VERSION/portal/runner
+
+# JT to Ascii Execution command line (for EAI Support)
+jttoasciiCommand=C:/ugs/tc/TC_VERSION/jtutilities/bin/jttoascii
+
+# IBI EDA Client config file
+#EDA_ODIN_CONFIG=c:\\ibi\\EDAClient42\\conf\\etc\\odin.cfg
+EDA_ODIN_CONFIG=~your_eda_dir~/conf/etc/odin.cfg
+
+#--------------------------------------------------------------------------
+# RAC Integration with Teamcenter Client for Microsoft Office (aka – Office Client)
+#   Set useAppLauncher to true, to enable the usage of AppLauncher to use
+#   the Office client to edit Office documents.
+#     
+#   Set useAppLauncher to false to use the legacy way to open/edit datasets 
+#   (no Office Client integration).
+#
+# Note:  The Office Client assumes a 4-tier Teamcenter server configuration and
+# uses the web tier for login.  When the RAC is connecting to a 2-tier server
+# configuration, then the variable preferred4TierServerUrlForMSOfficeClient
+# needs to provide the URL for the Office Client to use for login.
+#--------------------------------------------------------------------------
+
+useAppLauncher=false
+preferred4TierServerUrlForMSOfficeClient=http://localhost:7001/tc
+
+#--------End of new MSOffice client settings ------------------------------
+
+ViewerMouseHoverEnable=true
+ViewerPartInfoProperties=bl_item_item_id,bl_rev_release_status_list,bl_item_ics_subclass_name
+
+# External Link Entries
+
+#-------------------------------------------------------------------------- 
+# Settings for start Jetty 
+#-------------------------------------------------------------------------- 
+JettyHttpHost=localhost 
+JettyHttpPort=8999 
+JettyContextPath=/ 
+JettyBrowserURL=http://localhost:8999/status 
+
+#
+# Runtime and custom entries below this line
+DEFAULT_SERVER.NAME=BTC4T_TC_SNAME
+DEFAULT_SERVER.URI=BTC4T_TC_PROTOC://BTC4T_TC_SERVER:BTC4T_TC_SPORT/tc
+HTTP_SERVER_1.NAME=BTC4T_TC_SNAME
+HTTP_SERVER_1.URI=BTC4T_TC_PROTOC://BTC4T_TC_SERVER:BTC4T_TC_SPORT/tc
+HTTP_SERVER_USE_GZIP=true
+PortalViewer_Cache=C:/ugs/tc/TC_VERSION/portal/temp
+PortalViewer_Optional_Licenses=ECAD
+PortalViewer_License_Level=Base
+
+
+
+httpServerCount=1
+portalCommunicationTransport=http
+tccsVersionFilter=
+fileCacheEnabled=true
+iiopServerCount=0

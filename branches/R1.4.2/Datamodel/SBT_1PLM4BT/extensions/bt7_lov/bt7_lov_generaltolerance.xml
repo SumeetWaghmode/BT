@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_GeneralTolerance" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_GeneralTolerance">
+     <TcLOVValue value="---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A5E02020200A (QRS)" description="Siemens QRS" conditionName="isTrue"/>
+     <TcLOVValue value="DIN 16742 - TG4" description="DIN Plastics mouldings DIN 16742"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN 1680 +/-GTA15/2" description="DIN Rough Casting - general tolerances and machining allowances; general"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN 1683 GTB17" description="DIN Rough Steel Casting - General tolerances, machining allowances; inactive for new design"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN 1683 GTB17/5" description="DIN Rough Steel Casting - General tolerances, machining allowances; inactive for new design"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN 1685 GTB 16" description="DIN Rough castings of cast iron with spheroidal graphite - General tolerances, machining allowances; inactive for new design"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN 1686 GTB 15" description="DIN Rough castings of grey iron - General tolerances, machining allowances; inactive for new design"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN 1686 GTB16" description="DIN Rough castings of grey iron - General tolerances, machining allowances; inactive for new design"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN 1686 GTB17" description="DIN Rough castings of grey iron - General tolerances, machining allowances; inactive for new design"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN 1687 GTA16" description="DIN Heavy metal alloy raw castings"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN 1688 GTA13" description="DIN Rough castings of light metal alloys"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN 1688 GTA13/5" description="DIN Rough castings of light metal alloys"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN 16901 - 120" description="DIN Plastics mouldings" conditionName="isTrue"/>
+     <TcLOVValue value="DIN 16901-130" description="DIN Plastics mouldings" conditionName="isTrue"/>
+     <TcLOVValue value="DIN 16901-140" description="DIN Plastics mouldings" conditionName="isTrue"/>
+     <TcLOVValue value="DIN 2095 Class 2" description="DIN Helical Springs Made of Round Wire"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN ISO 2768 - m" description="DIN General tolerances, Independency principle"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN ISO 3302 - M3" description="DIN Rubber - products" conditionName="isTrue"/>
+     <TcLOVValue value="DIN-EN 12420" description="DIN-EN Copper and copper alloys - Forgings"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN-ISO 2768 m - E" description="DIN General tolerances, Feature prinicple"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN-ISO 2768 mH - E" description="DIN General tolerances, Feature prinicple"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN-ISO 2768 mK - E" description="DIN General tolerances, Feature prinicple"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN-ISO 3302-1M1" description="DIN-ISO Rubber - Tolerances for products"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN-ISO 3302-1M2" description="DIN-ISO Rubber - Tolerances for products"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN-ISO 3302-1M3" description="DIN-ISO Rubber - Tolerances for products"
+         conditionName="isTrue"/>
+     <TcLOVValue value="DIN-ISO 8062-CT8" description="DIN-ISO Rubber - Tolerances for products"
+         conditionName="isTrue"/>
+     <TcLOVValue value="EN ISO 8062-3 DCTG10" description="EN ISO Geometrical Product Specifications (GPS) - Dimensional and geometrical tolerances for moulded parts"
+         conditionName="isTrue"/>
+     <TcLOVValue value="EN ISO 8062-3 DCTG12" description="EN ISO Geometrical Product Specifications (GPS) - Dimensional and geometrical tolerances for moulded parts"
+         conditionName="isTrue"/>
+     <TcLOVValue value="EN ISO 8062-3 DCTG6" description="EN ISO Geometrical Product Specifications (GPS) - Dimensional and geometrical tolerances for moulded parts"
+         conditionName="isTrue"/>
+     <TcLOVValue value="EN ISO 8062-3 DCTG8" description="EN ISO Geometrical Product Specifications (GPS) - Dimensional and geometrical tolerances for moulded parts"
+         conditionName="isTrue"/>
+     <TcLOVValue value="EN ISO 8062-3 DCTG9" description="EN ISO Geometrical Product Specifications (GPS) - Dimensional and geometrical tolerances for moulded parts"
+         conditionName="isTrue"/>
+     <TcLOVValue value="VDG P 690" description="VDG Precision casting" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

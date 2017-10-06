@@ -1,0 +1,11 @@
+The following revisions have been released on $DATUM to status SR
+
+$TARGET(ItemRevision)
+
+
+
+
+
+------------------------------------------------------------------------
+this is an automatically generated mail. 
+Please do not answer to this mail

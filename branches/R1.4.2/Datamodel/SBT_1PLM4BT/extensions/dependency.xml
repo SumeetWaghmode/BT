@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="11.2_4" displayName="1PLM4BT" enableOpsDataDeploy="true" guid="7065FBEE2EB7023C9BB5E3CD7105705A" isDescriptionMandatory="false" name="sbt1plm4bt" optional="true" prefixes="BT7_" teamcenterTemplate="false">
+    <include file="foundation_template.xml"/>
+    <include file="aws2_template.xml"/>
+    <include file="cm_template.xml"/>
+    <include file="materialmgmt_template.xml"/>
+    <include file="vendormanagement_template.xml"/>
+</TcBusinessDataIncludes>

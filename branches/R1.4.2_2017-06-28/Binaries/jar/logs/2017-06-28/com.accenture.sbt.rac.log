@@ -1,0 +1,6 @@
+     [echo]  Compiling the source java files 
+     [echo] bundle.. = com.accenture.sbt.rac
+     [echo]  Creating Jar - com.accenture.sbt.rac_1.0.0.0.jar 
+      [jar] Building jar: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\binaries\com.accenture.sbt.rac_1.0.0.0.jar
+   [delete] Deleting: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\com.accenture.sbt.rac\rerun
+     [echo]  Project processed successfully 

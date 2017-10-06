@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_Surface_EN" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_Surface_EN">
+     <TcLOVValue value="---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="black oxide coated" description="" conditionName="isTrue"/>
+     <TcLOVValue value="immersion tin" description="" conditionName="isTrue"/>
+     <TcLOVValue value="anodized nature" description="" conditionName="isTrue"/>
+     <TcLOVValue value="anodized black" description="" conditionName="isTrue"/>
+     <TcLOVValue value="brushed" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ground" description="" conditionName="isTrue"/>
+     <TcLOVValue value="slide grinded" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HASL LF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="polished" description="" conditionName="isTrue"/>
+     <TcLOVValue value="chromium-plated" description="" conditionName="isTrue"/>
+     <TcLOVValue value="nickel-plated" description="" conditionName="isTrue"/>
+     <TcLOVValue value="zinc-plated" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

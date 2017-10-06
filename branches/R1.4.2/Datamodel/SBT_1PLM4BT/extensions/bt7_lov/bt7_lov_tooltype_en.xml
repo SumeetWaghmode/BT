@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_ToolType_EN" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_ToolType_EN">
+     <TcLOVValue value="---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Various tools" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Manufacture-/Mounting device" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Controlling device, Gauge" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cutting tools" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Punching tools" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

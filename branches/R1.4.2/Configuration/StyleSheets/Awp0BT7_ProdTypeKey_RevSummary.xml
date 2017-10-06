@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2003-2005 UGS Corporation
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: ItemRevSummary.xml
+
+    Default style sheet for displaying item rev summary.
+ 
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+	<header>
+		<image source="thumbnail"/>
+		<classificationTrace/>
+		<property name="owning_user"/>
+		<property name="last_mod_date"/>
+		<property name="release_status_list"/>
+		<property name="object_type"/>		
+	</header>
+	<page text="Overview" format="TwoColumn">
+		<column>
+			<section text="ItemProperties">
+				<property name="object_desc"/>
+				<property name="items_tag"/>
+				<property name="release_status_list"/>
+				<separator/>
+				<property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+				<property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+				<separator/>
+				<property name="last_mod_user"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+				<separator/>
+				<command commandId="com.teamcenter.rac.properties" text="moreProperties"/>
+			</section>
+		</column>
+		<column>
+			<view name="actions">
+				<command actionKey="copyAction" commandId="com.teamcenter.rac.copy"/>
+				<command actionKey="reviseAction" commandId="com.teamcenter.rac.revise"/>
+				<command actionKey="newProcessAction" commandId="com.teamcenter.rac.newProcess" text="newProc"/>
+				<command actionKey="saveAsAction" commandId="org.eclipse.ui.file.saveAs"/>
+			</view>
+			<section text="Properties">				
+				<property name="bt7_Subtitle_1" />
+			</section>
+			<section text="Classification">		
+				<property name="bt7_documentClass" />
+				<property name="bt7_documentSubClass" />
+				<property name="bt7_documentSNType" />
+			</section>
+		</column>
+	</page>
+	<page title="Variant Data" format="OneColumn">
+		 <label text="ProductTypekey Form" />
+		 <objectSet source="BT7_Rel_ProdTypeKey.Form" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<treeDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</treeDisplay>
+			<listDisplay/>
+		</objectSet>
+		<separator/>
+		<label text="ASN Form" />
+		<objectSet source="BT7_Rel_VarItemID.Form" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<treeDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out"/>
+				<property name="checked_out_user"/>
+			</treeDisplay>
+			<listDisplay/>
+		</objectSet>
+		<separator/>
+		</page>
+	
+	<page title="Related Datasets">
+		<objectSet source="IMAN_reference.Dataset,IMAN_specification.Dataset,IMAN_manifestation.Dataset,TC_Attaches.Dataset,IMAN_Rendering.Dataset,SimplifiedRendering.Dataset,IMAN_3D_snap_shot.Dataset" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<thumbnailDisplay/>
+			<treeDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/>
+			</treeDisplay>
+			<listDisplay/>
+			<command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+					<parameter name="localSelection" value="true"/>
+			</command>
+		</objectSet>
+	</page>
+	
+	<page title = "History">
+        <objectSet source = "revision_list.ItemRevision" defaultdisplay = "tableDisplay" sortdirection = "descending" sortby = "item_revision_id">
+            <tableDisplay>
+                <property name = "object_string"/>
+				<property name = "release_status_list"/>
+                <property name = "date_released"/>
+				<property name= "object_desc"/>
+                <property name = "owning_user"/>
+                <property name = "owning_group"/>
+				<property name = "object_type"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <treeDisplay>
+                <property name = "object_string"/>
+				<property name = "release_status_list"/>
+                <property name = "date_released"/>
+				<property name= "object_desc"/>
+                <property name = "owning_user"/>
+                <property name = "owning_group"/>
+				<property name = "object_type"/>
+            </treeDisplay>
+            <listDisplay/>
+			<command commandId = "com.teamcenter.rac.pse.sendto" renderingHint="commandbutton"/>
+        </objectSet>
+    </page>
+<!--
+	=================
+	Relation Browser
+	================
+-->
+	<inject type="dataset" src="RelationsSummary" />
+</rendering>

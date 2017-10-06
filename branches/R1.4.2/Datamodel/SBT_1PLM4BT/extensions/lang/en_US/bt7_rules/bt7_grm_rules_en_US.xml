@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}BT7_lov_parttype{::}pt_vassm" status="Approved">Variant Assembly</key>
+</Add>
+</TcBusinessDataLocalization>

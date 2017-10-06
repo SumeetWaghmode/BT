@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="BT7_LOV_Treatment" lovType="ListOfValuesString" usage="Suggestive"
+       description="BT7_LOV_Treatment">
+     <TcLOVValue value="---|---" description="" conditionName="isTrue"/>
+     <TcLOVValue value="einsatzgehaertet|CASE-HARDENED" description="" conditionName="isTrue"/>
+     <TcLOVValue value="gehaertet|HARDENED" description="" conditionName="isTrue"/>
+     <TcLOVValue value="gehaertet und angelassen 57+3 HRC|HARDENED AND TEMPERED 57+3 HRC"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="gehaertet und angelassen 59+2 HRC|HARDENED AND TEMPERED 59+2 HRC"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="gehaertet und angelassen 61+2 HRC|HARDENED AND TEMPERED 61+2 HRC"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="getempert|TEMPERED" description="" conditionName="isTrue"/>
+     <TcLOVValue value="hartcoatiert|HARD COATED" description="" conditionName="isTrue"/>
+     <TcLOVValue value="induktionsgehaertet 60+5 HRC|INDUCTION HARDENED 60+5 HRC"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="Loetstopplack CTI &gt;= 175|SOLDER MASK CTI &gt;= 175" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Loetstopplack CTI &gt;= 200|SOLDER MASK CTI &gt;= 200" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="oelgetraenkt|OIL-SOAKED" description="" conditionName="isTrue"/>
+     <TcLOVValue value="phosphatiert|PHOSPHATED" description="" conditionName="isTrue"/>
+     <TcLOVValue value="plasmanitriert|PLASMA-NITRIDED" description="" conditionName="isTrue"/>
+     <TcLOVValue value="plasmanitriert Nht 0,3+0,2|PLASMA-NITRIDED NHT 0,3+0,2" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="plasmanitriert Nht 0,4+0,2|PLASMA-NITRIDED NHT 0,4+0,2" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="plasmanitriert Nht 0,5+0,2|PLASMA-NITRIDED NHT 0,5+0,2" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Reinigung nach VV H3 3329 1003|CLEANING ACC. VV H3 3329 1003"
+         description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

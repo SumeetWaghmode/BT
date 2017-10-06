@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-u=infodba -p=UGSup5050 -g=dba -i=QAW910 -r=A -rr="BT7 For_Production" -f=c:/temp/QAW910 -ml=unlimited -req=testuser1 -rt="MD Report" -order=true -pcb=false -sup=true -smd=true</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

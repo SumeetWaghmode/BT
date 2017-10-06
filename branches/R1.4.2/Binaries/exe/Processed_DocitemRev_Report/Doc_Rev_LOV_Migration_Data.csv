@@ -1,0 +1,235 @@
+Sourcing and Manufacturing,Guidelines,---,Manufacturing,Specification,Design drawing
+Sourcing and Manufacturing,Guidelines,Approach Projects,Manufacturing,Project and Process,Design drawing
+Sourcing and Manufacturing,Guidelines,Requirements Products,Manufacturing,Condition,Design drawing
+Sourcing and Manufacturing,Guidelines,Proof Products,Manufacturing,Verification,Design drawing
+Sourcing and Manufacturing,Guidelines,Description Products,Manufacturing,Specification,Design drawing
+Sourcing and Manufacturing,Results / Complaints,---,Manufacturing,Verification,Inspection and test report
+Sourcing and Manufacturing,Results / Complaints,Approach Projects,Manufacturing,Verification,Inspection and test report
+Sourcing and Manufacturing,Results / Complaints,Requirements Products,Manufacturing,Verification,Inspection and test report
+Sourcing and Manufacturing,Results / Complaints,Proof Products,Manufacturing,Verification,Inspection and test report
+Sourcing and Manufacturing,Results / Complaints,Description Products,Manufacturing,Verification,Inspection and test report
+Sourcing and Manufacturing,Information,---,Manufacturing,Specification,Others
+Sourcing and Manufacturing,Information,Approach Projects,Manufacturing,Project and Process,Others
+Sourcing and Manufacturing,Information,Requirements Products,Manufacturing,Condition,Others
+Sourcing and Manufacturing,Information,Proof Products,Manufacturing,Verification,Others
+Sourcing and Manufacturing,Information,Description Products,Manufacturing,Specification,Others
+Sourcing and Manufacturing,Drawings / BOM / Schematics,---,Manufacturing,Specification,Design drawing
+Sourcing and Manufacturing,Drawings / BOM / Schematics,Approach Projects,Manufacturing,Project and Process,Design drawing
+Sourcing and Manufacturing,Drawings / BOM / Schematics,Requirements Products,Manufacturing,Condition,Design drawing
+Sourcing and Manufacturing,Drawings / BOM / Schematics,Proof Products,Manufacturing,Verification,Design drawing
+Sourcing and Manufacturing,Drawings / BOM / Schematics,Description Products,Manufacturing,Specification,Design drawing
+Sourcing and Manufacturing,Others,---,Manufacturing,Specification,Others
+Sourcing and Manufacturing,Others,Approach Projects,Manufacturing,Project and Process,Others
+Sourcing and Manufacturing,Others,Requirements Products,Development,Specification,Design drawing
+Sourcing and Manufacturing,Others,Proof Products,Manufacturing,Verification,Others
+Sourcing and Manufacturing,Others,Description Products,Manufacturing,Specification,Others
+Sourcing and Manufacturing,Work Instruction,---,Manufacturing,Specification,Procedure instructions
+Sourcing and Manufacturing,Work Instruction,Approach Projects,Manufacturing,Project and Process,Procedure instructions
+Sourcing and Manufacturing,Work Instruction,Requirements Products,Manufacturing,Condition,Procedure instructions
+Sourcing and Manufacturing,Work Instruction,Proof Products,Manufacturing,Verification,Procedure instructions
+Sourcing and Manufacturing,Work Instruction,Description Products,Manufacturing,Specification,Procedure instructions
+Sourcing and Manufacturing,PCB Development,---,Manufacturing,Specification,Design drawing
+Sourcing and Manufacturing,PCB Development,Approach Projects,Manufacturing,Project and Process,Design drawing
+Sourcing and Manufacturing,PCB Development,Requirements Products,Manufacturing,Condition,Design drawing
+Sourcing and Manufacturing,PCB Development,Proof Products,Manufacturing,Verification,Design drawing
+Sourcing and Manufacturing,PCB Development,Description Products,Manufacturing,Specification,Design drawing
+Sourcing and Manufacturing,---,---,Manufacturing,---,---
+Release Documentation,Request for release,---,Management and Process,Project and Process,Others
+Release Documentation,Release minutes,---,Management and Process,Project and Process,Others
+Release Documentation,Set of release forms,---,Management and Process,Project and Process,Others
+Release Documentation,Project status report,---,Management and Process,Project and Process,Others
+Release Documentation,Final project report,---,Management and Process,Project and Process,Others
+Release Documentation,Review report of project plan,---,Management and Process,Project and Process,Others
+Release Documentation,Audit report,---,Management and Process,Project and Process,Others
+Release Documentation,Release report,---,Management and Process,Project and Process,Others
+Release Documentation,Profitability report,---,Management and Process,Project and Process,Others
+Release Documentation,Baseline,---,Management and Process,Project and Process,Others
+Release Documentation,Misc. Documents,---,Management and Process,Project and Process,Others
+Release Documentation,Project Manual,---,Management and Process,Project and Process,Others
+Release Documentation,---,---,Management and Process,---,---
+Development,Guidelines,Approach Projects,Development,Project and Process,Others
+Development,Guidelines,Requirements Products,Development,Condition,Others
+Development,Guidelines,Proof Products,Development,Verification,Others
+Development,Guidelines,Description Products,Development,Specification,Others
+Development,Results / Complaints,Approach Projects,Development,Verification,Inspection and test report
+Development,Results / Complaints,Requirements Products,Development,Verification,Inspection and test report
+Development,Results / Complaints,Proof Products,Development,Verification,Inspection and test report
+Development,Results / Complaints,Description Products,Development,Verification,Inspection and test report
+Development,Information,Approach Projects,Development,Project and Process,Inspection and test document
+Development,Information,Requirements Products,Development,Condition,Inspection and test document
+Development,Information,Proof Products,Development,Verification,Inspection and test report
+Development,Information,Description Products,Development,Specification,Inspection and test document
+Development,Drawings / BOM / Schematics,Approach Projects,Development,Project and Process,Design drawing
+Development,Drawings / BOM / Schematics,Requirements Products,Development,Condition,Design drawing
+Development,Drawings / BOM / Schematics,Proof Products,Development,Verification,Design drawing
+Development,Drawings / BOM / Schematics,Description Products,Development,Specification,Design drawing
+Development,Others,Approach Projects,Development,Project and Process,Others
+Development,Others,Requirements Products,Development,Condition,Others
+Development,Others,Proof Products,Development,Verification,Others
+Development,Others,Description Products,Development,Specification,Others
+Development,Work Instruction,Approach Projects,Development,Project and Process,Procedure instructions
+Development,Work Instruction,Requirements Products,Development,Condition,Procedure instructions
+Development,Work Instruction,Proof Products,Development,Verification,Procedure instructions
+Development,Work Instruction,Description Products,Development,Specification,Procedure instructions
+Development,---,---,Development,---,---
+Sales and Delivery,Guidelines,---,Development,Project and Process,Procedure instructions
+Sales and Delivery,Guidelines,Approach Projects,Usage and Disposal,Project and Process,Procedure instructions
+Sales and Delivery,Guidelines,Requirements Products,Usage and Disposal,Condition,Procedure instructions
+Sales and Delivery,Guidelines,Proof Products,Usage and Disposal,Verification,Procedure instructions
+Sales and Delivery,Guidelines,Description Products,Usage and Disposal,Specification,Procedure instructions
+Sales and Delivery,Results / Complaints,---,Usage and Disposal,Verification,Inspection and test report
+Sales and Delivery,Results / Complaints,Approach Projects,Usage and Disposal,Verification,Inspection and test report
+Sales and Delivery,Results / Complaints,Requirements Products,Usage and Disposal,Verification,Inspection and test report
+Sales and Delivery,Results / Complaints,Proof Products,Usage and Disposal,Verification,Inspection and test report
+Sales and Delivery,Results / Complaints,Description Products,Usage and Disposal,Verification,Inspection and test report
+Sales and Delivery,Information,---,Development,Verification,Inspection and test report
+Sales and Delivery,Information,Approach Projects,Usage and Disposal,Project and Process,Others
+Sales and Delivery,Information,Requirements Products,Usage and Disposal,Condition,Others
+Sales and Delivery,Information,Proof Products,Usage and Disposal,Verification,Test report
+Sales and Delivery,Information,Description Products,Usage and Disposal,Specification,Drawing
+Sales and Delivery,Drawings / BOM / Schematics,---,Usage and Disposal,Specification,Instructions for use
+Sales and Delivery,Drawings / BOM / Schematics,Approach Projects,Usage and Disposal,Project and Process,Drawing
+Sales and Delivery,Drawings / BOM / Schematics,Requirements Products,Usage and Disposal,Condition,Drawing
+Sales and Delivery,Drawings / BOM / Schematics,Proof Products,Usage and Disposal,Verification,Drawing
+Sales and Delivery,Drawings / BOM / Schematics,Description Products,Usage and Disposal,Specification,Drawing
+Sales and Delivery,Others,---,Development,Condition,Drawing
+Sales and Delivery,Others,Approach Projects,Usage and Disposal,Project and Process,Others
+Sales and Delivery,Others,Requirements Products,Usage and Disposal,Condition,Others
+Sales and Delivery,Others,Proof Products,Usage and Disposal,Verification,Others
+Sales and Delivery,Others,Description Products,Management and Process,Project and Process,Others
+Sales and Delivery,Work Instruction,---,Usage and Disposal,Project and Process,Procedure instructions
+Sales and Delivery,Work Instruction,Approach Projects,Usage and Disposal,Project and Process,Procedure instructions
+Sales and Delivery,Work Instruction,Requirements Products,Usage and Disposal,Condition,Procedure instructions
+Sales and Delivery,Work Instruction,Proof Products,Usage and Disposal,Verification,Procedure instructions
+Sales and Delivery,Work Instruction,Description Products,Usage and Disposal,Specification,Procedure instructions
+Sales and Delivery,---,---,Usage and Disposal,---,---
+Technical Documentation,Data Sheet,---,Usage and Disposal,Specification,Instructions for use
+Technical Documentation,Product Enclosure,---,Usage and Disposal,Specification,Instructions for use
+Technical Documentation,Manuals and others,---,Usage and Disposal,Specification,Instructions for use
+Technical Documentation,Photograph,---,Usage and Disposal,Specification,Instructions for use
+Technical Documentation,Drawing,---,Usage and Disposal,Specification,Instructions for use
+Technical Documentation,Declaration of Conformity / Certificate,---,Usage and Disposal,Specification,Instructions for use
+Technical Documentation,Environmental product declaration,---,Usage and Disposal,Specification,Instructions for use
+Technical Documentation,---,---,Usage and Disposal,---,---
+Management & Processes,Guidelines,Quality & Environm. Mgt.,Management and Process,Project and Process,Others
+Management & Processes,Guidelines,Marketing,Management and Process,Project and Process,Others
+Management & Processes,Guidelines,Product Marketing & Development,Management and Process,Project and Process,Others
+Management & Processes,Guidelines,Global Procurement,Management and Process,Project and Process,Others
+Management & Processes,Guidelines,Operation,Management and Process,Project and Process,Others
+Management & Processes,Guidelines,Logistics,Management and Process,Project and Process,Others
+Management & Processes,Guidelines,Document & Data Mgt.,Management and Process,Project and Process,Others
+Management & Processes,Guidelines,Human Resources,Management and Process,Project and Process,Others
+Management & Processes,Guidelines,Finance & Controlling,Management and Process,Project and Process,Others
+Management & Processes,Information,Quality & Environm. Mgt.,Management and Process,Project and Process,Others
+Management & Processes,Information,Marketing,Management and Process,Project and Process,Others
+Management & Processes,Information,Product Marketing & Development,Management and Process,Project and Process,Others
+Management & Processes,Information,Global Procurement,Management and Process,Project and Process,Others
+Management & Processes,Information,Operation,Management and Process,Project and Process,Others
+Management & Processes,Information,Logistics,Management and Process,Project and Process,Others
+Management & Processes,Information,Document & Data Mgt.,Management and Process,Project and Process,Others
+Management & Processes,Information,Human Resources,Management and Process,Project and Process,Others
+Management & Processes,Information,Finance & Controlling,Management and Process,Project and Process,Others
+Management & Processes,Template,Quality & Environm. Mgt.,Management and Process,Project and Process,Template
+Management & Processes,Template,Marketing,Management and Process,Project and Process,Template
+Management & Processes,Template,Product Marketing & Development,Management and Process,Project and Process,Template
+Management & Processes,Template,Global Procurement,Management and Process,Project and Process,Template
+Management & Processes,Template,Operation,Management and Process,Project and Process,Template
+Management & Processes,Template,Logistics,Management and Process,Project and Process,Template
+Management & Processes,Template,Document & Data Mgt.,Management and Process,Project and Process,Template
+Management & Processes,Template,Human Resources,Management and Process,Project and Process,Template
+Management & Processes,Template,Finance & Controlling,Management and Process,Project and Process,Template
+Management & Processes,Others,Quality & Environm. Mgt.,Management and Process,Project and Process,Others
+Management & Processes,Others,Marketing,Management and Process,Project and Process,Others
+Management & Processes,Others,Product Marketing & Development,Management and Process,Project and Process,Others
+Management & Processes,Others,Global Procurement,Management and Process,Project and Process,Others
+Management & Processes,Others,Operation,Management and Process,Project and Process,Others
+Management & Processes,Others,Logistics,Management and Process,Project and Process,Others
+Management & Processes,Others,Document & Data Mgt.,Management and Process,Project and Process,Others
+Management & Processes,Others,Human Resources,Management and Process,Project and Process,Others
+Management & Processes,Others,Finance & Controlling,Management and Process,Project and Process,Others
+Management & Processes,Work Instruction,Quality & Environm. Mgt.,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Work Instruction,Marketing,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Work Instruction,Product Marketing & Development,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Work Instruction,Global Procurement,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Work Instruction,Operation,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Work Instruction,Logistics,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Work Instruction,Document & Data Mgt.,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Work Instruction,Human Resources,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Work Instruction,Finance & Controlling,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Checklist,Quality & Environm. Mgt.,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Checklist,Marketing,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Checklist,Product Marketing & Development,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Checklist,Global Procurement,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Checklist,Operation,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Checklist,Logistics,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Checklist,Document & Data Mgt.,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Checklist,Human Resources,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Checklist,Finance & Controlling,Management and Process,Project and Process,Procedure instructions
+Management & Processes,Example,Quality & Environm. Mgt.,Management and Process,Project and Process,Others
+Management & Processes,Example,Marketing,Management and Process,Project and Process,Others
+Management & Processes,Example,Product Marketing & Development,Management and Process,Project and Process,Others
+Management & Processes,Example,Global Procurement,Management and Process,Project and Process,Others
+Management & Processes,Example,Operation,Management and Process,Project and Process,Others
+Management & Processes,Example,Logistics,Management and Process,Project and Process,Others
+Management & Processes,Example,Document & Data Mgt.,Management and Process,Project and Process,Others
+Management & Processes,Example,Human Resources,Management and Process,Project and Process,Others
+Management & Processes,Example,Finance & Controlling,Management and Process,Project and Process,Others
+Management & Processes,---,---,Management and Process,---,---
+ISTD-Document,Guidelines,---,Management and Process,Project and Process,Directives and standards
+ISTD-Document,Results / Complaints,---,Development,Verification,Inspection and test report
+ISTD-Document,Information,---,Development,,
+ISTD-Document,Drawings / BOM / Schematics,---,Manufacturing,Specification,Design drawing
+ISTD-Document,Others,---,---,---,Others
+ISTD-Document,Work Instruction,---,---,---,Procedure instructions
+ISTD-Document,PCB Development,---,---,---,Design drawing
+ISTD-Document,Template,---,Management and Process,Project and Process,Template
+ISTD-Document,Data Sheet,---,---,---,Data sheet
+ISTD-Document,Product Enclosure,---,Manufacturing,Specification,Instructions for use
+ISTD-Document,Manuals and others,---,Manufacturing,Specification,Instructions for use
+ISTD-Document,Photograph,---,Manufacturing,Specification,Instructions for use
+ISTD-Document,Drawing,---,!!,,
+ISTD-Document,Declaration of Conformity / Certificate,---,Usage and Disposal,Specification,Declaration of conformity
+ISTD-Document,Environmental product declaration,---,!!,,
+ISTD-Document,Checklist,---,Development,Project and Process,Procedure instructions
+ISTD-Document,Example,---,Management and Process,Project and Process,Others
+ISTD-Document,---,---,---,---,---
+---,---,---,---,---,---
+,Quotation,,Development,Project and Process,Inquiry: calculation and offer document
+,Test Instruction,,Manufacturing,Specification,Inspection and test document
+,Work instruction,,Development,Project and Process,Procedure instructions
+,Package leaflet,,Manufacturing,Specification,Instructions for use
+,Equipment design-order,,Manufacturing,Project and Process,Order and delivery document
+,CE-document,,Development,Specification,Declaration of conformity
+,Checklist,,Development,Project and Process,Procedure instructions
+,Data sheet,,Development,Specification,Data Sheet
+,Docs. project management,,---,---,Others
+,Documentation,,---,---,Others
+,Artwork,,Manufacturing,Specification,Marking
+,Recording modifications,,Management and Process,Project and Process,---
+,FAIR,,Manufacturing,Verification,First article inspection report
+,Strenght verification,,Development,Verification,Calculation and dimensioning
+,Customer agreement,,Manufacturing,Verification,---
+,PCB Layout order,,Development,Project and Process,Others
+,Supplier agreement,,Manufacturing,Specification,Technical Specification
+,Supplier specification,,Manufacturing,Specification,Technical Specification
+,List,,Management and Process,Condition,Information
+,Mounting instruction,,Manufacturing,Specification,Instructions for use
+,Document for approval,,Development,---,---
+,Pneum. control docs.,,Manufacturing,Specification,Technical specification
+,Environ. Product Declaration,,Usage and Disposal,Specification,Environment-related information
+,Minutes,,Management and Process,Project and Process,Report
+,Testfile,,Manufacturing,Verification,Inspection and test report
+,BOM - Equipment design,,Manufacturing,Specification,Parts list
+,BOM - Spare parts,,Manufacturing,Specification,Parts list
+,BOM - Unit,,Manufacturing,Specification,Parts list
+,BOM - PCB,,Manufacturing,Specification,Parts list
+,BOM - Accessories,,Manufacturing,Specification,Parts list
+,SW-version control,,Manufacturing,Specification,Firmware
+,Technical Delivery Conditions,,Manufacturing,Specification,Technical delivery conditions
+,Type-label sheet,,Manufacturing,Specification,Marking
+,Type code,,Manufacturing,Specification,Technical specification
+,Type declaration,,Manufacturing,Specification,Technical specification
+,Rework instruction,,Manufacturing,Specification,Procedure instructions
+,Process instruction,,Management and Process,Project and Process,Procedure instructions
+,Template,,Management and Process,Project and Process,Template
+,---,,---,---,---

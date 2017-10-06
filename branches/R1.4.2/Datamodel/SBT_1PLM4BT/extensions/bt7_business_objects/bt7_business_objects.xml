@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="BT7_CCR_DUMMYCNTMasterS" parentClassName="ItemMaster" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT7_CCR_DUMMYCNTRevMasterS" parentClassName="ItemVersionMaster"
+       isExportable="true" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="BT7_MultiSEff" parentClassName="POM_object" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="bt7_RevEffective_StartDate" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_RevEffective_EndDate" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="BT7_UGPartAttr" parentClassName="POM_object" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="bt7_DrawingSize" description="" attributeType="POM_string"
+         maxStringLength="5" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_Scale" description="" attributeType="POM_string"
+         maxStringLength="20" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_CheckClass" description="" attributeType="POM_string"
+         maxStringLength="5" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <TcAttributeAttach className="Part_0_Revision_alt">
+     <TcAttribute attributeName="bt7_AltMaterial" description="alternate material list"
+         attributeType="POM_typed_reference" maxStringLength="0" isArray="true" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" arrayLength="-1" isTransient="false" exportAsString="false"
+         noBackpointer="false" typedRefClassName="Mat1MaterialRevision"/>
+   </TcAttributeAttach>
+   <TcAttributeAttach className="IMSProfile">
+     <TcAttribute attributeName="bt7_ApprDate_1" description="bt7_ApprDate_1" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_ApprDate_2" description="bt7_ApprDate_2" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_ApprDate_3" description="bt7_ApprDate_3" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_ApprDate_4" description="bt7_ApprDate_4" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_ApprDate_DocMapp" description="bt7_ApprDate_DocMapp"
+         attributeType="POM_date" maxStringLength="0" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_ApprUser_1" description="bt7_ApprUser_1" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_ApprUser_2" description="bt7_ApprUser_2" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_ApprUser_3" description="bt7_ApprUser_3" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_ApprUser_4" description="bt7_ApprUser_4" attributeType="POM_string"
+         maxStringLength="80" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="bt7_ItemRevName_2" description="bt7_ItemRevName_2"
+         attributeType="POM_string" maxStringLength="40" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+   </TcAttributeAttach>
+   <OperationInputType typeName="BT7_CCR_DUMMYCNTCreI" parentTypeName="ItemCreI" typeClassName="BT7_CCR_DUMMYCNTCreI"
+       description="CreateInput object for &quot;BT7_CCR_DUMMYCNT&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTCreI"/>
+   <OperationInputType typeName="BT7_CCR_DUMMYCNTMasterCreI" parentTypeName="Item MasterCreI"
+       typeClassName="BT7_CCR_DUMMYCNTMasterCreI" description="CreateInput object for &quot;BT7_CCR_DUMMYCNTMaster&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTMasterCreI"/>
+   <OperationInputType typeName="BT7_CCR_DUMMYCNTMasterSCreI" parentTypeName="ItemMasterCreI"
+       typeClassName="BT7_CCR_DUMMYCNTMasterSCreI" description="CreateInput object for &quot;BT7_CCR_DUMMYCNTMasterS&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTMasterSCreI"/>
+   <OperationInputType typeName="BT7_CCR_DUMMYCNTMasterSSvAI" parentTypeName="ItemMasterSvAI"
+       typeClassName="BT7_CCR_DUMMYCNTMasterSSvAI" description="SaveAsInput object for &quot;BT7_CCR_DUMMYCNTMasterS&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTMasterSSvAI"/>
+   <OperationInputType typeName="BT7_CCR_DUMMYCNTMasterSvAI" parentTypeName="Item MasterSvAI"
+       typeClassName="BT7_CCR_DUMMYCNTMasterSvAI" description="SaveAsInput object for &quot;BT7_CCR_DUMMYCNTMaster&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTMasterSvAI"/>
+   <OperationInputType typeName="BT7_CCR_DUMMYCNTRevMasterSCreI" parentTypeName="ItemVersionMasterCreI"
+       typeClassName="BT7_CCR_DUMMYCNTRevMasterSCreI" description="CreateInput object for &quot;BT7_CCR_DUMMYCNTRevMasterS&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTRevMasterSCreI"/>
+   <OperationInputType typeName="BT7_CCR_DUMMYCNTRevMasterSSvAI" parentTypeName="ItemVersionMasterSvAI"
+       typeClassName="BT7_CCR_DUMMYCNTRevMasterSSvAI" description="SaveAsInput object for &quot;BT7_CCR_DUMMYCNTRevMasterS&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTRevMasterSSvAI"/>
+   <OperationInputType typeName="BT7_CCR_DUMMYCNTRevisi_alt0CreI" parentTypeName="ItemRevision MasterCreI"
+       typeClassName="BT7_CCR_DUMMYCNTRevisi_alt0CreI" description="CreateInput object for &quot;BT7_CCR_DUMMYCNTRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTRevisi_alt0CreI"/>
+   <OperationInputType typeName="BT7_CCR_DUMMYCNTRevisi_alt0SvAI" parentTypeName="ItemRevision MasterSvAI"
+       typeClassName="BT7_CCR_DUMMYCNTRevisi_alt0SvAI" description="SaveAsInput object for &quot;BT7_CCR_DUMMYCNTRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTRevisi_alt0SvAI"/>
+   <OperationInputType typeName="BT7_CCR_DUMMYCNTRevisionCreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="BT7_CCR_DUMMYCNTRevisionCreI" description="CreateInput object for &quot;BT7_CCR_DUMMYCNTRevision&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTRevisionCreI"/>
+   <OperationInputType typeName="BT7_CCR_DUMMYCNTRevisionRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="BT7_CCR_DUMMYCNTRevisionRevI" description="ReviseInput object for &quot;BT7_CCR_DUMMYCNTRevision&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTRevisionRevI"/>
+   <OperationInputType typeName="BT7_CCR_DUMMYCNTRevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="BT7_CCR_DUMMYCNTRevisionSvAI" description="SaveAsInput object for &quot;BT7_CCR_DUMMYCNTRevision&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTRevisionSvAI"/>
+   <OperationInputType typeName="BT7_CCR_DUMMYCNTSvAI" parentTypeName="ItemSvAI" typeClassName="BT7_CCR_DUMMYCNTSvAI"
+       description="SaveAsInput object for &quot;BT7_CCR_DUMMYCNT&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTSvAI"/>
+   <OperationInputType typeName="BT7_MultiSEffCreI" parentTypeName="POM_objectCreI"
+       typeClassName="BT7_MultiSEffCreI" description="CreateInput object for &quot;BT7_MultiSEff&quot; business object"
+       isAbstract="false" artifactName="BT7_MultiSEffCreI">
+     <OperationInputProperty propName="bt7_RevEffective_StartDate" compoundObjectConstant=""
+         srcPropName="bt7_RevEffective_StartDate" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="bt7_RevEffective_EndDate" compoundObjectConstant=""
+         srcPropName="bt7_RevEffective_EndDate" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="BT7_MultiSEffSvAI" parentTypeName="POM_objectSvAI"
+       typeClassName="BT7_MultiSEffSvAI" description="SaveAsInput object for &quot;BT7_MultiSEff&quot; business object"
+       isAbstract="false" artifactName="BT7_MultiSEffSvAI"/>
+   <OperationInputType typeName="BT7_UGPartAttrCreI" parentTypeName="POM_objectCreI"
+       typeClassName="BT7_UGPartAttrCreI" description="CreateInput object for &quot;BT7_UGPartAttr&quot; business object"
+       isAbstract="false" artifactName="BT7_UGPartAttrCreI">
+     <OperationInputProperty propName="bt7_DrawingSize" compoundObjectConstant=""
+         srcPropName="bt7_DrawingSize" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="bt7_Scale" compoundObjectConstant="" srcPropName="bt7_Scale"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="bt7_CheckClass" compoundObjectConstant="" srcPropName="bt7_CheckClass"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="BT7_UGPartAttrSvAI" parentTypeName="POM_objectSvAI"
+       typeClassName="BT7_UGPartAttrSvAI" description="SaveAsInput object for &quot;BT7_UGPartAttr&quot; business object"
+       isAbstract="false" artifactName="BT7_UGPartAttrSvAI"/>
+   <TcForm typeName="BT7_CCR_DUMMYCNTMaster" parentTypeName="Item Master" typeClassName="Form"
+       description="MasterForm object for &quot;BT7_CCR_DUMMYCNT&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTMaster" formStorageClassName="BT7_CCR_DUMMYCNTMasterS"/>
+   <TcForm typeName="BT7_CCR_DUMMYCNTRevisionMaster" parentTypeName="ItemRevision Master"
+       typeClassName="Form" description="MasterForm object for &quot;BT7_CCR_DUMMYCNTRevision&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTRevisionMaster" formStorageClassName="BT7_CCR_DUMMYCNTRevMasterS"/>
+   <TcStandardType typeName="BT7_CCR_DUMMYCNT" parentTypeName="Item" typeClassName="Item"
+       description="" isAbstract="false" artifactName="BT7_CCR_DUMMYCNT"/>
+   <TcStandardType typeName="BT7_CCR_DUMMYCNTMasterS" parentTypeName="ItemMaster"
+       typeClassName="BT7_CCR_DUMMYCNTMasterS" description="Form Storage object for &quot;BT7_CCR_DUMMYCNTMaster&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTMasterS"/>
+   <TcStandardType typeName="BT7_CCR_DUMMYCNTRevMasterS" parentTypeName="ItemVersionMaster"
+       typeClassName="BT7_CCR_DUMMYCNTRevMasterS" description="Form Storage object for &quot;BT7_CCR_DUMMYCNTRevMaster&quot; business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTRevMasterS"/>
+   <TcStandardType typeName="BT7_CCR_DUMMYCNTRevision" parentTypeName="ItemRevision"
+       typeClassName="ItemRevision" description="ItemRevision object for &quot;BT7_CCR_DUMMYCNT&quot;  business object"
+       isAbstract="false" artifactName="BT7_CCR_DUMMYCNTRevision"/>
+   <TcStandardType typeName="BT7_MultiSEff" parentTypeName="POM_object" typeClassName="BT7_MultiSEff"
+       description="" isAbstract="false" artifactName="BT7_MultiSEff"/>
+   <TcStandardType typeName="BT7_UGPartAttr" parentTypeName="POM_object" typeClassName="BT7_UGPartAttr"
+       description="" isAbstract="false" artifactName="BT7_UGPartAttr"/>
+   <TcTypeConstantAttach constantName="Awp0SearchClassifySearchEnabled" typeName="WorkspaceObject"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchIsClassifyDataIndexed" typeName="WorkspaceObject"
+       value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_CCR" value="true"/>
+   <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_UDFFolder"
+       value="true"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_CCR_DUMMYCNT" value="BT7_CCR_DUMMYCNTCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_CCR_DUMMYCNTMaster"
+       value="BT7_CCR_DUMMYCNTMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_CCR_DUMMYCNTMasterS"
+       value="BT7_CCR_DUMMYCNTMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_CCR_DUMMYCNTRevision"
+       value="BT7_CCR_DUMMYCNTRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_CCR_DUMMYCNTRevisionMaster"
+       value="BT7_CCR_DUMMYCNTRevisi_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_CCR_DUMMYCNTRevMasterS"
+       value="BT7_CCR_DUMMYCNTRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_MultiSEff" value="BT7_MultiSEffCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BT7_UGPartAttr" value="BT7_UGPartAttrCreI"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="BT7_CCR_DUMMYCNT" value="BT7_CCR_DUMMYCNTRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT7_CCR_DUMMYCNT" value="BT7_CCR_DUMMYCNTMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="BT7_CCR_DUMMYCNTRevision"
+       value="BT7_CCR_DUMMYCNTRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="BT7_CCR_DUMMYCNTRevision"
+       value="BT7_CCR_DUMMYCNTRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_CCR_DUMMYCNT" value="BT7_CCR_DUMMYCNTSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_CCR_DUMMYCNTMaster"
+       value="BT7_CCR_DUMMYCNTMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_CCR_DUMMYCNTMasterS"
+       value="BT7_CCR_DUMMYCNTMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_CCR_DUMMYCNTRevision"
+       value="BT7_CCR_DUMMYCNTRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_CCR_DUMMYCNTRevisionMaster"
+       value="BT7_CCR_DUMMYCNTRevisi_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_CCR_DUMMYCNTRevMasterS"
+       value="BT7_CCR_DUMMYCNTRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_MultiSEff" value="BT7_MultiSEffSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BT7_UGPartAttr" value="BT7_UGPartAttrSvAI"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_CCR"
+       propertyName="bt7_Requestor" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_CCR"
+       propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_Collection"
+       propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_Collection"
+       propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_CommonCompRevision"
+       propertyName="bt7_cadimno" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_CommonCompRevision"
+       propertyName="bt7_parttype" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_CommonCompRevision"
+       propertyName="bt7_shortinfo" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_CommonCompRevision"
+       propertyName="item_id" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ComponentRevision"
+       propertyName="bt7_parttype" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ComponentRevision"
+       propertyName="bt7_validation" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_DocumentRevision"
+       propertyName="bt7_cp_TCEnt_Doc_Class" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_DocumentRevision"
+       propertyName="bt7_doccertbody" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_DocumentRevision"
+       propertyName="bt7_docchange" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_DocumentRevision"
+       propertyName="bt7_docdesc" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_DocumentRevision"
+       propertyName="bt7_docprocess" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_DocumentRevision"
+       propertyName="bt7_docsubtype" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_DocumentRevision"
+       propertyName="bt7_doctype" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_DocumentRevision"
+       propertyName="bt7_Subtitle_1" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_GroupFolder"
+       propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_GroupFolder"
+       propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_LibraryFolder"
+       propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_LibraryFolder"
+       propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ProductFolder"
+       propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ProductFolder"
+       propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ProductRevision"
+       propertyName="bt7_rangename" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ProjectFolder"
+       propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ProjectFolder"
+       propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_Selection"
+       propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_Selection"
+       propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_SoftwareRevision"
+       propertyName="bt7_swtype" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_SoftwareRevision"
+       propertyName="bt7_version" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ToolFolder"
+       propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ToolFolder"
+       propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ToolPartRevision"
+       propertyName="bt7_cp_EqPartNo" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ToolPartRevision"
+       propertyName="bt7_techinfo" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ToolPartRevision"
+       propertyName="item_id" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ToolPartRevision"
+       propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_ToolPartRevision"
+       propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_UDFFolder"
+       propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="BT7_UDFFolder"
+       propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="Item" propertyName="bt7_EqPartNo"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="ItemRevision"
+       propertyName="bt7_docmnumber" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="ItemRevision"
+       propertyName="bt7_techinfo" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="ItemRevision"
+       propertyName="item_id" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="ItemRevision"
+       propertyName="object_desc" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="ItemRevision"
+       propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="Part Revision"
+       propertyName="bt7_remark" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="WorkspaceObject"
+       propertyName="creation_date" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchFilterPriority" typeName="WorkspaceObject"
+       propertyName="creation_date" value="400"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchFilterPriority" typeName="WorkspaceObject"
+       propertyName="last_mod_user" value="402"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_CCR"
+       propertyName="bt7_Requestor" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_CommonCompRevision"
+       propertyName="bt7_cadimno" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_CommonCompRevision"
+       propertyName="bt7_parttype" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_CommonCompRevision"
+       propertyName="bt7_shortinfo" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_CommonCompRevision"
+       propertyName="item_id" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_ComponentRevision"
+       propertyName="bt7_parttype" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_ComponentRevision"
+       propertyName="bt7_validation" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_DocumentRevision"
+       propertyName="bt7_cp_TCEnt_Doc_Class" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_DocumentRevision"
+       propertyName="bt7_doccertbody" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_DocumentRevision"
+       propertyName="bt7_docchange" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_DocumentRevision"
+       propertyName="bt7_docdesc" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_DocumentRevision"
+       propertyName="bt7_docprocess" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_DocumentRevision"
+       propertyName="bt7_docsubtype" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_DocumentRevision"
+       propertyName="bt7_doctype" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_DocumentRevision"
+       propertyName="bt7_Subtitle_1" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_ProductRevision"
+       propertyName="bt7_rangename" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_SoftwareRevision"
+       propertyName="bt7_swtype" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_SoftwareRevision"
+       propertyName="bt7_version" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_ToolPartRevision"
+       propertyName="object_desc" value="false"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="BT7_ToolPartRevision"
+       propertyName="object_name" value="false"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="Item" propertyName="bt7_EqPartNo"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="ItemRevision"
+       propertyName="bt7_docmnumber" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="ItemRevision"
+       propertyName="bt7_techinfo" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="ItemRevision"
+       propertyName="item_id" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="Part Revision"
+       propertyName="bt7_remark" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_MultiSEff" propertyName="bt7_RevEffective_EndDate"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_MultiSEff" propertyName="bt7_RevEffective_StartDate"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_ProdTypeKeyRevision"
+       propertyName="BT7_Rel_ProdTypeKey" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_UGPartAttr" propertyName="bt7_DrawingSize"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BT7_UGPartAttr" propertyName="bt7_Scale"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="IMSProfile" propertyName="bt7_ApprDate_1"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_MultiSEff" propertyName="bt7_RevEffective_EndDate"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_MultiSEff" propertyName="bt7_RevEffective_StartDate"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_ProdTypeKeyRevision"
+       propertyName="BT7_Rel_ProdTypeKey" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_UGPartAttr" propertyName="bt7_DrawingSize"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BT7_UGPartAttr" propertyName="bt7_Scale"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="IMSProfile" propertyName="bt7_ApprDate_1"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Part Revision" propertyName="bt7_AltMaterial"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CommonCompCreI"
+       propertyName="bt7_EqPartNo" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ComponentCreI" propertyName="bt7_EqPartNo"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_CompProgCreI" propertyName="bt7_EqPartNo"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_Document" propertyName="bt7_AlternateUnitOfMeasure"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_Document" propertyName="bt7_ItemDesc_2"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_Document" propertyName="bt7_ItemName_2"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_Document" propertyName="bt7_StockItem"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_Document" propertyName="uom_tag"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_DocumentCreI" propertyName="bt7_EqPartNo"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ELCADCreI" propertyName="bt7_EqPartNo"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_Product" propertyName="bt7_AlternateUnitOfMeasure"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_Product" propertyName="bt7_ItemDesc_2"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_Product" propertyName="bt7_ItemName_2"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_Product" propertyName="bt7_ProductType_2"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_Product" propertyName="bt7_TCEnt_Doc_Class"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_SoftwareCreI" propertyName="bt7_EqPartNo"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolCreI" propertyName="bt7_EqPartNo"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_ToolPartCreI" propertyName="bt7_EqPartNo"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BT7_VendorPartCreI"
+       propertyName="bt7_EqPartNo" value="false"/>
+   <TcGRMRule primaryTypeName="BT7_VendorPartRevision" secondaryTypeName="BT7_DocumentRevision"
+       relationTypeName="BT7_Rel_Specified" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Changeable" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="BT7_VendorPartRevision" secondaryTypeName="BT7_ManufacturerRevision"
+       relationTypeName="BT7_Rel_Specified" primaryCardinality="-1" secondaryCardinality="-1"
+       secured="false" attachability="Unrestricted" changeability="Changeable" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="BT7_VendorPartRevision" secondaryTypeName="ItemRevision"
+       relationTypeName="BT7_Rel_Specified" primaryCardinality="-1" secondaryCardinality="0"
+       secured="false" attachability="Unrestricted" changeability="Changeable" detachability="Unrestricted"
+       description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Collection" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_Selection" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="BT7_ToolFolder" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcLOV name="BT7_lov_parttype_toolpart" lovType="ListOfValuesString" usage="Exhaustive"
+       description="BT7_ToolartRevision part type lov">
+     <TcLOVValue value="pt_assm" description="" conditionName="isTrue"/>
+     <TcLOVValue value="pt_aux" description="" conditionName="isTrue"/>
+     <TcLOVValue value="pt_cbuy" description="" conditionName="isTrue"/>
+     <TcLOVValue value="pt_comp" description="" conditionName="isTrue"/>
+     <TcLOVValue value="pt_doc" description="" conditionName="isTrue"/>
+     <TcLOVValue value="pt_ekk" description="" conditionName="isTrue"/>
+     <TcLOVValue value="pt_mat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="pt_mech" description="" conditionName="isTrue"/>
+     <TcLOVValue value="pt_pkg" description="" conditionName="isTrue"/>
+     <TcLOVValue value="l7LGCodPEq" description="" conditionName="isTrue"/>
+     <TcLOVValue value="pt_pcb" description="" conditionName="isTrue"/>
+     <TcLOVValue value="pt_vassm" description="" conditionName="isTrue"/>
+     <TcLOVValue value="pt_catpart" description="mech. Catalog part" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="BT7_lov_assytype" typeName="Part Revision">
+     <TcLOVAttachPropertyInfo valuePropertyName="bt7_assytype" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="BT7_lov_parttype_toolpart" typeName="BT7_ToolPartRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="bt7_parttype" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcStatus statusName="BT7_ECO" description=""/>
+   <PropertyRenderer name="BT7_CCompPartTyp_PropRenderer" script="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;icons Version=&quot;1.0&quot;&gt;&#x0A;&lt;propertyMap name=&quot;BT7_CCompPartTypeMap&quot;&gt;&#x0A;&lt;item key=&quot;pt_mech&quot; value=&quot;mechCatalogPart.png&quot;/&gt;&#x0A;&lt;/propertyMap&gt;&#x0A;&lt;primaryIcon source=&quot;EL_Part3.png&quot;/&gt;&#x0A;&lt;overlayIcon source=&quot;bt7_cp_parttype&quot; mapName=&quot;BT7_CCompPartTypeMap&quot;/&gt;&#x0A;&lt;/icons&gt;"
+       description="overlay icon for BT7_CommonComp, based on parttype=mechanical component"/>
+   <PropertyRenderer name="BT7_CCompRevPartTyp_PropRenderer" script="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;icons Version=&quot;1.0&quot;&gt;&#x0A;&lt;propertyMap name=&quot;BT7_CCompRevPartTypeMap&quot;&gt;&#x0A;&lt;item key=&quot;pt_mech&quot; value=&quot;mechCatalogPart_Rev.png&quot;/&gt;&#x0A;&lt;/propertyMap&gt;&#x0A;&lt;primaryIcon source=&quot;BT7_EL_Part3_Rev.png&quot;/&gt;&#x0A;&lt;overlayIcon source=&quot;bt7_parttype&quot; mapName=&quot;BT7_CCompRevPartTypeMap&quot;/&gt;&#x0A;&lt;/icons&gt;"
+       description="overlay icon for BT7_CommonComp revision, based on parttype=mechanical component"/>
+   <PropertyRenderer name="BT7_ToolPartPartTyp_PropRenderer" script="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;icons Version=&quot;1.0&quot;&gt;&#x0A;&lt;propertyMap name=&quot;BT7_ToolPartPartTypeMap&quot;&gt;&#x0A;&lt;item key=&quot;pt_catpart&quot; value=&quot;BT7_ToolPart_Rev_pt_catpart.png&quot;/&gt;&#x0A;&lt;/propertyMap&gt;&#x0A;&lt;primaryIcon source=&quot;BT7_ToolPart.png&quot;/&gt;&#x0A;&lt;overlayIcon source=&quot;bt7_cp_parttype&quot; mapName=&quot;BT7_ToolPartPartTypeMap&quot;/&gt;&#x0A;&lt;/icons&gt;"
+       description="overlay icon for BT7_ToolPart, based on parttype=mech. Catalog part"/>
+   <PropertyRenderer name="BT7_ToolPartRevPartTyp_PropRenderer" script="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;icons Version=&quot;1.0&quot;&gt;&#x0A;&lt;propertyMap name=&quot;BT7_ToolPartRevPartTypeMap&quot;&gt;&#x0A;&lt;item key=&quot;pt_catpart&quot; value=&quot;BT7_ToolPart_Rev_pt_catpart.png&quot;/&gt;&#x0A;&lt;/propertyMap&gt;&#x0A;&lt;primaryIcon source=&quot;BT7_ToolPart_Rev.png&quot;/&gt;&#x0A;&lt;overlayIcon source=&quot;bt7_parttype&quot; mapName=&quot;BT7_ToolPartRevPartTypeMap&quot; /&gt;&#x0A;&lt;/icons&gt;"
+       description="overlay icon for BT7_ToolPartRevision revision, based on parttype=mech. Catalog part"/>
+   <PropertyRendererAttach rendererName="BT7_CCompPartTyp_PropRenderer" typeName="BT7_CommonComp"
+       propertyName="object_string" conditionName="isTrue"/>
+   <PropertyRendererAttach rendererName="BT7_CCompRevPartTyp_PropRenderer" typeName="BT7_CommonCompRevision"
+       propertyName="object_string" conditionName="isTrue"/>
+</Add>
+<Change>
+   <TcForm typeName="UGPartAttr" parentTypeName="Form" typeClassName="Form" packageName="com.teamcenter.core.epm"
+       description="" isAbstract="false" artifactName="UGPartAttr" formStorageClassName="BT7_UGPartAttr"/>
+</Change>
+<Delete/>
+</TcBusinessData>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file://XMLRenderingStylesheet_Schema.xsd">
+    <page text="Overview" format="TwoColumn">
+        <firstcolumn>
+            <section text="CCR Properties">
+
+                <separator/>
+                <property name="object_name" />
+                <separator/>
+
+                <property name="bt7_Requestor" />
+                <property name="bt7_Phone" />
+                <property name="bt7_Email" />
+                <property name="bt7_RespCompEng" />
+                <!--property name="bt7_GenericType" /-->
+				
+                <separator/>
+
+                <property name="bt7_EstProdLifeTime" />
+                <property name="bt7_EstQtyPerYear" />
+                <property name="bt7_ProjectName" />
+                <property name="bt7_ProjectAccount" />
+
+                <separator/>
+				
+                <property name="bt7_ReasonForIntro" />
+                <property name="bt7_NoteApprovals" />
+                <property name="bt7_SpecialInstructions" />
+				
+                <separator/>
+
+				<property name="bt7_cadimno" />
+				<property name="bt7_tceno" />
+
+                <separator/>
+
+                <property name="bt7_Manufacturer1" />
+                <property name="bt7_MfgPartNr1" />
+                <property name="bt7_Manufacturer2" />
+                <property name="bt7_MfgPartNr2" />
+                <property name="bt7_Manufacturer3" />
+                <property name="bt7_MfgPartNr3" />				
+            </section>
+        </firstcolumn>
+        <secondcolumn>
+            <view name="actions">
+                <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" />
+                <command actionKey="sendToClassification" commandId="com.teamcenter.rac.classification.icm.sendto" />
+                <command actionKey="refreshAction" commandId="org.eclipse.ui.file.refresh" />
+                <!--command actionKey="newProcessAction" commandId="com.teamcenter.rac.newProcess" text="newProc" /-->
+            </view>
+
+            <section text="ClassificationProperties">
+                <classificationProperties />
+            </section>
+			
+        <section text="Manufacturer">
+            <objectSet source="BT7_CCRManufacturer.BT7_Manufacturer" defaultdisplay="tableDisplay">
+                <tableDisplay>
+                    <property name="object_name"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                </tableDisplay>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </objectSet>
+        </section>			
+        </secondcolumn>
+    </page>
+	
+	<page text="AttachedFiles">
+		<objectSet source="IMAN_external_object_link.Dataset" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<thumbnailDisplay/>
+			<treeDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/>
+			</treeDisplay>
+			<listDisplay/>
+			<command commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+			<command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+			<command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+					<parameter name="localSelection" value="true"/>
+			</command>
+		</objectSet>
+	</page>	
+	<page text="CADIM_DB_ENTRY">
+		<objectSet source="IMAN_external_object_link.BT7_CCR_CADIM_Entry" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="release_status_list"/>
+				<property name="bt7_CDM_L5_TRANS_STAT"/>
+				<property name="bt7_CDM_L5_TRANS_ERR"/>
+				<!--property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/-->
+			</tableDisplay>
+		</objectSet>
+	</page>	
+
+    <page text="impactanalysis">
+        <view name="impactanalysis" />
+    </page>
+
+</rendering>

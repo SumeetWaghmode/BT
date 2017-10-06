@@ -1,0 +1,24 @@
+     [echo]  Executing MakeSharedLib Target 
+     [echo] TC_ROOT: D:\dump\112
+     [echo] TC_INCLUDE_CPP: D:\dump\112\include_cpp
+     [echo] TC_LIB: D:\dump\112\lib
+
+MakeSharedLib:
+     [echo]  Compiling and linking SBT_Workflow . . . .
+       [cc] Starting dependency analysis for 30 files.
+       [cc] 30 files are up to date.
+       [cc] 0 files to be recompiled from dependency analysis.
+       [cc] 1 total files to be compiled.
+       [cc] SBT_Workflow_Exit_Handlers.cpp
+       [cc] Starting link
+       [cc] LINK : warning LNK4044: unrecognized option '/NODEBUG'; ignored
+       [cc]    Creating library SBT_Workflow.lib and object SBT_Workflow.exp
+       [cc] SBT_Utilities.obj : warning LNK4254: section 'ATL' (50000040) merged into '.rdata' (40000040) with different attributes
+       [cc] SBT_Workflow_CCR_Handlers.obj : warning LNK4254: section 'ATL' (50000040) merged into '.rdata' (40000040) with different attributes
+       [cc] SBT_Utilities_Mail.obj : warning LNK4254: section 'ATL' (50000040) merged into '.rdata' (40000040) with different attributes
+       [cc] SBT_Workflow_Exit_Handlers.obj : warning LNK4254: section 'ATL' (50000040) merged into '.rdata' (40000040) with different attributes
+       [cc] SBT_Workflow_Status_Handlers.obj : warning LNK4254: section 'ATL' (50000040) merged into '.rdata' (40000040) with different attributes
+       [cc] SBT_Workflow_CO_Handlers.obj : warning LNK4254: section 'ATL' (50000040) merged into '.rdata' (40000040) with different attributes
+       [cc] SBT_Workflow_Elec3D_Handlers.obj : warning LNK4254: section 'ATL' (50000040) merged into '.rdata' (40000040) with different attributes
+   [delete] Deleting: D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\ITK\DLL_Projects\SBT_Workflow\rerun
+     [echo]  Created SBT_Workflow.dll successfully 
