@@ -1,3 +1,0 @@
-Dont put files here. auto build will create exe automatically.
-
-just add documentation guide, batch file or input files.
