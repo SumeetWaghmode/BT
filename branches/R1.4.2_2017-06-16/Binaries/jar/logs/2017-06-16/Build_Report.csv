@@ -1,5 +1,0 @@
-Project Name,Status,Message,Log File,
-com.accenture.rac.bom,Success,JAR-Location:D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\binaries\com.accenture.rac.bom_1.0.0.0.jar,D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\logs\2017-06-16\com.accenture.rac.bom.log,
-com.accenture.sbt.rac,Success,JAR-Location:D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\binaries\com.accenture.sbt.rac_1.0.0.0.jar,D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\logs\2017-06-16\com.accenture.sbt.rac.log,
-com.drwe.sbt.rac,Success,JAR-Location:D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\binaries\com.drwe.sbt.rac_1.1.0.0.jar,D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\logs\2017-06-16\com.drwe.sbt.rac.log,
-com.sbt.rac.dataset,Success,JAR-Location:D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\binaries\com.sbt.rac.dataset_1.0.0.20170616-044418.jar,D:\dump\0SBT-PR-TC11UPGR\branches\R1.4.2\Customization\RAC\logs\2017-06-16\com.sbt.rac.dataset.log,
