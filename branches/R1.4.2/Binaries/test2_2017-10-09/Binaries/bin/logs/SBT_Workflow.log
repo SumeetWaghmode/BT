@@ -1,0 +1,16 @@
+     [echo]  Executing MakeSharedLib Target 
+     [echo] TC_ROOT: X:\11
+     [echo] TC_INCLUDE_CPP: X:\11\include_cpp
+     [echo] TC_LIB: X:\11\lib
+
+MakeSharedLib:
+     [echo]  Compiling and linking SBT_Workflow . . . .
+       [cc] Starting dependency analysis for 31 files.
+       [cc] 31 files are up to date.
+       [cc] 0 files to be recompiled from dependency analysis.
+       [cc] 0 total files to be compiled.
+       [cc] Starting link
+       [cc] LINK : warning LNK4044: unrecognized option '/NODEBUG'; ignored
+       [cc]    Creating library SBT_Workflow.lib and object SBT_Workflow.exp
+   [delete] Deleting: X:\RahulC\BTGit\BT\branches\R1.4.2\Customization\ITK\DLL_Projects\SBT_Workflow\rerun
+     [echo]  Created SBT_Workflow.dll successfully 
