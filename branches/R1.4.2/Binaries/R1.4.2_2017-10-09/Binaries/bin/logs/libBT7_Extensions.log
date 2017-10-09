@@ -5,34 +5,10 @@
 
 MakeSharedLib:
      [echo]  Compiling and linking libBT7_Extensions . . . .
-       [cc] 24 total files to be compiled.
-       [cc] BT7_RelConcernedCreatePreCondition.cpp
-       [cc] BT7_RelConcernedCreatePostAction.cpp
-       [cc] BT7_ItemSavePreCondition.cpp
-       [cc] BT7_RelSpecifiedCreatePostAction.cpp
-       [cc] BT7_CMHasSolutionItemPreCondition.cpp
-       [cc] CommonFunctions.cpp
-       [cc] RevisePart.cpp
-       [cc] BT7_ItemCreatePreCondition.cpp
-       [cc] BT7_CMHasSolutionItemPostAction.cpp
-       [cc] BT7_CMHasSolutionItemDeletePreAction.cpp
-       [cc] BT7_CommonComponentRequestsSavePostAction.cpp
-       [cc] BT7_CMHasImpactedItemPreCondition.cpp
-       [cc] BT7_RestrictAttibuteSize.cpp
-       [cc] BT7_ItemCreateFromRevPreCondition.cpp
-       [cc] BT7_ProductSavePreCondition.cpp
-       [cc] BT7_BomWindowSavePreAction.cpp
-       [cc] BT7_ItemRevisionDeepCopyPostAction.cpp
-       [cc] BT7_SetReleaseStatusListPostAction.cpp
-       [cc] BT7_ItemRevisionSavePostAction.cpp
-       [cc] BT7_CMHasProblemItemPreCondition.cpp
-       [cc] Generating Code...
-       [cc] Compiling...
-       [cc] BT7_RelSpecifiedDeletePreCondition.cpp
-       [cc] BT7_RelSpecifiedCreatePreCondition.cpp
-       [cc] ReviseDocument.cpp
-       [cc] BT7_RelConcernedDeletePreCondition.cpp
-       [cc] Generating Code...
+       [cc] Starting dependency analysis for 24 files.
+       [cc] 24 files are up to date.
+       [cc] 0 files to be recompiled from dependency analysis.
+       [cc] 0 total files to be compiled.
        [cc] Starting link
        [cc] LINK : warning LNK4044: unrecognized option '/NODEBUG'; ignored
        [cc]    Creating library libBT7_Extensions.lib and object libBT7_Extensions.exp
