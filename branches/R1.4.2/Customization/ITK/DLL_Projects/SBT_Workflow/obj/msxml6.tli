@@ -1,9 +1,9 @@
-﻿// Created by Microsoft (R) C/C++ Compiler Version 11.00.50727.1 (9ca65412).
+﻿// Created by Microsoft (R) C/C++ Compiler Version 11.00.50727.1 (b77a167b).
 //
-// x:\rahulc\btgit\bt\branches\r1.4.2\customization\itk\dll_projects\sbt_workflow\obj\msxml6.tli
+// d:\gitdir\bt\branches\r1.4.2\customization\itk\dll_projects\sbt_workflow\obj\msxml6.tli
 //
 // Wrapper implementations for Win32 type library MSXML6.dll
-// compiler-generated file created 10/09/17 at 08:55:57 - DO NOT EDIT!
+// compiler-generated file created 10/13/17 at 09:37:19 - DO NOT EDIT!
 
 #pragma once
 
@@ -447,80 +447,6 @@ inline HRESULT ISAXXMLFilter::putParent ( struct ISAXXMLReader * pReader ) {
 }
 
 //
-// interface ISAXLexicalHandler wrapper method implementations
-//
-
-inline HRESULT ISAXLexicalHandler::startDTD ( unsigned short * pwchName, int cchName, unsigned short * pwchPublicId, int cchPublicId, unsigned short * pwchSystemId, int cchSystemId ) {
-    HRESULT _hr = raw_startDTD(pwchName, cchName, pwchPublicId, cchPublicId, pwchSystemId, cchSystemId);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT ISAXLexicalHandler::endDTD ( ) {
-    HRESULT _hr = raw_endDTD();
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT ISAXLexicalHandler::startEntity ( unsigned short * pwchName, int cchName ) {
-    HRESULT _hr = raw_startEntity(pwchName, cchName);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT ISAXLexicalHandler::endEntity ( unsigned short * pwchName, int cchName ) {
-    HRESULT _hr = raw_endEntity(pwchName, cchName);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT ISAXLexicalHandler::startCDATA ( ) {
-    HRESULT _hr = raw_startCDATA();
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT ISAXLexicalHandler::endCDATA ( ) {
-    HRESULT _hr = raw_endCDATA();
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT ISAXLexicalHandler::comment ( unsigned short * pwchChars, int cchChars ) {
-    HRESULT _hr = raw_comment(pwchChars, cchChars);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-//
-// interface ISAXDeclHandler wrapper method implementations
-//
-
-inline HRESULT ISAXDeclHandler::elementDecl ( unsigned short * pwchName, int cchName, unsigned short * pwchModel, int cchModel ) {
-    HRESULT _hr = raw_elementDecl(pwchName, cchName, pwchModel, cchModel);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT ISAXDeclHandler::attributeDecl ( unsigned short * pwchElementName, int cchElementName, unsigned short * pwchAttributeName, int cchAttributeName, unsigned short * pwchType, int cchType, unsigned short * pwchValueDefault, int cchValueDefault, unsigned short * pwchValue, int cchValue ) {
-    HRESULT _hr = raw_attributeDecl(pwchElementName, cchElementName, pwchAttributeName, cchAttributeName, pwchType, cchType, pwchValueDefault, cchValueDefault, pwchValue, cchValue);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT ISAXDeclHandler::internalEntityDecl ( unsigned short * pwchName, int cchName, unsigned short * pwchValue, int cchValue ) {
-    HRESULT _hr = raw_internalEntityDecl(pwchName, cchName, pwchValue, cchValue);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT ISAXDeclHandler::externalEntityDecl ( unsigned short * pwchName, int cchName, unsigned short * pwchPublicId, int cchPublicId, unsigned short * pwchSystemId, int cchSystemId ) {
-    HRESULT _hr = raw_externalEntityDecl(pwchName, cchName, pwchPublicId, cchPublicId, pwchSystemId, cchSystemId);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-//
 // interface IVBSAXEntityResolver wrapper method implementations
 //
 
@@ -891,257 +817,6 @@ inline void IVBSAXXMLFilter::PutRefparent ( struct IVBSAXXMLReader * oReader ) {
 }
 
 //
-// interface IVBSAXLexicalHandler wrapper method implementations
-//
-
-inline HRESULT IVBSAXLexicalHandler::startDTD ( BSTR * strName, BSTR * strPublicId, BSTR * strSystemId ) {
-    HRESULT _hr = raw_startDTD(strName, strPublicId, strSystemId);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IVBSAXLexicalHandler::endDTD ( ) {
-    HRESULT _hr = raw_endDTD();
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IVBSAXLexicalHandler::startEntity ( BSTR * strName ) {
-    HRESULT _hr = raw_startEntity(strName);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IVBSAXLexicalHandler::endEntity ( BSTR * strName ) {
-    HRESULT _hr = raw_endEntity(strName);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IVBSAXLexicalHandler::startCDATA ( ) {
-    HRESULT _hr = raw_startCDATA();
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IVBSAXLexicalHandler::endCDATA ( ) {
-    HRESULT _hr = raw_endCDATA();
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IVBSAXLexicalHandler::comment ( BSTR * strChars ) {
-    HRESULT _hr = raw_comment(strChars);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-//
-// interface IVBSAXDeclHandler wrapper method implementations
-//
-
-inline HRESULT IVBSAXDeclHandler::elementDecl ( BSTR * strName, BSTR * strModel ) {
-    HRESULT _hr = raw_elementDecl(strName, strModel);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IVBSAXDeclHandler::attributeDecl ( BSTR * strElementName, BSTR * strAttributeName, BSTR * strType, BSTR * strValueDefault, BSTR * strValue ) {
-    HRESULT _hr = raw_attributeDecl(strElementName, strAttributeName, strType, strValueDefault, strValue);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IVBSAXDeclHandler::internalEntityDecl ( BSTR * strName, BSTR * strValue ) {
-    HRESULT _hr = raw_internalEntityDecl(strName, strValue);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IVBSAXDeclHandler::externalEntityDecl ( BSTR * strName, BSTR * strPublicId, BSTR * strSystemId ) {
-    HRESULT _hr = raw_externalEntityDecl(strName, strPublicId, strSystemId);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-//
-// interface IMXWriter wrapper method implementations
-//
-
-inline void IMXWriter::Putoutput ( const _variant_t & varDestination ) {
-    HRESULT _hr = put_output(varDestination);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-}
-
-inline _variant_t IMXWriter::Getoutput ( ) {
-    VARIANT _result;
-    VariantInit(&_result);
-    HRESULT _hr = get_output(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _variant_t(_result, false);
-}
-
-inline void IMXWriter::Putencoding ( _bstr_t strEncoding ) {
-    HRESULT _hr = put_encoding(strEncoding);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-}
-
-inline _bstr_t IMXWriter::Getencoding ( ) {
-    BSTR _result = 0;
-    HRESULT _hr = get_encoding(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _bstr_t(_result, false);
-}
-
-inline void IMXWriter::PutbyteOrderMark ( VARIANT_BOOL fWriteByteOrderMark ) {
-    HRESULT _hr = put_byteOrderMark(fWriteByteOrderMark);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-}
-
-inline VARIANT_BOOL IMXWriter::GetbyteOrderMark ( ) {
-    VARIANT_BOOL _result = 0;
-    HRESULT _hr = get_byteOrderMark(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _result;
-}
-
-inline void IMXWriter::Putindent ( VARIANT_BOOL fIndentMode ) {
-    HRESULT _hr = put_indent(fIndentMode);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-}
-
-inline VARIANT_BOOL IMXWriter::Getindent ( ) {
-    VARIANT_BOOL _result = 0;
-    HRESULT _hr = get_indent(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _result;
-}
-
-inline void IMXWriter::Putstandalone ( VARIANT_BOOL fValue ) {
-    HRESULT _hr = put_standalone(fValue);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-}
-
-inline VARIANT_BOOL IMXWriter::Getstandalone ( ) {
-    VARIANT_BOOL _result = 0;
-    HRESULT _hr = get_standalone(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _result;
-}
-
-inline void IMXWriter::PutomitXMLDeclaration ( VARIANT_BOOL fValue ) {
-    HRESULT _hr = put_omitXMLDeclaration(fValue);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-}
-
-inline VARIANT_BOOL IMXWriter::GetomitXMLDeclaration ( ) {
-    VARIANT_BOOL _result = 0;
-    HRESULT _hr = get_omitXMLDeclaration(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _result;
-}
-
-inline void IMXWriter::Putversion ( _bstr_t strVersion ) {
-    HRESULT _hr = put_version(strVersion);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-}
-
-inline _bstr_t IMXWriter::Getversion ( ) {
-    BSTR _result = 0;
-    HRESULT _hr = get_version(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _bstr_t(_result, false);
-}
-
-inline void IMXWriter::PutdisableOutputEscaping ( VARIANT_BOOL fValue ) {
-    HRESULT _hr = put_disableOutputEscaping(fValue);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-}
-
-inline VARIANT_BOOL IMXWriter::GetdisableOutputEscaping ( ) {
-    VARIANT_BOOL _result = 0;
-    HRESULT _hr = get_disableOutputEscaping(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _result;
-}
-
-inline HRESULT IMXWriter::flush ( ) {
-    HRESULT _hr = raw_flush();
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-//
-// interface IMXAttributes wrapper method implementations
-//
-
-inline HRESULT IMXAttributes::addAttribute ( _bstr_t strURI, _bstr_t strLocalName, _bstr_t strQName, _bstr_t strType, _bstr_t strValue ) {
-    HRESULT _hr = raw_addAttribute(strURI, strLocalName, strQName, strType, strValue);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IMXAttributes::addAttributeFromIndex ( const _variant_t & varAtts, int nIndex ) {
-    HRESULT _hr = raw_addAttributeFromIndex(varAtts, nIndex);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IMXAttributes::clear ( ) {
-    HRESULT _hr = raw_clear();
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IMXAttributes::removeAttribute ( int nIndex ) {
-    HRESULT _hr = raw_removeAttribute(nIndex);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IMXAttributes::setAttribute ( int nIndex, _bstr_t strURI, _bstr_t strLocalName, _bstr_t strQName, _bstr_t strType, _bstr_t strValue ) {
-    HRESULT _hr = raw_setAttribute(nIndex, strURI, strLocalName, strQName, strType, strValue);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IMXAttributes::setAttributes ( const _variant_t & varAtts ) {
-    HRESULT _hr = raw_setAttributes(varAtts);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IMXAttributes::setLocalName ( int nIndex, _bstr_t strLocalName ) {
-    HRESULT _hr = raw_setLocalName(nIndex, strLocalName);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IMXAttributes::setQName ( int nIndex, _bstr_t strQName ) {
-    HRESULT _hr = raw_setQName(nIndex, strQName);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IMXAttributes::setType ( int nIndex, _bstr_t strType ) {
-    HRESULT _hr = raw_setType(nIndex, strType);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IMXAttributes::setURI ( int nIndex, _bstr_t strURI ) {
-    HRESULT _hr = raw_setURI(nIndex, strURI);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IMXAttributes::setValue ( int nIndex, _bstr_t strValue ) {
-    HRESULT _hr = raw_setValue(nIndex, strValue);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-//
 // interface IMXReaderControl wrapper method implementations
 //
 
@@ -1424,6 +1099,331 @@ inline HRESULT IServerXMLHTTPRequest2::setProxy ( SXH_PROXY_SETTING proxySetting
 
 inline HRESULT IServerXMLHTTPRequest2::setProxyCredentials ( _bstr_t bstrUserName, _bstr_t bstrPassword ) {
     HRESULT _hr = raw_setProxyCredentials(bstrUserName, bstrPassword);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IMXWriter wrapper method implementations
+//
+
+inline void IMXWriter::Putoutput ( const _variant_t & varDestination ) {
+    HRESULT _hr = put_output(varDestination);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t IMXWriter::Getoutput ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_output(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void IMXWriter::Putencoding ( _bstr_t strEncoding ) {
+    HRESULT _hr = put_encoding(strEncoding);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IMXWriter::Getencoding ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_encoding(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IMXWriter::PutbyteOrderMark ( VARIANT_BOOL fWriteByteOrderMark ) {
+    HRESULT _hr = put_byteOrderMark(fWriteByteOrderMark);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IMXWriter::GetbyteOrderMark ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_byteOrderMark(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMXWriter::Putindent ( VARIANT_BOOL fIndentMode ) {
+    HRESULT _hr = put_indent(fIndentMode);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IMXWriter::Getindent ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_indent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMXWriter::Putstandalone ( VARIANT_BOOL fValue ) {
+    HRESULT _hr = put_standalone(fValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IMXWriter::Getstandalone ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_standalone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMXWriter::PutomitXMLDeclaration ( VARIANT_BOOL fValue ) {
+    HRESULT _hr = put_omitXMLDeclaration(fValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IMXWriter::GetomitXMLDeclaration ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_omitXMLDeclaration(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMXWriter::Putversion ( _bstr_t strVersion ) {
+    HRESULT _hr = put_version(strVersion);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IMXWriter::Getversion ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_version(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IMXWriter::PutdisableOutputEscaping ( VARIANT_BOOL fValue ) {
+    HRESULT _hr = put_disableOutputEscaping(fValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IMXWriter::GetdisableOutputEscaping ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_disableOutputEscaping(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IMXWriter::flush ( ) {
+    HRESULT _hr = raw_flush();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ISAXDeclHandler wrapper method implementations
+//
+
+inline HRESULT ISAXDeclHandler::elementDecl ( unsigned short * pwchName, int cchName, unsigned short * pwchModel, int cchModel ) {
+    HRESULT _hr = raw_elementDecl(pwchName, cchName, pwchModel, cchModel);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISAXDeclHandler::attributeDecl ( unsigned short * pwchElementName, int cchElementName, unsigned short * pwchAttributeName, int cchAttributeName, unsigned short * pwchType, int cchType, unsigned short * pwchValueDefault, int cchValueDefault, unsigned short * pwchValue, int cchValue ) {
+    HRESULT _hr = raw_attributeDecl(pwchElementName, cchElementName, pwchAttributeName, cchAttributeName, pwchType, cchType, pwchValueDefault, cchValueDefault, pwchValue, cchValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISAXDeclHandler::internalEntityDecl ( unsigned short * pwchName, int cchName, unsigned short * pwchValue, int cchValue ) {
+    HRESULT _hr = raw_internalEntityDecl(pwchName, cchName, pwchValue, cchValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISAXDeclHandler::externalEntityDecl ( unsigned short * pwchName, int cchName, unsigned short * pwchPublicId, int cchPublicId, unsigned short * pwchSystemId, int cchSystemId ) {
+    HRESULT _hr = raw_externalEntityDecl(pwchName, cchName, pwchPublicId, cchPublicId, pwchSystemId, cchSystemId);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ISAXLexicalHandler wrapper method implementations
+//
+
+inline HRESULT ISAXLexicalHandler::startDTD ( unsigned short * pwchName, int cchName, unsigned short * pwchPublicId, int cchPublicId, unsigned short * pwchSystemId, int cchSystemId ) {
+    HRESULT _hr = raw_startDTD(pwchName, cchName, pwchPublicId, cchPublicId, pwchSystemId, cchSystemId);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISAXLexicalHandler::endDTD ( ) {
+    HRESULT _hr = raw_endDTD();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISAXLexicalHandler::startEntity ( unsigned short * pwchName, int cchName ) {
+    HRESULT _hr = raw_startEntity(pwchName, cchName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISAXLexicalHandler::endEntity ( unsigned short * pwchName, int cchName ) {
+    HRESULT _hr = raw_endEntity(pwchName, cchName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISAXLexicalHandler::startCDATA ( ) {
+    HRESULT _hr = raw_startCDATA();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISAXLexicalHandler::endCDATA ( ) {
+    HRESULT _hr = raw_endCDATA();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISAXLexicalHandler::comment ( unsigned short * pwchChars, int cchChars ) {
+    HRESULT _hr = raw_comment(pwchChars, cchChars);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IVBSAXDeclHandler wrapper method implementations
+//
+
+inline HRESULT IVBSAXDeclHandler::elementDecl ( BSTR * strName, BSTR * strModel ) {
+    HRESULT _hr = raw_elementDecl(strName, strModel);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IVBSAXDeclHandler::attributeDecl ( BSTR * strElementName, BSTR * strAttributeName, BSTR * strType, BSTR * strValueDefault, BSTR * strValue ) {
+    HRESULT _hr = raw_attributeDecl(strElementName, strAttributeName, strType, strValueDefault, strValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IVBSAXDeclHandler::internalEntityDecl ( BSTR * strName, BSTR * strValue ) {
+    HRESULT _hr = raw_internalEntityDecl(strName, strValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IVBSAXDeclHandler::externalEntityDecl ( BSTR * strName, BSTR * strPublicId, BSTR * strSystemId ) {
+    HRESULT _hr = raw_externalEntityDecl(strName, strPublicId, strSystemId);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IVBSAXLexicalHandler wrapper method implementations
+//
+
+inline HRESULT IVBSAXLexicalHandler::startDTD ( BSTR * strName, BSTR * strPublicId, BSTR * strSystemId ) {
+    HRESULT _hr = raw_startDTD(strName, strPublicId, strSystemId);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IVBSAXLexicalHandler::endDTD ( ) {
+    HRESULT _hr = raw_endDTD();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IVBSAXLexicalHandler::startEntity ( BSTR * strName ) {
+    HRESULT _hr = raw_startEntity(strName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IVBSAXLexicalHandler::endEntity ( BSTR * strName ) {
+    HRESULT _hr = raw_endEntity(strName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IVBSAXLexicalHandler::startCDATA ( ) {
+    HRESULT _hr = raw_startCDATA();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IVBSAXLexicalHandler::endCDATA ( ) {
+    HRESULT _hr = raw_endCDATA();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IVBSAXLexicalHandler::comment ( BSTR * strChars ) {
+    HRESULT _hr = raw_comment(strChars);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IMXAttributes wrapper method implementations
+//
+
+inline HRESULT IMXAttributes::addAttribute ( _bstr_t strURI, _bstr_t strLocalName, _bstr_t strQName, _bstr_t strType, _bstr_t strValue ) {
+    HRESULT _hr = raw_addAttribute(strURI, strLocalName, strQName, strType, strValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMXAttributes::addAttributeFromIndex ( const _variant_t & varAtts, int nIndex ) {
+    HRESULT _hr = raw_addAttributeFromIndex(varAtts, nIndex);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMXAttributes::clear ( ) {
+    HRESULT _hr = raw_clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMXAttributes::removeAttribute ( int nIndex ) {
+    HRESULT _hr = raw_removeAttribute(nIndex);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMXAttributes::setAttribute ( int nIndex, _bstr_t strURI, _bstr_t strLocalName, _bstr_t strQName, _bstr_t strType, _bstr_t strValue ) {
+    HRESULT _hr = raw_setAttribute(nIndex, strURI, strLocalName, strQName, strType, strValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMXAttributes::setAttributes ( const _variant_t & varAtts ) {
+    HRESULT _hr = raw_setAttributes(varAtts);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMXAttributes::setLocalName ( int nIndex, _bstr_t strLocalName ) {
+    HRESULT _hr = raw_setLocalName(nIndex, strLocalName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMXAttributes::setQName ( int nIndex, _bstr_t strQName ) {
+    HRESULT _hr = raw_setQName(nIndex, strQName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMXAttributes::setType ( int nIndex, _bstr_t strType ) {
+    HRESULT _hr = raw_setType(nIndex, strType);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMXAttributes::setURI ( int nIndex, _bstr_t strURI ) {
+    HRESULT _hr = raw_setURI(nIndex, strURI);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMXAttributes::setValue ( int nIndex, _bstr_t strValue ) {
+    HRESULT _hr = raw_setValue(nIndex, strValue);
     if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
     return _hr;
 }
@@ -2234,119 +2234,6 @@ inline void IXMLDOMDocument::Putontransformnode ( const _variant_t & _arg1 ) {
 }
 
 //
-// interface IXMLDOMSchemaCollection wrapper method implementations
-//
-
-inline HRESULT IXMLDOMSchemaCollection::add ( _bstr_t namespaceURI, const _variant_t & var ) {
-    HRESULT _hr = raw_add(namespaceURI, var);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline IXMLDOMNodePtr IXMLDOMSchemaCollection::get ( _bstr_t namespaceURI ) {
-    struct IXMLDOMNode * _result = 0;
-    HRESULT _hr = raw_get(namespaceURI, &_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return IXMLDOMNodePtr(_result, false);
-}
-
-inline HRESULT IXMLDOMSchemaCollection::remove ( _bstr_t namespaceURI ) {
-    HRESULT _hr = raw_remove(namespaceURI);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline long IXMLDOMSchemaCollection::Getlength ( ) {
-    long _result = 0;
-    HRESULT _hr = get_length(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _result;
-}
-
-inline _bstr_t IXMLDOMSchemaCollection::GetnamespaceURI ( long index ) {
-    BSTR _result = 0;
-    HRESULT _hr = get_namespaceURI(index, &_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _bstr_t(_result, false);
-}
-
-inline HRESULT IXMLDOMSchemaCollection::addCollection ( struct IXMLDOMSchemaCollection * otherCollection ) {
-    HRESULT _hr = raw_addCollection(otherCollection);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline IUnknownPtr IXMLDOMSchemaCollection::Get_newEnum ( ) {
-    IUnknown * _result = 0;
-    HRESULT _hr = get__newEnum(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return IUnknownPtr(_result, false);
-}
-
-//
-// interface IXMLDOMDocument2 wrapper method implementations
-//
-
-inline IXMLDOMSchemaCollectionPtr IXMLDOMDocument2::Getnamespaces ( ) {
-    struct IXMLDOMSchemaCollection * _result = 0;
-    HRESULT _hr = get_namespaces(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return IXMLDOMSchemaCollectionPtr(_result, false);
-}
-
-inline _variant_t IXMLDOMDocument2::Getschemas ( ) {
-    VARIANT _result;
-    VariantInit(&_result);
-    HRESULT _hr = get_schemas(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _variant_t(_result, false);
-}
-
-inline void IXMLDOMDocument2::PutRefschemas ( const _variant_t & otherCollection ) {
-    HRESULT _hr = putref_schemas(otherCollection);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-}
-
-inline IXMLDOMParseErrorPtr IXMLDOMDocument2::validate ( ) {
-    struct IXMLDOMParseError * _result = 0;
-    HRESULT _hr = raw_validate(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return IXMLDOMParseErrorPtr(_result, false);
-}
-
-inline HRESULT IXMLDOMDocument2::setProperty ( _bstr_t name, const _variant_t & value ) {
-    HRESULT _hr = raw_setProperty(name, value);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline _variant_t IXMLDOMDocument2::getProperty ( _bstr_t name ) {
-    VARIANT _result;
-    VariantInit(&_result);
-    HRESULT _hr = raw_getProperty(name, &_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _variant_t(_result, false);
-}
-
-//
-// interface IXMLDOMDocument3 wrapper method implementations
-//
-
-inline IXMLDOMParseErrorPtr IXMLDOMDocument3::validateNode ( struct IXMLDOMNode * node ) {
-    struct IXMLDOMParseError * _result = 0;
-    HRESULT _hr = raw_validateNode(node, &_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return IXMLDOMParseErrorPtr(_result, false);
-}
-
-inline IXMLDOMNodePtr IXMLDOMDocument3::importNode ( struct IXMLDOMNode * node, VARIANT_BOOL deep ) {
-    struct IXMLDOMNode * _result = 0;
-    HRESULT _hr = raw_importNode(node, deep, &_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return IXMLDOMNodePtr(_result, false);
-}
-
-//
 // interface IXMLDOMNotation wrapper method implementations
 //
 
@@ -2537,38 +2424,116 @@ inline HRESULT IXMLDOMSelection::setProperty ( _bstr_t name, const _variant_t & 
 }
 
 //
-// interface IDSOControl wrapper method implementations
+// interface IXMLDOMSchemaCollection wrapper method implementations
 //
 
-inline IXMLDOMDocumentPtr IDSOControl::GetXMLDocument ( ) {
-    struct IXMLDOMDocument * _result = 0;
-    HRESULT _hr = get_XMLDocument(&_result);
+inline HRESULT IXMLDOMSchemaCollection::add ( _bstr_t namespaceURI, const _variant_t & var ) {
+    HRESULT _hr = raw_add(namespaceURI, var);
     if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return IXMLDOMDocumentPtr(_result, false);
+    return _hr;
 }
 
-inline void IDSOControl::PutXMLDocument ( struct IXMLDOMDocument * ppDoc ) {
-    HRESULT _hr = put_XMLDocument(ppDoc);
+inline IXMLDOMNodePtr IXMLDOMSchemaCollection::get ( _bstr_t namespaceURI ) {
+    struct IXMLDOMNode * _result = 0;
+    HRESULT _hr = raw_get(namespaceURI, &_result);
     if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IXMLDOMNodePtr(_result, false);
 }
 
-inline long IDSOControl::GetJavaDSOCompatible ( ) {
+inline HRESULT IXMLDOMSchemaCollection::remove ( _bstr_t namespaceURI ) {
+    HRESULT _hr = raw_remove(namespaceURI);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IXMLDOMSchemaCollection::Getlength ( ) {
     long _result = 0;
-    HRESULT _hr = get_JavaDSOCompatible(&_result);
+    HRESULT _hr = get_length(&_result);
     if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
     return _result;
 }
 
-inline void IDSOControl::PutJavaDSOCompatible ( long fJavaDSOCompatible ) {
-    HRESULT _hr = put_JavaDSOCompatible(fJavaDSOCompatible);
+inline _bstr_t IXMLDOMSchemaCollection::GetnamespaceURI ( long index ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_namespaceURI(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IXMLDOMSchemaCollection::addCollection ( struct IXMLDOMSchemaCollection * otherCollection ) {
+    HRESULT _hr = raw_addCollection(otherCollection);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IUnknownPtr IXMLDOMSchemaCollection::Get_newEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__newEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+//
+// interface IXMLDOMDocument2 wrapper method implementations
+//
+
+inline IXMLDOMSchemaCollectionPtr IXMLDOMDocument2::Getnamespaces ( ) {
+    struct IXMLDOMSchemaCollection * _result = 0;
+    HRESULT _hr = get_namespaces(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IXMLDOMSchemaCollectionPtr(_result, false);
+}
+
+inline _variant_t IXMLDOMDocument2::Getschemas ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_schemas(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void IXMLDOMDocument2::PutRefschemas ( const _variant_t & otherCollection ) {
+    HRESULT _hr = putref_schemas(otherCollection);
     if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
 }
 
-inline long IDSOControl::GetreadyState ( ) {
-    long _result = 0;
-    HRESULT _hr = get_readyState(&_result);
+inline IXMLDOMParseErrorPtr IXMLDOMDocument2::validate ( ) {
+    struct IXMLDOMParseError * _result = 0;
+    HRESULT _hr = raw_validate(&_result);
     if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _result;
+    return IXMLDOMParseErrorPtr(_result, false);
+}
+
+inline HRESULT IXMLDOMDocument2::setProperty ( _bstr_t name, const _variant_t & value ) {
+    HRESULT _hr = raw_setProperty(name, value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t IXMLDOMDocument2::getProperty ( _bstr_t name ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_getProperty(name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+//
+// interface IXMLDOMDocument3 wrapper method implementations
+//
+
+inline IXMLDOMParseErrorPtr IXMLDOMDocument3::validateNode ( struct IXMLDOMNode * node ) {
+    struct IXMLDOMParseError * _result = 0;
+    HRESULT _hr = raw_validateNode(node, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IXMLDOMParseErrorPtr(_result, false);
+}
+
+inline IXMLDOMNodePtr IXMLDOMDocument3::importNode ( struct IXMLDOMNode * node, VARIANT_BOOL deep ) {
+    struct IXMLDOMNode * _result = 0;
+    HRESULT _hr = raw_importNode(node, deep, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IXMLDOMNodePtr(_result, false);
 }
 
 //
@@ -2688,7 +2653,7 @@ inline HRESULT IMXNamespaceManager::popContext ( ) {
     return _hr;
 }
 
-inline HRESULT IMXNamespaceManager::declarePrefix ( unsigned short * prefix, unsigned short * namespaceURI ) {
+inline HRESULT IMXNamespaceManager::declarePrefix ( LPWSTR prefix, LPWSTR namespaceURI ) {
     HRESULT _hr = raw_declarePrefix(prefix, namespaceURI);
     if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
     return _hr;
@@ -2700,13 +2665,13 @@ inline HRESULT IMXNamespaceManager::getDeclaredPrefix ( long nIndex, unsigned sh
     return _hr;
 }
 
-inline HRESULT IMXNamespaceManager::getPrefix ( unsigned short * pwszNamespaceURI, long nIndex, unsigned short * pwchPrefix, int * pcchPrefix ) {
+inline HRESULT IMXNamespaceManager::getPrefix ( LPWSTR pwszNamespaceURI, long nIndex, unsigned short * pwchPrefix, int * pcchPrefix ) {
     HRESULT _hr = raw_getPrefix(pwszNamespaceURI, nIndex, pwchPrefix, pcchPrefix);
     if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
     return _hr;
 }
 
-inline HRESULT IMXNamespaceManager::getURI ( unsigned short * pwchPrefix, struct IXMLDOMNode * pContextNode, unsigned short * pwchUri, int * pcchUri ) {
+inline HRESULT IMXNamespaceManager::getURI ( LPWSTR pwchPrefix, struct IXMLDOMNode * pContextNode, unsigned short * pwchUri, int * pcchUri ) {
     HRESULT _hr = raw_getURI(pwchPrefix, pContextNode, pwchUri, pcchUri);
     if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
     return _hr;
@@ -2780,125 +2745,6 @@ inline IUnknownPtr IXMLDOMParseErrorCollection::Get_newEnum ( ) {
     HRESULT _hr = get__newEnum(&_result);
     if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
     return IUnknownPtr(_result, false);
-}
-
-//
-// interface IXSLTemplate wrapper method implementations
-//
-
-inline void IXSLTemplate::PutRefstylesheet ( struct IXMLDOMNode * stylesheet ) {
-    HRESULT _hr = putref_stylesheet(stylesheet);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-}
-
-inline IXMLDOMNodePtr IXSLTemplate::Getstylesheet ( ) {
-    struct IXMLDOMNode * _result = 0;
-    HRESULT _hr = get_stylesheet(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return IXMLDOMNodePtr(_result, false);
-}
-
-inline IXSLProcessorPtr IXSLTemplate::createProcessor ( ) {
-    struct IXSLProcessor * _result = 0;
-    HRESULT _hr = raw_createProcessor(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return IXSLProcessorPtr(_result, false);
-}
-
-//
-// interface IXSLProcessor wrapper method implementations
-//
-
-inline void IXSLProcessor::Putinput ( const _variant_t & pVar ) {
-    HRESULT _hr = put_input(pVar);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-}
-
-inline _variant_t IXSLProcessor::Getinput ( ) {
-    VARIANT _result;
-    VariantInit(&_result);
-    HRESULT _hr = get_input(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _variant_t(_result, false);
-}
-
-inline IXSLTemplatePtr IXSLProcessor::GetownerTemplate ( ) {
-    struct IXSLTemplate * _result = 0;
-    HRESULT _hr = get_ownerTemplate(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return IXSLTemplatePtr(_result, false);
-}
-
-inline HRESULT IXSLProcessor::setStartMode ( _bstr_t mode, _bstr_t namespaceURI ) {
-    HRESULT _hr = raw_setStartMode(mode, namespaceURI);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline _bstr_t IXSLProcessor::GetstartMode ( ) {
-    BSTR _result = 0;
-    HRESULT _hr = get_startMode(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _bstr_t(_result, false);
-}
-
-inline _bstr_t IXSLProcessor::GetstartModeURI ( ) {
-    BSTR _result = 0;
-    HRESULT _hr = get_startModeURI(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _bstr_t(_result, false);
-}
-
-inline void IXSLProcessor::Putoutput ( const _variant_t & pOutput ) {
-    HRESULT _hr = put_output(pOutput);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-}
-
-inline _variant_t IXSLProcessor::Getoutput ( ) {
-    VARIANT _result;
-    VariantInit(&_result);
-    HRESULT _hr = get_output(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _variant_t(_result, false);
-}
-
-inline VARIANT_BOOL IXSLProcessor::transform ( ) {
-    VARIANT_BOOL _result = 0;
-    HRESULT _hr = raw_transform(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _result;
-}
-
-inline HRESULT IXSLProcessor::reset ( ) {
-    HRESULT _hr = raw_reset();
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline long IXSLProcessor::GetreadyState ( ) {
-    long _result = 0;
-    HRESULT _hr = get_readyState(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _result;
-}
-
-inline HRESULT IXSLProcessor::addParameter ( _bstr_t baseName, const _variant_t & parameter, _bstr_t namespaceURI ) {
-    HRESULT _hr = raw_addParameter(baseName, parameter, namespaceURI);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline HRESULT IXSLProcessor::addObject ( IDispatch * obj, _bstr_t namespaceURI ) {
-    HRESULT _hr = raw_addObject(obj, namespaceURI);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline IXMLDOMNodePtr IXSLProcessor::Getstylesheet ( ) {
-    struct IXMLDOMNode * _result = 0;
-    HRESULT _hr = get_stylesheet(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return IXMLDOMNodePtr(_result, false);
 }
 
 //
@@ -3375,42 +3221,6 @@ inline VARIANT_BOOL ISchemaElement::GetisReference ( ) {
 }
 
 //
-// interface IXMLDOMSchemaCollection2 wrapper method implementations
-//
-
-inline HRESULT IXMLDOMSchemaCollection2::validate ( ) {
-    HRESULT _hr = raw_validate();
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _hr;
-}
-
-inline void IXMLDOMSchemaCollection2::PutvalidateOnLoad ( VARIANT_BOOL validateOnLoad ) {
-    HRESULT _hr = put_validateOnLoad(validateOnLoad);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-}
-
-inline VARIANT_BOOL IXMLDOMSchemaCollection2::GetvalidateOnLoad ( ) {
-    VARIANT_BOOL _result = 0;
-    HRESULT _hr = get_validateOnLoad(&_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return _result;
-}
-
-inline ISchemaPtr IXMLDOMSchemaCollection2::getSchema ( _bstr_t namespaceURI ) {
-    struct ISchema * _result = 0;
-    HRESULT _hr = raw_getSchema(namespaceURI, &_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return ISchemaPtr(_result, false);
-}
-
-inline ISchemaItemPtr IXMLDOMSchemaCollection2::getDeclaration ( struct IXMLDOMNode * node ) {
-    struct ISchemaItem * _result = 0;
-    HRESULT _hr = raw_getDeclaration(node, &_result);
-    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
-    return ISchemaItemPtr(_result, false);
-}
-
-//
 // interface ISchemaAttribute wrapper method implementations
 //
 
@@ -3515,4 +3325,257 @@ inline _bstr_t ISchemaNotation::GetpublicIdentifier ( ) {
     HRESULT _hr = get_publicIdentifier(&_result);
     if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
     return _bstr_t(_result, false);
+}
+
+//
+// interface IXMLDOMSchemaCollection2 wrapper method implementations
+//
+
+inline HRESULT IXMLDOMSchemaCollection2::validate ( ) {
+    HRESULT _hr = raw_validate();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline void IXMLDOMSchemaCollection2::PutvalidateOnLoad ( VARIANT_BOOL validateOnLoad ) {
+    HRESULT _hr = put_validateOnLoad(validateOnLoad);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IXMLDOMSchemaCollection2::GetvalidateOnLoad ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_validateOnLoad(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ISchemaPtr IXMLDOMSchemaCollection2::getSchema ( _bstr_t namespaceURI ) {
+    struct ISchema * _result = 0;
+    HRESULT _hr = raw_getSchema(namespaceURI, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISchemaPtr(_result, false);
+}
+
+inline ISchemaItemPtr IXMLDOMSchemaCollection2::getDeclaration ( struct IXMLDOMNode * node ) {
+    struct ISchemaItem * _result = 0;
+    HRESULT _hr = raw_getDeclaration(node, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISchemaItemPtr(_result, false);
+}
+
+//
+// interface IXSLTemplate wrapper method implementations
+//
+
+inline void IXSLTemplate::PutRefstylesheet ( struct IXMLDOMNode * stylesheet ) {
+    HRESULT _hr = putref_stylesheet(stylesheet);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IXMLDOMNodePtr IXSLTemplate::Getstylesheet ( ) {
+    struct IXMLDOMNode * _result = 0;
+    HRESULT _hr = get_stylesheet(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IXMLDOMNodePtr(_result, false);
+}
+
+inline IXSLProcessorPtr IXSLTemplate::createProcessor ( ) {
+    struct IXSLProcessor * _result = 0;
+    HRESULT _hr = raw_createProcessor(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IXSLProcessorPtr(_result, false);
+}
+
+//
+// interface IXSLProcessor wrapper method implementations
+//
+
+inline void IXSLProcessor::Putinput ( const _variant_t & pVar ) {
+    HRESULT _hr = put_input(pVar);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t IXSLProcessor::Getinput ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_input(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline IXSLTemplatePtr IXSLProcessor::GetownerTemplate ( ) {
+    struct IXSLTemplate * _result = 0;
+    HRESULT _hr = get_ownerTemplate(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IXSLTemplatePtr(_result, false);
+}
+
+inline HRESULT IXSLProcessor::setStartMode ( _bstr_t mode, _bstr_t namespaceURI ) {
+    HRESULT _hr = raw_setStartMode(mode, namespaceURI);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IXSLProcessor::GetstartMode ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_startMode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IXSLProcessor::GetstartModeURI ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_startModeURI(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IXSLProcessor::Putoutput ( const _variant_t & pOutput ) {
+    HRESULT _hr = put_output(pOutput);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t IXSLProcessor::Getoutput ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_output(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline VARIANT_BOOL IXSLProcessor::transform ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_transform(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IXSLProcessor::reset ( ) {
+    HRESULT _hr = raw_reset();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IXSLProcessor::GetreadyState ( ) {
+    long _result = 0;
+    HRESULT _hr = get_readyState(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IXSLProcessor::addParameter ( _bstr_t baseName, const _variant_t & parameter, _bstr_t namespaceURI ) {
+    HRESULT _hr = raw_addParameter(baseName, parameter, namespaceURI);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXSLProcessor::addObject ( IDispatch * obj, _bstr_t namespaceURI ) {
+    HRESULT _hr = raw_addObject(obj, namespaceURI);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IXMLDOMNodePtr IXSLProcessor::Getstylesheet ( ) {
+    struct IXMLDOMNode * _result = 0;
+    HRESULT _hr = get_stylesheet(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IXMLDOMNodePtr(_result, false);
+}
+
+//
+// interface IXMLHTTPRequest2 wrapper method implementations
+//
+
+inline HRESULT IXMLHTTPRequest2::open ( LPWSTR pwszMethod, LPWSTR pwszUrl, struct IXMLHTTPRequest2Callback * pStatusCallback, LPWSTR pwszUserName, LPWSTR pwszPassword, LPWSTR pwszProxyUserName, LPWSTR pwszProxyPassword ) {
+    HRESULT _hr = raw_open(pwszMethod, pwszUrl, pStatusCallback, pwszUserName, pwszPassword, pwszProxyUserName, pwszProxyPassword);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXMLHTTPRequest2::send ( struct ISequentialStream * pBody, unsigned __int64 cbBody ) {
+    HRESULT _hr = raw_send(pBody, cbBody);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXMLHTTPRequest2::abort ( ) {
+    HRESULT _hr = raw_abort();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXMLHTTPRequest2::SetCookie ( struct tagXHR_COOKIE * pCookie, unsigned long * pdwCookieState ) {
+    HRESULT _hr = raw_SetCookie(pCookie, pdwCookieState);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXMLHTTPRequest2::SetCustomResponseStream ( struct ISequentialStream * pSequentialStream ) {
+    HRESULT _hr = raw_SetCustomResponseStream(pSequentialStream);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXMLHTTPRequest2::setProperty ( XHR_PROPERTY eProperty, unsigned __int64 ullValue ) {
+    HRESULT _hr = raw_setProperty(eProperty, ullValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXMLHTTPRequest2::setRequestHeader ( LPWSTR pwszHeader, LPWSTR pwszValue ) {
+    HRESULT _hr = raw_setRequestHeader(pwszHeader, pwszValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXMLHTTPRequest2::getAllResponseHeaders ( LPWSTR * ppwszHeaders ) {
+    HRESULT _hr = raw_getAllResponseHeaders(ppwszHeaders);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXMLHTTPRequest2::GetCookie ( LPWSTR pwszUrl, LPWSTR pwszName, unsigned long dwFlags, unsigned long * pcCookies, struct tagXHR_COOKIE * * ppCookies ) {
+    HRESULT _hr = raw_GetCookie(pwszUrl, pwszName, dwFlags, pcCookies, ppCookies);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXMLHTTPRequest2::getResponseHeader ( LPWSTR pwszHeader, LPWSTR * ppwszValue ) {
+    HRESULT _hr = raw_getResponseHeader(pwszHeader, ppwszValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IXMLHTTPRequest2Callback wrapper method implementations
+//
+
+inline HRESULT IXMLHTTPRequest2Callback::OnRedirect ( struct IXMLHTTPRequest2 * pXHR, LPWSTR pwszRedirectUrl ) {
+    HRESULT _hr = raw_OnRedirect(pXHR, pwszRedirectUrl);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXMLHTTPRequest2Callback::OnHeadersAvailable ( struct IXMLHTTPRequest2 * pXHR, unsigned long dwStatus, LPWSTR pwszStatus ) {
+    HRESULT _hr = raw_OnHeadersAvailable(pXHR, dwStatus, pwszStatus);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXMLHTTPRequest2Callback::ondataavailable ( struct IXMLHTTPRequest2 * pXHR, struct ISequentialStream * pResponseStream ) {
+    HRESULT _hr = raw_ondataavailable(pXHR, pResponseStream);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXMLHTTPRequest2Callback::OnResponseReceived ( struct IXMLHTTPRequest2 * pXHR, struct ISequentialStream * pResponseStream ) {
+    HRESULT _hr = raw_OnResponseReceived(pXHR, pResponseStream);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IXMLHTTPRequest2Callback::OnError ( struct IXMLHTTPRequest2 * pXHR, HRESULT hrError ) {
+    HRESULT _hr = raw_OnError(pXHR, hrError);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
 }

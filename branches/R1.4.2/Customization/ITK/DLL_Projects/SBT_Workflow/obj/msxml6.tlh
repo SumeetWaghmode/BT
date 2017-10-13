@@ -1,9 +1,9 @@
-﻿// Created by Microsoft (R) C/C++ Compiler Version 11.00.50727.1 (9ca65412).
+﻿// Created by Microsoft (R) C/C++ Compiler Version 11.00.50727.1 (b77a167b).
 //
-// x:\rahulc\btgit\bt\branches\r1.4.2\customization\itk\dll_projects\sbt_workflow\obj\msxml6.tlh
+// d:\gitdir\bt\branches\r1.4.2\customization\itk\dll_projects\sbt_workflow\obj\msxml6.tlh
 //
 // C++ source equivalent of Win32 type library MSXML6.dll
-// compiler-generated file created 10/09/17 at 08:55:57 - DO NOT EDIT!
+// compiler-generated file created 10/13/17 at 09:37:19 - DO NOT EDIT!
 
 #pragma once
 #pragma pack(push, 8)
@@ -18,8 +18,6 @@ namespace MSXML2 {
 
 struct __declspec(uuid("f5078f18-c551-11d3-89b9-0000f81fe221"))
 /* LIBID */ __MSXML2;
-struct __declspec(uuid("2933bf8f-7b36-11d2-b20e-00c04f983e60"))
-/* dual interface */ IXMLDOMImplementation;
 struct __declspec(uuid("2933bf80-7b36-11d2-b20e-00c04f983e60"))
 /* dual interface */ IXMLDOMNode;
 enum tagDOMNodeType;
@@ -31,6 +29,8 @@ struct __declspec(uuid("2933bf81-7b36-11d2-b20e-00c04f983e60"))
 /* dual interface */ IXMLDOMDocument;
 struct __declspec(uuid("2933bf8b-7b36-11d2-b20e-00c04f983e60"))
 /* dual interface */ IXMLDOMDocumentType;
+struct __declspec(uuid("2933bf8f-7b36-11d2-b20e-00c04f983e60"))
+/* dual interface */ IXMLDOMImplementation;
 struct __declspec(uuid("2933bf86-7b36-11d2-b20e-00c04f983e60"))
 /* dual interface */ IXMLDOMElement;
 struct __declspec(uuid("2933bf85-7b36-11d2-b20e-00c04f983e60"))
@@ -51,12 +51,6 @@ struct __declspec(uuid("2933bf8e-7b36-11d2-b20e-00c04f983e60"))
 /* dual interface */ IXMLDOMEntityReference;
 struct __declspec(uuid("3efaa426-272f-11d2-836f-0000f87a7782"))
 /* dual interface */ IXMLDOMParseError;
-struct __declspec(uuid("2933bf95-7b36-11d2-b20e-00c04f983e60"))
-/* dual interface */ IXMLDOMDocument2;
-struct __declspec(uuid("373984c8-b845-449b-91e7-45ac83036ade"))
-/* dual interface */ IXMLDOMSchemaCollection;
-struct __declspec(uuid("2933bf96-7b36-11d2-b20e-00c04f983e60"))
-/* dual interface */ IXMLDOMDocument3;
 struct __declspec(uuid("2933bf8c-7b36-11d2-b20e-00c04f983e60"))
 /* dual interface */ IXMLDOMNotation;
 struct __declspec(uuid("2933bf8d-7b36-11d2-b20e-00c04f983e60"))
@@ -67,10 +61,6 @@ struct __declspec(uuid("3efaa429-272f-11d2-836f-0000f87a7782"))
 /* dual interface */ IXMLDOMParseErrorCollection;
 struct __declspec(uuid("3efaa425-272f-11d2-836f-0000f87a7782"))
 /* dual interface */ IXTLRuntime;
-struct __declspec(uuid("2933bf93-7b36-11d2-b20e-00c04f983e60"))
-/* dual interface */ IXSLTemplate;
-struct __declspec(uuid("2933bf92-7b36-11d2-b20e-00c04f983e60"))
-/* dual interface */ IXSLProcessor;
 struct __declspec(uuid("a4f96ed0-f829-476e-81c0-cdc7bd2a0802"))
 /* interface */ ISAXXMLReader;
 struct __declspec(uuid("99bca7bd-e8c4-4d5f-a0cf-6d907901ff07"))
@@ -87,10 +77,8 @@ struct __declspec(uuid("a60511c4-ccf5-479e-98a3-dc8dc545b7d0"))
 /* interface */ ISAXErrorHandler;
 struct __declspec(uuid("70409222-ca09-4475-acb8-40312fe8d145"))
 /* interface */ ISAXXMLFilter;
-struct __declspec(uuid("7f85d5f5-47a8-4497-bda5-84ba04819ea6"))
-/* interface */ ISAXLexicalHandler;
-struct __declspec(uuid("862629ac-771a-47b2-8337-4e6843c1be90"))
-/* interface */ ISAXDeclHandler;
+struct __declspec(uuid("1299eb1b-5b88-433e-82de-82ca75ad4e04"))
+/* dual interface */ IVBSAXXMLFilter;
 struct __declspec(uuid("8c033caa-6cd6-4f73-b728-4531af74945f"))
 /* dual interface */ IVBSAXXMLReader;
 struct __declspec(uuid("0c05d096-f45b-4aca-ad1a-aa0bc25518dc"))
@@ -105,16 +93,6 @@ struct __declspec(uuid("24fb3297-302d-4620-ba39-3a732d850558"))
 /* dual interface */ IVBSAXDTDHandler;
 struct __declspec(uuid("d963d3fe-173c-4862-9095-b92f66995f52"))
 /* dual interface */ IVBSAXErrorHandler;
-struct __declspec(uuid("1299eb1b-5b88-433e-82de-82ca75ad4e04"))
-/* dual interface */ IVBSAXXMLFilter;
-struct __declspec(uuid("032aac35-8c0e-4d9d-979f-e3b702935576"))
-/* dual interface */ IVBSAXLexicalHandler;
-struct __declspec(uuid("e8917260-7579-4be1-b5dd-7afbfa6f077b"))
-/* dual interface */ IVBSAXDeclHandler;
-struct __declspec(uuid("4d7ff4ba-1565-4ea8-94e1-6e724a46f98d"))
-/* dual interface */ IMXWriter;
-struct __declspec(uuid("f10d27cc-3ec0-415c-8ed8-77ab1c5e7262"))
-/* dual interface */ IMXAttributes;
 struct __declspec(uuid("808f4e35-8d5a-4fbe-8466-33a41279ed30"))
 /* dual interface */ IMXReaderControl;
 struct __declspec(uuid("fa4bb38c-faf9-4cca-9302-d1dd0fe520db"))
@@ -147,8 +125,6 @@ struct __declspec(uuid("50ea08bb-dd1b-4664-9a50-c2f40f4bd79a"))
 /* dual interface */ ISchemaModelGroup;
 struct __declspec(uuid("c90352f7-643c-4fbc-bb23-e996eb2d51fd"))
 /* dual interface */ IMXXMLFilter;
-struct __declspec(uuid("50ea08b0-dd1b-4664-9a50-c2f40f4bd79a"))
-/* dual interface */ IXMLDOMSchemaCollection2;
 struct __declspec(uuid("50ea08b6-dd1b-4664-9a50-c2f40f4bd79a"))
 /* dual interface */ ISchemaAttribute;
 enum _SCHEMAUSE;
@@ -162,75 +138,64 @@ struct __declspec(uuid("aa634fc7-5888-44a7-a257-3a47150d3a0e"))
 /* dual interface */ IXMLDOMSelection;
 struct __declspec(uuid("3efaa427-272f-11d2-836f-0000f87a7782"))
 /* dispinterface */ XMLDOMDocumentEvents;
-struct __declspec(uuid("310afa62-0575-11d2-9ca9-0060b0ec3d39"))
-/* dual interface */ IDSOControl;
-struct __declspec(uuid("ed8c108d-4349-11d2-91a4-00c04f7969e8"))
-/* dual interface */ IXMLHTTPRequest;
+struct __msxml6_ReferenceRemainingTypes__;
 enum _SERVERXMLHTTP_OPTION;
 enum _SXH_SERVER_CERT_OPTION;
 enum _SXH_PROXY_SETTING;
-struct __declspec(uuid("2e9196bf-13ba-4dd4-91ca-6c571f281495"))
-/* dual interface */ IServerXMLHTTPRequest;
+struct /* coclass */ DOMDocument60;
+struct __declspec(uuid("2933bf96-7b36-11d2-b20e-00c04f983e60"))
+/* dual interface */ IXMLDOMDocument3;
+struct __declspec(uuid("2933bf95-7b36-11d2-b20e-00c04f983e60"))
+/* dual interface */ IXMLDOMDocument2;
+struct __declspec(uuid("373984c8-b845-449b-91e7-45ac83036ade"))
+/* dual interface */ IXMLDOMSchemaCollection;
+struct /* coclass */ FreeThreadedDOMDocument60;
+struct /* coclass */ XMLSchemaCache60;
+struct __declspec(uuid("50ea08b0-dd1b-4664-9a50-c2f40f4bd79a"))
+/* dual interface */ IXMLDOMSchemaCollection2;
+struct /* coclass */ XSLTemplate60;
+struct __declspec(uuid("2933bf93-7b36-11d2-b20e-00c04f983e60"))
+/* dual interface */ IXSLTemplate;
+struct __declspec(uuid("2933bf92-7b36-11d2-b20e-00c04f983e60"))
+/* dual interface */ IXSLProcessor;
+struct /* coclass */ XMLHTTP60;
+struct __declspec(uuid("ed8c108d-4349-11d2-91a4-00c04f7969e8"))
+/* dual interface */ IXMLHTTPRequest;
+struct /* coclass */ FreeThreadedXMLHTTP60;
+struct __declspec(uuid("e5d37dc0-552a-4d52-9cc0-a14d546fbd04"))
+/* interface */ IXMLHTTPRequest2;
+struct __declspec(uuid("a44a9299-e321-40de-8866-341b41669162"))
+/* interface */ IXMLHTTPRequest2Callback;
+struct tagXHR_COOKIE;
+enum _XHR_PROPERTY;
+struct /* coclass */ ServerXMLHTTP60;
 struct __declspec(uuid("2e01311b-c322-4b0a-bd77-b90cfdc8dce7"))
 /* dual interface */ IServerXMLHTTPRequest2;
-struct __declspec(uuid("c90352f4-643c-4fbc-bb23-e996eb2d51fd"))
-/* dual interface */ IMXNamespacePrefixes;
+struct __declspec(uuid("2e9196bf-13ba-4dd4-91ca-6c571f281495"))
+/* dual interface */ IServerXMLHTTPRequest;
+struct /* coclass */ SAXXMLReader60;
+struct /* coclass */ MXXMLWriter60;
+struct __declspec(uuid("4d7ff4ba-1565-4ea8-94e1-6e724a46f98d"))
+/* dual interface */ IMXWriter;
+struct __declspec(uuid("862629ac-771a-47b2-8337-4e6843c1be90"))
+/* interface */ ISAXDeclHandler;
+struct __declspec(uuid("7f85d5f5-47a8-4497-bda5-84ba04819ea6"))
+/* interface */ ISAXLexicalHandler;
+struct __declspec(uuid("e8917260-7579-4be1-b5dd-7afbfa6f077b"))
+/* dual interface */ IVBSAXDeclHandler;
+struct __declspec(uuid("032aac35-8c0e-4d9d-979f-e3b702935576"))
+/* dual interface */ IVBSAXLexicalHandler;
+struct /* coclass */ MXHTMLWriter60;
+struct /* coclass */ SAXAttributes60;
+struct __declspec(uuid("f10d27cc-3ec0-415c-8ed8-77ab1c5e7262"))
+/* dual interface */ IMXAttributes;
+struct /* coclass */ MXNamespaceManager60;
 struct __declspec(uuid("c90352f5-643c-4fbc-bb23-e996eb2d51fd"))
 /* dual interface */ IVBMXNamespaceManager;
+struct __declspec(uuid("c90352f4-643c-4fbc-bb23-e996eb2d51fd"))
+/* dual interface */ IMXNamespacePrefixes;
 struct __declspec(uuid("c90352f6-643c-4fbc-bb23-e996eb2d51fd"))
 /* interface */ IMXNamespaceManager;
-struct /* coclass */ DOMDocument;
-struct /* coclass */ DOMDocument26;
-struct /* coclass */ DOMDocument30;
-struct /* coclass */ DOMDocument40;
-struct /* coclass */ DOMDocument60;
-struct /* coclass */ FreeThreadedDOMDocument;
-struct /* coclass */ FreeThreadedDOMDocument26;
-struct /* coclass */ FreeThreadedDOMDocument30;
-struct /* coclass */ FreeThreadedDOMDocument40;
-struct /* coclass */ FreeThreadedDOMDocument60;
-struct /* coclass */ XMLSchemaCache;
-struct /* coclass */ XMLSchemaCache26;
-struct /* coclass */ XMLSchemaCache30;
-struct /* coclass */ XMLSchemaCache40;
-struct /* coclass */ XMLSchemaCache60;
-struct /* coclass */ XSLTemplate;
-struct /* coclass */ XSLTemplate26;
-struct /* coclass */ XSLTemplate30;
-struct /* coclass */ XSLTemplate40;
-struct /* coclass */ XSLTemplate60;
-struct /* coclass */ DSOControl;
-struct /* coclass */ DSOControl26;
-struct /* coclass */ DSOControl30;
-struct /* coclass */ DSOControl40;
-struct /* coclass */ XMLHTTP;
-struct /* coclass */ XMLHTTP26;
-struct /* coclass */ XMLHTTP30;
-struct /* coclass */ XMLHTTP40;
-struct /* coclass */ XMLHTTP60;
-struct /* coclass */ ServerXMLHTTP;
-struct /* coclass */ ServerXMLHTTP30;
-struct /* coclass */ ServerXMLHTTP40;
-struct /* coclass */ ServerXMLHTTP60;
-struct /* coclass */ SAXXMLReader;
-struct /* coclass */ SAXXMLReader30;
-struct /* coclass */ SAXXMLReader40;
-struct /* coclass */ SAXXMLReader60;
-struct /* coclass */ MXXMLWriter;
-struct /* coclass */ MXXMLWriter30;
-struct /* coclass */ MXXMLWriter40;
-struct /* coclass */ MXXMLWriter60;
-struct /* coclass */ MXHTMLWriter;
-struct /* coclass */ MXHTMLWriter30;
-struct /* coclass */ MXHTMLWriter40;
-struct /* coclass */ MXHTMLWriter60;
-struct /* coclass */ SAXAttributes;
-struct /* coclass */ SAXAttributes30;
-struct /* coclass */ SAXAttributes40;
-struct /* coclass */ SAXAttributes60;
-struct /* coclass */ MXNamespaceManager;
-struct /* coclass */ MXNamespaceManager40;
-struct /* coclass */ MXNamespaceManager60;
 typedef enum tagDOMNodeType DOMNodeType;
 typedef enum _SOMITEMTYPE SOMITEMTYPE;
 typedef enum _SCHEMADERIVATIONMETHOD SCHEMADERIVATIONMETHOD;
@@ -242,6 +207,7 @@ typedef enum _SCHEMAUSE SCHEMAUSE;
 typedef enum _SERVERXMLHTTP_OPTION SERVERXMLHTTP_OPTION;
 typedef enum _SXH_SERVER_CERT_OPTION SXH_SERVER_CERT_OPTION;
 typedef enum _SXH_PROXY_SETTING SXH_PROXY_SETTING;
+typedef enum _XHR_PROPERTY XHR_PROPERTY;
 
 //
 // Smart pointer typedef declarations
@@ -257,8 +223,6 @@ _COM_SMARTPTR_TYPEDEF(ISAXDTDHandler, __uuidof(ISAXDTDHandler));
 _COM_SMARTPTR_TYPEDEF(ISAXErrorHandler, __uuidof(ISAXErrorHandler));
 _COM_SMARTPTR_TYPEDEF(ISAXXMLReader, __uuidof(ISAXXMLReader));
 _COM_SMARTPTR_TYPEDEF(ISAXXMLFilter, __uuidof(ISAXXMLFilter));
-_COM_SMARTPTR_TYPEDEF(ISAXLexicalHandler, __uuidof(ISAXLexicalHandler));
-_COM_SMARTPTR_TYPEDEF(ISAXDeclHandler, __uuidof(ISAXDeclHandler));
 _COM_SMARTPTR_TYPEDEF(IVBSAXEntityResolver, __uuidof(IVBSAXEntityResolver));
 _COM_SMARTPTR_TYPEDEF(IVBSAXLocator, __uuidof(IVBSAXLocator));
 _COM_SMARTPTR_TYPEDEF(IVBSAXAttributes, __uuidof(IVBSAXAttributes));
@@ -267,10 +231,6 @@ _COM_SMARTPTR_TYPEDEF(IVBSAXDTDHandler, __uuidof(IVBSAXDTDHandler));
 _COM_SMARTPTR_TYPEDEF(IVBSAXErrorHandler, __uuidof(IVBSAXErrorHandler));
 _COM_SMARTPTR_TYPEDEF(IVBSAXXMLReader, __uuidof(IVBSAXXMLReader));
 _COM_SMARTPTR_TYPEDEF(IVBSAXXMLFilter, __uuidof(IVBSAXXMLFilter));
-_COM_SMARTPTR_TYPEDEF(IVBSAXLexicalHandler, __uuidof(IVBSAXLexicalHandler));
-_COM_SMARTPTR_TYPEDEF(IVBSAXDeclHandler, __uuidof(IVBSAXDeclHandler));
-_COM_SMARTPTR_TYPEDEF(IMXWriter, __uuidof(IMXWriter));
-_COM_SMARTPTR_TYPEDEF(IMXAttributes, __uuidof(IMXAttributes));
 _COM_SMARTPTR_TYPEDEF(IMXReaderControl, __uuidof(IMXReaderControl));
 _COM_SMARTPTR_TYPEDEF(ISchemaStringCollection, __uuidof(ISchemaStringCollection));
 _COM_SMARTPTR_TYPEDEF(IMXXMLFilter, __uuidof(IMXXMLFilter));
@@ -278,6 +238,12 @@ _COM_SMARTPTR_TYPEDEF(XMLDOMDocumentEvents, __uuidof(XMLDOMDocumentEvents));
 _COM_SMARTPTR_TYPEDEF(IXMLHTTPRequest, __uuidof(IXMLHTTPRequest));
 _COM_SMARTPTR_TYPEDEF(IServerXMLHTTPRequest, __uuidof(IServerXMLHTTPRequest));
 _COM_SMARTPTR_TYPEDEF(IServerXMLHTTPRequest2, __uuidof(IServerXMLHTTPRequest2));
+_COM_SMARTPTR_TYPEDEF(IMXWriter, __uuidof(IMXWriter));
+_COM_SMARTPTR_TYPEDEF(ISAXDeclHandler, __uuidof(ISAXDeclHandler));
+_COM_SMARTPTR_TYPEDEF(ISAXLexicalHandler, __uuidof(ISAXLexicalHandler));
+_COM_SMARTPTR_TYPEDEF(IVBSAXDeclHandler, __uuidof(IVBSAXDeclHandler));
+_COM_SMARTPTR_TYPEDEF(IVBSAXLexicalHandler, __uuidof(IVBSAXLexicalHandler));
+_COM_SMARTPTR_TYPEDEF(IMXAttributes, __uuidof(IMXAttributes));
 _COM_SMARTPTR_TYPEDEF(IMXNamespacePrefixes, __uuidof(IMXNamespacePrefixes));
 _COM_SMARTPTR_TYPEDEF(IXMLDOMNode, __uuidof(IXMLDOMNode));
 _COM_SMARTPTR_TYPEDEF(IXMLDOMNodeList, __uuidof(IXMLDOMNodeList));
@@ -293,20 +259,17 @@ _COM_SMARTPTR_TYPEDEF(IXMLDOMCDATASection, __uuidof(IXMLDOMCDATASection));
 _COM_SMARTPTR_TYPEDEF(IXMLDOMProcessingInstruction, __uuidof(IXMLDOMProcessingInstruction));
 _COM_SMARTPTR_TYPEDEF(IXMLDOMEntityReference, __uuidof(IXMLDOMEntityReference));
 _COM_SMARTPTR_TYPEDEF(IXMLDOMDocument, __uuidof(IXMLDOMDocument));
-_COM_SMARTPTR_TYPEDEF(IXMLDOMSchemaCollection, __uuidof(IXMLDOMSchemaCollection));
-_COM_SMARTPTR_TYPEDEF(IXMLDOMDocument2, __uuidof(IXMLDOMDocument2));
-_COM_SMARTPTR_TYPEDEF(IXMLDOMDocument3, __uuidof(IXMLDOMDocument3));
 _COM_SMARTPTR_TYPEDEF(IXMLDOMNotation, __uuidof(IXMLDOMNotation));
 _COM_SMARTPTR_TYPEDEF(IXMLDOMEntity, __uuidof(IXMLDOMEntity));
 _COM_SMARTPTR_TYPEDEF(IXTLRuntime, __uuidof(IXTLRuntime));
 _COM_SMARTPTR_TYPEDEF(IXMLDOMSelection, __uuidof(IXMLDOMSelection));
-_COM_SMARTPTR_TYPEDEF(IDSOControl, __uuidof(IDSOControl));
+_COM_SMARTPTR_TYPEDEF(IXMLDOMSchemaCollection, __uuidof(IXMLDOMSchemaCollection));
+_COM_SMARTPTR_TYPEDEF(IXMLDOMDocument2, __uuidof(IXMLDOMDocument2));
+_COM_SMARTPTR_TYPEDEF(IXMLDOMDocument3, __uuidof(IXMLDOMDocument3));
 _COM_SMARTPTR_TYPEDEF(IVBMXNamespaceManager, __uuidof(IVBMXNamespaceManager));
 _COM_SMARTPTR_TYPEDEF(IMXNamespaceManager, __uuidof(IMXNamespaceManager));
 _COM_SMARTPTR_TYPEDEF(IXMLDOMParseError2, __uuidof(IXMLDOMParseError2));
 _COM_SMARTPTR_TYPEDEF(IXMLDOMParseErrorCollection, __uuidof(IXMLDOMParseErrorCollection));
-_COM_SMARTPTR_TYPEDEF(IXSLTemplate, __uuidof(IXSLTemplate));
-_COM_SMARTPTR_TYPEDEF(IXSLProcessor, __uuidof(IXSLProcessor));
 _COM_SMARTPTR_TYPEDEF(IMXSchemaDeclHandler, __uuidof(IMXSchemaDeclHandler));
 _COM_SMARTPTR_TYPEDEF(ISchemaItem, __uuidof(ISchemaItem));
 _COM_SMARTPTR_TYPEDEF(ISchemaParticle, __uuidof(ISchemaParticle));
@@ -317,15 +280,36 @@ _COM_SMARTPTR_TYPEDEF(ISchemaAny, __uuidof(ISchemaAny));
 _COM_SMARTPTR_TYPEDEF(ISchemaModelGroup, __uuidof(ISchemaModelGroup));
 _COM_SMARTPTR_TYPEDEF(ISchemaComplexType, __uuidof(ISchemaComplexType));
 _COM_SMARTPTR_TYPEDEF(ISchemaElement, __uuidof(ISchemaElement));
-_COM_SMARTPTR_TYPEDEF(IXMLDOMSchemaCollection2, __uuidof(IXMLDOMSchemaCollection2));
 _COM_SMARTPTR_TYPEDEF(ISchemaAttribute, __uuidof(ISchemaAttribute));
 _COM_SMARTPTR_TYPEDEF(ISchemaAttributeGroup, __uuidof(ISchemaAttributeGroup));
 _COM_SMARTPTR_TYPEDEF(ISchemaIdentityConstraint, __uuidof(ISchemaIdentityConstraint));
 _COM_SMARTPTR_TYPEDEF(ISchemaNotation, __uuidof(ISchemaNotation));
+_COM_SMARTPTR_TYPEDEF(IXMLDOMSchemaCollection2, __uuidof(IXMLDOMSchemaCollection2));
+_COM_SMARTPTR_TYPEDEF(IXSLTemplate, __uuidof(IXSLTemplate));
+_COM_SMARTPTR_TYPEDEF(IXSLProcessor, __uuidof(IXSLProcessor));
+_COM_SMARTPTR_TYPEDEF(IXMLHTTPRequest2, __uuidof(IXMLHTTPRequest2));
+_COM_SMARTPTR_TYPEDEF(IXMLHTTPRequest2Callback, __uuidof(IXMLHTTPRequest2Callback));
 
 //
 // Type library items
 //
+
+enum tagDOMNodeType
+{
+    NODE_INVALID = 0,
+    NODE_ELEMENT = 1,
+    NODE_ATTRIBUTE = 2,
+    NODE_TEXT = 3,
+    NODE_CDATA_SECTION = 4,
+    NODE_ENTITY_REFERENCE = 5,
+    NODE_ENTITY = 6,
+    NODE_PROCESSING_INSTRUCTION = 7,
+    NODE_COMMENT = 8,
+    NODE_DOCUMENT = 9,
+    NODE_DOCUMENT_TYPE = 10,
+    NODE_DOCUMENT_FRAGMENT = 11,
+    NODE_NOTATION = 12
+};
 
 struct __declspec(uuid("2933bf8f-7b36-11d2-b20e-00c04f983e60"))
 IXMLDOMImplementation : IDispatch
@@ -346,23 +330,6 @@ IXMLDOMImplementation : IDispatch
         /*[in]*/ BSTR feature,
         /*[in]*/ BSTR version,
         /*[out,retval]*/ VARIANT_BOOL * hasFeature ) = 0;
-};
-
-enum tagDOMNodeType
-{
-    NODE_INVALID = 0,
-    NODE_ELEMENT = 1,
-    NODE_ATTRIBUTE = 2,
-    NODE_TEXT = 3,
-    NODE_CDATA_SECTION = 4,
-    NODE_ENTITY_REFERENCE = 5,
-    NODE_ENTITY = 6,
-    NODE_PROCESSING_INSTRUCTION = 7,
-    NODE_COMMENT = 8,
-    NODE_DOCUMENT = 9,
-    NODE_DOCUMENT_TYPE = 10,
-    NODE_DOCUMENT_FRAGMENT = 11,
-    NODE_NOTATION = 12
 };
 
 struct __declspec(uuid("3efaa426-272f-11d2-836f-0000f87a7782"))
@@ -892,128 +859,6 @@ ISAXXMLFilter : ISAXXMLReader
         /*[in]*/ struct ISAXXMLReader * pReader ) = 0;
 };
 
-struct __declspec(uuid("7f85d5f5-47a8-4497-bda5-84ba04819ea6"))
-ISAXLexicalHandler : IUnknown
-{
-    //
-    // Wrapper methods for error-handling
-    //
-
-    HRESULT startDTD (
-        unsigned short * pwchName,
-        int cchName,
-        unsigned short * pwchPublicId,
-        int cchPublicId,
-        unsigned short * pwchSystemId,
-        int cchSystemId );
-    HRESULT endDTD ( );
-    HRESULT startEntity (
-        unsigned short * pwchName,
-        int cchName );
-    HRESULT endEntity (
-        unsigned short * pwchName,
-        int cchName );
-    HRESULT startCDATA ( );
-    HRESULT endCDATA ( );
-    HRESULT comment (
-        unsigned short * pwchChars,
-        int cchChars );
-
-    //
-    // Raw methods provided by interface
-    //
-
-      virtual HRESULT __stdcall raw_startDTD (
-        /*[in]*/ unsigned short * pwchName,
-        /*[in]*/ int cchName,
-        /*[in]*/ unsigned short * pwchPublicId,
-        /*[in]*/ int cchPublicId,
-        /*[in]*/ unsigned short * pwchSystemId,
-        /*[in]*/ int cchSystemId ) = 0;
-      virtual HRESULT __stdcall raw_endDTD ( ) = 0;
-      virtual HRESULT __stdcall raw_startEntity (
-        /*[in]*/ unsigned short * pwchName,
-        /*[in]*/ int cchName ) = 0;
-      virtual HRESULT __stdcall raw_endEntity (
-        /*[in]*/ unsigned short * pwchName,
-        /*[in]*/ int cchName ) = 0;
-      virtual HRESULT __stdcall raw_startCDATA ( ) = 0;
-      virtual HRESULT __stdcall raw_endCDATA ( ) = 0;
-      virtual HRESULT __stdcall raw_comment (
-        /*[in]*/ unsigned short * pwchChars,
-        /*[in]*/ int cchChars ) = 0;
-};
-
-struct __declspec(uuid("862629ac-771a-47b2-8337-4e6843c1be90"))
-ISAXDeclHandler : IUnknown
-{
-    //
-    // Wrapper methods for error-handling
-    //
-
-    HRESULT elementDecl (
-        unsigned short * pwchName,
-        int cchName,
-        unsigned short * pwchModel,
-        int cchModel );
-    HRESULT attributeDecl (
-        unsigned short * pwchElementName,
-        int cchElementName,
-        unsigned short * pwchAttributeName,
-        int cchAttributeName,
-        unsigned short * pwchType,
-        int cchType,
-        unsigned short * pwchValueDefault,
-        int cchValueDefault,
-        unsigned short * pwchValue,
-        int cchValue );
-    HRESULT internalEntityDecl (
-        unsigned short * pwchName,
-        int cchName,
-        unsigned short * pwchValue,
-        int cchValue );
-    HRESULT externalEntityDecl (
-        unsigned short * pwchName,
-        int cchName,
-        unsigned short * pwchPublicId,
-        int cchPublicId,
-        unsigned short * pwchSystemId,
-        int cchSystemId );
-
-    //
-    // Raw methods provided by interface
-    //
-
-      virtual HRESULT __stdcall raw_elementDecl (
-        /*[in]*/ unsigned short * pwchName,
-        /*[in]*/ int cchName,
-        /*[in]*/ unsigned short * pwchModel,
-        /*[in]*/ int cchModel ) = 0;
-      virtual HRESULT __stdcall raw_attributeDecl (
-        /*[in]*/ unsigned short * pwchElementName,
-        /*[in]*/ int cchElementName,
-        /*[in]*/ unsigned short * pwchAttributeName,
-        /*[in]*/ int cchAttributeName,
-        /*[in]*/ unsigned short * pwchType,
-        /*[in]*/ int cchType,
-        /*[in]*/ unsigned short * pwchValueDefault,
-        /*[in]*/ int cchValueDefault,
-        /*[in]*/ unsigned short * pwchValue,
-        /*[in]*/ int cchValue ) = 0;
-      virtual HRESULT __stdcall raw_internalEntityDecl (
-        /*[in]*/ unsigned short * pwchName,
-        /*[in]*/ int cchName,
-        /*[in]*/ unsigned short * pwchValue,
-        /*[in]*/ int cchValue ) = 0;
-      virtual HRESULT __stdcall raw_externalEntityDecl (
-        /*[in]*/ unsigned short * pwchName,
-        /*[in]*/ int cchName,
-        /*[in]*/ unsigned short * pwchPublicId,
-        /*[in]*/ int cchPublicId,
-        /*[in]*/ unsigned short * pwchSystemId,
-        /*[in]*/ int cchSystemId ) = 0;
-};
-
 struct __declspec(uuid("0c05d096-f45b-4aca-ad1a-aa0bc25518dc"))
 IVBSAXEntityResolver : IDispatch
 {
@@ -1435,271 +1280,6 @@ IVBSAXXMLFilter : IDispatch
         /*[in]*/ struct IVBSAXXMLReader * oReader ) = 0;
 };
 
-struct __declspec(uuid("032aac35-8c0e-4d9d-979f-e3b702935576"))
-IVBSAXLexicalHandler : IDispatch
-{
-    //
-    // Wrapper methods for error-handling
-    //
-
-    HRESULT startDTD (
-        BSTR * strName,
-        BSTR * strPublicId,
-        BSTR * strSystemId );
-    HRESULT endDTD ( );
-    HRESULT startEntity (
-        BSTR * strName );
-    HRESULT endEntity (
-        BSTR * strName );
-    HRESULT startCDATA ( );
-    HRESULT endCDATA ( );
-    HRESULT comment (
-        BSTR * strChars );
-
-    //
-    // Raw methods provided by interface
-    //
-
-      virtual HRESULT __stdcall raw_startDTD (
-        /*[in,out]*/ BSTR * strName,
-        /*[in,out]*/ BSTR * strPublicId,
-        /*[in,out]*/ BSTR * strSystemId ) = 0;
-      virtual HRESULT __stdcall raw_endDTD ( ) = 0;
-      virtual HRESULT __stdcall raw_startEntity (
-        /*[in,out]*/ BSTR * strName ) = 0;
-      virtual HRESULT __stdcall raw_endEntity (
-        /*[in,out]*/ BSTR * strName ) = 0;
-      virtual HRESULT __stdcall raw_startCDATA ( ) = 0;
-      virtual HRESULT __stdcall raw_endCDATA ( ) = 0;
-      virtual HRESULT __stdcall raw_comment (
-        /*[in,out]*/ BSTR * strChars ) = 0;
-};
-
-struct __declspec(uuid("e8917260-7579-4be1-b5dd-7afbfa6f077b"))
-IVBSAXDeclHandler : IDispatch
-{
-    //
-    // Wrapper methods for error-handling
-    //
-
-    HRESULT elementDecl (
-        BSTR * strName,
-        BSTR * strModel );
-    HRESULT attributeDecl (
-        BSTR * strElementName,
-        BSTR * strAttributeName,
-        BSTR * strType,
-        BSTR * strValueDefault,
-        BSTR * strValue );
-    HRESULT internalEntityDecl (
-        BSTR * strName,
-        BSTR * strValue );
-    HRESULT externalEntityDecl (
-        BSTR * strName,
-        BSTR * strPublicId,
-        BSTR * strSystemId );
-
-    //
-    // Raw methods provided by interface
-    //
-
-      virtual HRESULT __stdcall raw_elementDecl (
-        /*[in,out]*/ BSTR * strName,
-        /*[in,out]*/ BSTR * strModel ) = 0;
-      virtual HRESULT __stdcall raw_attributeDecl (
-        /*[in,out]*/ BSTR * strElementName,
-        /*[in,out]*/ BSTR * strAttributeName,
-        /*[in,out]*/ BSTR * strType,
-        /*[in,out]*/ BSTR * strValueDefault,
-        /*[in,out]*/ BSTR * strValue ) = 0;
-      virtual HRESULT __stdcall raw_internalEntityDecl (
-        /*[in,out]*/ BSTR * strName,
-        /*[in,out]*/ BSTR * strValue ) = 0;
-      virtual HRESULT __stdcall raw_externalEntityDecl (
-        /*[in,out]*/ BSTR * strName,
-        /*[in,out]*/ BSTR * strPublicId,
-        /*[in,out]*/ BSTR * strSystemId ) = 0;
-};
-
-struct __declspec(uuid("4d7ff4ba-1565-4ea8-94e1-6e724a46f98d"))
-IMXWriter : IDispatch
-{
-    //
-    // Property data
-    //
-
-    __declspec(property(get=Getoutput,put=Putoutput))
-    _variant_t output;
-    __declspec(property(get=Getencoding,put=Putencoding))
-    _bstr_t encoding;
-    __declspec(property(get=GetbyteOrderMark,put=PutbyteOrderMark))
-    VARIANT_BOOL byteOrderMark;
-    __declspec(property(get=Getindent,put=Putindent))
-    VARIANT_BOOL indent;
-    __declspec(property(get=Getstandalone,put=Putstandalone))
-    VARIANT_BOOL standalone;
-    __declspec(property(get=GetomitXMLDeclaration,put=PutomitXMLDeclaration))
-    VARIANT_BOOL omitXMLDeclaration;
-    __declspec(property(get=Getversion,put=Putversion))
-    _bstr_t version;
-    __declspec(property(get=GetdisableOutputEscaping,put=PutdisableOutputEscaping))
-    VARIANT_BOOL disableOutputEscaping;
-
-    //
-    // Wrapper methods for error-handling
-    //
-
-    void Putoutput (
-        const _variant_t & varDestination );
-    _variant_t Getoutput ( );
-    void Putencoding (
-        _bstr_t strEncoding );
-    _bstr_t Getencoding ( );
-    void PutbyteOrderMark (
-        VARIANT_BOOL fWriteByteOrderMark );
-    VARIANT_BOOL GetbyteOrderMark ( );
-    void Putindent (
-        VARIANT_BOOL fIndentMode );
-    VARIANT_BOOL Getindent ( );
-    void Putstandalone (
-        VARIANT_BOOL fValue );
-    VARIANT_BOOL Getstandalone ( );
-    void PutomitXMLDeclaration (
-        VARIANT_BOOL fValue );
-    VARIANT_BOOL GetomitXMLDeclaration ( );
-    void Putversion (
-        _bstr_t strVersion );
-    _bstr_t Getversion ( );
-    void PutdisableOutputEscaping (
-        VARIANT_BOOL fValue );
-    VARIANT_BOOL GetdisableOutputEscaping ( );
-    HRESULT flush ( );
-
-    //
-    // Raw methods provided by interface
-    //
-
-      virtual HRESULT __stdcall put_output (
-        /*[in]*/ VARIANT varDestination ) = 0;
-      virtual HRESULT __stdcall get_output (
-        /*[out,retval]*/ VARIANT * varDestination ) = 0;
-      virtual HRESULT __stdcall put_encoding (
-        /*[in]*/ BSTR strEncoding ) = 0;
-      virtual HRESULT __stdcall get_encoding (
-        /*[out,retval]*/ BSTR * strEncoding ) = 0;
-      virtual HRESULT __stdcall put_byteOrderMark (
-        /*[in]*/ VARIANT_BOOL fWriteByteOrderMark ) = 0;
-      virtual HRESULT __stdcall get_byteOrderMark (
-        /*[out,retval]*/ VARIANT_BOOL * fWriteByteOrderMark ) = 0;
-      virtual HRESULT __stdcall put_indent (
-        /*[in]*/ VARIANT_BOOL fIndentMode ) = 0;
-      virtual HRESULT __stdcall get_indent (
-        /*[out,retval]*/ VARIANT_BOOL * fIndentMode ) = 0;
-      virtual HRESULT __stdcall put_standalone (
-        /*[in]*/ VARIANT_BOOL fValue ) = 0;
-      virtual HRESULT __stdcall get_standalone (
-        /*[out,retval]*/ VARIANT_BOOL * fValue ) = 0;
-      virtual HRESULT __stdcall put_omitXMLDeclaration (
-        /*[in]*/ VARIANT_BOOL fValue ) = 0;
-      virtual HRESULT __stdcall get_omitXMLDeclaration (
-        /*[out,retval]*/ VARIANT_BOOL * fValue ) = 0;
-      virtual HRESULT __stdcall put_version (
-        /*[in]*/ BSTR strVersion ) = 0;
-      virtual HRESULT __stdcall get_version (
-        /*[out,retval]*/ BSTR * strVersion ) = 0;
-      virtual HRESULT __stdcall put_disableOutputEscaping (
-        /*[in]*/ VARIANT_BOOL fValue ) = 0;
-      virtual HRESULT __stdcall get_disableOutputEscaping (
-        /*[out,retval]*/ VARIANT_BOOL * fValue ) = 0;
-      virtual HRESULT __stdcall raw_flush ( ) = 0;
-};
-
-struct __declspec(uuid("f10d27cc-3ec0-415c-8ed8-77ab1c5e7262"))
-IMXAttributes : IDispatch
-{
-    //
-    // Wrapper methods for error-handling
-    //
-
-    HRESULT addAttribute (
-        _bstr_t strURI,
-        _bstr_t strLocalName,
-        _bstr_t strQName,
-        _bstr_t strType,
-        _bstr_t strValue );
-    HRESULT addAttributeFromIndex (
-        const _variant_t & varAtts,
-        int nIndex );
-    HRESULT clear ( );
-    HRESULT removeAttribute (
-        int nIndex );
-    HRESULT setAttribute (
-        int nIndex,
-        _bstr_t strURI,
-        _bstr_t strLocalName,
-        _bstr_t strQName,
-        _bstr_t strType,
-        _bstr_t strValue );
-    HRESULT setAttributes (
-        const _variant_t & varAtts );
-    HRESULT setLocalName (
-        int nIndex,
-        _bstr_t strLocalName );
-    HRESULT setQName (
-        int nIndex,
-        _bstr_t strQName );
-    HRESULT setType (
-        int nIndex,
-        _bstr_t strType );
-    HRESULT setURI (
-        int nIndex,
-        _bstr_t strURI );
-    HRESULT setValue (
-        int nIndex,
-        _bstr_t strValue );
-
-    //
-    // Raw methods provided by interface
-    //
-
-      virtual HRESULT __stdcall raw_addAttribute (
-        /*[in]*/ BSTR strURI,
-        /*[in]*/ BSTR strLocalName,
-        /*[in]*/ BSTR strQName,
-        /*[in]*/ BSTR strType,
-        /*[in]*/ BSTR strValue ) = 0;
-      virtual HRESULT __stdcall raw_addAttributeFromIndex (
-        /*[in]*/ VARIANT varAtts,
-        /*[in]*/ int nIndex ) = 0;
-      virtual HRESULT __stdcall raw_clear ( ) = 0;
-      virtual HRESULT __stdcall raw_removeAttribute (
-        /*[in]*/ int nIndex ) = 0;
-      virtual HRESULT __stdcall raw_setAttribute (
-        /*[in]*/ int nIndex,
-        /*[in]*/ BSTR strURI,
-        /*[in]*/ BSTR strLocalName,
-        /*[in]*/ BSTR strQName,
-        /*[in]*/ BSTR strType,
-        /*[in]*/ BSTR strValue ) = 0;
-      virtual HRESULT __stdcall raw_setAttributes (
-        /*[in]*/ VARIANT varAtts ) = 0;
-      virtual HRESULT __stdcall raw_setLocalName (
-        /*[in]*/ int nIndex,
-        /*[in]*/ BSTR strLocalName ) = 0;
-      virtual HRESULT __stdcall raw_setQName (
-        /*[in]*/ int nIndex,
-        /*[in]*/ BSTR strQName ) = 0;
-      virtual HRESULT __stdcall raw_setType (
-        /*[in]*/ int nIndex,
-        /*[in]*/ BSTR strType ) = 0;
-      virtual HRESULT __stdcall raw_setURI (
-        /*[in]*/ int nIndex,
-        /*[in]*/ BSTR strURI ) = 0;
-      virtual HRESULT __stdcall raw_setValue (
-        /*[in]*/ int nIndex,
-        /*[in]*/ BSTR strValue ) = 0;
-};
-
 struct __declspec(uuid("808f4e35-8d5a-4fbe-8466-33a41279ed30"))
 IMXReaderControl : IDispatch
 {
@@ -1973,6 +1553,84 @@ XMLDOMDocumentEvents : IDispatch
     HRESULT onreadystatechange ( );
 };
 
+enum _SERVERXMLHTTP_OPTION
+{
+    SXH_OPTION_URL = -1,
+    SXH_OPTION_URL_CODEPAGE = 0,
+    SXH_OPTION_ESCAPE_PERCENT_IN_URL = 1,
+    SXH_OPTION_IGNORE_SERVER_SSL_CERT_ERROR_FLAGS = 2,
+    SXH_OPTION_SELECT_CLIENT_SSL_CERT = 3
+};
+
+enum _SXH_SERVER_CERT_OPTION
+{
+    SXH_SERVER_CERT_IGNORE_UNKNOWN_CA = 256,
+    SXH_SERVER_CERT_IGNORE_WRONG_USAGE = 512,
+    SXH_SERVER_CERT_IGNORE_CERT_CN_INVALID = 4096,
+    SXH_SERVER_CERT_IGNORE_CERT_DATE_INVALID = 8192,
+    SXH_SERVER_CERT_IGNORE_ALL_SERVER_ERRORS = 13056
+};
+
+enum _SXH_PROXY_SETTING
+{
+    SXH_PROXY_SET_DEFAULT = 0,
+    SXH_PROXY_SET_PRECONFIG = 0,
+    SXH_PROXY_SET_DIRECT = 1,
+    SXH_PROXY_SET_PROXY = 2
+};
+
+#pragma pack(push, 4)
+
+struct __msxml6_ReferenceRemainingTypes__
+{
+    enum tagDOMNodeType __tagDomNodeType__;
+    DOMNodeType __domNodeType__;
+    enum _SERVERXMLHTTP_OPTION __serverXmlHttpOptionEnum__;
+    SERVERXMLHTTP_OPTION __serverXmlHttpOption__;
+    enum _SXH_SERVER_CERT_OPTION __serverCertOptionEnum__;
+    SXH_SERVER_CERT_OPTION __serverCertOption__;
+    enum _SXH_PROXY_SETTING __proxySettingEnum__;
+    SXH_PROXY_SETTING __proxySetting__;
+    enum _SOMITEMTYPE __somItemTypeEnum__;
+    SOMITEMTYPE __somItemType__;
+    enum _SCHEMAUSE __schemaUseEnum__;
+    SCHEMAUSE __schemaUse__;
+    enum _SCHEMADERIVATIONMETHOD __schemaDerivationMethodEnum__;
+    SCHEMADERIVATIONMETHOD __schemaDerivationMethod__;
+    enum _SCHEMACONTENTTYPE __schemaContentTypeEnum__;
+    SCHEMACONTENTTYPE __schemaContentType__;
+    enum _SCHEMAPROCESSCONTENTS __schemaProcessContentsEnum__;
+    SCHEMAPROCESSCONTENTS __schemaProcessContents__;
+    enum _SCHEMAWHITESPACE __schemaWhitespaceEnum__;
+    SCHEMAWHITESPACE __schemaWhitespace__;
+    enum _SCHEMATYPEVARIETY __schemaTypeVarietyEnum__;
+    SCHEMATYPEVARIETY __schemaTypeVariety__;
+};
+
+#pragma pack(pop)
+
+struct __declspec(uuid("88d96a05-f192-11d4-a65f-0040963251e5"))
+DOMDocument60;
+    // [ default ] interface IXMLDOMDocument3
+    // [ default, source ] dispinterface XMLDOMDocumentEvents
+
+struct __declspec(uuid("88d96a06-f192-11d4-a65f-0040963251e5"))
+FreeThreadedDOMDocument60;
+    // [ default ] interface IXMLDOMDocument3
+    // [ default, source ] dispinterface XMLDOMDocumentEvents
+
+struct __declspec(uuid("88d96a07-f192-11d4-a65f-0040963251e5"))
+XMLSchemaCache60;
+    // [ default ] interface IXMLDOMSchemaCollection2
+
+struct __declspec(uuid("88d96a08-f192-11d4-a65f-0040963251e5"))
+XSLTemplate60;
+    // [ default ] interface IXSLTemplate
+
+struct __declspec(uuid("88d96a0a-f192-11d4-a65f-0040963251e5"))
+XMLHTTP60;
+    // [ default ] interface IXMLHTTPRequest
+
 struct __declspec(uuid("ed8c108d-4349-11d2-91a4-00c04f7969e8"))
 IXMLHTTPRequest : IDispatch
 {
@@ -2065,31 +1723,40 @@ IXMLHTTPRequest : IDispatch
         /*[in]*/ IDispatch * _arg1 ) = 0;
 };
 
-enum _SERVERXMLHTTP_OPTION
+struct __declspec(uuid("88d96a09-f192-11d4-a65f-0040963251e5"))
+FreeThreadedXMLHTTP60;
+    // [ default ] interface IXMLHTTPRequest2
+
+#pragma pack(push, 8)
+
+struct tagXHR_COOKIE
 {
-    SXH_OPTION_URL = -1,
-    SXH_OPTION_URL_CODEPAGE = 0,
-    SXH_OPTION_ESCAPE_PERCENT_IN_URL = 1,
-    SXH_OPTION_IGNORE_SERVER_SSL_CERT_ERROR_FLAGS = 2,
-    SXH_OPTION_SELECT_CLIENT_SSL_CERT = 3
+    LPWSTR pwszUrl;
+    LPWSTR pwszName;
+    LPWSTR pwszValue;
+    LPWSTR pwszP3PPolicy;
+    struct _FILETIME ftExpires;
+    unsigned long dwFlags;
 };
 
-enum _SXH_SERVER_CERT_OPTION
+#pragma pack(pop)
+
+enum _XHR_PROPERTY
 {
-    SXH_SERVER_CERT_IGNORE_UNKNOWN_CA = 256,
-    SXH_SERVER_CERT_IGNORE_WRONG_USAGE = 512,
-    SXH_SERVER_CERT_IGNORE_CERT_CN_INVALID = 4096,
-    SXH_SERVER_CERT_IGNORE_CERT_DATE_INVALID = 8192,
-    SXH_SERVER_CERT_IGNORE_ALL_SERVER_ERRORS = 13056
+    XHR_PROP_NO_CRED_PROMPT = 0,
+    XHR_PROP_NO_AUTH = 1,
+    XHR_PROP_TIMEOUT = 2,
+    XHR_PROP_NO_DEFAULT_HEADERS = 3,
+    XHR_PROP_REPORT_REDIRECT_STATUS = 4,
+    XHR_PROP_NO_CACHE = 5,
+    XHR_PROP_EXTENDED_ERROR = 6,
+    XHR_PROP_QUERY_STRING_UTF8 = 7,
+    XHR_PROP_IGNORE_CERT_ERRORS = 8
 };
 
-enum _SXH_PROXY_SETTING
-{
-    SXH_PROXY_SET_DEFAULT = 0,
-    SXH_PROXY_SET_PRECONFIG = 0,
-    SXH_PROXY_SET_DIRECT = 1,
-    SXH_PROXY_SET_PROXY = 2
-};
+struct __declspec(uuid("88d96a0b-f192-11d4-a65f-0040963251e5"))
+ServerXMLHTTP60;
+    // [ default ] interface IServerXMLHTTPRequest2
 
 struct __declspec(uuid("2e9196bf-13ba-4dd4-91ca-6c571f281495"))
 IServerXMLHTTPRequest : IXMLHTTPRequest
@@ -2159,6 +1826,437 @@ IServerXMLHTTPRequest2 : IServerXMLHTTPRequest
         /*[in]*/ BSTR bstrPassword ) = 0;
 };
 
+struct __declspec(uuid("88d96a0c-f192-11d4-a65f-0040963251e5"))
+SAXXMLReader60;
+    // [ default ] interface IVBSAXXMLReader
+    // interface ISAXXMLReader
+
+struct __declspec(uuid("88d96a0f-f192-11d4-a65f-0040963251e5"))
+MXXMLWriter60;
+    // [ default ] interface IMXWriter
+    // interface ISAXContentHandler
+    // interface ISAXDeclHandler
+    // interface ISAXDTDHandler
+    // interface ISAXErrorHandler
+    // interface ISAXLexicalHandler
+    // interface IVBSAXContentHandler
+    // interface IVBSAXDeclHandler
+    // interface IVBSAXDTDHandler
+    // interface IVBSAXErrorHandler
+    // interface IVBSAXLexicalHandler
+
+struct __declspec(uuid("4d7ff4ba-1565-4ea8-94e1-6e724a46f98d"))
+IMXWriter : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=Getoutput,put=Putoutput))
+    _variant_t output;
+    __declspec(property(get=Getencoding,put=Putencoding))
+    _bstr_t encoding;
+    __declspec(property(get=GetbyteOrderMark,put=PutbyteOrderMark))
+    VARIANT_BOOL byteOrderMark;
+    __declspec(property(get=Getindent,put=Putindent))
+    VARIANT_BOOL indent;
+    __declspec(property(get=Getstandalone,put=Putstandalone))
+    VARIANT_BOOL standalone;
+    __declspec(property(get=GetomitXMLDeclaration,put=PutomitXMLDeclaration))
+    VARIANT_BOOL omitXMLDeclaration;
+    __declspec(property(get=Getversion,put=Putversion))
+    _bstr_t version;
+    __declspec(property(get=GetdisableOutputEscaping,put=PutdisableOutputEscaping))
+    VARIANT_BOOL disableOutputEscaping;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    void Putoutput (
+        const _variant_t & varDestination );
+    _variant_t Getoutput ( );
+    void Putencoding (
+        _bstr_t strEncoding );
+    _bstr_t Getencoding ( );
+    void PutbyteOrderMark (
+        VARIANT_BOOL fWriteByteOrderMark );
+    VARIANT_BOOL GetbyteOrderMark ( );
+    void Putindent (
+        VARIANT_BOOL fIndentMode );
+    VARIANT_BOOL Getindent ( );
+    void Putstandalone (
+        VARIANT_BOOL fValue );
+    VARIANT_BOOL Getstandalone ( );
+    void PutomitXMLDeclaration (
+        VARIANT_BOOL fValue );
+    VARIANT_BOOL GetomitXMLDeclaration ( );
+    void Putversion (
+        _bstr_t strVersion );
+    _bstr_t Getversion ( );
+    void PutdisableOutputEscaping (
+        VARIANT_BOOL fValue );
+    VARIANT_BOOL GetdisableOutputEscaping ( );
+    HRESULT flush ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall put_output (
+        /*[in]*/ VARIANT varDestination ) = 0;
+      virtual HRESULT __stdcall get_output (
+        /*[out,retval]*/ VARIANT * varDestination ) = 0;
+      virtual HRESULT __stdcall put_encoding (
+        /*[in]*/ BSTR strEncoding ) = 0;
+      virtual HRESULT __stdcall get_encoding (
+        /*[out,retval]*/ BSTR * strEncoding ) = 0;
+      virtual HRESULT __stdcall put_byteOrderMark (
+        /*[in]*/ VARIANT_BOOL fWriteByteOrderMark ) = 0;
+      virtual HRESULT __stdcall get_byteOrderMark (
+        /*[out,retval]*/ VARIANT_BOOL * fWriteByteOrderMark ) = 0;
+      virtual HRESULT __stdcall put_indent (
+        /*[in]*/ VARIANT_BOOL fIndentMode ) = 0;
+      virtual HRESULT __stdcall get_indent (
+        /*[out,retval]*/ VARIANT_BOOL * fIndentMode ) = 0;
+      virtual HRESULT __stdcall put_standalone (
+        /*[in]*/ VARIANT_BOOL fValue ) = 0;
+      virtual HRESULT __stdcall get_standalone (
+        /*[out,retval]*/ VARIANT_BOOL * fValue ) = 0;
+      virtual HRESULT __stdcall put_omitXMLDeclaration (
+        /*[in]*/ VARIANT_BOOL fValue ) = 0;
+      virtual HRESULT __stdcall get_omitXMLDeclaration (
+        /*[out,retval]*/ VARIANT_BOOL * fValue ) = 0;
+      virtual HRESULT __stdcall put_version (
+        /*[in]*/ BSTR strVersion ) = 0;
+      virtual HRESULT __stdcall get_version (
+        /*[out,retval]*/ BSTR * strVersion ) = 0;
+      virtual HRESULT __stdcall put_disableOutputEscaping (
+        /*[in]*/ VARIANT_BOOL fValue ) = 0;
+      virtual HRESULT __stdcall get_disableOutputEscaping (
+        /*[out,retval]*/ VARIANT_BOOL * fValue ) = 0;
+      virtual HRESULT __stdcall raw_flush ( ) = 0;
+};
+
+struct __declspec(uuid("862629ac-771a-47b2-8337-4e6843c1be90"))
+ISAXDeclHandler : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT elementDecl (
+        unsigned short * pwchName,
+        int cchName,
+        unsigned short * pwchModel,
+        int cchModel );
+    HRESULT attributeDecl (
+        unsigned short * pwchElementName,
+        int cchElementName,
+        unsigned short * pwchAttributeName,
+        int cchAttributeName,
+        unsigned short * pwchType,
+        int cchType,
+        unsigned short * pwchValueDefault,
+        int cchValueDefault,
+        unsigned short * pwchValue,
+        int cchValue );
+    HRESULT internalEntityDecl (
+        unsigned short * pwchName,
+        int cchName,
+        unsigned short * pwchValue,
+        int cchValue );
+    HRESULT externalEntityDecl (
+        unsigned short * pwchName,
+        int cchName,
+        unsigned short * pwchPublicId,
+        int cchPublicId,
+        unsigned short * pwchSystemId,
+        int cchSystemId );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_elementDecl (
+        /*[in]*/ unsigned short * pwchName,
+        /*[in]*/ int cchName,
+        /*[in]*/ unsigned short * pwchModel,
+        /*[in]*/ int cchModel ) = 0;
+      virtual HRESULT __stdcall raw_attributeDecl (
+        /*[in]*/ unsigned short * pwchElementName,
+        /*[in]*/ int cchElementName,
+        /*[in]*/ unsigned short * pwchAttributeName,
+        /*[in]*/ int cchAttributeName,
+        /*[in]*/ unsigned short * pwchType,
+        /*[in]*/ int cchType,
+        /*[in]*/ unsigned short * pwchValueDefault,
+        /*[in]*/ int cchValueDefault,
+        /*[in]*/ unsigned short * pwchValue,
+        /*[in]*/ int cchValue ) = 0;
+      virtual HRESULT __stdcall raw_internalEntityDecl (
+        /*[in]*/ unsigned short * pwchName,
+        /*[in]*/ int cchName,
+        /*[in]*/ unsigned short * pwchValue,
+        /*[in]*/ int cchValue ) = 0;
+      virtual HRESULT __stdcall raw_externalEntityDecl (
+        /*[in]*/ unsigned short * pwchName,
+        /*[in]*/ int cchName,
+        /*[in]*/ unsigned short * pwchPublicId,
+        /*[in]*/ int cchPublicId,
+        /*[in]*/ unsigned short * pwchSystemId,
+        /*[in]*/ int cchSystemId ) = 0;
+};
+
+struct __declspec(uuid("7f85d5f5-47a8-4497-bda5-84ba04819ea6"))
+ISAXLexicalHandler : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT startDTD (
+        unsigned short * pwchName,
+        int cchName,
+        unsigned short * pwchPublicId,
+        int cchPublicId,
+        unsigned short * pwchSystemId,
+        int cchSystemId );
+    HRESULT endDTD ( );
+    HRESULT startEntity (
+        unsigned short * pwchName,
+        int cchName );
+    HRESULT endEntity (
+        unsigned short * pwchName,
+        int cchName );
+    HRESULT startCDATA ( );
+    HRESULT endCDATA ( );
+    HRESULT comment (
+        unsigned short * pwchChars,
+        int cchChars );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_startDTD (
+        /*[in]*/ unsigned short * pwchName,
+        /*[in]*/ int cchName,
+        /*[in]*/ unsigned short * pwchPublicId,
+        /*[in]*/ int cchPublicId,
+        /*[in]*/ unsigned short * pwchSystemId,
+        /*[in]*/ int cchSystemId ) = 0;
+      virtual HRESULT __stdcall raw_endDTD ( ) = 0;
+      virtual HRESULT __stdcall raw_startEntity (
+        /*[in]*/ unsigned short * pwchName,
+        /*[in]*/ int cchName ) = 0;
+      virtual HRESULT __stdcall raw_endEntity (
+        /*[in]*/ unsigned short * pwchName,
+        /*[in]*/ int cchName ) = 0;
+      virtual HRESULT __stdcall raw_startCDATA ( ) = 0;
+      virtual HRESULT __stdcall raw_endCDATA ( ) = 0;
+      virtual HRESULT __stdcall raw_comment (
+        /*[in]*/ unsigned short * pwchChars,
+        /*[in]*/ int cchChars ) = 0;
+};
+
+struct __declspec(uuid("e8917260-7579-4be1-b5dd-7afbfa6f077b"))
+IVBSAXDeclHandler : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT elementDecl (
+        BSTR * strName,
+        BSTR * strModel );
+    HRESULT attributeDecl (
+        BSTR * strElementName,
+        BSTR * strAttributeName,
+        BSTR * strType,
+        BSTR * strValueDefault,
+        BSTR * strValue );
+    HRESULT internalEntityDecl (
+        BSTR * strName,
+        BSTR * strValue );
+    HRESULT externalEntityDecl (
+        BSTR * strName,
+        BSTR * strPublicId,
+        BSTR * strSystemId );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_elementDecl (
+        /*[in,out]*/ BSTR * strName,
+        /*[in,out]*/ BSTR * strModel ) = 0;
+      virtual HRESULT __stdcall raw_attributeDecl (
+        /*[in,out]*/ BSTR * strElementName,
+        /*[in,out]*/ BSTR * strAttributeName,
+        /*[in,out]*/ BSTR * strType,
+        /*[in,out]*/ BSTR * strValueDefault,
+        /*[in,out]*/ BSTR * strValue ) = 0;
+      virtual HRESULT __stdcall raw_internalEntityDecl (
+        /*[in,out]*/ BSTR * strName,
+        /*[in,out]*/ BSTR * strValue ) = 0;
+      virtual HRESULT __stdcall raw_externalEntityDecl (
+        /*[in,out]*/ BSTR * strName,
+        /*[in,out]*/ BSTR * strPublicId,
+        /*[in,out]*/ BSTR * strSystemId ) = 0;
+};
+
+struct __declspec(uuid("032aac35-8c0e-4d9d-979f-e3b702935576"))
+IVBSAXLexicalHandler : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT startDTD (
+        BSTR * strName,
+        BSTR * strPublicId,
+        BSTR * strSystemId );
+    HRESULT endDTD ( );
+    HRESULT startEntity (
+        BSTR * strName );
+    HRESULT endEntity (
+        BSTR * strName );
+    HRESULT startCDATA ( );
+    HRESULT endCDATA ( );
+    HRESULT comment (
+        BSTR * strChars );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_startDTD (
+        /*[in,out]*/ BSTR * strName,
+        /*[in,out]*/ BSTR * strPublicId,
+        /*[in,out]*/ BSTR * strSystemId ) = 0;
+      virtual HRESULT __stdcall raw_endDTD ( ) = 0;
+      virtual HRESULT __stdcall raw_startEntity (
+        /*[in,out]*/ BSTR * strName ) = 0;
+      virtual HRESULT __stdcall raw_endEntity (
+        /*[in,out]*/ BSTR * strName ) = 0;
+      virtual HRESULT __stdcall raw_startCDATA ( ) = 0;
+      virtual HRESULT __stdcall raw_endCDATA ( ) = 0;
+      virtual HRESULT __stdcall raw_comment (
+        /*[in,out]*/ BSTR * strChars ) = 0;
+};
+
+struct __declspec(uuid("88d96a10-f192-11d4-a65f-0040963251e5"))
+MXHTMLWriter60;
+    // [ default ] interface IMXWriter
+    // interface ISAXContentHandler
+    // interface ISAXDeclHandler
+    // interface ISAXDTDHandler
+    // interface ISAXErrorHandler
+    // interface ISAXLexicalHandler
+    // interface IVBSAXContentHandler
+    // interface IVBSAXDeclHandler
+    // interface IVBSAXDTDHandler
+    // interface IVBSAXErrorHandler
+    // interface IVBSAXLexicalHandler
+
+struct __declspec(uuid("88d96a0e-f192-11d4-a65f-0040963251e5"))
+SAXAttributes60;
+    // [ default ] interface IMXAttributes
+    // interface IVBSAXAttributes
+    // interface ISAXAttributes
+
+struct __declspec(uuid("f10d27cc-3ec0-415c-8ed8-77ab1c5e7262"))
+IMXAttributes : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT addAttribute (
+        _bstr_t strURI,
+        _bstr_t strLocalName,
+        _bstr_t strQName,
+        _bstr_t strType,
+        _bstr_t strValue );
+    HRESULT addAttributeFromIndex (
+        const _variant_t & varAtts,
+        int nIndex );
+    HRESULT clear ( );
+    HRESULT removeAttribute (
+        int nIndex );
+    HRESULT setAttribute (
+        int nIndex,
+        _bstr_t strURI,
+        _bstr_t strLocalName,
+        _bstr_t strQName,
+        _bstr_t strType,
+        _bstr_t strValue );
+    HRESULT setAttributes (
+        const _variant_t & varAtts );
+    HRESULT setLocalName (
+        int nIndex,
+        _bstr_t strLocalName );
+    HRESULT setQName (
+        int nIndex,
+        _bstr_t strQName );
+    HRESULT setType (
+        int nIndex,
+        _bstr_t strType );
+    HRESULT setURI (
+        int nIndex,
+        _bstr_t strURI );
+    HRESULT setValue (
+        int nIndex,
+        _bstr_t strValue );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_addAttribute (
+        /*[in]*/ BSTR strURI,
+        /*[in]*/ BSTR strLocalName,
+        /*[in]*/ BSTR strQName,
+        /*[in]*/ BSTR strType,
+        /*[in]*/ BSTR strValue ) = 0;
+      virtual HRESULT __stdcall raw_addAttributeFromIndex (
+        /*[in]*/ VARIANT varAtts,
+        /*[in]*/ int nIndex ) = 0;
+      virtual HRESULT __stdcall raw_clear ( ) = 0;
+      virtual HRESULT __stdcall raw_removeAttribute (
+        /*[in]*/ int nIndex ) = 0;
+      virtual HRESULT __stdcall raw_setAttribute (
+        /*[in]*/ int nIndex,
+        /*[in]*/ BSTR strURI,
+        /*[in]*/ BSTR strLocalName,
+        /*[in]*/ BSTR strQName,
+        /*[in]*/ BSTR strType,
+        /*[in]*/ BSTR strValue ) = 0;
+      virtual HRESULT __stdcall raw_setAttributes (
+        /*[in]*/ VARIANT varAtts ) = 0;
+      virtual HRESULT __stdcall raw_setLocalName (
+        /*[in]*/ int nIndex,
+        /*[in]*/ BSTR strLocalName ) = 0;
+      virtual HRESULT __stdcall raw_setQName (
+        /*[in]*/ int nIndex,
+        /*[in]*/ BSTR strQName ) = 0;
+      virtual HRESULT __stdcall raw_setType (
+        /*[in]*/ int nIndex,
+        /*[in]*/ BSTR strType ) = 0;
+      virtual HRESULT __stdcall raw_setURI (
+        /*[in]*/ int nIndex,
+        /*[in]*/ BSTR strURI ) = 0;
+      virtual HRESULT __stdcall raw_setValue (
+        /*[in]*/ int nIndex,
+        /*[in]*/ BSTR strValue ) = 0;
+};
+
+struct __declspec(uuid("88d96a11-f192-11d4-a65f-0040963251e5"))
+MXNamespaceManager60;
+    // [ default ] interface IVBMXNamespaceManager
+    // interface IMXNamespaceManager
+
 struct __declspec(uuid("c90352f4-643c-4fbc-bb23-e996eb2d51fd"))
 IMXNamespacePrefixes : IDispatch
 {
@@ -2194,321 +2292,6 @@ IMXNamespacePrefixes : IDispatch
       virtual HRESULT __stdcall get__newEnum (
         /*[out,retval]*/ IUnknown * * ppUnk ) = 0;
 };
-
-struct __declspec(uuid("f6d90f11-9c73-11d3-b32e-00c04f990bb4"))
-DOMDocument;
-    // [ default ] interface IXMLDOMDocument2
-    // [ default, source ] dispinterface XMLDOMDocumentEvents
-
-struct __declspec(uuid("f5078f1b-c551-11d3-89b9-0000f81fe221"))
-DOMDocument26;
-    // [ default ] interface IXMLDOMDocument2
-    // [ default, source ] dispinterface XMLDOMDocumentEvents
-
-struct __declspec(uuid("f5078f32-c551-11d3-89b9-0000f81fe221"))
-DOMDocument30;
-    // [ default ] interface IXMLDOMDocument2
-    // [ default, source ] dispinterface XMLDOMDocumentEvents
-
-struct __declspec(uuid("88d969c0-f192-11d4-a65f-0040963251e5"))
-DOMDocument40;
-    // [ default ] interface IXMLDOMDocument2
-    // [ default, source ] dispinterface XMLDOMDocumentEvents
-
-struct __declspec(uuid("88d96a05-f192-11d4-a65f-0040963251e5"))
-DOMDocument60;
-    // [ default ] interface IXMLDOMDocument3
-    // [ default, source ] dispinterface XMLDOMDocumentEvents
-
-struct __declspec(uuid("f6d90f12-9c73-11d3-b32e-00c04f990bb4"))
-FreeThreadedDOMDocument;
-    // [ default ] interface IXMLDOMDocument2
-    // [ default, source ] dispinterface XMLDOMDocumentEvents
-
-struct __declspec(uuid("f5078f1c-c551-11d3-89b9-0000f81fe221"))
-FreeThreadedDOMDocument26;
-    // [ default ] interface IXMLDOMDocument2
-    // [ default, source ] dispinterface XMLDOMDocumentEvents
-
-struct __declspec(uuid("f5078f33-c551-11d3-89b9-0000f81fe221"))
-FreeThreadedDOMDocument30;
-    // [ default ] interface IXMLDOMDocument2
-    // [ default, source ] dispinterface XMLDOMDocumentEvents
-
-struct __declspec(uuid("88d969c1-f192-11d4-a65f-0040963251e5"))
-FreeThreadedDOMDocument40;
-    // [ default ] interface IXMLDOMDocument2
-    // [ default, source ] dispinterface XMLDOMDocumentEvents
-
-struct __declspec(uuid("88d96a06-f192-11d4-a65f-0040963251e5"))
-FreeThreadedDOMDocument60;
-    // [ default ] interface IXMLDOMDocument3
-    // [ default, source ] dispinterface XMLDOMDocumentEvents
-
-struct __declspec(uuid("373984c9-b845-449b-91e7-45ac83036ade"))
-XMLSchemaCache;
-    // [ default ] interface IXMLDOMSchemaCollection
-
-struct __declspec(uuid("f5078f1d-c551-11d3-89b9-0000f81fe221"))
-XMLSchemaCache26;
-    // [ default ] interface IXMLDOMSchemaCollection
-
-struct __declspec(uuid("f5078f34-c551-11d3-89b9-0000f81fe221"))
-XMLSchemaCache30;
-    // [ default ] interface IXMLDOMSchemaCollection
-
-struct __declspec(uuid("88d969c2-f192-11d4-a65f-0040963251e5"))
-XMLSchemaCache40;
-    // [ default ] interface IXMLDOMSchemaCollection2
-
-struct __declspec(uuid("88d96a07-f192-11d4-a65f-0040963251e5"))
-XMLSchemaCache60;
-    // [ default ] interface IXMLDOMSchemaCollection2
-
-struct __declspec(uuid("2933bf94-7b36-11d2-b20e-00c04f983e60"))
-XSLTemplate;
-    // [ default ] interface IXSLTemplate
-
-struct __declspec(uuid("f5078f21-c551-11d3-89b9-0000f81fe221"))
-XSLTemplate26;
-    // [ default ] interface IXSLTemplate
-
-struct __declspec(uuid("f5078f36-c551-11d3-89b9-0000f81fe221"))
-XSLTemplate30;
-    // [ default ] interface IXSLTemplate
-
-struct __declspec(uuid("88d969c3-f192-11d4-a65f-0040963251e5"))
-XSLTemplate40;
-    // [ default ] interface IXSLTemplate
-
-struct __declspec(uuid("88d96a08-f192-11d4-a65f-0040963251e5"))
-XSLTemplate60;
-    // [ default ] interface IXSLTemplate
-
-struct __declspec(uuid("f6d90f14-9c73-11d3-b32e-00c04f990bb4"))
-DSOControl;
-    // [ default ] interface IDSOControl
-
-struct __declspec(uuid("f5078f1f-c551-11d3-89b9-0000f81fe221"))
-DSOControl26;
-    // [ default ] interface IDSOControl
-
-struct __declspec(uuid("f5078f39-c551-11d3-89b9-0000f81fe221"))
-DSOControl30;
-    // [ default ] interface IDSOControl
-
-struct __declspec(uuid("88d969c4-f192-11d4-a65f-0040963251e5"))
-DSOControl40;
-    // [ default ] interface IDSOControl
-
-struct __declspec(uuid("f6d90f16-9c73-11d3-b32e-00c04f990bb4"))
-XMLHTTP;
-    // [ default ] interface IXMLHTTPRequest
-
-struct __declspec(uuid("f5078f1e-c551-11d3-89b9-0000f81fe221"))
-XMLHTTP26;
-    // [ default ] interface IXMLHTTPRequest
-
-struct __declspec(uuid("f5078f35-c551-11d3-89b9-0000f81fe221"))
-XMLHTTP30;
-    // [ default ] interface IXMLHTTPRequest
-
-struct __declspec(uuid("88d969c5-f192-11d4-a65f-0040963251e5"))
-XMLHTTP40;
-    // [ default ] interface IXMLHTTPRequest
-
-struct __declspec(uuid("88d96a0a-f192-11d4-a65f-0040963251e5"))
-XMLHTTP60;
-    // [ default ] interface IXMLHTTPRequest
-
-struct __declspec(uuid("afba6b42-5692-48ea-8141-dc517dcf0ef1"))
-ServerXMLHTTP;
-    // [ default ] interface IServerXMLHTTPRequest
-
-struct __declspec(uuid("afb40ffd-b609-40a3-9828-f88bbe11e4e3"))
-ServerXMLHTTP30;
-    // [ default ] interface IServerXMLHTTPRequest
-
-struct __declspec(uuid("88d969c6-f192-11d4-a65f-0040963251e5"))
-ServerXMLHTTP40;
-    // [ default ] interface IServerXMLHTTPRequest2
-
-struct __declspec(uuid("88d96a0b-f192-11d4-a65f-0040963251e5"))
-ServerXMLHTTP60;
-    // [ default ] interface IServerXMLHTTPRequest2
-
-struct __declspec(uuid("079aa557-4a18-424a-8eee-e39f0a8d41b9"))
-SAXXMLReader;
-    // [ default ] interface IVBSAXXMLReader
-    // interface ISAXXMLReader
-    // interface IMXReaderControl
-
-struct __declspec(uuid("3124c396-fb13-4836-a6ad-1317f1713688"))
-SAXXMLReader30;
-    // [ default ] interface IVBSAXXMLReader
-    // interface ISAXXMLReader
-    // interface IMXReaderControl
-
-struct __declspec(uuid("7c6e29bc-8b8b-4c3d-859e-af6cd158be0f"))
-SAXXMLReader40;
-    // [ default ] interface IVBSAXXMLReader
-    // interface ISAXXMLReader
-
-struct __declspec(uuid("88d96a0c-f192-11d4-a65f-0040963251e5"))
-SAXXMLReader60;
-    // [ default ] interface IVBSAXXMLReader
-    // interface ISAXXMLReader
-
-struct __declspec(uuid("fc220ad8-a72a-4ee8-926e-0b7ad152a020"))
-MXXMLWriter;
-    // [ default ] interface IMXWriter
-    // interface ISAXContentHandler
-    // interface ISAXErrorHandler
-    // interface ISAXDTDHandler
-    // interface ISAXLexicalHandler
-    // interface ISAXDeclHandler
-    // interface IVBSAXContentHandler
-    // interface IVBSAXDeclHandler
-    // interface IVBSAXDTDHandler
-    // interface IVBSAXErrorHandler
-    // interface IVBSAXLexicalHandler
-
-struct __declspec(uuid("3d813dfe-6c91-4a4e-8f41-04346a841d9c"))
-MXXMLWriter30;
-    // [ default ] interface IMXWriter
-    // interface ISAXContentHandler
-    // interface ISAXDeclHandler
-    // interface ISAXDTDHandler
-    // interface ISAXErrorHandler
-    // interface ISAXLexicalHandler
-    // interface IVBSAXContentHandler
-    // interface IVBSAXDeclHandler
-    // interface IVBSAXDTDHandler
-    // interface IVBSAXErrorHandler
-    // interface IVBSAXLexicalHandler
-
-struct __declspec(uuid("88d969c8-f192-11d4-a65f-0040963251e5"))
-MXXMLWriter40;
-    // [ default ] interface IMXWriter
-    // interface ISAXContentHandler
-    // interface ISAXDeclHandler
-    // interface ISAXDTDHandler
-    // interface ISAXErrorHandler
-    // interface ISAXLexicalHandler
-    // interface IVBSAXContentHandler
-    // interface IVBSAXDeclHandler
-    // interface IVBSAXDTDHandler
-    // interface IVBSAXErrorHandler
-    // interface IVBSAXLexicalHandler
-
-struct __declspec(uuid("88d96a0f-f192-11d4-a65f-0040963251e5"))
-MXXMLWriter60;
-    // [ default ] interface IMXWriter
-    // interface ISAXContentHandler
-    // interface ISAXDeclHandler
-    // interface ISAXDTDHandler
-    // interface ISAXErrorHandler
-    // interface ISAXLexicalHandler
-    // interface IVBSAXContentHandler
-    // interface IVBSAXDeclHandler
-    // interface IVBSAXDTDHandler
-    // interface IVBSAXErrorHandler
-    // interface IVBSAXLexicalHandler
-
-struct __declspec(uuid("a4c23ec3-6b70-4466-9127-550077239978"))
-MXHTMLWriter;
-    // [ default ] interface IMXWriter
-    // interface ISAXContentHandler
-    // interface ISAXErrorHandler
-    // interface ISAXDTDHandler
-    // interface ISAXLexicalHandler
-    // interface ISAXDeclHandler
-    // interface IVBSAXContentHandler
-    // interface IVBSAXDeclHandler
-    // interface IVBSAXDTDHandler
-    // interface IVBSAXErrorHandler
-    // interface IVBSAXLexicalHandler
-
-struct __declspec(uuid("853d1540-c1a7-4aa9-a226-4d3bd301146d"))
-MXHTMLWriter30;
-    // [ default ] interface IMXWriter
-    // interface ISAXContentHandler
-    // interface ISAXDeclHandler
-    // interface ISAXDTDHandler
-    // interface ISAXErrorHandler
-    // interface ISAXLexicalHandler
-    // interface IVBSAXContentHandler
-    // interface IVBSAXDeclHandler
-    // interface IVBSAXDTDHandler
-    // interface IVBSAXErrorHandler
-    // interface IVBSAXLexicalHandler
-
-struct __declspec(uuid("88d969c9-f192-11d4-a65f-0040963251e5"))
-MXHTMLWriter40;
-    // [ default ] interface IMXWriter
-    // interface ISAXContentHandler
-    // interface ISAXDeclHandler
-    // interface ISAXDTDHandler
-    // interface ISAXErrorHandler
-    // interface ISAXLexicalHandler
-    // interface IVBSAXContentHandler
-    // interface IVBSAXDeclHandler
-    // interface IVBSAXDTDHandler
-    // interface IVBSAXErrorHandler
-    // interface IVBSAXLexicalHandler
-
-struct __declspec(uuid("88d96a10-f192-11d4-a65f-0040963251e5"))
-MXHTMLWriter60;
-    // [ default ] interface IMXWriter
-    // interface ISAXContentHandler
-    // interface ISAXDeclHandler
-    // interface ISAXDTDHandler
-    // interface ISAXErrorHandler
-    // interface ISAXLexicalHandler
-    // interface IVBSAXContentHandler
-    // interface IVBSAXDeclHandler
-    // interface IVBSAXDTDHandler
-    // interface IVBSAXErrorHandler
-    // interface IVBSAXLexicalHandler
-
-struct __declspec(uuid("4dd441ad-526d-4a77-9f1b-9841ed802fb0"))
-SAXAttributes;
-    // [ default ] interface IMXAttributes
-    // interface IVBSAXAttributes
-    // interface ISAXAttributes
-
-struct __declspec(uuid("3e784a01-f3ae-4dc0-9354-9526b9370eba"))
-SAXAttributes30;
-    // [ default ] interface IMXAttributes
-    // interface IVBSAXAttributes
-    // interface ISAXAttributes
-
-struct __declspec(uuid("88d969ca-f192-11d4-a65f-0040963251e5"))
-SAXAttributes40;
-    // [ default ] interface IMXAttributes
-    // interface IVBSAXAttributes
-    // interface ISAXAttributes
-
-struct __declspec(uuid("88d96a0e-f192-11d4-a65f-0040963251e5"))
-SAXAttributes60;
-    // [ default ] interface IMXAttributes
-    // interface IVBSAXAttributes
-    // interface ISAXAttributes
-
-struct __declspec(uuid("88d969d5-f192-11d4-a65f-0040963251e5"))
-MXNamespaceManager;
-    // [ default ] interface IVBMXNamespaceManager
-    // interface IMXNamespaceManager
-
-struct __declspec(uuid("88d969d6-f192-11d4-a65f-0040963251e5"))
-MXNamespaceManager40;
-    // [ default ] interface IVBMXNamespaceManager
-    // interface IMXNamespaceManager
-
-struct __declspec(uuid("88d96a11-f192-11d4-a65f-0040963251e5"))
-MXNamespaceManager60;
-    // [ default ] interface IVBMXNamespaceManager
-    // interface IMXNamespaceManager
 
 struct __declspec(uuid("2933bf80-7b36-11d2-b20e-00c04f983e60"))
 IXMLDOMNode : IDispatch
@@ -3259,134 +3042,6 @@ IXMLDOMDocument : IXMLDOMNode
         /*[in]*/ VARIANT _arg1 ) = 0;
 };
 
-struct __declspec(uuid("373984c8-b845-449b-91e7-45ac83036ade"))
-IXMLDOMSchemaCollection : IDispatch
-{
-    //
-    // Property data
-    //
-
-    __declspec(property(get=GetnamespaceURI))
-    _bstr_t namespaceURI[];
-    __declspec(property(get=Getlength))
-    long length;
-    __declspec(property(get=Get_newEnum))
-    IUnknownPtr _newEnum;
-
-    //
-    // Wrapper methods for error-handling
-    //
-
-    HRESULT add (
-        _bstr_t namespaceURI,
-        const _variant_t & var );
-    IXMLDOMNodePtr get (
-        _bstr_t namespaceURI );
-    HRESULT remove (
-        _bstr_t namespaceURI );
-    long Getlength ( );
-    _bstr_t GetnamespaceURI (
-        long index );
-    HRESULT addCollection (
-        struct IXMLDOMSchemaCollection * otherCollection );
-    IUnknownPtr Get_newEnum ( );
-
-    //
-    // Raw methods provided by interface
-    //
-
-      virtual HRESULT __stdcall raw_add (
-        /*[in]*/ BSTR namespaceURI,
-        /*[in]*/ VARIANT var ) = 0;
-      virtual HRESULT __stdcall raw_get (
-        /*[in]*/ BSTR namespaceURI,
-        /*[out,retval]*/ struct IXMLDOMNode * * schemaNode ) = 0;
-      virtual HRESULT __stdcall raw_remove (
-        /*[in]*/ BSTR namespaceURI ) = 0;
-      virtual HRESULT __stdcall get_length (
-        /*[out,retval]*/ long * length ) = 0;
-      virtual HRESULT __stdcall get_namespaceURI (
-        /*[in]*/ long index,
-        /*[out,retval]*/ BSTR * length ) = 0;
-      virtual HRESULT __stdcall raw_addCollection (
-        /*[in]*/ struct IXMLDOMSchemaCollection * otherCollection ) = 0;
-      virtual HRESULT __stdcall get__newEnum (
-        /*[out,retval]*/ IUnknown * * ppUnk ) = 0;
-};
-
-struct __declspec(uuid("2933bf95-7b36-11d2-b20e-00c04f983e60"))
-IXMLDOMDocument2 : IXMLDOMDocument
-{
-    //
-    // Property data
-    //
-
-    __declspec(property(get=Getnamespaces))
-    IXMLDOMSchemaCollectionPtr namespaces;
-    __declspec(property(get=Getschemas,put=PutRefschemas))
-    _variant_t schemas;
-
-    //
-    // Wrapper methods for error-handling
-    //
-
-    IXMLDOMSchemaCollectionPtr Getnamespaces ( );
-    _variant_t Getschemas ( );
-    void PutRefschemas (
-        const _variant_t & otherCollection );
-    IXMLDOMParseErrorPtr validate ( );
-    HRESULT setProperty (
-        _bstr_t name,
-        const _variant_t & value );
-    _variant_t getProperty (
-        _bstr_t name );
-
-    //
-    // Raw methods provided by interface
-    //
-
-      virtual HRESULT __stdcall get_namespaces (
-        /*[out,retval]*/ struct IXMLDOMSchemaCollection * * namespaceCollection ) = 0;
-      virtual HRESULT __stdcall get_schemas (
-        /*[out,retval]*/ VARIANT * otherCollection ) = 0;
-      virtual HRESULT __stdcall putref_schemas (
-        /*[in]*/ VARIANT otherCollection ) = 0;
-      virtual HRESULT __stdcall raw_validate (
-        /*[out,retval]*/ struct IXMLDOMParseError * * errorObj ) = 0;
-      virtual HRESULT __stdcall raw_setProperty (
-        /*[in]*/ BSTR name,
-        /*[in]*/ VARIANT value ) = 0;
-      virtual HRESULT __stdcall raw_getProperty (
-        /*[in]*/ BSTR name,
-        /*[out,retval]*/ VARIANT * value ) = 0;
-};
-
-struct __declspec(uuid("2933bf96-7b36-11d2-b20e-00c04f983e60"))
-IXMLDOMDocument3 : IXMLDOMDocument2
-{
-    //
-    // Wrapper methods for error-handling
-    //
-
-    IXMLDOMParseErrorPtr validateNode (
-        struct IXMLDOMNode * node );
-    IXMLDOMNodePtr importNode (
-        struct IXMLDOMNode * node,
-        VARIANT_BOOL deep );
-
-    //
-    // Raw methods provided by interface
-    //
-
-      virtual HRESULT __stdcall raw_validateNode (
-        /*[in]*/ struct IXMLDOMNode * node,
-        /*[out,retval]*/ struct IXMLDOMParseError * * errorObj ) = 0;
-      virtual HRESULT __stdcall raw_importNode (
-        /*[in]*/ struct IXMLDOMNode * node,
-        /*[in]*/ VARIANT_BOOL deep,
-        /*[out,retval]*/ struct IXMLDOMNode * * clone ) = 0;
-};
-
 struct __declspec(uuid("2933bf8c-7b36-11d2-b20e-00c04f983e60"))
 IXMLDOMNotation : IXMLDOMNode
 {
@@ -3587,46 +3242,132 @@ IXMLDOMSelection : IXMLDOMNodeList
         /*[in]*/ VARIANT value ) = 0;
 };
 
-struct __declspec(uuid("310afa62-0575-11d2-9ca9-0060b0ec3d39"))
-IDSOControl : IDispatch
+struct __declspec(uuid("373984c8-b845-449b-91e7-45ac83036ade"))
+IXMLDOMSchemaCollection : IDispatch
 {
     //
     // Property data
     //
 
-    __declspec(property(get=GetXMLDocument,put=PutXMLDocument))
-    IXMLDOMDocumentPtr XMLDocument;
-    __declspec(property(get=GetJavaDSOCompatible,put=PutJavaDSOCompatible))
-    long JavaDSOCompatible;
-    __declspec(property(get=GetreadyState))
-    long readyState;
+    __declspec(property(get=GetnamespaceURI))
+    _bstr_t namespaceURI[];
+    __declspec(property(get=Getlength))
+    long length;
+    __declspec(property(get=Get_newEnum))
+    IUnknownPtr _newEnum;
 
     //
     // Wrapper methods for error-handling
     //
 
-    IXMLDOMDocumentPtr GetXMLDocument ( );
-    void PutXMLDocument (
-        struct IXMLDOMDocument * ppDoc );
-    long GetJavaDSOCompatible ( );
-    void PutJavaDSOCompatible (
-        long fJavaDSOCompatible );
-    long GetreadyState ( );
+    HRESULT add (
+        _bstr_t namespaceURI,
+        const _variant_t & var );
+    IXMLDOMNodePtr get (
+        _bstr_t namespaceURI );
+    HRESULT remove (
+        _bstr_t namespaceURI );
+    long Getlength ( );
+    _bstr_t GetnamespaceURI (
+        long index );
+    HRESULT addCollection (
+        struct IXMLDOMSchemaCollection * otherCollection );
+    IUnknownPtr Get_newEnum ( );
 
     //
     // Raw methods provided by interface
     //
 
-      virtual HRESULT __stdcall get_XMLDocument (
-        /*[out,retval]*/ struct IXMLDOMDocument * * ppDoc ) = 0;
-      virtual HRESULT __stdcall put_XMLDocument (
-        /*[in]*/ struct IXMLDOMDocument * ppDoc ) = 0;
-      virtual HRESULT __stdcall get_JavaDSOCompatible (
-        /*[out,retval]*/ long * fJavaDSOCompatible ) = 0;
-      virtual HRESULT __stdcall put_JavaDSOCompatible (
-        /*[in]*/ long fJavaDSOCompatible ) = 0;
-      virtual HRESULT __stdcall get_readyState (
-        /*[out,retval]*/ long * state ) = 0;
+      virtual HRESULT __stdcall raw_add (
+        /*[in]*/ BSTR namespaceURI,
+        /*[in]*/ VARIANT var ) = 0;
+      virtual HRESULT __stdcall raw_get (
+        /*[in]*/ BSTR namespaceURI,
+        /*[out,retval]*/ struct IXMLDOMNode * * schemaNode ) = 0;
+      virtual HRESULT __stdcall raw_remove (
+        /*[in]*/ BSTR namespaceURI ) = 0;
+      virtual HRESULT __stdcall get_length (
+        /*[out,retval]*/ long * length ) = 0;
+      virtual HRESULT __stdcall get_namespaceURI (
+        /*[in]*/ long index,
+        /*[out,retval]*/ BSTR * length ) = 0;
+      virtual HRESULT __stdcall raw_addCollection (
+        /*[in]*/ struct IXMLDOMSchemaCollection * otherCollection ) = 0;
+      virtual HRESULT __stdcall get__newEnum (
+        /*[out,retval]*/ IUnknown * * ppUnk ) = 0;
+};
+
+struct __declspec(uuid("2933bf95-7b36-11d2-b20e-00c04f983e60"))
+IXMLDOMDocument2 : IXMLDOMDocument
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=Getnamespaces))
+    IXMLDOMSchemaCollectionPtr namespaces;
+    __declspec(property(get=Getschemas,put=PutRefschemas))
+    _variant_t schemas;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IXMLDOMSchemaCollectionPtr Getnamespaces ( );
+    _variant_t Getschemas ( );
+    void PutRefschemas (
+        const _variant_t & otherCollection );
+    IXMLDOMParseErrorPtr validate ( );
+    HRESULT setProperty (
+        _bstr_t name,
+        const _variant_t & value );
+    _variant_t getProperty (
+        _bstr_t name );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_namespaces (
+        /*[out,retval]*/ struct IXMLDOMSchemaCollection * * namespaceCollection ) = 0;
+      virtual HRESULT __stdcall get_schemas (
+        /*[out,retval]*/ VARIANT * otherCollection ) = 0;
+      virtual HRESULT __stdcall putref_schemas (
+        /*[in]*/ VARIANT otherCollection ) = 0;
+      virtual HRESULT __stdcall raw_validate (
+        /*[out,retval]*/ struct IXMLDOMParseError * * errorObj ) = 0;
+      virtual HRESULT __stdcall raw_setProperty (
+        /*[in]*/ BSTR name,
+        /*[in]*/ VARIANT value ) = 0;
+      virtual HRESULT __stdcall raw_getProperty (
+        /*[in]*/ BSTR name,
+        /*[out,retval]*/ VARIANT * value ) = 0;
+};
+
+struct __declspec(uuid("2933bf96-7b36-11d2-b20e-00c04f983e60"))
+IXMLDOMDocument3 : IXMLDOMDocument2
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IXMLDOMParseErrorPtr validateNode (
+        struct IXMLDOMNode * node );
+    IXMLDOMNodePtr importNode (
+        struct IXMLDOMNode * node,
+        VARIANT_BOOL deep );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_validateNode (
+        /*[in]*/ struct IXMLDOMNode * node,
+        /*[out,retval]*/ struct IXMLDOMParseError * * errorObj ) = 0;
+      virtual HRESULT __stdcall raw_importNode (
+        /*[in]*/ struct IXMLDOMNode * node,
+        /*[in]*/ VARIANT_BOOL deep,
+        /*[out,retval]*/ struct IXMLDOMNode * * clone ) = 0;
 };
 
 struct __declspec(uuid("c90352f5-643c-4fbc-bb23-e996eb2d51fd"))
@@ -3712,19 +3453,19 @@ IMXNamespaceManager : IUnknown
         VARIANT_BOOL fDeep );
     HRESULT popContext ( );
     HRESULT declarePrefix (
-        unsigned short * prefix,
-        unsigned short * namespaceURI );
+        LPWSTR prefix,
+        LPWSTR namespaceURI );
     HRESULT getDeclaredPrefix (
         long nIndex,
         unsigned short * pwchPrefix,
         int * pcchPrefix );
     HRESULT getPrefix (
-        unsigned short * pwszNamespaceURI,
+        LPWSTR pwszNamespaceURI,
         long nIndex,
         unsigned short * pwchPrefix,
         int * pcchPrefix );
     HRESULT getURI (
-        unsigned short * pwchPrefix,
+        LPWSTR pwchPrefix,
         struct IXMLDOMNode * pContextNode,
         unsigned short * pwchUri,
         int * pcchUri );
@@ -3744,19 +3485,19 @@ IMXNamespaceManager : IUnknown
         /*[in]*/ VARIANT_BOOL fDeep ) = 0;
       virtual HRESULT __stdcall raw_popContext ( ) = 0;
       virtual HRESULT __stdcall raw_declarePrefix (
-        /*[in]*/ unsigned short * prefix,
-        /*[in]*/ unsigned short * namespaceURI ) = 0;
+        /*[in]*/ LPWSTR prefix,
+        /*[in]*/ LPWSTR namespaceURI ) = 0;
       virtual HRESULT __stdcall raw_getDeclaredPrefix (
         /*[in]*/ long nIndex,
         /*[in,out]*/ unsigned short * pwchPrefix,
         /*[in,out]*/ int * pcchPrefix ) = 0;
       virtual HRESULT __stdcall raw_getPrefix (
-        /*[in]*/ unsigned short * pwszNamespaceURI,
+        /*[in]*/ LPWSTR pwszNamespaceURI,
         /*[in]*/ long nIndex,
         /*[in,out]*/ unsigned short * pwchPrefix,
         /*[in,out]*/ int * pcchPrefix ) = 0;
       virtual HRESULT __stdcall raw_getURI (
-        /*[in]*/ unsigned short * pwchPrefix,
+        /*[in]*/ LPWSTR pwchPrefix,
         /*[in]*/ struct IXMLDOMNode * pContextNode,
         /*[in,out]*/ unsigned short * pwchUri,
         /*[in,out]*/ int * pcchUri ) = 0;
@@ -3842,124 +3583,6 @@ IXMLDOMParseErrorCollection : IDispatch
       virtual HRESULT __stdcall raw_reset ( ) = 0;
       virtual HRESULT __stdcall get__newEnum (
         /*[out,retval]*/ IUnknown * * ppUnk ) = 0;
-};
-
-struct __declspec(uuid("2933bf93-7b36-11d2-b20e-00c04f983e60"))
-IXSLTemplate : IDispatch
-{
-    //
-    // Property data
-    //
-
-    __declspec(property(get=Getstylesheet,put=PutRefstylesheet))
-    IXMLDOMNodePtr stylesheet;
-
-    //
-    // Wrapper methods for error-handling
-    //
-
-    void PutRefstylesheet (
-        struct IXMLDOMNode * stylesheet );
-    IXMLDOMNodePtr Getstylesheet ( );
-    IXSLProcessorPtr createProcessor ( );
-
-    //
-    // Raw methods provided by interface
-    //
-
-      virtual HRESULT __stdcall putref_stylesheet (
-        /*[in]*/ struct IXMLDOMNode * stylesheet ) = 0;
-      virtual HRESULT __stdcall get_stylesheet (
-        /*[out,retval]*/ struct IXMLDOMNode * * stylesheet ) = 0;
-      virtual HRESULT __stdcall raw_createProcessor (
-        /*[out,retval]*/ struct IXSLProcessor * * ppProcessor ) = 0;
-};
-
-struct __declspec(uuid("2933bf92-7b36-11d2-b20e-00c04f983e60"))
-IXSLProcessor : IDispatch
-{
-    //
-    // Property data
-    //
-
-    __declspec(property(get=Getinput,put=Putinput))
-    _variant_t input;
-    __declspec(property(get=GetownerTemplate))
-    IXSLTemplatePtr ownerTemplate;
-    __declspec(property(get=GetstartMode))
-    _bstr_t startMode;
-    __declspec(property(get=GetstartModeURI))
-    _bstr_t startModeURI;
-    __declspec(property(get=Getoutput,put=Putoutput))
-    _variant_t output;
-    __declspec(property(get=GetreadyState))
-    long readyState;
-    __declspec(property(get=Getstylesheet))
-    IXMLDOMNodePtr stylesheet;
-
-    //
-    // Wrapper methods for error-handling
-    //
-
-    void Putinput (
-        const _variant_t & pVar );
-    _variant_t Getinput ( );
-    IXSLTemplatePtr GetownerTemplate ( );
-    HRESULT setStartMode (
-        _bstr_t mode,
-        _bstr_t namespaceURI );
-    _bstr_t GetstartMode ( );
-    _bstr_t GetstartModeURI ( );
-    void Putoutput (
-        const _variant_t & pOutput );
-    _variant_t Getoutput ( );
-    VARIANT_BOOL transform ( );
-    HRESULT reset ( );
-    long GetreadyState ( );
-    HRESULT addParameter (
-        _bstr_t baseName,
-        const _variant_t & parameter,
-        _bstr_t namespaceURI );
-    HRESULT addObject (
-        IDispatch * obj,
-        _bstr_t namespaceURI );
-    IXMLDOMNodePtr Getstylesheet ( );
-
-    //
-    // Raw methods provided by interface
-    //
-
-      virtual HRESULT __stdcall put_input (
-        /*[in]*/ VARIANT pVar ) = 0;
-      virtual HRESULT __stdcall get_input (
-        /*[out,retval]*/ VARIANT * pVar ) = 0;
-      virtual HRESULT __stdcall get_ownerTemplate (
-        /*[out,retval]*/ struct IXSLTemplate * * ppTemplate ) = 0;
-      virtual HRESULT __stdcall raw_setStartMode (
-        /*[in]*/ BSTR mode,
-        /*[in]*/ BSTR namespaceURI ) = 0;
-      virtual HRESULT __stdcall get_startMode (
-        /*[out,retval]*/ BSTR * mode ) = 0;
-      virtual HRESULT __stdcall get_startModeURI (
-        /*[out,retval]*/ BSTR * namespaceURI ) = 0;
-      virtual HRESULT __stdcall put_output (
-        /*[in]*/ VARIANT pOutput ) = 0;
-      virtual HRESULT __stdcall get_output (
-        /*[out,retval]*/ VARIANT * pOutput ) = 0;
-      virtual HRESULT __stdcall raw_transform (
-        /*[out,retval]*/ VARIANT_BOOL * pDone ) = 0;
-      virtual HRESULT __stdcall raw_reset ( ) = 0;
-      virtual HRESULT __stdcall get_readyState (
-        /*[out,retval]*/ long * pReadyState ) = 0;
-      virtual HRESULT __stdcall raw_addParameter (
-        /*[in]*/ BSTR baseName,
-        /*[in]*/ VARIANT parameter,
-        /*[in]*/ BSTR namespaceURI ) = 0;
-      virtual HRESULT __stdcall raw_addObject (
-        /*[in]*/ IDispatch * obj,
-        /*[in]*/ BSTR namespaceURI ) = 0;
-      virtual HRESULT __stdcall get_stylesheet (
-        /*[out,retval]*/ struct IXMLDOMNode * * stylesheet ) = 0;
 };
 
 struct __declspec(uuid("fa4bb38c-faf9-4cca-9302-d1dd0fe520db"))
@@ -4455,46 +4078,6 @@ ISchemaElement : ISchemaParticle
         /*[out,retval]*/ VARIANT_BOOL * reference ) = 0;
 };
 
-struct __declspec(uuid("50ea08b0-dd1b-4664-9a50-c2f40f4bd79a"))
-IXMLDOMSchemaCollection2 : IXMLDOMSchemaCollection
-{
-    //
-    // Property data
-    //
-
-    __declspec(property(get=GetvalidateOnLoad,put=PutvalidateOnLoad))
-    VARIANT_BOOL validateOnLoad;
-
-    //
-    // Wrapper methods for error-handling
-    //
-
-    HRESULT validate ( );
-    void PutvalidateOnLoad (
-        VARIANT_BOOL validateOnLoad );
-    VARIANT_BOOL GetvalidateOnLoad ( );
-    ISchemaPtr getSchema (
-        _bstr_t namespaceURI );
-    ISchemaItemPtr getDeclaration (
-        struct IXMLDOMNode * node );
-
-    //
-    // Raw methods provided by interface
-    //
-
-      virtual HRESULT __stdcall raw_validate ( ) = 0;
-      virtual HRESULT __stdcall put_validateOnLoad (
-        /*[in]*/ VARIANT_BOOL validateOnLoad ) = 0;
-      virtual HRESULT __stdcall get_validateOnLoad (
-        /*[out,retval]*/ VARIANT_BOOL * validateOnLoad ) = 0;
-      virtual HRESULT __stdcall raw_getSchema (
-        /*[in]*/ BSTR namespaceURI,
-        /*[out,retval]*/ struct ISchema * * schema ) = 0;
-      virtual HRESULT __stdcall raw_getDeclaration (
-        /*[in]*/ struct IXMLDOMNode * node,
-        /*[out,retval]*/ struct ISchemaItem * * item ) = 0;
-};
-
 struct __declspec(uuid("50ea08b6-dd1b-4664-9a50-c2f40f4bd79a"))
 ISchemaAttribute : ISchemaItem
 {
@@ -4636,11 +4219,297 @@ ISchemaNotation : ISchemaItem
         /*[out,retval]*/ BSTR * uri ) = 0;
 };
 
+struct __declspec(uuid("50ea08b0-dd1b-4664-9a50-c2f40f4bd79a"))
+IXMLDOMSchemaCollection2 : IXMLDOMSchemaCollection
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetvalidateOnLoad,put=PutvalidateOnLoad))
+    VARIANT_BOOL validateOnLoad;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT validate ( );
+    void PutvalidateOnLoad (
+        VARIANT_BOOL validateOnLoad );
+    VARIANT_BOOL GetvalidateOnLoad ( );
+    ISchemaPtr getSchema (
+        _bstr_t namespaceURI );
+    ISchemaItemPtr getDeclaration (
+        struct IXMLDOMNode * node );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_validate ( ) = 0;
+      virtual HRESULT __stdcall put_validateOnLoad (
+        /*[in]*/ VARIANT_BOOL validateOnLoad ) = 0;
+      virtual HRESULT __stdcall get_validateOnLoad (
+        /*[out,retval]*/ VARIANT_BOOL * validateOnLoad ) = 0;
+      virtual HRESULT __stdcall raw_getSchema (
+        /*[in]*/ BSTR namespaceURI,
+        /*[out,retval]*/ struct ISchema * * schema ) = 0;
+      virtual HRESULT __stdcall raw_getDeclaration (
+        /*[in]*/ struct IXMLDOMNode * node,
+        /*[out,retval]*/ struct ISchemaItem * * item ) = 0;
+};
+
+struct __declspec(uuid("2933bf93-7b36-11d2-b20e-00c04f983e60"))
+IXSLTemplate : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=Getstylesheet,put=PutRefstylesheet))
+    IXMLDOMNodePtr stylesheet;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    void PutRefstylesheet (
+        struct IXMLDOMNode * stylesheet );
+    IXMLDOMNodePtr Getstylesheet ( );
+    IXSLProcessorPtr createProcessor ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall putref_stylesheet (
+        /*[in]*/ struct IXMLDOMNode * stylesheet ) = 0;
+      virtual HRESULT __stdcall get_stylesheet (
+        /*[out,retval]*/ struct IXMLDOMNode * * stylesheet ) = 0;
+      virtual HRESULT __stdcall raw_createProcessor (
+        /*[out,retval]*/ struct IXSLProcessor * * ppProcessor ) = 0;
+};
+
+struct __declspec(uuid("2933bf92-7b36-11d2-b20e-00c04f983e60"))
+IXSLProcessor : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=Getinput,put=Putinput))
+    _variant_t input;
+    __declspec(property(get=GetownerTemplate))
+    IXSLTemplatePtr ownerTemplate;
+    __declspec(property(get=GetstartMode))
+    _bstr_t startMode;
+    __declspec(property(get=GetstartModeURI))
+    _bstr_t startModeURI;
+    __declspec(property(get=Getoutput,put=Putoutput))
+    _variant_t output;
+    __declspec(property(get=GetreadyState))
+    long readyState;
+    __declspec(property(get=Getstylesheet))
+    IXMLDOMNodePtr stylesheet;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    void Putinput (
+        const _variant_t & pVar );
+    _variant_t Getinput ( );
+    IXSLTemplatePtr GetownerTemplate ( );
+    HRESULT setStartMode (
+        _bstr_t mode,
+        _bstr_t namespaceURI );
+    _bstr_t GetstartMode ( );
+    _bstr_t GetstartModeURI ( );
+    void Putoutput (
+        const _variant_t & pOutput );
+    _variant_t Getoutput ( );
+    VARIANT_BOOL transform ( );
+    HRESULT reset ( );
+    long GetreadyState ( );
+    HRESULT addParameter (
+        _bstr_t baseName,
+        const _variant_t & parameter,
+        _bstr_t namespaceURI );
+    HRESULT addObject (
+        IDispatch * obj,
+        _bstr_t namespaceURI );
+    IXMLDOMNodePtr Getstylesheet ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall put_input (
+        /*[in]*/ VARIANT pVar ) = 0;
+      virtual HRESULT __stdcall get_input (
+        /*[out,retval]*/ VARIANT * pVar ) = 0;
+      virtual HRESULT __stdcall get_ownerTemplate (
+        /*[out,retval]*/ struct IXSLTemplate * * ppTemplate ) = 0;
+      virtual HRESULT __stdcall raw_setStartMode (
+        /*[in]*/ BSTR mode,
+        /*[in]*/ BSTR namespaceURI ) = 0;
+      virtual HRESULT __stdcall get_startMode (
+        /*[out,retval]*/ BSTR * mode ) = 0;
+      virtual HRESULT __stdcall get_startModeURI (
+        /*[out,retval]*/ BSTR * namespaceURI ) = 0;
+      virtual HRESULT __stdcall put_output (
+        /*[in]*/ VARIANT pOutput ) = 0;
+      virtual HRESULT __stdcall get_output (
+        /*[out,retval]*/ VARIANT * pOutput ) = 0;
+      virtual HRESULT __stdcall raw_transform (
+        /*[out,retval]*/ VARIANT_BOOL * pDone ) = 0;
+      virtual HRESULT __stdcall raw_reset ( ) = 0;
+      virtual HRESULT __stdcall get_readyState (
+        /*[out,retval]*/ long * pReadyState ) = 0;
+      virtual HRESULT __stdcall raw_addParameter (
+        /*[in]*/ BSTR baseName,
+        /*[in]*/ VARIANT parameter,
+        /*[in]*/ BSTR namespaceURI ) = 0;
+      virtual HRESULT __stdcall raw_addObject (
+        /*[in]*/ IDispatch * obj,
+        /*[in]*/ BSTR namespaceURI ) = 0;
+      virtual HRESULT __stdcall get_stylesheet (
+        /*[out,retval]*/ struct IXMLDOMNode * * stylesheet ) = 0;
+};
+
+struct __declspec(uuid("e5d37dc0-552a-4d52-9cc0-a14d546fbd04"))
+IXMLHTTPRequest2 : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT open (
+        LPWSTR pwszMethod,
+        LPWSTR pwszUrl,
+        struct IXMLHTTPRequest2Callback * pStatusCallback,
+        LPWSTR pwszUserName,
+        LPWSTR pwszPassword,
+        LPWSTR pwszProxyUserName,
+        LPWSTR pwszProxyPassword );
+    HRESULT send (
+        struct ISequentialStream * pBody,
+        unsigned __int64 cbBody );
+    HRESULT abort ( );
+    HRESULT SetCookie (
+        struct tagXHR_COOKIE * pCookie,
+        unsigned long * pdwCookieState );
+    HRESULT SetCustomResponseStream (
+        struct ISequentialStream * pSequentialStream );
+    HRESULT setProperty (
+        XHR_PROPERTY eProperty,
+        unsigned __int64 ullValue );
+    HRESULT setRequestHeader (
+        LPWSTR pwszHeader,
+        LPWSTR pwszValue );
+    HRESULT getAllResponseHeaders (
+        LPWSTR * ppwszHeaders );
+    HRESULT GetCookie (
+        LPWSTR pwszUrl,
+        LPWSTR pwszName,
+        unsigned long dwFlags,
+        unsigned long * pcCookies,
+        struct tagXHR_COOKIE * * ppCookies );
+    HRESULT getResponseHeader (
+        LPWSTR pwszHeader,
+        LPWSTR * ppwszValue );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_open (
+        /*[in]*/ LPWSTR pwszMethod,
+        /*[in]*/ LPWSTR pwszUrl,
+        /*[in]*/ struct IXMLHTTPRequest2Callback * pStatusCallback,
+        /*[in]*/ LPWSTR pwszUserName,
+        /*[in]*/ LPWSTR pwszPassword,
+        /*[in]*/ LPWSTR pwszProxyUserName,
+        /*[in]*/ LPWSTR pwszProxyPassword ) = 0;
+      virtual HRESULT __stdcall raw_send (
+        /*[in]*/ struct ISequentialStream * pBody,
+        /*[in]*/ unsigned __int64 cbBody ) = 0;
+      virtual HRESULT __stdcall raw_abort ( ) = 0;
+      virtual HRESULT __stdcall raw_SetCookie (
+        /*[in]*/ struct tagXHR_COOKIE * pCookie,
+        /*[out]*/ unsigned long * pdwCookieState ) = 0;
+      virtual HRESULT __stdcall raw_SetCustomResponseStream (
+        /*[in]*/ struct ISequentialStream * pSequentialStream ) = 0;
+      virtual HRESULT __stdcall raw_setProperty (
+        /*[in]*/ XHR_PROPERTY eProperty,
+        /*[in]*/ unsigned __int64 ullValue ) = 0;
+      virtual HRESULT __stdcall raw_setRequestHeader (
+        /*[in]*/ LPWSTR pwszHeader,
+        /*[in]*/ LPWSTR pwszValue ) = 0;
+      virtual HRESULT __stdcall raw_getAllResponseHeaders (
+        /*[out]*/ LPWSTR * ppwszHeaders ) = 0;
+      virtual HRESULT __stdcall raw_GetCookie (
+        /*[in]*/ LPWSTR pwszUrl,
+        /*[in]*/ LPWSTR pwszName,
+        /*[in]*/ unsigned long dwFlags,
+        /*[out]*/ unsigned long * pcCookies,
+        /*[out]*/ struct tagXHR_COOKIE * * ppCookies ) = 0;
+      virtual HRESULT __stdcall raw_getResponseHeader (
+        /*[in]*/ LPWSTR pwszHeader,
+        /*[out]*/ LPWSTR * ppwszValue ) = 0;
+};
+
+struct __declspec(uuid("a44a9299-e321-40de-8866-341b41669162"))
+IXMLHTTPRequest2Callback : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT OnRedirect (
+        struct IXMLHTTPRequest2 * pXHR,
+        LPWSTR pwszRedirectUrl );
+    HRESULT OnHeadersAvailable (
+        struct IXMLHTTPRequest2 * pXHR,
+        unsigned long dwStatus,
+        LPWSTR pwszStatus );
+    HRESULT ondataavailable (
+        struct IXMLHTTPRequest2 * pXHR,
+        struct ISequentialStream * pResponseStream );
+    HRESULT OnResponseReceived (
+        struct IXMLHTTPRequest2 * pXHR,
+        struct ISequentialStream * pResponseStream );
+    HRESULT OnError (
+        struct IXMLHTTPRequest2 * pXHR,
+        HRESULT hrError );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_OnRedirect (
+        /*[in]*/ struct IXMLHTTPRequest2 * pXHR,
+        /*[in]*/ LPWSTR pwszRedirectUrl ) = 0;
+      virtual HRESULT __stdcall raw_OnHeadersAvailable (
+        /*[in]*/ struct IXMLHTTPRequest2 * pXHR,
+        /*[in]*/ unsigned long dwStatus,
+        /*[in]*/ LPWSTR pwszStatus ) = 0;
+      virtual HRESULT __stdcall raw_ondataavailable (
+        /*[in]*/ struct IXMLHTTPRequest2 * pXHR,
+        /*[in]*/ struct ISequentialStream * pResponseStream ) = 0;
+      virtual HRESULT __stdcall raw_OnResponseReceived (
+        /*[in]*/ struct IXMLHTTPRequest2 * pXHR,
+        /*[in]*/ struct ISequentialStream * pResponseStream ) = 0;
+      virtual HRESULT __stdcall raw_OnError (
+        /*[in]*/ struct IXMLHTTPRequest2 * pXHR,
+        /*[in]*/ HRESULT hrError ) = 0;
+};
+
 //
 // Wrapper method implementations
 //
 
-#include "x:\rahulc\btgit\bt\branches\r1.4.2\customization\itk\dll_projects\sbt_workflow\obj\msxml6.tli"
+#include "d:\gitdir\bt\branches\r1.4.2\customization\itk\dll_projects\sbt_workflow\obj\msxml6.tli"
 
 } // namespace MSXML2
 
